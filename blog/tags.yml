@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Posts about blockchain technology and Web3
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+healing:
+  label: Healing
+  permalink: /healing
+  description: Content related to spiritual healing and recovery
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+ceremonies:
+  label: Ceremonies
+  permalink: /ceremonies
+  description: Sacred altar ceremonies and rituals
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+community:
+  label: Community
+  permalink: /community
+  description: Community updates and announcements
+
+development:
+  label: Development
+  permalink: /development
+  description: Technical development updates and insights
+
+governance:
+  label: Governance
+  permalink: /governance
+  description: DAO governance and community decisions
+
+tokenomics:
+  label: Tokenomics
+  permalink: /tokenomics
+  description: Token economics and gratitude token system
+
+announcements:
+  label: Announcements
+  permalink: /announcements
+  description: Important project announcements and updates
+
+technical:
+  label: Technical
+  permalink: /technical
+  description: Technical development updates and insights

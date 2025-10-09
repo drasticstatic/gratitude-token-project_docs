@@ -1,25 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+psanctuary_team:
+  name: Psanctuary Team
+  title: Core Development Team
+  url: https://github.com/drasticstatic
+  image_url: https://github.com/drasticstatic.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    github: drasticstatic
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+christopher:
+  name: Christopher Wilson
+  title: Founder & Lead Developer
+  url: https://github.com/drasticstatic
+  image_url: https://github.com/drasticstatic.png
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: drasticstatic
+
+community:
+  name: Community Contributors
+  title: Ethereal Offering Community
+  url: https://discord.gg/psanctuary
+  image_url: https://github.com/drasticstatic.png

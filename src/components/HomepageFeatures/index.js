@@ -4,46 +4,76 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Sacred Ceremonies',
+    icon: '🔥',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Transform your healing journey through meaningful blockchain ceremonies.
+        Burn gratitude tokens while setting intentions for recovery, growth, and spiritual connection.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Soulbound Achievements',
+    icon: '🏆',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Earn non-transferable NFTs that represent your personal growth milestones.
+        Your achievements are permanently bound to your identity, creating an immutable record of progress.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community Governance',
+    icon: '🗳️',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Participate in holacratic DAO governance where every voice matters.
+        Help shape the future of sacred technology through transparent, community-driven decisions.
+      </>
+    ),
+  },
+  {
+    title: 'Secure Recovery',
+    icon: '🔐',
+    description: (
+      <>
+        Multi-party computation ensures your account can be recovered without trusting
+        a central authority. Your healing journey remains secure and accessible.
+      </>
+    ),
+  },
+  {
+    title: 'Gratitude Economy',
+    icon: '💎',
+    description: (
+      <>
+        Earn tokens through positive actions and community participation.
+        Our economy rewards healing, growth, and supporting others on their journey.
+      </>
+    ),
+  },
+  {
+    title: 'Open Source',
+    icon: '🌐',
+    description: (
+      <>
+        Built transparently with open-source principles. Every line of code,
+        every decision, and every token allocation is visible to the community.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({icon, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx('col col--4', styles.featureCol)}>
+      <div className={clsx('card', styles.featureCard)}>
+        <div className={styles.featureIcon}>{icon}</div>
+        <div className={styles.featureContent}>
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );
@@ -53,6 +83,14 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.featuresHeader}>
+          <Heading as="h2" className={styles.featuresTitle}>
+            Why Choose Ethereal Offering?
+          </Heading>
+          <p className={styles.featuresSubtitle}>
+            Discover the unique features that make our platform a sacred space for healing and growth.
+          </p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

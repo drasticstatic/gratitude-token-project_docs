@@ -2,46 +2,69 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Ethereal Offering
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Sacred Blockchain Ceremonies for Spiritual Recovery**
 
-## Getting Started
+Welcome to the comprehensive documentation for **Ethereal Offering**, a revolutionary blockchain-based platform that bridges the gap between spiritual healing and decentralized technology. Our mission is to create a sacred digital sanctuary where individuals can embark on transformative journeys of recovery, gratitude, and personal growth.
 
-Get started by **creating a new site**.
+## 🌟 What is Ethereal Offering?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Ethereal Offering is more than just a blockchain project—it's a **spiritual ecosystem** that combines:
 
-### What you'll need
+- **Sacred Altar Ceremonies**: Digital rituals for healing and transformation
+- **Gratitude Token System**: Blockchain-based rewards for positive actions
+- **Soulbound NFTs**: Non-transferable tokens representing personal growth milestones
+- **DAO Governance**: Community-driven decision making through holacratic principles
+- **MPC Recovery**: Multi-party computation for secure, decentralized account recovery
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 🚀 Quick Start
 
-## Generate a new site
+Ready to begin your journey? Here's how to get started:
 
-Generate a new Docusaurus site using the **classic template**.
+1. **[Launch the dApp](https://drasticstatic.github.io/gratitude-token-project)** - Experience the platform firsthand
+2. **Read the Whitepaper** - Understand our vision and technology
+3. **Join the Community** - Connect with fellow travelers on Discord or Telegram
+4. **Participate in Ceremonies** - Begin your healing journey at the Sacred Altar
 
-The classic template will automatically be added to your project after you run the command:
+## 📚 Documentation Structure
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+This documentation is organized into several key sections:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Core Concepts
+- **Introduction** - Platform overview and mission
+- **Sacred Altar** - The heart of our ceremonial system
+- **Tokenomics** - How our gratitude-based economy works
+- **Soulbound NFTs** - Personal growth tracking and achievements
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Technical Implementation
+- **Smart Contracts** - Ethereum-based contract architecture
+- **MPC Architecture** - Secure multi-party computation systems
+- **Integration Guides** - How to build on our platform
 
-## Start your site
+### Governance & Community
+- **DAO Structure** - Holacratic governance model
+- **Voting Mechanics** - How decisions are made
+- **Community Guidelines** - Our shared values and principles
 
-Run the development server:
+## 🎯 Our Mission
 
-```bash
-cd my-website
-npm run start
-```
+We believe that technology should serve humanity's highest aspirations. Ethereal Offering creates a bridge between the digital and spiritual realms, offering:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- **Healing**: Tools for addiction recovery and personal transformation
+- **Community**: A supportive network of like-minded individuals
+- **Transparency**: Open-source, decentralized governance
+- **Empowerment**: User-owned data and self-sovereign identity
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 🌈 The Psanctuary Vision
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ethereal Offering is the flagship project of **Psanctuary**, a broader ecosystem dedicated to psychedelic-assisted healing and spiritual technology. Our vision extends beyond blockchain to encompass:
+
+- Integration of ancient wisdom with modern technology
+- Democratization of healing and spiritual practices
+- Creation of safe, sacred spaces in the digital realm
+- Support for the global psychedelic renaissance
+
+---
+
+*Ready to explore? Navigate through the documentation using the sidebar, or jump directly to our [Getting Started Guide](./getting-started/overview.md) to begin your journey.*
