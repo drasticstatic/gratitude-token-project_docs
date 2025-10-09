@@ -10,15 +10,18 @@ Sections include:
 
 Refer to the Docusaurus Setup Guide for additional details on maintaining the site.
 -->
-# Website
+# Website for Gratitude Token Project Documentation
+## Visit the documentation site here: 👉 [Gratitude Token Project Docs](https://drasticstatic.github.io/gratitude-token-project_docs/)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+- This website was inititalized using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+<br>
 
 # Detailed Setup Guide
 
-Please refer to the [Docusaurus Setup Guide](Docusaurus%20%7C%20SetupGuide.md) for detailed instructions on setting up and maintaining this documentation site.
+Please refer to our [Docusaurus Setup Guide](Docusaurus%20%7C%20SetupGuide.md) for detailed instructions on setting up and maintaining this documentation site.
 
-<br>
+<br><br><br>
 
 ## General Installation provided by Docusaurus using yarn:
 ```bash
