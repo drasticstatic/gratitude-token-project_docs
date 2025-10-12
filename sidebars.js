@@ -74,6 +74,8 @@ const sidebars = {
         'architecture/overview',
       ],
     },
+    'faq',
+    'glossary',
   ],
 
   // Tutorial sidebar for dApp usage
