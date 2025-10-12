@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tutorial/providing-liquidity" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">Providing Liquidity | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/providing-liquidity"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Providing Liquidity | Ethereal Offering"><meta data-rh="true" name="description" content="Learn how to become a Liquidity Provider (LP) and earn fees by supplying tokens to the AMM pools."><meta data-rh="true" property="og:description" content="Learn how to become a Liquidity Provider (LP) and earn fees by supplying tokens to the AMM pools."><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/providing-liquidity"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/providing-liquidity" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/providing-liquidity" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Providing Liquidity","item":"https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/providing-liquidity"}]}</script><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.d940b711.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.3e88feb9.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.58fea02a.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Tutorial</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started"><span title="Getting Started with Ethereal Offering" class="linkLabel_WmDU">Getting Started with Ethereal Offering</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/purchasing-psilo"><span title="Purchasing PSILO Tokens" class="linkLabel_WmDU">Purchasing PSILO Tokens</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/making-offerings"><span title="Making Ceremonial Offerings" class="linkLabel_WmDU">Making Ceremonial Offerings</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/trading-tokens"><span title="Trading Tokens on the AMM" class="linkLabel_WmDU">Trading Tokens on the AMM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/gratitude-token-project_docs/docs/tutorial/providing-liquidity"><span title="Providing Liquidity" class="linkLabel_WmDU">Providing Liquidity</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/staking-psilo"><span title="Staking PSILO for MDAO" class="linkLabel_WmDU">Staking PSILO for MDAO</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/gratitude-token-project_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Providing Liquidity</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Providing Liquidity</h1></header>
+<p>Learn how to become a <strong>Liquidity Provider (LP)</strong> and earn fees by supplying tokens to the AMM pools.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-is-liquidity-provision">💧 What is Liquidity Provision?<a href="#-what-is-liquidity-provision" class="hash-link" aria-label="Direct link to 💧 What is Liquidity Provision?" title="Direct link to 💧 What is Liquidity Provision?" translate="no">​</a></h2>
+<p><strong>Liquidity Providers</strong> deposit token pairs into pools to enable trading.</p>
+<p><strong>How it works:</strong></p>
+<ol>
+<li>You deposit equal value of two tokens (e.g., 1,000 ETHO + 50 PSD)</li>
+<li>You receive LP tokens representing your share</li>
+<li>Traders swap against your liquidity</li>
+<li>You earn 0.3% fee on every swap</li>
+<li>You can withdraw anytime (burn LP tokens, get tokens back)</li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Pool: 10,000 ETHO / 500 PSD</li>
+<li>You add: 1,000 ETHO / 50 PSD (10% of pool)</li>
+<li>You receive: 10% of LP tokens</li>
+<li>Traders swap: $10,000 volume per day</li>
+<li>Fees generated: $30 per day (0.3%)</li>
+<li>Your share: $3 per day (10%)</li>
+<li><strong>Annual yield: ~22% APY</strong></li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-why-provide-liquidity">🎯 Why Provide Liquidity?<a href="#-why-provide-liquidity" class="hash-link" aria-label="Direct link to 🎯 Why Provide Liquidity?" title="Direct link to 🎯 Why Provide Liquidity?" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="benefits">Benefits<a href="#benefits" class="hash-link" aria-label="Direct link to Benefits" title="Direct link to Benefits" translate="no">​</a></h3>
+<p><strong>✅ Earn Passive Income:</strong></p>
+<ul>
+<li>0.3% fee on all swaps</li>
+<li>Compounding returns</li>
+<li>24/7 earning</li>
+</ul>
+<p><strong>✅ Support the Ecosystem:</strong></p>
+<ul>
+<li>Enable trading</li>
+<li>Reduce price impact</li>
+<li>Improve user experience</li>
+</ul>
+<p><strong>✅ Earn Additional Rewards:</strong></p>
+<ul>
+<li>DM token rewards (some pools)</li>
+<li>Governance participation</li>
+<li>Community recognition</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="risks">Risks<a href="#risks" class="hash-link" aria-label="Direct link to Risks" title="Direct link to Risks" translate="no">​</a></h3>
+<p><strong>⚠️ Impermanent Loss:</strong></p>
+<ul>
+<li>Loss when token prices diverge</li>
+<li>Can be significant</li>
+<li>&quot;Impermanent&quot; (can reverse)</li>
+</ul>
+<p><strong>⚠️ Smart Contract Risk:</strong></p>
+<ul>
+<li>Bugs could cause loss</li>
+<li>Audited but not guaranteed</li>
+<li>Use at your own risk</li>
+</ul>
+<p><strong>⚠️ Market Risk:</strong></p>
+<ul>
+<li>Token prices can drop</li>
+<li>Volatility affects returns</li>
+<li>No guaranteed profit</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-prerequisites">📋 Prerequisites<a href="#-prerequisites" class="hash-link" aria-label="Direct link to 📋 Prerequisites" title="Direct link to 📋 Prerequisites" translate="no">​</a></h2>
+<p>Before providing liquidity:</p>
+<ul>
+<li>✅ <strong>Both Tokens</strong> - Equal value of each token</li>
+<li>✅ <strong>ETH for Gas</strong> - ~0.01-0.02 ETH for transactions</li>
+<li>✅ <strong>Understanding of IL</strong> - Know the risks</li>
+<li>✅ <strong>Long-term Mindset</strong> - Best for patient investors</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-by-step-guide">💧 Step-by-Step Guide<a href="#-step-by-step-guide" class="hash-link" aria-label="Direct link to 💧 Step-by-Step Guide" title="Direct link to 💧 Step-by-Step Guide" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-choose-a-pool">Step 1: Choose a Pool<a href="#step-1-choose-a-pool" class="hash-link" aria-label="Direct link to Step 1: Choose a Pool" title="Direct link to Step 1: Choose a Pool" translate="no">​</a></h3>
+<p><strong>Available pools:</strong></p>
+<table><thead><tr><th>Pool</th><th>APY</th><th>Risk</th><th>Recommended For</th></tr></thead><tbody><tr><td><strong>ETHO/PSD</strong></td><td>15-25%</td><td>Low</td><td>Beginners</td></tr><tr><td><strong>PSILO/ETH</strong></td><td>20-40%</td><td>Medium</td><td>Experienced</td></tr><tr><td><strong>MDAO/PSD</strong></td><td>10-20%</td><td>Low</td><td>Conservative</td></tr><tr><td><strong>DM/PSD</strong></td><td>25-50%</td><td>Medium</td><td>Active users</td></tr></tbody></table>
+<p><strong>Factors to consider:</strong></p>
+<ul>
+<li><strong>APY</strong> - Higher = more fees, but often more risk</li>
+<li><strong>Volatility</strong> - Stable pairs = less impermanent loss</li>
+<li><strong>Volume</strong> - Higher volume = more fees</li>
+<li><strong>Your holdings</strong> - Use tokens you already have</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-calculate-amounts">Step 2: Calculate Amounts<a href="#step-2-calculate-amounts" class="hash-link" aria-label="Direct link to Step 2: Calculate Amounts" title="Direct link to Step 2: Calculate Amounts" translate="no">​</a></h3>
+<p><strong>You need equal VALUE of both tokens:</strong></p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>ETHO price: $0.05</li>
+<li>PSD price: $1.00</li>
+<li>You want to provide $100 total</li>
+</ul>
+<p><strong>Calculation:</strong></p>
+<ul>
+<li>$50 in ETHO: 1,000 ETHO</li>
+<li>$50 in PSD: 50 PSD</li>
+<li><strong>Total: 1,000 ETHO + 50 PSD</strong></li>
+</ul>
+<p><strong>Use the calculator</strong> on the liquidity page to auto-calculate.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-access-liquidity-interface">Step 3: Access Liquidity Interface<a href="#step-3-access-liquidity-interface" class="hash-link" aria-label="Direct link to Step 3: Access Liquidity Interface" title="Direct link to Step 3: Access Liquidity Interface" translate="no">​</a></h3>
+<ol>
+<li>Visit <a href="https://etherealoffering.org" target="_blank" rel="noopener noreferrer">etherealoffering.org</a></li>
+<li>Click <strong>&quot;Liquidity&quot;</strong> in navigation</li>
+<li>Click <strong>&quot;Add Liquidity&quot;</strong></li>
+<li>Select pool (e.g., ETHO/PSD)</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-enter-amounts">Step 4: Enter Amounts<a href="#step-4-enter-amounts" class="hash-link" aria-label="Direct link to Step 4: Enter Amounts" title="Direct link to Step 4: Enter Amounts" translate="no">​</a></h3>
+<p><strong>Two ways:</strong></p>
+<p><strong>Option A: Enter one amount</strong></p>
+<ul>
+<li>Type amount of first token</li>
+<li>Second amount auto-calculates</li>
+<li>Maintains correct ratio</li>
+</ul>
+<p><strong>Option B: Use max</strong></p>
+<ul>
+<li>Click &quot;Max&quot; on one token</li>
+<li>Other amount auto-calculates</li>
+<li>Uses all available balance</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Enter: 1,000 ETHO</li>
+<li>Auto-calculates: 50 PSD</li>
+<li>Ratio: 20:1 (current pool ratio)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-review-details">Step 5: Review Details<a href="#step-5-review-details" class="hash-link" aria-label="Direct link to Step 5: Review Details" title="Direct link to Step 5: Review Details" translate="no">​</a></h3>
+<p><strong>Check the information:</strong></p>
+<p><strong>Pool Share:</strong></p>
+<ul>
+<li>Your percentage of pool</li>
+<li>Current pool size</li>
+<li>Your contribution</li>
+</ul>
+<p><strong>LP Tokens:</strong></p>
+<ul>
+<li>How many LP tokens you&#x27;ll receive</li>
+<li>Represents your share</li>
+<li>Needed to withdraw</li>
+</ul>
+<p><strong>Rates:</strong></p>
+<ul>
+<li>Current exchange rate</li>
+<li>Your average entry price</li>
+<li>Pool composition</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Add Liquidity to ETHO/PSD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">You&#x27;re adding:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 1,000 ETHO ($50)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 50 PSD ($50)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Total: $100</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Pool share: 2.5%</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">LP tokens: 250</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Current rate: 1 ETHO = 0.05 PSD</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-6-approve-tokens">Step 6: Approve Tokens<a href="#step-6-approve-tokens" class="hash-link" aria-label="Direct link to Step 6: Approve Tokens" title="Direct link to Step 6: Approve Tokens" translate="no">​</a></h3>
+<p><strong>First time providing liquidity:</strong></p>
+<ol>
+<li>Click <strong>&quot;Approve ETHO&quot;</strong></li>
+<li>Confirm in MetaMask</li>
+<li>Wait for confirmation</li>
+<li>Click <strong>&quot;Approve PSD&quot;</strong></li>
+<li>Confirm in MetaMask</li>
+<li>Wait for confirmation</li>
+</ol>
+<p><strong>Note:</strong> Only needed once per token.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-7-add-liquidity">Step 7: Add Liquidity<a href="#step-7-add-liquidity" class="hash-link" aria-label="Direct link to Step 7: Add Liquidity" title="Direct link to Step 7: Add Liquidity" translate="no">​</a></h3>
+<p><strong>Now you&#x27;re ready:</strong></p>
+<ol>
+<li>Click <strong>&quot;Add Liquidity&quot;</strong></li>
+<li>MetaMask pops up</li>
+<li>Review transaction</li>
+<li>Confirm</li>
+<li>Wait for confirmation (~30 seconds)</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-8-receive-lp-tokens">Step 8: Receive LP Tokens<a href="#step-8-receive-lp-tokens" class="hash-link" aria-label="Direct link to Step 8: Receive LP Tokens" title="Direct link to Step 8: Receive LP Tokens" translate="no">​</a></h3>
+<p><strong>After confirmation:</strong></p>
+<p>✅ <strong>LP Tokens Minted</strong> - Check your wallet<br>
+<!-- -->✅ <strong>Tokens Deposited</strong> - ETHO and PSD transferred to pool<br>
+<!-- -->✅ <strong>Position Active</strong> - You&#x27;re now earning fees!</p>
+<p><strong>Verify:</strong></p>
+<ul>
+<li>LP tokens in wallet</li>
+<li>Position shows on liquidity page</li>
+<li>Pool share percentage correct</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-earning-fees">💰 Earning Fees<a href="#-earning-fees" class="hash-link" aria-label="Direct link to 💰 Earning Fees" title="Direct link to 💰 Earning Fees" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-fees-work">How Fees Work<a href="#how-fees-work" class="hash-link" aria-label="Direct link to How Fees Work" title="Direct link to How Fees Work" translate="no">​</a></h3>
+<p><strong>Every swap generates fees:</strong></p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Trader swaps 100 ETHO for PSD</li>
+<li>Swap fee: 0.3% = 0.3 ETHO</li>
+<li>Fee distributed to all LPs proportionally</li>
+<li>You own 2.5% of pool</li>
+<li>You earn: 0.0075 ETHO</li>
+</ul>
+<p><strong>Fees compound:</strong></p>
+<ul>
+<li>Fees added to pool</li>
+<li>Your share grows</li>
+<li>No action needed</li>
+<li>Automatic compounding</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="calculating-returns">Calculating Returns<a href="#calculating-returns" class="hash-link" aria-label="Direct link to Calculating Returns" title="Direct link to Calculating Returns" translate="no">​</a></h3>
+<p><strong>APY depends on:</strong></p>
+<ol>
+<li><strong>Trading Volume</strong> - More swaps = more fees</li>
+<li><strong>Pool Size</strong> - Smaller pool = higher APY per LP</li>
+<li><strong>Your Share</strong> - Larger share = more fees</li>
+</ol>
+<p><strong>Example calculation:</strong></p>
+<ul>
+<li>Pool: $10,000 TVL</li>
+<li>Daily volume: $5,000</li>
+<li>Daily fees: $15 (0.3% of $5,000)</li>
+<li>Annual fees: $5,475</li>
+<li><strong>APY: 54.75%</strong></li>
+</ul>
+<p><strong>Your earnings:</strong></p>
+<ul>
+<li>Your share: 2.5% ($250 in pool)</li>
+<li>Your annual fees: $136.88 (2.5% of $5,475)</li>
+<li><strong>Your APY: 54.75%</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tracking-earnings">Tracking Earnings<a href="#tracking-earnings" class="hash-link" aria-label="Direct link to Tracking Earnings" title="Direct link to Tracking Earnings" translate="no">​</a></h3>
+<p><strong>View your stats:</strong></p>
+<ol>
+<li>Go to <strong>&quot;Liquidity&quot;</strong> → <strong>&quot;Your Positions&quot;</strong></li>
+<li>See:<!-- -->
+<ul>
+<li>Current value</li>
+<li>Fees earned</li>
+<li>APY</li>
+<li>Impermanent loss</li>
+<li>Pool share</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Your ETHO/PSD Position</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Deposited: $100 (1,000 ETHO + 50 PSD)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Current Value: $105</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Fees Earned: $5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Impermanent Loss: $0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">APY: 54.75%</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Pool Share: 2.5%</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-understanding-impermanent-loss">📊 Understanding Impermanent Loss<a href="#-understanding-impermanent-loss" class="hash-link" aria-label="Direct link to 📊 Understanding Impermanent Loss" title="Direct link to 📊 Understanding Impermanent Loss" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-impermanent-loss">What is Impermanent Loss?<a href="#what-is-impermanent-loss" class="hash-link" aria-label="Direct link to What is Impermanent Loss?" title="Direct link to What is Impermanent Loss?" translate="no">​</a></h3>
+<p><strong>IL occurs when token prices diverge:</strong></p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You deposit: 1,000 ETHO ($50) + 50 PSD ($50)</li>
+<li>ETHO price doubles to $0.10</li>
+<li>Pool rebalances: 707 ETHO ($70.70) + 70.7 PSD ($70.70)</li>
+<li>Your value: $141.40</li>
+<li>If you just held: 1,000 ETHO ($100) + 50 PSD ($50) = $150</li>
+<li><strong>Impermanent Loss: $8.60 (5.7%)</strong></li>
+</ul>
+<p><strong>Why &quot;impermanent&quot;?</strong></p>
+<ul>
+<li>If price returns to original, IL disappears</li>
+<li>If you withdraw, IL becomes permanent</li>
+<li>Fees can offset IL</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="il-calculator">IL Calculator<a href="#il-calculator" class="hash-link" aria-label="Direct link to IL Calculator" title="Direct link to IL Calculator" translate="no">​</a></h3>
+<p><strong>Use our calculator:</strong></p>
+<ol>
+<li>Enter initial deposit</li>
+<li>Enter price change</li>
+<li>See IL amount</li>
+<li>Compare to fees earned</li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Deposit: $100</li>
+<li>ETHO price +100%</li>
+<li>IL: -5.7% ($5.70)</li>
+<li>Fees earned: +10% ($10)</li>
+<li><strong>Net gain: +4.3% ($4.30)</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="minimizing-il">Minimizing IL<a href="#minimizing-il" class="hash-link" aria-label="Direct link to Minimizing IL" title="Direct link to Minimizing IL" translate="no">​</a></h3>
+<p><strong>Strategies:</strong></p>
+<p><strong>1. Choose Stable Pairs</strong></p>
+<ul>
+<li>ETHO/PSD (one stable)</li>
+<li>PSD/USDC (both stable)</li>
+<li>Less price divergence</li>
+</ul>
+<p><strong>2. Provide Long-Term</strong></p>
+<ul>
+<li>Fees compound over time</li>
+<li>Can offset IL</li>
+<li>Price may revert</li>
+</ul>
+<p><strong>3. Monitor Positions</strong></p>
+<ul>
+<li>Check IL regularly</li>
+<li>Withdraw if IL too high</li>
+<li>Rebalance if needed</li>
+</ul>
+<p><strong>4. Diversify</strong></p>
+<ul>
+<li>Multiple pools</li>
+<li>Different risk levels</li>
+<li>Spread exposure</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-withdrawing-liquidity">🔄 Withdrawing Liquidity<a href="#-withdrawing-liquidity" class="hash-link" aria-label="Direct link to 🔄 Withdrawing Liquidity" title="Direct link to 🔄 Withdrawing Liquidity" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-withdraw">When to Withdraw<a href="#when-to-withdraw" class="hash-link" aria-label="Direct link to When to Withdraw" title="Direct link to When to Withdraw" translate="no">​</a></h3>
+<p><strong>Good reasons:</strong></p>
+<ul>
+<li>Need the funds</li>
+<li>IL too high</li>
+<li>Better opportunity elsewhere</li>
+<li>Pool APY dropped</li>
+</ul>
+<p><strong>Bad reasons:</strong></p>
+<ul>
+<li>Panic (temporary price drop)</li>
+<li>Impatience (fees need time)</li>
+<li>FOMO (chasing higher APY)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-withdraw">How to Withdraw<a href="#how-to-withdraw" class="hash-link" aria-label="Direct link to How to Withdraw" title="Direct link to How to Withdraw" translate="no">​</a></h3>
+<p><strong>Step-by-step:</strong></p>
+<ol>
+<li>Go to <strong>&quot;Liquidity&quot;</strong> → <strong>&quot;Your Positions&quot;</strong></li>
+<li>Click <strong>&quot;Remove&quot;</strong> on position</li>
+<li>Choose amount (25%, 50%, 75%, 100%)</li>
+<li>Review amounts you&#x27;ll receive</li>
+<li>Click <strong>&quot;Remove Liquidity&quot;</strong></li>
+<li>Confirm in MetaMask</li>
+<li>Wait for confirmation</li>
+</ol>
+<p><strong>You receive:</strong></p>
+<ul>
+<li>Your share of pool tokens</li>
+<li>Includes fees earned</li>
+<li>Proportional to LP tokens burned</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You remove 100% of position</li>
+<li>Burn: 250 LP tokens</li>
+<li>Receive: 1,050 ETHO + 52.5 PSD</li>
+<li>Includes: 50 ETHO + 2.5 PSD in fees</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-advanced-strategies">💡 Advanced Strategies<a href="#-advanced-strategies" class="hash-link" aria-label="Direct link to 💡 Advanced Strategies" title="Direct link to 💡 Advanced Strategies" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-1-range-provision-future">Strategy 1: Range Provision (Future)<a href="#strategy-1-range-provision-future" class="hash-link" aria-label="Direct link to Strategy 1: Range Provision (Future)" title="Direct link to Strategy 1: Range Provision (Future)" translate="no">​</a></h3>
+<p><strong>Concentrated liquidity:</strong></p>
+<ul>
+<li>Provide liquidity in specific price range</li>
+<li>Higher capital efficiency</li>
+<li>More fees per dollar</li>
+<li>Higher IL risk</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>ETHO price: $0.05</li>
+<li>Provide liquidity: $0.04-$0.06 range</li>
+<li>5x more fees than full range</li>
+<li>But IL if price exits range</li>
+</ul>
+<p><strong>Note:</strong> Coming in future upgrade (Uniswap V3 style).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-2-yield-farming">Strategy 2: Yield Farming<a href="#strategy-2-yield-farming" class="hash-link" aria-label="Direct link to Strategy 2: Yield Farming" title="Direct link to Strategy 2: Yield Farming" translate="no">​</a></h3>
+<p><strong>Earn additional rewards:</strong></p>
+<ul>
+<li>Provide liquidity</li>
+<li>Stake LP tokens</li>
+<li>Earn DM rewards</li>
+<li>Double dipping!</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Provide ETHO/PSD liquidity</li>
+<li>Earn 20% APY in fees</li>
+<li>Stake LP tokens</li>
+<li>Earn 15% APY in DM</li>
+<li><strong>Total: 35% APY</strong></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-3-rebalancing">Strategy 3: Rebalancing<a href="#strategy-3-rebalancing" class="hash-link" aria-label="Direct link to Strategy 3: Rebalancing" title="Direct link to Strategy 3: Rebalancing" translate="no">​</a></h3>
+<p><strong>Manage IL actively:</strong></p>
+<ul>
+<li>Monitor price changes</li>
+<li>Withdraw if price diverges</li>
+<li>Rebalance manually</li>
+<li>Re-provide liquidity</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>ETHO price doubles</li>
+<li>Withdraw liquidity</li>
+<li>Sell some ETHO for PSD</li>
+<li>Re-provide at new ratio</li>
+<li>Lock in gains</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-resources">🔗 Resources<a href="#-resources" class="hash-link" aria-label="Direct link to 🔗 Resources" title="Direct link to 🔗 Resources" translate="no">​</a></h2>
+<ul>
+<li><strong><a href="https://etherealoffering.org/pools" target="_blank" rel="noopener noreferrer">Liquidity Pools</a></strong> - View all pools</li>
+<li><strong><a href="https://etherealoffering.org/add-liquidity" target="_blank" rel="noopener noreferrer">Add Liquidity</a></strong> - Provide liquidity</li>
+<li><strong><a href="https://etherealoffering.org/positions" target="_blank" rel="noopener noreferrer">Your Positions</a></strong> - Manage positions</li>
+<li><strong><a href="https://etherealoffering.org/il-calculator" target="_blank" rel="noopener noreferrer">IL Calculator</a></strong> - Calculate IL</li>
+<li><strong><a href="https://etherealoffering.org/analytics" target="_blank" rel="noopener noreferrer">Analytics</a></strong> - Pool stats</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-success">🙏 Tips for Success<a href="#-tips-for-success" class="hash-link" aria-label="Direct link to 🙏 Tips for Success" title="Direct link to 🙏 Tips for Success" translate="no">​</a></h2>
+<p><strong>✅ Best Practices:</strong></p>
+<ul>
+<li>Start small (test with $10-$100)</li>
+<li>Choose stable pairs first</li>
+<li>Understand IL before providing</li>
+<li>Monitor positions regularly</li>
+<li>Reinvest fees (compound)</li>
+<li>Diversify across pools</li>
+</ul>
+<p><strong>❌ Avoid:</strong></p>
+<ul>
+<li>Providing more than you can afford to lose</li>
+<li>Ignoring impermanent loss</li>
+<li>Withdrawing too early (fees need time)</li>
+<li>Chasing highest APY (often highest risk)</li>
+<li>Providing to low-volume pools</li>
+<li>Not understanding the risks</li>
+</ul>
+<hr>
+<p><strong>Next:</strong> <a href="/gratitude-token-project_docs/docs/tutorial/06-staking-psilo">Staking PSILO →</a></p>
+<p><em>&quot;Liquidity is the lifeblood of DeFi. By providing it, you nourish the entire ecosystem.&quot;</em> 🍄✨</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/tutorial/05-providing-liquidity.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/gratitude-token-project_docs/docs/tutorial/trading-tokens"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Trading Tokens on the AMM</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/gratitude-token-project_docs/docs/tutorial/staking-psilo"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Staking PSILO for MDAO</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-what-is-liquidity-provision" class="table-of-contents__link toc-highlight">💧 What is Liquidity Provision?</a></li><li><a href="#-why-provide-liquidity" class="table-of-contents__link toc-highlight">🎯 Why Provide Liquidity?</a><ul><li><a href="#benefits" class="table-of-contents__link toc-highlight">Benefits</a></li><li><a href="#risks" class="table-of-contents__link toc-highlight">Risks</a></li></ul></li><li><a href="#-prerequisites" class="table-of-contents__link toc-highlight">📋 Prerequisites</a></li><li><a href="#-step-by-step-guide" class="table-of-contents__link toc-highlight">💧 Step-by-Step Guide</a><ul><li><a href="#step-1-choose-a-pool" class="table-of-contents__link toc-highlight">Step 1: Choose a Pool</a></li><li><a href="#step-2-calculate-amounts" class="table-of-contents__link toc-highlight">Step 2: Calculate Amounts</a></li><li><a href="#step-3-access-liquidity-interface" class="table-of-contents__link toc-highlight">Step 3: Access Liquidity Interface</a></li><li><a href="#step-4-enter-amounts" class="table-of-contents__link toc-highlight">Step 4: Enter Amounts</a></li><li><a href="#step-5-review-details" class="table-of-contents__link toc-highlight">Step 5: Review Details</a></li><li><a href="#step-6-approve-tokens" class="table-of-contents__link toc-highlight">Step 6: Approve Tokens</a></li><li><a href="#step-7-add-liquidity" class="table-of-contents__link toc-highlight">Step 7: Add Liquidity</a></li><li><a href="#step-8-receive-lp-tokens" class="table-of-contents__link toc-highlight">Step 8: Receive LP Tokens</a></li></ul></li><li><a href="#-earning-fees" class="table-of-contents__link toc-highlight">💰 Earning Fees</a><ul><li><a href="#how-fees-work" class="table-of-contents__link toc-highlight">How Fees Work</a></li><li><a href="#calculating-returns" class="table-of-contents__link toc-highlight">Calculating Returns</a></li><li><a href="#tracking-earnings" class="table-of-contents__link toc-highlight">Tracking Earnings</a></li></ul></li><li><a href="#-understanding-impermanent-loss" class="table-of-contents__link toc-highlight">📊 Understanding Impermanent Loss</a><ul><li><a href="#what-is-impermanent-loss" class="table-of-contents__link toc-highlight">What is Impermanent Loss?</a></li><li><a href="#il-calculator" class="table-of-contents__link toc-highlight">IL Calculator</a></li><li><a href="#minimizing-il" class="table-of-contents__link toc-highlight">Minimizing IL</a></li></ul></li><li><a href="#-withdrawing-liquidity" class="table-of-contents__link toc-highlight">🔄 Withdrawing Liquidity</a><ul><li><a href="#when-to-withdraw" class="table-of-contents__link toc-highlight">When to Withdraw</a></li><li><a href="#how-to-withdraw" class="table-of-contents__link toc-highlight">How to Withdraw</a></li></ul></li><li><a href="#-advanced-strategies" class="table-of-contents__link toc-highlight">💡 Advanced Strategies</a><ul><li><a href="#strategy-1-range-provision-future" class="table-of-contents__link toc-highlight">Strategy 1: Range Provision (Future)</a></li><li><a href="#strategy-2-yield-farming" class="table-of-contents__link toc-highlight">Strategy 2: Yield Farming</a></li><li><a href="#strategy-3-rebalancing" class="table-of-contents__link toc-highlight">Strategy 3: Rebalancing</a></li></ul></li><li><a href="#-resources" class="table-of-contents__link toc-highlight">🔗 Resources</a></li><li><a href="#-tips-for-success" class="table-of-contents__link toc-highlight">🙏 Tips for Success</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>

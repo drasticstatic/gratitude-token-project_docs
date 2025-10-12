@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkgratitude_token_project_docs=globalThis.webpackChunkgratitude_token_project_docs||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/gratitude-token-project_docs/blog","blogTitle":"Blog","authorsListPath":"/gratitude-token-project_docs/blog/authors"}')}}]);

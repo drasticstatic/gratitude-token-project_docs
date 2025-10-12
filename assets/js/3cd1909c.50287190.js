@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgratitude_token_project_docs=globalThis.webpackChunkgratitude_token_project_docs||[]).push([[7863],{2257:t=>{t.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"community-updates"}')}}]);

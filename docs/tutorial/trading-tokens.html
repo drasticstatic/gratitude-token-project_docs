@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tutorial/trading-tokens" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">Trading Tokens on the AMM | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/trading-tokens"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Trading Tokens on the AMM | Ethereal Offering"><meta data-rh="true" name="description" content="Learn how to swap tokens using the Automated Market Maker (AMM) - a decentralized exchange built into Ethereal Offering."><meta data-rh="true" property="og:description" content="Learn how to swap tokens using the Automated Market Maker (AMM) - a decentralized exchange built into Ethereal Offering."><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/trading-tokens"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/trading-tokens" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/trading-tokens" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Trading Tokens on the AMM","item":"https://drasticstatic.github.io/gratitude-token-project_docs/docs/tutorial/trading-tokens"}]}</script><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.d940b711.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.3e88feb9.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.58fea02a.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Tutorial</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started"><span title="Getting Started with Ethereal Offering" class="linkLabel_WmDU">Getting Started with Ethereal Offering</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/purchasing-psilo"><span title="Purchasing PSILO Tokens" class="linkLabel_WmDU">Purchasing PSILO Tokens</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/making-offerings"><span title="Making Ceremonial Offerings" class="linkLabel_WmDU">Making Ceremonial Offerings</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/gratitude-token-project_docs/docs/tutorial/trading-tokens"><span title="Trading Tokens on the AMM" class="linkLabel_WmDU">Trading Tokens on the AMM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/providing-liquidity"><span title="Providing Liquidity" class="linkLabel_WmDU">Providing Liquidity</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/tutorial/staking-psilo"><span title="Staking PSILO for MDAO" class="linkLabel_WmDU">Staking PSILO for MDAO</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/gratitude-token-project_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Trading Tokens on the AMM</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Trading Tokens on the AMM</h1></header>
+<p>Learn how to swap tokens using the <strong>Automated Market Maker (AMM)</strong> - a decentralized exchange built into Ethereal Offering.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-is-an-amm">🔄 What is an AMM?<a href="#-what-is-an-amm" class="hash-link" aria-label="Direct link to 🔄 What is an AMM?" title="Direct link to 🔄 What is an AMM?" translate="no">​</a></h2>
+<p>An <strong>Automated Market Maker</strong> is a decentralized exchange that uses <strong>liquidity pools</strong> instead of traditional order books.</p>
+<p><strong>Traditional Exchange:</strong></p>
+<ul>
+<li>Buyers and sellers place orders</li>
+<li>Orders matched by exchange</li>
+<li>Centralized (exchange controls funds)</li>
+</ul>
+<p><strong>AMM:</strong></p>
+<ul>
+<li>Liquidity pools hold token pairs</li>
+<li>Smart contract calculates prices</li>
+<li>Decentralized (you control funds)</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>No KYC (know your customer)</li>
+<li>No account needed</li>
+<li>Trade directly from wallet</li>
+<li>24/7 availability</li>
+<li>Transparent pricing</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-available-trading-pairs">💱 Available Trading Pairs<a href="#-available-trading-pairs" class="hash-link" aria-label="Direct link to 💱 Available Trading Pairs" title="Direct link to 💱 Available Trading Pairs" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="primary-pairs">Primary Pairs<a href="#primary-pairs" class="hash-link" aria-label="Direct link to Primary Pairs" title="Direct link to Primary Pairs" translate="no">​</a></h3>
+<table><thead><tr><th>Pair</th><th>Purpose</th><th>Liquidity</th></tr></thead><tbody><tr><td><strong>ETHO/PSD</strong></td><td>Ceremonial token ↔ Stablecoin</td><td>High</td></tr><tr><td><strong>PSILO/ETH</strong></td><td>Crowdsale token ↔ Ethereum</td><td>High</td></tr><tr><td><strong>MDAO/PSD</strong></td><td>Governance ↔ Stablecoin</td><td>Medium</td></tr><tr><td><strong>DM/PSD</strong></td><td>Daily rewards ↔ Stablecoin</td><td>Medium</td></tr><tr><td><strong>PSILO/ETHO</strong></td><td>Crowdsale ↔ Ceremonial</td><td>Low</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-these-pairs">Why These Pairs?<a href="#why-these-pairs" class="hash-link" aria-label="Direct link to Why These Pairs?" title="Direct link to Why These Pairs?" translate="no">​</a></h3>
+<p><strong>ETHO/PSD:</strong></p>
+<ul>
+<li>Price ETHO in dollars</li>
+<li>Stable trading</li>
+<li>Main liquidity pool</li>
+</ul>
+<p><strong>PSILO/ETH:</strong></p>
+<ul>
+<li>Access Ethereum liquidity</li>
+<li>Standard DeFi pair</li>
+<li>Easy on/off ramp</li>
+</ul>
+<p><strong>MDAO/PSD:</strong></p>
+<ul>
+<li>Sell governance tokens</li>
+<li>Stable pricing</li>
+<li>Exit liquidity</li>
+</ul>
+<p><strong>DM/PSD:</strong></p>
+<ul>
+<li>Convert daily rewards</li>
+<li>Cash out earnings</li>
+<li>Stable value</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-prerequisites">📋 Prerequisites<a href="#-prerequisites" class="hash-link" aria-label="Direct link to 📋 Prerequisites" title="Direct link to 📋 Prerequisites" translate="no">​</a></h2>
+<p>Before trading, ensure you have:</p>
+<ul>
+<li>✅ <strong>Wallet Connected</strong> - MetaMask or similar</li>
+<li>✅ <strong>Tokens to Swap</strong> - Source token in wallet</li>
+<li>✅ <strong>ETH for Gas</strong> - ~0.001-0.01 ETH for transaction fee</li>
+<li>✅ <strong>Understanding of Slippage</strong> - Price movement tolerance</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-by-step-trading-guide">🔄 Step-by-Step Trading Guide<a href="#-step-by-step-trading-guide" class="hash-link" aria-label="Direct link to 🔄 Step-by-Step Trading Guide" title="Direct link to 🔄 Step-by-Step Trading Guide" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-access-the-swap-interface">Step 1: Access the Swap Interface<a href="#step-1-access-the-swap-interface" class="hash-link" aria-label="Direct link to Step 1: Access the Swap Interface" title="Direct link to Step 1: Access the Swap Interface" translate="no">​</a></h3>
+<ol>
+<li>Visit <a href="https://etherealoffering.org" target="_blank" rel="noopener noreferrer">etherealoffering.org</a></li>
+<li>Click <strong>&quot;Swap&quot;</strong> in navigation</li>
+<li>Ensure wallet is connected</li>
+<li>You&#x27;ll see the swap interface</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-select-tokens">Step 2: Select Tokens<a href="#step-2-select-tokens" class="hash-link" aria-label="Direct link to Step 2: Select Tokens" title="Direct link to Step 2: Select Tokens" translate="no">​</a></h3>
+<p><strong>Choose what to swap:</strong></p>
+<ol>
+<li><strong>&quot;From&quot; Token</strong> - What you&#x27;re selling</li>
+<li><strong>&quot;To&quot; Token</strong> - What you&#x27;re buying</li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>From: ETHO</li>
+<li>To: PSD</li>
+</ul>
+<p><strong>Click token selector</strong> to choose from available tokens.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-enter-amount">Step 3: Enter Amount<a href="#step-3-enter-amount" class="hash-link" aria-label="Direct link to Step 3: Enter Amount" title="Direct link to Step 3: Enter Amount" translate="no">​</a></h3>
+<p><strong>Two ways to enter:</strong></p>
+<p><strong>Option A: Enter &quot;From&quot; amount</strong></p>
+<ul>
+<li>Type amount of token you&#x27;re selling</li>
+<li>&quot;To&quot; amount auto-calculates</li>
+</ul>
+<p><strong>Option B: Enter &quot;To&quot; amount</strong></p>
+<ul>
+<li>Type amount of token you want</li>
+<li>&quot;From&quot; amount auto-calculates</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>From: 1,000 ETHO</li>
+<li>To: 50 PSD (auto-calculated)</li>
+<li>Rate: 1 ETHO = 0.05 PSD</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-review-swap-details">Step 4: Review Swap Details<a href="#step-4-review-swap-details" class="hash-link" aria-label="Direct link to Step 4: Review Swap Details" title="Direct link to Step 4: Review Swap Details" translate="no">​</a></h3>
+<p><strong>Check the details:</strong></p>
+<p><strong>Price Information:</strong></p>
+<ul>
+<li><strong>Exchange Rate</strong> - How many tokens per token</li>
+<li><strong>Price Impact</strong> - How much your trade moves the price</li>
+<li><strong>Minimum Received</strong> - Worst case after slippage</li>
+<li><strong>Liquidity Provider Fee</strong> - 0.3% fee</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Swap 1,000 ETHO for PSD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Exchange Rate: 1 ETHO = 0.05 PSD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">You Pay: 1,000 ETHO</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">You Receive: ~50 PSD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Price Impact: 0.5%</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Minimum Received: 49.5 PSD (1% slippage)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">LP Fee: 3 ETHO (0.3%)</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-adjust-slippage-optional">Step 5: Adjust Slippage (Optional)<a href="#step-5-adjust-slippage-optional" class="hash-link" aria-label="Direct link to Step 5: Adjust Slippage (Optional)" title="Direct link to Step 5: Adjust Slippage (Optional)" translate="no">​</a></h3>
+<p><strong>What is slippage?</strong></p>
+<ul>
+<li>Price can change between clicking &quot;Swap&quot; and transaction confirming</li>
+<li>Slippage tolerance = how much price change you&#x27;ll accept</li>
+</ul>
+<p><strong>Default:</strong> 1% (recommended)</p>
+<p><strong>Adjust if needed:</strong></p>
+<ul>
+<li><strong>Low liquidity:</strong> Increase to 2-5%</li>
+<li><strong>High liquidity:</strong> Can use 0.5%</li>
+<li><strong>Urgent trade:</strong> Increase slippage</li>
+<li><strong>Patient trade:</strong> Decrease slippage</li>
+</ul>
+<p><strong>Click settings icon</strong> (⚙️) to adjust.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-6-approve-token-first-time-only">Step 6: Approve Token (First Time Only)<a href="#step-6-approve-token-first-time-only" class="hash-link" aria-label="Direct link to Step 6: Approve Token (First Time Only)" title="Direct link to Step 6: Approve Token (First Time Only)" translate="no">​</a></h3>
+<p><strong>First time swapping a token:</strong></p>
+<ol>
+<li>Click <strong>&quot;Approve ETHO&quot;</strong> (or whatever token)</li>
+<li>MetaMask pops up</li>
+<li>Review approval (allows AMM to spend your tokens)</li>
+<li>Click <strong>&quot;Confirm&quot;</strong></li>
+<li>Wait for confirmation (~15 seconds)</li>
+</ol>
+<p><strong>Note:</strong> Only needed once per token. Future swaps won&#x27;t require approval.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-7-execute-swap">Step 7: Execute Swap<a href="#step-7-execute-swap" class="hash-link" aria-label="Direct link to Step 7: Execute Swap" title="Direct link to Step 7: Execute Swap" translate="no">​</a></h3>
+<p><strong>Now you&#x27;re ready:</strong></p>
+<ol>
+<li>Click <strong>&quot;Swap&quot;</strong></li>
+<li>MetaMask pops up with transaction details</li>
+<li>Review:<!-- -->
+<ul>
+<li>Tokens being swapped</li>
+<li>Amounts</li>
+<li>Gas fee</li>
+<li>Total cost</li>
+</ul>
+</li>
+<li>Click <strong>&quot;Confirm&quot;</strong></li>
+<li>Wait for transaction to complete (~15-30 seconds)</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-8-confirm-success">Step 8: Confirm Success<a href="#step-8-confirm-success" class="hash-link" aria-label="Direct link to Step 8: Confirm Success" title="Direct link to Step 8: Confirm Success" translate="no">​</a></h3>
+<p><strong>After transaction confirms:</strong></p>
+<p>✅ <strong>Success Message</strong> - &quot;Swap successful!&quot;<br>
+<!-- -->✅ <strong>Tokens Received</strong> - Check your wallet balance<br>
+<!-- -->✅ <strong>Transaction Hash</strong> - View on Etherscan</p>
+<p><strong>Verify:</strong></p>
+<ul>
+<li>Old token balance decreased</li>
+<li>New token balance increased</li>
+<li>Transaction shows on Etherscan</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-trading-strategies">💡 Trading Strategies<a href="#-trading-strategies" class="hash-link" aria-label="Direct link to 💡 Trading Strategies" title="Direct link to 💡 Trading Strategies" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-1-dollar-cost-averaging-dca">Strategy 1: Dollar-Cost Averaging (DCA)<a href="#strategy-1-dollar-cost-averaging-dca" class="hash-link" aria-label="Direct link to Strategy 1: Dollar-Cost Averaging (DCA)" title="Direct link to Strategy 1: Dollar-Cost Averaging (DCA)" translate="no">​</a></h3>
+<p><strong>Goal:</strong> Reduce volatility risk</p>
+<p><strong>Method:</strong></p>
+<ul>
+<li>Buy fixed dollar amount regularly</li>
+<li>Weekly or monthly</li>
+<li>Regardless of price</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Buy $100 worth of PSILO every week</li>
+<li>Week 1: PSILO = $0.10, buy 1,000 PSILO</li>
+<li>Week 2: PSILO = $0.05, buy 2,000 PSILO</li>
+<li>Week 3: PSILO = $0.15, buy 666 PSILO</li>
+<li><strong>Average price: $0.09</strong></li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Reduces timing risk</li>
+<li>Emotional discipline</li>
+<li>Long-term accumulation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-2-limit-orders-manual">Strategy 2: Limit Orders (Manual)<a href="#strategy-2-limit-orders-manual" class="hash-link" aria-label="Direct link to Strategy 2: Limit Orders (Manual)" title="Direct link to Strategy 2: Limit Orders (Manual)" translate="no">​</a></h3>
+<p><strong>Goal:</strong> Buy/sell at specific price</p>
+<p><strong>Method:</strong></p>
+<ul>
+<li>Set target price</li>
+<li>Check regularly</li>
+<li>Execute when price hits target</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Want to buy ETHO at $0.04</li>
+<li>Current price: $0.05</li>
+<li>Wait for price to drop</li>
+<li>Execute swap when $0.04</li>
+</ul>
+<p><strong>Note:</strong> No automatic limit orders (yet). Must check manually.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="strategy-3-arbitrage">Strategy 3: Arbitrage<a href="#strategy-3-arbitrage" class="hash-link" aria-label="Direct link to Strategy 3: Arbitrage" title="Direct link to Strategy 3: Arbitrage" translate="no">​</a></h3>
+<p><strong>Goal:</strong> Profit from price differences</p>
+<p><strong>Method:</strong></p>
+<ul>
+<li>Find price difference between exchanges</li>
+<li>Buy on cheaper exchange</li>
+<li>Sell on expensive exchange</li>
+<li>Profit the difference</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>ETHO on our AMM: $0.05</li>
+<li>ETHO on Uniswap: $0.06</li>
+<li>Buy 1,000 ETHO on our AMM ($50)</li>
+<li>Sell 1,000 ETHO on Uniswap ($60)</li>
+<li><strong>Profit: $10 (minus gas fees)</strong></li>
+</ul>
+<p><strong>Risks:</strong></p>
+<ul>
+<li>Gas fees can eat profits</li>
+<li>Price can change quickly</li>
+<li>Requires speed and capital</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-important-considerations">⚠️ Important Considerations<a href="#️-important-considerations" class="hash-link" aria-label="Direct link to ⚠️ Important Considerations" title="Direct link to ⚠️ Important Considerations" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="price-impact">Price Impact<a href="#price-impact" class="hash-link" aria-label="Direct link to Price Impact" title="Direct link to Price Impact" translate="no">​</a></h3>
+<p><strong>What is it?</strong></p>
+<ul>
+<li>How much your trade moves the price</li>
+<li>Larger trades = higher impact</li>
+<li>Smaller pools = higher impact</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Pool: 10,000 ETHO / 500 PSD</li>
+<li>You buy 1,000 ETHO (10% of pool)</li>
+<li>Price impact: ~5%</li>
+<li>You pay more than current price</li>
+</ul>
+<p><strong>How to reduce:</strong></p>
+<ul>
+<li>Trade smaller amounts</li>
+<li>Split into multiple trades</li>
+<li>Wait for more liquidity</li>
+<li>Use larger pools</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="slippage">Slippage<a href="#slippage" class="hash-link" aria-label="Direct link to Slippage" title="Direct link to Slippage" translate="no">​</a></h3>
+<p><strong>What is it?</strong></p>
+<ul>
+<li>Price change between signing and confirming</li>
+<li>Network congestion can delay confirmation</li>
+<li>Price can move during delay</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You click &quot;Swap&quot; at 1 ETHO = 0.05 PSD</li>
+<li>Transaction takes 30 seconds to confirm</li>
+<li>Price moves to 1 ETHO = 0.049 PSD</li>
+<li>You receive less than expected</li>
+</ul>
+<p><strong>Protection:</strong></p>
+<ul>
+<li>Set slippage tolerance (1% default)</li>
+<li>If price moves more than tolerance, transaction reverts</li>
+<li>You don&#x27;t lose funds, just pay gas fee</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="impermanent-loss-for-lps">Impermanent Loss (For LPs)<a href="#impermanent-loss-for-lps" class="hash-link" aria-label="Direct link to Impermanent Loss (For LPs)" title="Direct link to Impermanent Loss (For LPs)" translate="no">​</a></h3>
+<p><strong>What is it?</strong></p>
+<ul>
+<li>Loss experienced by liquidity providers</li>
+<li>When token prices diverge</li>
+<li>&quot;Impermanent&quot; because it can reverse</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You provide 1,000 ETHO + 50 PSD</li>
+<li>ETHO price doubles</li>
+<li>Pool rebalances (you have less ETHO, more PSD)</li>
+<li>You would have more if you just held</li>
+</ul>
+<p><strong>Note:</strong> This affects liquidity providers, not traders.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-advanced-features">📊 Advanced Features<a href="#-advanced-features" class="hash-link" aria-label="Direct link to 📊 Advanced Features" title="Direct link to 📊 Advanced Features" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="multi-hop-swaps">Multi-Hop Swaps<a href="#multi-hop-swaps" class="hash-link" aria-label="Direct link to Multi-Hop Swaps" title="Direct link to Multi-Hop Swaps" translate="no">​</a></h3>
+<p><strong>What is it?</strong></p>
+<ul>
+<li>Swap through multiple pools</li>
+<li>Get better rates</li>
+<li>Automatic routing</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Want: DM → PSILO</li>
+<li>No direct DM/PSILO pool</li>
+<li>Route: DM → PSD → PSILO</li>
+<li>AMM finds best path automatically</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Access any token pair</li>
+<li>Better prices</li>
+<li>More flexibility</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gas-optimization">Gas Optimization<a href="#gas-optimization" class="hash-link" aria-label="Direct link to Gas Optimization" title="Direct link to Gas Optimization" translate="no">​</a></h3>
+<p><strong>Save on gas fees:</strong></p>
+<p><strong>1. Trade During Low-Traffic Times</strong></p>
+<ul>
+<li>Weekends (lower fees)</li>
+<li>Late night UTC (lower fees)</li>
+<li>Avoid Monday mornings (high fees)</li>
+</ul>
+<p><strong>2. Batch Transactions</strong></p>
+<ul>
+<li>Approve + Swap in one session</li>
+<li>Multiple swaps together</li>
+<li>Reduces total gas</li>
+</ul>
+<p><strong>3. Use Gas Trackers</strong></p>
+<ul>
+<li><a href="https://ethgasstation.info/" target="_blank" rel="noopener noreferrer">ETH Gas Station</a></li>
+<li><a href="https://www.gasnow.org/" target="_blank" rel="noopener noreferrer">Gas Now</a></li>
+<li>Wait for low gas prices</li>
+</ul>
+<p><strong>4. Adjust Gas Settings</strong></p>
+<ul>
+<li>Use &quot;Standard&quot; not &quot;Fast&quot;</li>
+<li>Be patient (save 30-50%)</li>
+<li>Only use &quot;Fast&quot; if urgent</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-resources">🔗 Resources<a href="#-resources" class="hash-link" aria-label="Direct link to 🔗 Resources" title="Direct link to 🔗 Resources" translate="no">​</a></h2>
+<ul>
+<li><strong><a href="https://etherealoffering.org/swap" target="_blank" rel="noopener noreferrer">Swap Interface</a></strong> - Trade tokens</li>
+<li><strong><a href="https://etherealoffering.org/pools" target="_blank" rel="noopener noreferrer">Liquidity Pools</a></strong> - View pool stats</li>
+<li><strong><a href="https://etherealoffering.org/analytics" target="_blank" rel="noopener noreferrer">Analytics</a></strong> - Price charts</li>
+<li><strong><a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer">Etherscan</a></strong> - Verify transactions</li>
+<li><strong><a href="https://ethgasstation.info/" target="_blank" rel="noopener noreferrer">Gas Tracker</a></strong> - Monitor gas prices</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-success">🙏 Tips for Success<a href="#-tips-for-success" class="hash-link" aria-label="Direct link to 🙏 Tips for Success" title="Direct link to 🙏 Tips for Success" translate="no">​</a></h2>
+<p><strong>✅ Best Practices:</strong></p>
+<ul>
+<li>Start with small amounts</li>
+<li>Understand price impact</li>
+<li>Set reasonable slippage</li>
+<li>Check gas fees before trading</li>
+<li>Verify transaction on Etherscan</li>
+<li>Keep records for taxes</li>
+</ul>
+<p><strong>❌ Avoid:</strong></p>
+<ul>
+<li>Trading more than you can afford to lose</li>
+<li>Ignoring price impact</li>
+<li>Setting slippage too high (front-running risk)</li>
+<li>Trading during high gas fees</li>
+<li>Emotional trading (FOMO, panic)</li>
+<li>Not understanding what you&#x27;re trading</li>
+</ul>
+<hr>
+<p><strong>Next:</strong> <a href="/gratitude-token-project_docs/docs/tutorial/05-providing-liquidity">Providing Liquidity →</a></p>
+<p><em>&quot;Trade with intention, not emotion. Every swap is a choice, every choice is sacred.&quot;</em> 🍄✨</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/tutorial/04-trading-tokens.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/gratitude-token-project_docs/docs/tutorial/making-offerings"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Making Ceremonial Offerings</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/gratitude-token-project_docs/docs/tutorial/providing-liquidity"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Providing Liquidity</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-what-is-an-amm" class="table-of-contents__link toc-highlight">🔄 What is an AMM?</a></li><li><a href="#-available-trading-pairs" class="table-of-contents__link toc-highlight">💱 Available Trading Pairs</a><ul><li><a href="#primary-pairs" class="table-of-contents__link toc-highlight">Primary Pairs</a></li><li><a href="#why-these-pairs" class="table-of-contents__link toc-highlight">Why These Pairs?</a></li></ul></li><li><a href="#-prerequisites" class="table-of-contents__link toc-highlight">📋 Prerequisites</a></li><li><a href="#-step-by-step-trading-guide" class="table-of-contents__link toc-highlight">🔄 Step-by-Step Trading Guide</a><ul><li><a href="#step-1-access-the-swap-interface" class="table-of-contents__link toc-highlight">Step 1: Access the Swap Interface</a></li><li><a href="#step-2-select-tokens" class="table-of-contents__link toc-highlight">Step 2: Select Tokens</a></li><li><a href="#step-3-enter-amount" class="table-of-contents__link toc-highlight">Step 3: Enter Amount</a></li><li><a href="#step-4-review-swap-details" class="table-of-contents__link toc-highlight">Step 4: Review Swap Details</a></li><li><a href="#step-5-adjust-slippage-optional" class="table-of-contents__link toc-highlight">Step 5: Adjust Slippage (Optional)</a></li><li><a href="#step-6-approve-token-first-time-only" class="table-of-contents__link toc-highlight">Step 6: Approve Token (First Time Only)</a></li><li><a href="#step-7-execute-swap" class="table-of-contents__link toc-highlight">Step 7: Execute Swap</a></li><li><a href="#step-8-confirm-success" class="table-of-contents__link toc-highlight">Step 8: Confirm Success</a></li></ul></li><li><a href="#-trading-strategies" class="table-of-contents__link toc-highlight">💡 Trading Strategies</a><ul><li><a href="#strategy-1-dollar-cost-averaging-dca" class="table-of-contents__link toc-highlight">Strategy 1: Dollar-Cost Averaging (DCA)</a></li><li><a href="#strategy-2-limit-orders-manual" class="table-of-contents__link toc-highlight">Strategy 2: Limit Orders (Manual)</a></li><li><a href="#strategy-3-arbitrage" class="table-of-contents__link toc-highlight">Strategy 3: Arbitrage</a></li></ul></li><li><a href="#️-important-considerations" class="table-of-contents__link toc-highlight">⚠️ Important Considerations</a><ul><li><a href="#price-impact" class="table-of-contents__link toc-highlight">Price Impact</a></li><li><a href="#slippage" class="table-of-contents__link toc-highlight">Slippage</a></li><li><a href="#impermanent-loss-for-lps" class="table-of-contents__link toc-highlight">Impermanent Loss (For LPs)</a></li></ul></li><li><a href="#-advanced-features" class="table-of-contents__link toc-highlight">📊 Advanced Features</a><ul><li><a href="#multi-hop-swaps" class="table-of-contents__link toc-highlight">Multi-Hop Swaps</a></li><li><a href="#gas-optimization" class="table-of-contents__link toc-highlight">Gas Optimization</a></li></ul></li><li><a href="#-resources" class="table-of-contents__link toc-highlight">🔗 Resources</a></li><li><a href="#-tips-for-success" class="table-of-contents__link toc-highlight">🙏 Tips for Success</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-security" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">Security Best Practices | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/security"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Security Best Practices | Ethereal Offering"><meta data-rh="true" name="description" content="🔐 Overview"><meta data-rh="true" property="og:description" content="🔐 Overview"><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/security"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/security" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/security" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Security Best Practices","item":"https://drasticstatic.github.io/gratitude-token-project_docs/docs/security"}]}</script><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.d940b711.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.3e88feb9.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.58fea02a.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Tutorial</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/intro"><span title="Welcome to Ethereal Offering" class="linkLabel_WmDU">Welcome to Ethereal Offering</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/getting-started/overview"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/whitepaper/introduction"><span title="Whitepaper" class="categoryLinkLabel_W154">Whitepaper</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/tokenomics/overview"><span title="Tokenomics" class="categoryLinkLabel_W154">Tokenomics</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/governance/overview"><span title="DAO Governance" class="categoryLinkLabel_W154">DAO Governance</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/nfts/overview"><span title="NFT Ecosystem" class="categoryLinkLabel_W154">NFT Ecosystem</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/sacred-altar/overview"><span title="Sacred Altar" class="categoryLinkLabel_W154">Sacred Altar</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/architecture/overview"><span title="Technical Architecture" class="categoryLinkLabel_W154">Technical Architecture</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/developers/smart-contracts"><span title="For Developers" class="categoryLinkLabel_W154">For Developers</span></a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/gratitude-token-project_docs/docs/security"><span title="Security Best Practices" class="linkLabel_WmDU">Security Best Practices</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/roadmap"><span title="Development Roadmap" class="linkLabel_WmDU">Development Roadmap</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/faq"><span title="Frequently Asked Questions (FAQ)" class="linkLabel_WmDU">Frequently Asked Questions (FAQ)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/glossary"><span title="Glossary" class="linkLabel_WmDU">Glossary</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/gratitude-token-project_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Security Best Practices</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Security Best Practices</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-overview">🔐 Overview<a href="#-overview" class="hash-link" aria-label="Direct link to 🔐 Overview" title="Direct link to 🔐 Overview" translate="no">​</a></h2>
+<p>Security is paramount in Web3. This guide covers essential security practices for protecting your wallet, assets, and privacy when using Ethereal Offering.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wallet-security">🔑 Wallet Security<a href="#-wallet-security" class="hash-link" aria-label="Direct link to 🔑 Wallet Security" title="Direct link to 🔑 Wallet Security" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="seed-phrase-protection">Seed Phrase Protection<a href="#seed-phrase-protection" class="hash-link" aria-label="Direct link to Seed Phrase Protection" title="Direct link to Seed Phrase Protection" translate="no">​</a></h3>
+<p>Your <strong>seed phrase</strong> (12-24 words) is the master key to your wallet.</p>
+<p><strong>✅ DO:</strong></p>
+<ul>
+<li>Write it down on paper (never digital)</li>
+<li>Store in a secure location (safe, safety deposit box)</li>
+<li>Make multiple copies (different locations)</li>
+<li>Use a metal backup (fireproof, waterproof)</li>
+<li>Memorize it (if possible)</li>
+<li>Test recovery (on a separate device)</li>
+</ul>
+<p><strong>❌ DON&#x27;T:</strong></p>
+<ul>
+<li>Take a photo of it</li>
+<li>Store in cloud (Google Drive, iCloud, etc.)</li>
+<li>Email or text it</li>
+<li>Share with anyone (even &quot;support&quot;)</li>
+<li>Store in password manager</li>
+<li>Write it on your computer</li>
+</ul>
+<p><strong>If someone gets your seed phrase, they own your wallet. Forever.</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hardware-wallets">Hardware Wallets<a href="#hardware-wallets" class="hash-link" aria-label="Direct link to Hardware Wallets" title="Direct link to Hardware Wallets" translate="no">​</a></h3>
+<p><strong>Recommended for large amounts:</strong></p>
+<p><strong>Ledger Nano X/S:</strong></p>
+<ul>
+<li>Stores keys offline</li>
+<li>Requires physical confirmation</li>
+<li>Supports Ethereum, Bitcoin, etc.</li>
+<li>~$79-$149</li>
+</ul>
+<p><strong>Trezor Model T/One:</strong></p>
+<ul>
+<li>Open-source firmware</li>
+<li>Touchscreen (Model T)</li>
+<li>Multi-currency support</li>
+<li>~$69-$219</li>
+</ul>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Buy from official website only</li>
+<li>Set up with new seed phrase</li>
+<li>Connect to MetaMask</li>
+<li>Confirm transactions on device</li>
+<li>Keys never leave device</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="software-wallet-security">Software Wallet Security<a href="#software-wallet-security" class="hash-link" aria-label="Direct link to Software Wallet Security" title="Direct link to Software Wallet Security" translate="no">​</a></h3>
+<p><strong>If using MetaMask, Rainbow, etc.:</strong></p>
+<p><strong>✅ Best Practices:</strong></p>
+<ul>
+<li>Use strong password (20+ characters)</li>
+<li>Enable biometric lock (Face ID, Touch ID)</li>
+<li>Lock wallet when not in use</li>
+<li>Use separate wallet for large amounts</li>
+<li>Keep browser updated</li>
+<li>Use antivirus software</li>
+<li>Don&#x27;t install sketchy extensions</li>
+</ul>
+<p><strong>❌ Avoid:</strong></p>
+<ul>
+<li>Weak passwords (&quot;password123&quot;)</li>
+<li>Leaving wallet unlocked</li>
+<li>Using same wallet for everything</li>
+<li>Outdated browser</li>
+<li>Pirated software</li>
+<li>Too many browser extensions</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-scam-prevention">🎣 Scam Prevention<a href="#-scam-prevention" class="hash-link" aria-label="Direct link to 🎣 Scam Prevention" title="Direct link to 🎣 Scam Prevention" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="common-scams">Common Scams<a href="#common-scams" class="hash-link" aria-label="Direct link to Common Scams" title="Direct link to Common Scams" translate="no">​</a></h3>
+<p><strong>1. Phishing Websites</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Fake website looks like real one</li>
+<li>You connect wallet</li>
+<li>Malicious contract drains your funds</li>
+</ul>
+<p><strong>How to avoid:</strong></p>
+<ul>
+<li>Bookmark official site</li>
+<li>Check URL carefully (etherealoffering.org)</li>
+<li>Look for HTTPS and lock icon</li>
+<li>Verify contract addresses</li>
+<li>Use hardware wallet for large transactions</li>
+</ul>
+<p><strong>2. Fake Support</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Scammer DMs you pretending to be support</li>
+<li>Asks for seed phrase or private key</li>
+<li>Steals your funds</li>
+</ul>
+<p><strong>How to avoid:</strong></p>
+<ul>
+<li><strong>We will NEVER DM you first</strong></li>
+<li><strong>We will NEVER ask for seed phrase</strong></li>
+<li><strong>We will NEVER ask for private keys</strong></li>
+<li>Block and report suspicious DMs</li>
+<li>Only ask for help in public channels</li>
+</ul>
+<p><strong>3. Airdrop Scams</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>&quot;Free tokens&quot; sent to your wallet</li>
+<li>You try to sell them</li>
+<li>Malicious contract drains your wallet</li>
+</ul>
+<p><strong>How to avoid:</strong></p>
+<ul>
+<li>Don&#x27;t interact with unknown tokens</li>
+<li>Don&#x27;t approve unknown contracts</li>
+<li>Use token allowance checker</li>
+<li>Revoke suspicious approvals</li>
+</ul>
+<p><strong>4. Impersonation</strong></p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Scammer creates fake Twitter/Discord</li>
+<li>Announces fake giveaway</li>
+<li>Asks you to &quot;verify&quot; wallet</li>
+<li>Drains your funds</li>
+</ul>
+<p><strong>How to avoid:</strong></p>
+<ul>
+<li>Verify official accounts (checkmark)</li>
+<li>Check follower count</li>
+<li>Look for typos in username</li>
+<li>Never &quot;verify&quot; your wallet</li>
+<li>No legitimate giveaway asks for seed phrase</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="red-flags">Red Flags<a href="#red-flags" class="hash-link" aria-label="Direct link to Red Flags" title="Direct link to Red Flags" translate="no">​</a></h3>
+<p><strong>🚩 Warning signs:</strong></p>
+<ul>
+<li>Unsolicited DMs</li>
+<li>Urgency (&quot;Act now!&quot;)</li>
+<li>Too good to be true</li>
+<li>Asking for seed phrase</li>
+<li>Asking for private key</li>
+<li>Asking to &quot;verify&quot; wallet</li>
+<li>Misspelled URLs</li>
+<li>No HTTPS</li>
+<li>Unverified contracts</li>
+</ul>
+<p><strong>If it feels wrong, it probably is. Trust your gut.</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-transaction-verification">🔍 Transaction Verification<a href="#-transaction-verification" class="hash-link" aria-label="Direct link to 🔍 Transaction Verification" title="Direct link to 🔍 Transaction Verification" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="before-signing">Before Signing<a href="#before-signing" class="hash-link" aria-label="Direct link to Before Signing" title="Direct link to Before Signing" translate="no">​</a></h3>
+<p><strong>Always review:</strong></p>
+<ol>
+<li><strong>Contract Address</strong> - Is it the official contract?</li>
+<li><strong>Function</strong> - What is the transaction doing?</li>
+<li><strong>Value</strong> - How much ETH are you sending?</li>
+<li><strong>Gas Fee</strong> - Is it reasonable?</li>
+<li><strong>Token Approvals</strong> - What are you approving?</li>
+</ol>
+<p><strong>Example MetaMask Review:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Contract: 0x1234...abcd (Sacred Altar)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Function: makeOffering</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Value: 0.01 ETH (donation)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Gas: 0.002 ETH (~$4)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Approving: 100 ETHO</span><br></span></code></pre></div></div>
+<p><strong>Questions to ask:</strong></p>
+<ul>
+<li>Is this the right contract? ✅</li>
+<li>Do I want to make an offering? ✅</li>
+<li>Is 0.01 ETH donation correct? ✅</li>
+<li>Is gas fee reasonable? ✅</li>
+<li>Am I okay approving 100 ETHO? ✅</li>
+</ul>
+<p><strong>If anything looks wrong, REJECT the transaction.</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="after-signing">After Signing<a href="#after-signing" class="hash-link" aria-label="Direct link to After Signing" title="Direct link to After Signing" translate="no">​</a></h3>
+<p><strong>Verify on Etherscan:</strong></p>
+<ol>
+<li>Go to <a href="https://etherscan.io" target="_blank" rel="noopener noreferrer">etherscan.io</a></li>
+<li>Paste transaction hash</li>
+<li>Check status (Success ✅ or Failed ❌)</li>
+<li>Review events (OfferingMade, Transfer, etc.)</li>
+<li>Verify amounts</li>
+</ol>
+<p><strong>Example:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Status: Success ✅</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">From: 0xYourAddress</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">To: 0xSacredAltar</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Value: 0.01 ETH</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tokens Transferred:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - 100 ETHO (burned)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - 1 POB NFT (minted)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  - 50 MDAO (received)</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-privacy-protection">🛡️ Privacy Protection<a href="#️-privacy-protection" class="hash-link" aria-label="Direct link to 🛡️ Privacy Protection" title="Direct link to 🛡️ Privacy Protection" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wallet-privacy">Wallet Privacy<a href="#wallet-privacy" class="hash-link" aria-label="Direct link to Wallet Privacy" title="Direct link to Wallet Privacy" translate="no">​</a></h3>
+<p><strong>Pseudonymity vs Anonymity:</strong></p>
+<p><strong>Pseudonymous (default):</strong></p>
+<ul>
+<li>Wallet address is public</li>
+<li>Transactions are visible</li>
+<li>But not linked to real identity</li>
+</ul>
+<p><strong>Anonymous (advanced):</strong></p>
+<ul>
+<li>Use Aleo privacy layer (future)</li>
+<li>Zero-knowledge proofs</li>
+<li>Transactions hidden</li>
+</ul>
+<p><strong>Tips for privacy:</strong></p>
+<ul>
+<li>Use separate wallet for recovery activities</li>
+<li>Don&#x27;t doxx yourself (link wallet to real name)</li>
+<li>Be careful what you share publicly</li>
+<li>Use VPN when connecting</li>
+<li>Consider Tor for extra privacy</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-privacy">Data Privacy<a href="#data-privacy" class="hash-link" aria-label="Direct link to Data Privacy" title="Direct link to Data Privacy" translate="no">​</a></h3>
+<p><strong>What we collect:</strong></p>
+<ul>
+<li>Wallet address (public)</li>
+<li>Transaction history (on-chain)</li>
+<li>IP address (server logs)</li>
+</ul>
+<p><strong>What we DON&#x27;T collect:</strong></p>
+<ul>
+<li>Real name</li>
+<li>Email (unless you provide)</li>
+<li>Location (unless you share)</li>
+<li>Seed phrase (never!)</li>
+<li>Private keys (never!)</li>
+</ul>
+<p><strong>Your data rights:</strong></p>
+<ul>
+<li>Request data deletion</li>
+<li>Opt out of analytics</li>
+<li>Use privacy tools</li>
+<li>Control what you share</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-smart-contract-security">🔒 Smart Contract Security<a href="#-smart-contract-security" class="hash-link" aria-label="Direct link to 🔒 Smart Contract Security" title="Direct link to 🔒 Smart Contract Security" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="audits">Audits<a href="#audits" class="hash-link" aria-label="Direct link to Audits" title="Direct link to Audits" translate="no">​</a></h3>
+<p><strong>Our contracts are audited by:</strong></p>
+<ul>
+<li>[Audit Firm 1] - Report: [Link]</li>
+<li>[Audit Firm 2] - Report: [Link]</li>
+</ul>
+<p><strong>What audits check:</strong></p>
+<ul>
+<li>Code vulnerabilities</li>
+<li>Logic errors</li>
+<li>Gas optimization</li>
+<li>Best practices</li>
+<li>Known attack vectors</li>
+</ul>
+<p><strong>Audits are not guarantees</strong> - bugs can still exist.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bug-bounty-program">Bug Bounty Program<a href="#bug-bounty-program" class="hash-link" aria-label="Direct link to Bug Bounty Program" title="Direct link to Bug Bounty Program" translate="no">​</a></h3>
+<p><strong>Report bugs, earn rewards:</strong></p>
+<table><thead><tr><th>Severity</th><th>Reward</th><th>Example</th></tr></thead><tbody><tr><td><strong>Critical</strong></td><td>$10,000</td><td>Drain treasury</td></tr><tr><td><strong>High</strong></td><td>$5,000</td><td>Steal user funds</td></tr><tr><td><strong>Medium</strong></td><td>$1,000</td><td>Bypass access control</td></tr><tr><td><strong>Low</strong></td><td>$100</td><td>Gas optimization</td></tr></tbody></table>
+<p><strong>How to report:</strong></p>
+<ol>
+<li>Email: <a href="mailto:security@psanctuary.org" target="_blank" rel="noopener noreferrer">security@psanctuary.org</a></li>
+<li>Include: Description, steps to reproduce, impact</li>
+<li>Wait for response (24-48 hours)</li>
+<li>Receive reward (if valid)</li>
+</ol>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Don&#x27;t exploit the bug</li>
+<li>Don&#x27;t share publicly before fix</li>
+<li>Give us time to patch</li>
+<li>Be professional</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contract-upgrades">Contract Upgrades<a href="#contract-upgrades" class="hash-link" aria-label="Direct link to Contract Upgrades" title="Direct link to Contract Upgrades" translate="no">​</a></h3>
+<p><strong>Our upgrade policy:</strong></p>
+<p><strong>Immutable Contracts:</strong></p>
+<ul>
+<li>Token contracts (PSILO, MDAO, ETHO, etc.)</li>
+<li>Cannot be changed</li>
+<li>Permanent code</li>
+</ul>
+<p><strong>Upgradeable Contracts:</strong></p>
+<ul>
+<li>Governance</li>
+<li>Treasury</li>
+<li>AMM Router</li>
+<li>Can be upgraded via DAO vote</li>
+</ul>
+<p><strong>Upgrade process:</strong></p>
+<ol>
+<li>Proposal submitted</li>
+<li>Community review (7 days)</li>
+<li>DAO vote (3 days)</li>
+<li>If approved, upgrade executed</li>
+<li>Announcement to community</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-emergency-procedures">🚨 Emergency Procedures<a href="#-emergency-procedures" class="hash-link" aria-label="Direct link to 🚨 Emergency Procedures" title="Direct link to 🚨 Emergency Procedures" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="if-your-wallet-is-compromised">If Your Wallet is Compromised<a href="#if-your-wallet-is-compromised" class="hash-link" aria-label="Direct link to If Your Wallet is Compromised" title="Direct link to If Your Wallet is Compromised" translate="no">​</a></h3>
+<p><strong>Immediate actions:</strong></p>
+<ol>
+<li><strong>Transfer assets</strong> to new wallet (if possible)</li>
+<li><strong>Revoke approvals</strong> on compromised wallet</li>
+<li><strong>Change passwords</strong> on all accounts</li>
+<li><strong>Scan for malware</strong> on your device</li>
+<li><strong>Report to community</strong> (warn others)</li>
+</ol>
+<p><strong>Prevention:</strong></p>
+<ul>
+<li>Keep seed phrase secure</li>
+<li>Use hardware wallet</li>
+<li>Don&#x27;t click suspicious links</li>
+<li>Keep software updated</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="if-you-lose-your-seed-phrase">If You Lose Your Seed Phrase<a href="#if-you-lose-your-seed-phrase" class="hash-link" aria-label="Direct link to If You Lose Your Seed Phrase" title="Direct link to If You Lose Your Seed Phrase" translate="no">​</a></h3>
+<p><strong>Unfortunately:</strong></p>
+<ul>
+<li>Your funds are <strong>permanently lost</strong></li>
+<li>No one can recover them</li>
+<li>Not even us</li>
+<li>This is the nature of decentralization</li>
+</ul>
+<p><strong>Prevention:</strong></p>
+<ul>
+<li>Multiple backups</li>
+<li>Different locations</li>
+<li>Metal backup</li>
+<li>Test recovery</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="if-you-suspect-a-bug">If You Suspect a Bug<a href="#if-you-suspect-a-bug" class="hash-link" aria-label="Direct link to If You Suspect a Bug" title="Direct link to If You Suspect a Bug" translate="no">​</a></h3>
+<p><strong>Report immediately:</strong></p>
+<ol>
+<li><strong>Don&#x27;t exploit it</strong></li>
+<li><strong>Email <a href="mailto:security@psanctuary.org" target="_blank" rel="noopener noreferrer">security@psanctuary.org</a></strong></li>
+<li><strong>Include details</strong> (description, steps, impact)</li>
+<li><strong>Wait for response</strong></li>
+<li><strong>Receive bug bounty</strong> (if valid)</li>
+</ol>
+<p><strong>We appreciate responsible disclosure.</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-security-checklist">✅ Security Checklist<a href="#-security-checklist" class="hash-link" aria-label="Direct link to ✅ Security Checklist" title="Direct link to ✅ Security Checklist" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="daily">Daily<a href="#daily" class="hash-link" aria-label="Direct link to Daily" title="Direct link to Daily" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Lock wallet when not in use</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Check for suspicious transactions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review token approvals</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update software if needed</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="weekly">Weekly<a href="#weekly" class="hash-link" aria-label="Direct link to Weekly" title="Direct link to Weekly" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review wallet activity</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Check for phishing emails</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Scan for malware</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Backup important data</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monthly">Monthly<a href="#monthly" class="hash-link" aria-label="Direct link to Monthly" title="Direct link to Monthly" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review all token approvals</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Check seed phrase backup</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update passwords</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review security settings</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quarterly">Quarterly<a href="#quarterly" class="hash-link" aria-label="Direct link to Quarterly" title="Direct link to Quarterly" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Full security audit</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test seed phrase recovery</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review all accounts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update emergency contacts</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-security-tools">🔗 Security Tools<a href="#-security-tools" class="hash-link" aria-label="Direct link to 🔗 Security Tools" title="Direct link to 🔗 Security Tools" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="approval-checkers">Approval Checkers<a href="#approval-checkers" class="hash-link" aria-label="Direct link to Approval Checkers" title="Direct link to Approval Checkers" translate="no">​</a></h3>
+<p><strong>Revoke token approvals:</strong></p>
+<ul>
+<li><a href="https://revoke.cash/" target="_blank" rel="noopener noreferrer">Revoke.cash</a> - Check and revoke approvals</li>
+<li><a href="https://etherscan.io/tokenapprovalchecker" target="_blank" rel="noopener noreferrer">Etherscan Token Approvals</a> - Official checker</li>
+</ul>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Connect wallet</li>
+<li>View all approvals</li>
+<li>Revoke suspicious ones</li>
+<li>Confirm transaction</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="transaction-simulators">Transaction Simulators<a href="#transaction-simulators" class="hash-link" aria-label="Direct link to Transaction Simulators" title="Direct link to Transaction Simulators" translate="no">​</a></h3>
+<p><strong>Preview transactions before signing:</strong></p>
+<ul>
+<li><a href="https://tenderly.co/" target="_blank" rel="noopener noreferrer">Tenderly</a> - Simulate transactions</li>
+<li><a href="https://phalcon.blocksec.com/" target="_blank" rel="noopener noreferrer">Phalcon</a> - Security analysis</li>
+</ul>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Paste transaction data</li>
+<li>Run simulation</li>
+<li>Review results</li>
+<li>Decide to sign or reject</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wallet-trackers">Wallet Trackers<a href="#wallet-trackers" class="hash-link" aria-label="Direct link to Wallet Trackers" title="Direct link to Wallet Trackers" translate="no">​</a></h3>
+<p><strong>Monitor your wallet:</strong></p>
+<ul>
+<li><a href="https://zapper.fi/" target="_blank" rel="noopener noreferrer">Zapper</a> - Portfolio tracker</li>
+<li><a href="https://debank.com/" target="_blank" rel="noopener noreferrer">DeBank</a> - Multi-chain tracker</li>
+<li><a href="https://zerion.io/" target="_blank" rel="noopener noreferrer">Zerion</a> - Wallet dashboard</li>
+</ul>
+<p><strong>Features:</strong></p>
+<ul>
+<li>View all assets</li>
+<li>Track transactions</li>
+<li>Monitor approvals</li>
+<li>Get alerts</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-additional-resources">📚 Additional Resources<a href="#-additional-resources" class="hash-link" aria-label="Direct link to 📚 Additional Resources" title="Direct link to 📚 Additional Resources" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="education">Education<a href="#education" class="hash-link" aria-label="Direct link to Education" title="Direct link to Education" translate="no">​</a></h3>
+<ul>
+<li><strong><a href="https://metamask.io/security/" target="_blank" rel="noopener noreferrer">MetaMask Security Guide</a></strong> - Official guide</li>
+<li><strong><a href="https://www.ledger.com/academy" target="_blank" rel="noopener noreferrer">Ledger Academy</a></strong> - Hardware wallet education</li>
+<li><strong><a href="https://ethereum.org/en/security/" target="_blank" rel="noopener noreferrer">Ethereum.org Security</a></strong> - Official Ethereum guide</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="support">Support<a href="#support" class="hash-link" aria-label="Direct link to Support" title="Direct link to Support" translate="no">​</a></h3>
+<ul>
+<li><strong><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer">Discord #security</a></strong> - Ask questions</li>
+<li><strong><a href="https://forum.psanctuary.org/c/security" target="_blank" rel="noopener noreferrer">Forum Security Category</a></strong> - Discuss security</li>
+<li><strong>Email:</strong> <a href="mailto:security@psanctuary.org" target="_blank" rel="noopener noreferrer">security@psanctuary.org</a></li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-final-thoughts">🙏 Final Thoughts<a href="#-final-thoughts" class="hash-link" aria-label="Direct link to 🙏 Final Thoughts" title="Direct link to 🙏 Final Thoughts" translate="no">​</a></h2>
+<p><strong>Security is a practice, not a product.</strong></p>
+<ul>
+<li>Stay vigilant</li>
+<li>Trust but verify</li>
+<li>Question everything</li>
+<li>Protect your keys</li>
+<li>Help others stay safe</li>
+</ul>
+<p><strong>We&#x27;re all in this together. Let&#x27;s keep our community safe.</strong> 🍄✨</p>
+<hr>
+<p><em>&quot;Not your keys, not your coins. Not your seed phrase, not your wallet. Security is sovereignty.&quot;</em></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/security.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/gratitude-token-project_docs/docs/developers/smart-contracts"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Smart Contract Reference</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/gratitude-token-project_docs/docs/roadmap"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Development Roadmap</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-overview" class="table-of-contents__link toc-highlight">🔐 Overview</a></li><li><a href="#-wallet-security" class="table-of-contents__link toc-highlight">🔑 Wallet Security</a><ul><li><a href="#seed-phrase-protection" class="table-of-contents__link toc-highlight">Seed Phrase Protection</a></li><li><a href="#hardware-wallets" class="table-of-contents__link toc-highlight">Hardware Wallets</a></li><li><a href="#software-wallet-security" class="table-of-contents__link toc-highlight">Software Wallet Security</a></li></ul></li><li><a href="#-scam-prevention" class="table-of-contents__link toc-highlight">🎣 Scam Prevention</a><ul><li><a href="#common-scams" class="table-of-contents__link toc-highlight">Common Scams</a></li><li><a href="#red-flags" class="table-of-contents__link toc-highlight">Red Flags</a></li></ul></li><li><a href="#-transaction-verification" class="table-of-contents__link toc-highlight">🔍 Transaction Verification</a><ul><li><a href="#before-signing" class="table-of-contents__link toc-highlight">Before Signing</a></li><li><a href="#after-signing" class="table-of-contents__link toc-highlight">After Signing</a></li></ul></li><li><a href="#️-privacy-protection" class="table-of-contents__link toc-highlight">🛡️ Privacy Protection</a><ul><li><a href="#wallet-privacy" class="table-of-contents__link toc-highlight">Wallet Privacy</a></li><li><a href="#data-privacy" class="table-of-contents__link toc-highlight">Data Privacy</a></li></ul></li><li><a href="#-smart-contract-security" class="table-of-contents__link toc-highlight">🔒 Smart Contract Security</a><ul><li><a href="#audits" class="table-of-contents__link toc-highlight">Audits</a></li><li><a href="#bug-bounty-program" class="table-of-contents__link toc-highlight">Bug Bounty Program</a></li><li><a href="#contract-upgrades" class="table-of-contents__link toc-highlight">Contract Upgrades</a></li></ul></li><li><a href="#-emergency-procedures" class="table-of-contents__link toc-highlight">🚨 Emergency Procedures</a><ul><li><a href="#if-your-wallet-is-compromised" class="table-of-contents__link toc-highlight">If Your Wallet is Compromised</a></li><li><a href="#if-you-lose-your-seed-phrase" class="table-of-contents__link toc-highlight">If You Lose Your Seed Phrase</a></li><li><a href="#if-you-suspect-a-bug" class="table-of-contents__link toc-highlight">If You Suspect a Bug</a></li></ul></li><li><a href="#-security-checklist" class="table-of-contents__link toc-highlight">✅ Security Checklist</a><ul><li><a href="#daily" class="table-of-contents__link toc-highlight">Daily</a></li><li><a href="#weekly" class="table-of-contents__link toc-highlight">Weekly</a></li><li><a href="#monthly" class="table-of-contents__link toc-highlight">Monthly</a></li><li><a href="#quarterly" class="table-of-contents__link toc-highlight">Quarterly</a></li></ul></li><li><a href="#-security-tools" class="table-of-contents__link toc-highlight">🔗 Security Tools</a><ul><li><a href="#approval-checkers" class="table-of-contents__link toc-highlight">Approval Checkers</a></li><li><a href="#transaction-simulators" class="table-of-contents__link toc-highlight">Transaction Simulators</a></li><li><a href="#wallet-trackers" class="table-of-contents__link toc-highlight">Wallet Trackers</a></li></ul></li><li><a href="#-additional-resources" class="table-of-contents__link toc-highlight">📚 Additional Resources</a><ul><li><a href="#education" class="table-of-contents__link toc-highlight">Education</a></li><li><a href="#support" class="table-of-contents__link toc-highlight">Support</a></li></ul></li><li><a href="#-final-thoughts" class="table-of-contents__link toc-highlight">🙏 Final Thoughts</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>
