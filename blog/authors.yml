@@ -2,16 +2,16 @@ psanctuary_team:
   name: Psanctuary Team
   title: Core Development Team
   url: https://github.com/drasticstatic
-  image_url: https://github.com/drasticstatic.png
+  image_url: /img/drasticstatica.png
   page: true
   socials:
     github: drasticstatic
 
 christopher:
   name: TranscendentVioletVoyager
-  title: Custodian | Founder | Stewerd & Lead Developer
+  title: Custodian | Founder | Steward & Lead Developer
   url: https://github.com/drasticstatic
-  image_url: https://github.com/drasticstatic.png
+  image_url: /img/violet-voyager.webp
   page: true
   socials:
     github: drasticstatic
@@ -20,4 +20,4 @@ community:
   name: Community Contributors
   title: Ethereal Offering Community
   url: https://discord.gg/psanctuary
-  image_url: https://github.com/drasticstatic.png
+  image_url: /img/drasticstatica.png

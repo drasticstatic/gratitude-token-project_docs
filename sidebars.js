@@ -34,6 +34,27 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Tokenomics',
+      items: [
+        'tokenomics/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'DAO Governance',
+      items: [
+        'governance/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'NFT Ecosystem',
+      items: [
+        'nfts/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Sacred Altar',
       items: [
         'sacred-altar/overview',
