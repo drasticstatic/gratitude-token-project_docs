@@ -74,6 +74,7 @@ const sidebars = {
       items: [
         'architecture/overview',
         'architecture/ton-layer',
+        'architecture/aleo-privacy-layer',
       ],
     },
     {
