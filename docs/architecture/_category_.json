@@ -1,0 +1,11 @@
+{
+  "label": "Technical Architecture",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Technical Architecture",
+    "description": "Deep dive into the technical implementation of Ethereal Offering across multiple blockchain layers.",
+    "keywords": ["architecture", "ethereum", "ton", "aleo", "smart contracts"]
+  }
+}
+
