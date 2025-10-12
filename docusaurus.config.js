@@ -50,6 +50,11 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/',
+          exclude: [
+            '**/CHATGPT_ethereal_offering_docusaurus_packages/**',
+            '**/Docusaurus-SetupGuide.md',
+            '**/GitBook-Outline.md',
+          ],
         },
         blog: false, // Disable default blog
         theme: {
