@@ -39,6 +39,8 @@ const sidebars = {
       items: [
         'tokenomics/overview',
         'tokenomics/psilo-token',
+        'tokenomics/mdao-token',
+        'tokenomics/etho-token',
       ],
     },
     {
