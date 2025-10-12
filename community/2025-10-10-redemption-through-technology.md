@@ -1,6 +1,6 @@
 ---
 slug: redemption-through-technology
-title: Redemption Through Technology: The Spiritual Vision of Ethereal Offering
+title: "Redemption Through Technology: The Spiritual Vision of Ethereal Offering"
 authors: [christopher]
 tags: [community, healing, announcements, spiritual]
 ---

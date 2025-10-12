@@ -42,3 +42,33 @@ technical:
   label: Technical
   permalink: /technical
   description: Technical development updates and insights
+
+spiritual:
+  label: Spiritual
+  permalink: /spiritual
+  description: Spiritual insights and sacred technology
+
+roadmap:
+  label: Roadmap
+  permalink: /roadmap
+  description: Project roadmap and future plans
+
+updates:
+  label: Updates
+  permalink: /updates
+  description: General project updates
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Important announcements
+
+recovery:
+  label: Recovery
+  permalink: /recovery
+  description: Recovery, 12-step, and healing content
+
+psychedelics:
+  label: Psychedelics
+  permalink: /psychedelics
+  description: Psychedelic medicine and integration

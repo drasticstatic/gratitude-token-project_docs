@@ -42,3 +42,33 @@ technical:
   label: Technical
   permalink: /technical
   description: Technical development updates and insights
+
+solidity:
+  label: Solidity
+  permalink: /solidity
+  description: Solidity smart contract development
+
+smart-contracts:
+  label: Smart Contracts
+  permalink: /smart-contracts
+  description: Smart contract architecture and patterns
+
+ethereum:
+  label: Ethereum
+  permalink: /ethereum
+  description: Ethereum blockchain development
+
+architecture:
+  label: Architecture
+  permalink: /architecture
+  description: System architecture and design patterns
+
+react:
+  label: React
+  permalink: /react
+  description: React frontend development
+
+web3:
+  label: Web3
+  permalink: /web3
+  description: Web3 integration and development
