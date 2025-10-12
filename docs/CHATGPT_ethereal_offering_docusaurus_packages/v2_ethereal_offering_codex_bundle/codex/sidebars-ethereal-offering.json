@@ -1,0 +1,21 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "Ethereal Offering",
+      "collapsed": false,
+      "items": [
+        "ethereal-offering/introduction",
+        "ethereal-offering/fatherhood_and_fellowship",
+        "ethereal-offering/living_sabbath_protocol",
+        "ethereal-offering/technical_architecture",
+        "ethereal-offering/roadmap",
+        "ethereal-offering/ecosystem",
+        "ethereal-offering/tokenomics",
+        "ethereal-offering/spiritual_foundation",
+        "ethereal-offering/manifestations_poetry",
+        "ethereal-offering/appendices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Ethereal Offering \u2014 Augment Expansion Prompt",
+  "instructions": [
+    "You are Augment, an AI co-writer and builder. Use the Markdown files under /docs/ethereal-offering as the source of truth.",
+    "Create the following artifacts:",
+    "1) Break the Technical Roadmap into epics and sprints with acceptance criteria and estimated tasks for a small dev team (3-5 people).",
+    "2) Generate developer onboarding docs and README for the repo, including local dev setup, testnet deployment steps, and contract verification/checklist.",
+    "3) Produce 'church-friendly' content: a 1-page summary and a 1-page FAQ for fellowship leaders explaining spiritual coin vs material coin and how to adopt the Gratitude Token internally.",
+    "4) Prepare JIRA-style task CSV for import, with columns: Epic, Story, Description, Estimate (points), Assignee (TBD), Priority.",
+    "5) Output code scaffolding templates: Aleo voting PoC scaffold, Solidity ERC-20-like Gratitude Token contract (with SBT pattern), simple MPC steward management contract interfaces, and sample Docusaurus sidebar configuration.",
+    "6) Create a deployment checklist and security audit checklist.",
+    "7) Draft copy for the tribute/gratitude memorial page and integrate it into the docs navigation.",
+    "",
+    "Constraints and Tone:",
+    "- Preserve the spiritual framing and 'Fatherhood & Fellowship' preface as the top-level narrative for non-technical visitors.",
+    "- Emphasize privacy-first design, non-speculative tokenomics, and DAO-led steward recovery mechanisms.",
+    "- Use clear, pragmatic technical instructions suitable for junior-to-mid-level devs who are learning Aleo and ZK tools.",
+    "- Produce outputs in Markdown and CSV where appropriate, and create code scaffolds as files in the repo."
+  ],
+  "output_files": [
+    "docs/ethereal-offering/index.md",
+    "docs/ethereal-offering/fatherhood-and-fellowship.md",
+    "docs/ethereal-offering/living-sabbath-protocol.md",
+    "docs/ethereal-offering/technical-roadmap.md",
+    "docs/ethereal-offering/appendices.md"
+  ],
+  "meta": {
+    "generated": "2025-10-11 21:45:26 UTC",
+    "author": "Ethereal Offering / Christopher (drasticstatic)"
+  }
+}

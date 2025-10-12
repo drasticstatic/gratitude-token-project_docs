@@ -1,0 +1,16 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "Ethereal Offering",
+      "collapsed": false,
+      "items": [
+        "ethereal-offering/index",
+        "ethereal-offering/fatherhood-and-fellowship",
+        "ethereal-offering/living-sabbath-protocol",
+        "ethereal-offering/technical-roadmap",
+        "ethereal-offering/appendices"
+      ]
+    }
+  ]
+}

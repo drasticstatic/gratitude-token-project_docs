@@ -1,0 +1,194 @@
+diff --git a/docs/ethereal-offering/introduction.md b/docs/ethereal-offering/introduction.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/introduction.md
+--- /dev/null
++++ b/docs/ethereal-offering/introduction.md
+@@ -0,0 +1,7 @@
++# Ethereal Offering — Introduction
+
++
+
++**Prepared for:** Christopher (drasticstatic)
+
++
+
++**Generated:** 2025-10-12 09:28:31 UTC
+
++
+
++This manuscript is a living codex — a unified voice weaving spiritual devotion and actionable engineering. It records the vision, architecture, governance, and tactical steps required to manifest Ethereal Offering.
+
+diff --git a/docs/ethereal-offering/fatherhood_and_fellowship.md b/docs/ethereal-offering/fatherhood_and_fellowship.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/fatherhood_and_fellowship.md
+--- /dev/null
++++ b/docs/ethereal-offering/fatherhood_and_fellowship.md
+@@ -0,0 +1,5 @@
++# Fatherhood & Fellowship — Reflection and Preface
+
++
+
++It is autumn. The rain brings abundance. We gather firewood; we fill the Father's storehouse. This project is born from presence — from a parent who chooses, above all, to be with his children.
+
++
+
++The Ethereal Offering is an invitation: to harmonize code and covenant, technology and tenderness.
+
+diff --git a/docs/ethereal-offering/living_sabbath_protocol.md b/docs/ethereal-offering/living_sabbath_protocol.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/living_sabbath_protocol.md
+--- /dev/null
++++ b/docs/ethereal-offering/living_sabbath_protocol.md
+@@ -0,0 +1,3 @@
++# DAO Living Sabbath Protocol
+
++
+
++This protocol encodes rhythms of rest, reflection, and gratitude into DAO governance. It ensures long-term sustainability, humane participation, and sacred pauses.
+
+diff --git a/docs/ethereal-offering/technical_architecture.md b/docs/ethereal-offering/technical_architecture.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/technical_architecture.md
+--- /dev/null
++++ b/docs/ethereal-offering/technical_architecture.md
+@@ -0,0 +1,3 @@
++# Technical Architecture & Protocols
+
++
+
++This section is intentionally actionable. It gives engineers the necessary architecture notes, interfaces, and prioritized implementation steps.
+
+diff --git a/docs/ethereal-offering/roadmap.md b/docs/ethereal-offering/roadmap.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/roadmap.md
+--- /dev/null
++++ b/docs/ethereal-offering/roadmap.md
+@@ -0,0 +1,5 @@
++# Roadmap & Milestones
+
++
+
++**Phase 0 — Documentation & Preservation (Now)**
+
++
+
++- Publish this codex and import to Docusaurus.
+
+diff --git a/docs/ethereal-offering/ecosystem.md b/docs/ethereal-offering/ecosystem.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/ecosystem.md
+--- /dev/null
++++ b/docs/ethereal-offering/ecosystem.md
+@@ -0,0 +1,3 @@
++# Psanctuary Ecosystem & Integrations
+
++
+
++This project integrates ministry, recovery, and decentralized tech. Partnerships include Psanctuary Church, PIR, Bushido, Compassion Int'l, and others.
+
+diff --git a/docs/ethereal-offering/tokenomics.md b/docs/ethereal-offering/tokenomics.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/tokenomics.md
+--- /dev/null
++++ b/docs/ethereal-offering/tokenomics.md
+@@ -0,0 +1,3 @@
++# Gratitude Tokenomics & Economic Design
+
++
+
++Design Principles: non-speculative utility, service-anchored issuance, time-weighted participation (inspired by TeraHash), treasury reserves for sabbath and care.
+
+diff --git a/docs/ethereal-offering/spiritual_foundation.md b/docs/ethereal-offering/spiritual_foundation.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/spiritual_foundation.md
+--- /dev/null
++++ b/docs/ethereal-offering/spiritual_foundation.md
+@@ -0,0 +1,3 @@
++# Spiritual Foundation & Scriptural Weave
+
++
+
++This project's core is faith: Christ-centered nonduality, sacrifice as service, mercy as governance.
+
+diff --git a/docs/ethereal-offering/manifestations_poetry.md b/docs/ethereal-offering/manifestations_poetry.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/manifestations_poetry.md
+--- /dev/null
++++ b/docs/ethereal-offering/manifestations_poetry.md
+@@ -0,0 +1,3 @@
++# Manifestations & Poetic Entries
+
++
+
++A place for prayers, poems, and devotional reflections.
+
+diff --git a/docs/ethereal-offering/appendices.md b/docs/ethereal-offering/appendices.md
+new file mode 100644
+--- /dev/null
++++ b/docs/ethereal-offering/appendices.md
+--- /dev/null
++++ b/docs/ethereal-offering/appendices.md
+@@ -0,0 +1,3 @@
++# Appendices, References & Augment Prompt
+
++
+
++References: A Course in Miracles, Samurai Escape Trainer summary, TeraHash concept notes, Substack essays.
+
+diff --git a/sidebars-ethereal-offering.json b/sidebars-ethereal-offering.json
+new file mode 100644
+--- /dev/null
++++ b/sidebars-ethereal-offering.json
+--- /dev/null
++++ b/sidebars-ethereal-offering.json
+@@ -0,0 +1,21 @@
++{
+
++  "docs": [
+
++    {
+
++      "type": "category",
+
++      "label": "Ethereal Offering",
+
++      "collapsed": false,
+
++      "items": [
+
++        "ethereal-offering/introduction",
+
++        "ethereal-offering/fatherhood_and_fellowship",
+
++        "ethereal-offering/living_sabbath_protocol",
+
++        "ethereal-offering/technical_architecture",
+
++        "ethereal-offering/roadmap",
+
++        "ethereal-offering/ecosystem",
+
++        "ethereal-offering/tokenomics",
+
++        "ethereal-offering/spiritual_foundation",
+
++        "ethereal-offering/manifestations_poetry",
+
++        "ethereal-offering/appendices"
+
++      ]
+
++    }
+
++  ]
+
++}
