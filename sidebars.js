@@ -41,6 +41,8 @@ const sidebars = {
         'tokenomics/psilo-token',
         'tokenomics/mdao-token',
         'tokenomics/etho-token',
+        'tokenomics/psd-stablecoin',
+        'tokenomics/dm-token',
       ],
     },
     {
@@ -55,6 +57,7 @@ const sidebars = {
       label: 'NFT Ecosystem',
       items: [
         'nfts/overview',
+        'nfts/mushroom-breeding',
       ],
     },
     {
