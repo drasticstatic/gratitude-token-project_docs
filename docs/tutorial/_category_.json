@@ -1,0 +1,11 @@
+{
+  "label": "dApp Tutorial",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Ethereal Offering dApp Tutorial",
+    "description": "Learn how to use the Ethereal Offering decentralized application step-by-step.",
+    "keywords": ["tutorial", "dapp", "ethereum", "web3"]
+  }
+}
+

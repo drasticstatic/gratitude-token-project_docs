@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Ethereal Offering',
+  tagline: 'Sacred Blockchain for Spiritual Sovereignty',
+  favicon: 'img/psanctuary-icon.webp',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -49,30 +49,62 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // Disable default blog
         theme: {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'community-updates',
+        routeBasePath: 'community',
+        path: './community',
+        blogTitle: 'Community Updates',
+        blogDescription: 'Latest news, announcements, and updates from the Ethereal Offering community',
+        blogSidebarTitle: 'Recent Updates',
+        blogSidebarCount: 10,
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Ethereal Offering Community Updates',
+          description: 'Stay connected with the latest from Psanctuary Church and Ethereal Offering',
+          xslt: true,
+        },
+        authorsMapPath: 'authors.yml',
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'learn-the-code',
+        routeBasePath: 'learn',
+        path: './learn',
+        blogTitle: 'Learn the Code',
+        blogDescription: 'Technical tutorials, development guides, and code deep-dives for building on Ethereal Offering',
+        blogSidebarTitle: 'Tutorials',
+        blogSidebarCount: 15,
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Ethereal Offering - Learn the Code',
+          description: 'Master Web3 development with Ethereal Offering tutorials',
+          xslt: true,
+        },
+        authorsMapPath: 'authors.yml',
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
     ],
   ],
 
@@ -85,10 +117,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Ethereal Offering',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Psanctuary Logo',
+          src: 'img/psanctuary-icon.webp',
         },
         items: [
           {
@@ -97,10 +129,35 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'docSidebar',
+            sidebarId: 'docs',
+            position: 'left',
+            label: 'Read Docs',
+          },
+          {
+            to: '/docs/whitepaper/introduction',
+            label: 'Whitepaper',
+            position: 'left',
+          },
+          {
+            to: '/community',
+            label: 'Community',
+            position: 'left',
+          },
+          {
+            to: '/learn',
+            label: 'Learn the Code',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/drasticstatic/gratitude-token-project_docs',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/psanctuary',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -109,11 +166,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/getting-started/overview',
+              },
+              {
+                label: 'Whitepaper',
+                to: '/docs/whitepaper/introduction',
+              },
+              {
+                label: 'Tokenomics',
+                to: '/docs/tokenomics/overview',
+              },
+              {
+                label: 'DAO Governance',
+                to: '/docs/governance/overview',
               },
             ],
           },
@@ -121,34 +190,55 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/psanctuary',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'X / Twitter',
+                href: 'https://x.com/psanctuary',
+              },
+              {
+                label: 'Community Updates',
+                to: '/community',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Developers',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Learn the Code',
+                to: '/learn',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/drasticstatic/gratitude-token-project',
+              },
+              {
+                label: 'Documentation Repo',
+                href: 'https://github.com/drasticstatic/gratitude-token-project_docs',
+              },
+            ],
+          },
+          {
+            title: 'Psanctuary Church',
+            items: [
+              {
+                label: 'About Us',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Psychedelics in Recovery',
+                href: 'https://psanctuary.org',
+              },
+              {
+                label: 'Sacred Altar',
+                to: '/docs/sacred-altar/overview',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Psanctuary Church. Built with love and sacred intention. 🍄✨`,
       },
       prism: {
         theme: prismThemes.github,
