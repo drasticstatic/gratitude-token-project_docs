@@ -58,6 +58,7 @@ const sidebars = {
       items: [
         'nfts/overview',
         'nfts/mushroom-breeding',
+        'nfts/pob-nfts',
       ],
     },
     {
@@ -72,6 +73,7 @@ const sidebars = {
       label: 'Technical Architecture',
       items: [
         'architecture/overview',
+        'architecture/ton-layer',
       ],
     },
     'faq',
