@@ -54,6 +54,8 @@ const config = {
             '**/CHATGPT_ethereal_offering_docusaurus_packages/**',
             '**/Docusaurus-SetupGuide.md',
             '**/GitBook-Outline.md',
+            '**/Tokenomics Research/**',
+            '**/_*.md', // Exclude files starting with underscore
           ],
         },
         blog: false, // Disable default blog
