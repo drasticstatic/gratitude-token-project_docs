@@ -72,3 +72,8 @@ psychedelics:
   label: Psychedelics
   permalink: /psychedelics
   description: Psychedelic medicine and integration
+
+spirituality:
+  label: Spirituality
+  permalink: /spirituality
+  description: Spiritual practices and sacred technology

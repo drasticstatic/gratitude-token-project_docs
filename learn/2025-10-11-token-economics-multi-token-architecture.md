@@ -1,6 +1,6 @@
 ---
 slug: token-economics-multi-token-architecture
-title: Token Economics: The Multi-Token Architecture of Ethereal Offering
+title: "Token Economics: The Multi-Token Architecture of Ethereal Offering"
 authors: [christopher]
 tags: [tokenomics, blockchain, governance, technical]
 ---

@@ -76,6 +76,15 @@ const sidebars = {
         'architecture/ton-layer',
       ],
     },
+    {
+      type: 'category',
+      label: 'For Developers',
+      items: [
+        'developers/smart-contracts',
+      ],
+    },
+    'security',
+    'roadmap',
     'faq',
     'glossary',
   ],
