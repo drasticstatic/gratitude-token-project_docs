@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-deployTest/deployTest_README" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">🚀 deployTest.sh - Test Deployment Script | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/deployTest/deployTest_README"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="🚀 deployTest.sh - Test Deployment Script | Ethereal Offering"><meta data-rh="true" name="description" content="📋 Overview"><meta data-rh="true" property="og:description" content="📋 Overview"><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/deployTest/deployTest_README"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/deployTest/deployTest_README" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/deployTest/deployTest_README" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.d940b711.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.5a234631.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.13894844.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Getting Started</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/fork-the-code/overview">Fork the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>🚀 deployTest.sh - Test Deployment Script</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-overview">📋 Overview<a href="#-overview" class="hash-link" aria-label="Direct link to 📋 Overview" title="Direct link to 📋 Overview" translate="no">​</a></h2>
+<p>This script automates the process of creating public test deployment snapshots from your private development repository. It:</p>
+<ol>
+<li>✅ Copies your private repo to a new timestamped folder</li>
+<li>✅ Excludes sensitive files (<code>.env</code>, <code>secrets/</code>, etc.)</li>
+<li>✅ <strong>Builds the React app</strong> with proper dependency handling</li>
+<li>✅ <strong>Deploys only the production build</strong> (not source code!)</li>
+<li>✅ Creates a new public GitHub repository</li>
+<li>✅ Pushes the optimized build to GitHub</li>
+<li>✅ Enables GitHub Pages automatically (if <code>gh</code> CLI available)</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-new-in-v20">⚡ What&#x27;s New in v2.0<a href="#-whats-new-in-v20" class="hash-link" aria-label="Direct link to ⚡ What&#x27;s New in v2.0" title="Direct link to ⚡ What&#x27;s New in v2.0" translate="no">​</a></h2>
+<p><strong>Fixed: GitHub Pages 404 Error</strong></p>
+<ul>
+<li>Now automatically builds React app before deployment</li>
+<li>Deploys only the <code>build/</code> folder (production-ready files)</li>
+<li>Uses <code>--legacy-peer-deps</code> to handle dependency conflicts</li>
+<li>Checks for existing repositories before creating new ones</li>
+</ul>
+<p><strong>Before:</strong> Deployed source code → 404 error
+<strong>After:</strong> Deploys built app → Working site in 2 minutes! ✨</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-goal">🎯 Goal<a href="#-goal" class="hash-link" aria-label="Direct link to 🎯 Goal" title="Direct link to 🎯 Goal" translate="no">​</a></h2>
+<p>Create public test deployments like:</p>
+<ul>
+<li><code>gratitude-token-project_testPublish_2025-01-10</code></li>
+<li><code>gratitude-token-project_testPublish_2025-01-15</code></li>
+<li><code>gratitude-token-project_testPublish_2025-02-01</code></li>
+</ul>
+<p>Each deployment is:</p>
+<ul>
+<li><strong>Timestamped</strong> - Easy to track versions</li>
+<li><strong>Public</strong> - Accessible for user testing</li>
+<li><strong>Clean</strong> - No sensitive data</li>
+<li><strong>Hosted</strong> - Live on GitHub Pages</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-prerequisites">⚙️ Prerequisites<a href="#️-prerequisites" class="hash-link" aria-label="Direct link to ⚙️ Prerequisites" title="Direct link to ⚙️ Prerequisites" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="required">Required<a href="#required" class="hash-link" aria-label="Direct link to Required" title="Direct link to Required" translate="no">​</a></h3>
+<ul>
+<li>✅ <strong>Git</strong> - Installed and configured</li>
+<li>✅ <strong>GitHub Account</strong> - With push access</li>
+<li>✅ <strong>Node.js &amp; npm</strong> - If building React app</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="recommended">Recommended<a href="#recommended" class="hash-link" aria-label="Direct link to Recommended" title="Direct link to Recommended" translate="no">​</a></h3>
+<ul>
+<li>⭐ <strong>GitHub CLI (<code>gh</code>)</strong> - For automatic repo creation and Pages setup<!-- -->
+<ul>
+<li>Install: <code>brew install gh</code></li>
+<li>Authenticate: <code>gh auth login</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="without-github-cli">Without GitHub CLI<a href="#without-github-cli" class="hash-link" aria-label="Direct link to Without GitHub CLI" title="Direct link to Without GitHub CLI" translate="no">​</a></h3>
+<ul>
+<li>You&#x27;ll need to enter your GitHub password when prompted</li>
+<li>Manual GitHub Pages setup required (script provides instructions)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-usage">🚀 Usage<a href="#-usage" class="hash-link" aria-label="Direct link to 🚀 Usage" title="Direct link to 🚀 Usage" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-usage-auto-date">Basic Usage (Auto Date)<a href="#basic-usage-auto-date" class="hash-link" aria-label="Direct link to Basic Usage (Auto Date)" title="Direct link to Basic Usage (Auto Date)" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh</span><br></span></code></pre></div></div>
+<p>Creates: <code>gratitude-token-project_testPublish_2025-01-10</code> (today&#x27;s date)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="custom-date">Custom Date<a href="#custom-date" class="hash-link" aria-label="Direct link to Custom Date" title="Direct link to Custom Date" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh 2025-02-15</span><br></span></code></pre></div></div>
+<p>Creates: <code>gratitude-token-project_testPublish_2025-02-15</code></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="with-build-step">With Build Step<a href="#with-build-step" class="hash-link" aria-label="Direct link to With Build Step" title="Direct link to With Build Step" translate="no">​</a></h3>
+<p>Edit script line 20:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">BUILD_BEFORE_DEPLOY=true</span><br></span></code></pre></div></div>
+<p>Then run:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-what-gets-excluded">📁 What Gets Excluded<a href="#-what-gets-excluded" class="hash-link" aria-label="Direct link to 📁 What Gets Excluded" title="Direct link to 📁 What Gets Excluded" translate="no">​</a></h2>
+<p>The script automatically excludes:</p>
+<ul>
+<li><code>.git</code> - Git history</li>
+<li><code>node_modules</code> - Dependencies (too large)</li>
+<li><code>.env</code> - Environment variables</li>
+<li><code>private_config/</code> - Private configuration</li>
+<li><code>secrets/</code> - Secret keys</li>
+<li><code>dist/</code> - Build artifacts</li>
+<li><code>build/</code> - Build artifacts</li>
+<li><code>.DS_Store</code> - macOS system files</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-configuration">🔧 Configuration<a href="#-configuration" class="hash-link" aria-label="Direct link to 🔧 Configuration" title="Direct link to 🔧 Configuration" translate="no">​</a></h2>
+<p>Edit these variables in the script:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">REPO_NAME=&quot;gratitude-token-project&quot;        # Your private repo name</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">GITHUB_USER=&quot;drasticstatic&quot;                # Your GitHub username</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">BUILD_BEFORE_DEPLOY=false                  # Set to true to build before deploy</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-step-by-step-process">📊 Step-by-Step Process<a href="#-step-by-step-process" class="hash-link" aria-label="Direct link to 📊 Step-by-Step Process" title="Direct link to 📊 Step-by-Step Process" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-determine-date">Step 1: Determine Date<a href="#step-1-determine-date" class="hash-link" aria-label="Direct link to Step 1: Determine Date" title="Direct link to Step 1: Determine Date" translate="no">​</a></h3>
+<ul>
+<li>Uses provided date or defaults to today</li>
+<li>Creates folder name: <code>gratitude-token-project_testPublish_YYYY-MM-DD</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-navigate-to-parent-directory">Step 2: Navigate to Parent Directory<a href="#step-2-navigate-to-parent-directory" class="hash-link" aria-label="Direct link to Step 2: Navigate to Parent Directory" title="Direct link to Step 2: Navigate to Parent Directory" translate="no">​</a></h3>
+<ul>
+<li>Finds parent directory of current project</li>
+<li>Validates project folder exists</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-clean-old-folder">Step 3: Clean Old Folder<a href="#step-3-clean-old-folder" class="hash-link" aria-label="Direct link to Step 3: Clean Old Folder" title="Direct link to Step 3: Clean Old Folder" translate="no">​</a></h3>
+<ul>
+<li>Removes old folder with same date if exists</li>
+<li>Prevents conflicts</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-copy-files">Step 4: Copy Files<a href="#step-4-copy-files" class="hash-link" aria-label="Direct link to Step 4: Copy Files" title="Direct link to Step 4: Copy Files" translate="no">​</a></h3>
+<ul>
+<li>Uses <code>rsync</code> to copy files</li>
+<li>Excludes sensitive files automatically</li>
+<li>Preserves file permissions</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-build-app-optional">Step 5: Build App (Optional)<a href="#step-5-build-app-optional" class="hash-link" aria-label="Direct link to Step 5: Build App (Optional)" title="Direct link to Step 5: Build App (Optional)" translate="no">​</a></h3>
+<ul>
+<li>Runs <code>npm install</code> and <code>npm run build</code></li>
+<li>Can keep only build output or all files</li>
+<li>Configurable via <code>BUILD_BEFORE_DEPLOY</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-6-initialize-git">Step 6: Initialize Git<a href="#step-6-initialize-git" class="hash-link" aria-label="Direct link to Step 6: Initialize Git" title="Direct link to Step 6: Initialize Git" translate="no">​</a></h3>
+<ul>
+<li>Creates new git repository</li>
+<li>Commits all files</li>
+<li>Sets default branch to <code>main</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-7-create-github-repo">Step 7: Create GitHub Repo<a href="#step-7-create-github-repo" class="hash-link" aria-label="Direct link to Step 7: Create GitHub Repo" title="Direct link to Step 7: Create GitHub Repo" translate="no">​</a></h3>
+<p><strong>With GitHub CLI (<code>gh</code>):</strong></p>
+<ul>
+<li>Creates repo automatically</li>
+<li>Pushes code in one command</li>
+<li>No password prompt needed</li>
+</ul>
+<p><strong>Without GitHub CLI:</strong></p>
+<ul>
+<li>Uses <code>curl</code> to call GitHub API</li>
+<li>Prompts for GitHub password</li>
+<li>Pushes code separately</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-8-enable-github-pages">Step 8: Enable GitHub Pages<a href="#step-8-enable-github-pages" class="hash-link" aria-label="Direct link to Step 8: Enable GitHub Pages" title="Direct link to Step 8: Enable GitHub Pages" translate="no">​</a></h3>
+<p><strong>With GitHub CLI:</strong></p>
+<ul>
+<li>Enables Pages automatically</li>
+<li>Sets source to <code>main</code> branch, root folder</li>
+<li>Disables issues (optional)</li>
+</ul>
+<p><strong>Without GitHub CLI:</strong></p>
+<ul>
+<li>Provides manual instructions</li>
+<li>You must enable Pages in repo settings</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-9-confirmation">Step 9: Confirmation<a href="#step-9-confirmation" class="hash-link" aria-label="Direct link to Step 9: Confirmation" title="Direct link to Step 9: Confirmation" translate="no">​</a></h3>
+<ul>
+<li>Displays local folder path</li>
+<li>Shows GitHub repo URL</li>
+<li>Shows expected GitHub Pages URL</li>
+<li>Provides cleanup command</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-github-pages-setup">🌐 GitHub Pages Setup<a href="#-github-pages-setup" class="hash-link" aria-label="Direct link to 🌐 GitHub Pages Setup" title="Direct link to 🌐 GitHub Pages Setup" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="automatic-with-gh-cli">Automatic (with <code>gh</code> CLI)<a href="#automatic-with-gh-cli" class="hash-link" aria-label="Direct link to automatic-with-gh-cli" title="Direct link to automatic-with-gh-cli" translate="no">​</a></h3>
+<p>Pages are enabled automatically. Wait 1-2 minutes, then visit:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">https://drasticstatic.github.io/gratitude-token-project_testPublish_2025-01-10/</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manual-without-gh-cli">Manual (without <code>gh</code> CLI)<a href="#manual-without-gh-cli" class="hash-link" aria-label="Direct link to manual-without-gh-cli" title="Direct link to manual-without-gh-cli" translate="no">​</a></h3>
+<ol>
+<li>Visit: <code>https://github.com/drasticstatic/gratitude-token-project_testPublish_2025-01-10</code></li>
+<li>Go to <strong>Settings</strong> → <strong>Pages</strong></li>
+<li>Set <strong>Branch:</strong> <code>main</code></li>
+<li>Set <strong>Folder:</strong> <code>/(root)</code></li>
+<li>Click <strong>Save</strong></li>
+<li>Wait 1-2 minutes for deployment</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-authentication">🔐 Authentication<a href="#-authentication" class="hash-link" aria-label="Direct link to 🔐 Authentication" title="Direct link to 🔐 Authentication" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="option-1-github-cli-recommended">Option 1: GitHub CLI (Recommended)<a href="#option-1-github-cli-recommended" class="hash-link" aria-label="Direct link to Option 1: GitHub CLI (Recommended)" title="Direct link to Option 1: GitHub CLI (Recommended)" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">gh auth login</span><br></span></code></pre></div></div>
+<p>Follow prompts to authenticate. No password needed for future runs.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="option-2-personal-access-token">Option 2: Personal Access Token<a href="#option-2-personal-access-token" class="hash-link" aria-label="Direct link to Option 2: Personal Access Token" title="Direct link to Option 2: Personal Access Token" translate="no">​</a></h3>
+<ol>
+<li>Create token: <a href="https://github.com/settings/tokens" target="_blank" rel="noopener noreferrer">https://github.com/settings/tokens</a></li>
+<li>Select scopes: <code>repo</code>, <code>delete_repo</code></li>
+<li>When prompted for password, paste token instead</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="option-3-ssh-keys">Option 3: SSH Keys<a href="#option-3-ssh-keys" class="hash-link" aria-label="Direct link to Option 3: SSH Keys" title="Direct link to Option 3: SSH Keys" translate="no">​</a></h3>
+<p>Edit script line 73 to use SSH:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">REMOTE_URL=&quot;git@github.com:${GITHUB_USER}/${PUBLISH_REPO}.git&quot;</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-cleanup">🧹 Cleanup<a href="#-cleanup" class="hash-link" aria-label="Direct link to 🧹 Cleanup" title="Direct link to 🧹 Cleanup" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="remove-local-folder">Remove Local Folder<a href="#remove-local-folder" class="hash-link" aria-label="Direct link to Remove Local Folder" title="Direct link to Remove Local Folder" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">rm -rf ~/Documents/projects/gratitude-token-project_testPublish_2025-01-10</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="delete-github-repo">Delete GitHub Repo<a href="#delete-github-repo" class="hash-link" aria-label="Direct link to Delete GitHub Repo" title="Direct link to Delete GitHub Repo" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">gh repo delete drasticstatic/gratitude-token-project_testPublish_2025-01-10</span><br></span></code></pre></div></div>
+<p>Or manually:</p>
+<ol>
+<li>Visit repo on GitHub</li>
+<li>Settings → Danger Zone → Delete this repository</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-troubleshooting">⚠️ Troubleshooting<a href="#️-troubleshooting" class="hash-link" aria-label="Direct link to ⚠️ Troubleshooting" title="Direct link to ⚠️ Troubleshooting" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-folder-not-found">&quot;Project folder not found&quot;<a href="#project-folder-not-found" class="hash-link" aria-label="Direct link to &quot;Project folder not found&quot;" title="Direct link to &quot;Project folder not found&quot;" translate="no">​</a></h3>
+<ul>
+<li>Make sure you&#x27;re running script from inside <code>gratitude-token-project/</code></li>
+<li>Or edit <code>REPO_NAME</code> variable to match your folder name</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="permission-denied-publickey">&quot;Permission denied (publickey)&quot;<a href="#permission-denied-publickey" class="hash-link" aria-label="Direct link to &quot;Permission denied (publickey)&quot;" title="Direct link to &quot;Permission denied (publickey)&quot;" translate="no">​</a></h3>
+<ul>
+<li>Set up SSH keys: <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh" target="_blank" rel="noopener noreferrer">https://docs.github.com/en/authentication/connecting-to-github-with-ssh</a></li>
+<li>Or use HTTPS with personal access token</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="repository-already-exists">&quot;Repository already exists&quot;<a href="#repository-already-exists" class="hash-link" aria-label="Direct link to &quot;Repository already exists&quot;" title="Direct link to &quot;Repository already exists&quot;" translate="no">​</a></h3>
+<ul>
+<li>Delete old repo on GitHub first</li>
+<li>Or use different date</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="github-pages-not-enabled">&quot;GitHub Pages not enabled&quot;<a href="#github-pages-not-enabled" class="hash-link" aria-label="Direct link to &quot;GitHub Pages not enabled&quot;" title="Direct link to &quot;GitHub Pages not enabled&quot;" translate="no">​</a></h3>
+<ul>
+<li>Install GitHub CLI: <code>brew install gh</code></li>
+<li>Or enable manually in repo settings</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="build-fails">Build fails<a href="#build-fails" class="hash-link" aria-label="Direct link to Build fails" title="Direct link to Build fails" translate="no">​</a></h3>
+<ul>
+<li>Check <code>package.json</code> has <code>build</code> script</li>
+<li>Ensure dependencies are installed</li>
+<li>Check for build errors in output</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-best-practices">📝 Best Practices<a href="#-best-practices" class="hash-link" aria-label="Direct link to 📝 Best Practices" title="Direct link to 📝 Best Practices" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="before-each-deployment">Before Each Deployment<a href="#before-each-deployment" class="hash-link" aria-label="Direct link to Before Each Deployment" title="Direct link to Before Each Deployment" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test locally: <code>npm run build</code></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Review excluded files</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Check for sensitive data</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update version/changelog</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="after-each-deployment">After Each Deployment<a href="#after-each-deployment" class="hash-link" aria-label="Direct link to After Each Deployment" title="Direct link to After Each Deployment" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Test live site</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Share URL with testers</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Document feedback</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Update docs site with new test link</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-checklist">Security Checklist<a href="#security-checklist" class="hash-link" aria-label="Direct link to Security Checklist" title="Direct link to Security Checklist" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No <code>.env</code> files</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No private keys</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No API secrets</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No database credentials</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No internal URLs</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-integration-with-docs-site">🔗 Integration with Docs Site<a href="#-integration-with-docs-site" class="hash-link" aria-label="Direct link to 🔗 Integration with Docs Site" title="Direct link to 🔗 Integration with Docs Site" translate="no">​</a></h2>
+<p>Update your Docusaurus docs to link to latest test:</p>
+<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token url" style="color:#36acaa">[</span><span class="token url content" style="color:#36acaa">👉 Test the current prototype</span><span class="token url" style="color:#36acaa">](</span><span class="token url" style="color:#36acaa">https://drasticstatic.github.io/gratitude-token-project_testPublish_2025-01-10/</span><span class="token url" style="color:#36acaa">)</span><br></span></code></pre></div></div>
+<p>Or create a redirect:</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// In docusaurus.config.js</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">module</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">exports</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token literal-property property" style="color:#36acaa">plugins</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token string" style="color:#e3116c">&#x27;@docusaurus/plugin-client-redirects&#x27;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token literal-property property" style="color:#36acaa">redirects</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token keyword module" style="color:#00009f">from</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&#x27;/test&#x27;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token literal-property property" style="color:#36acaa">to</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&#x27;https://drasticstatic.github.io/gratitude-token-project_testPublish_2025-01-10/&#x27;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-example-workflow">📊 Example Workflow<a href="#-example-workflow" class="hash-link" aria-label="Direct link to 📊 Example Workflow" title="Direct link to 📊 Example Workflow" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="weekly-test-releases">Weekly Test Releases<a href="#weekly-test-releases" class="hash-link" aria-label="Direct link to Weekly Test Releases" title="Direct link to Weekly Test Releases" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Monday - Deploy alpha</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh 2025-01-13-alpha</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Wednesday - Deploy beta</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh 2025-01-15-beta</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Friday - Deploy RC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh 2025-01-17-rc</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="version-tagging">Version Tagging<a href="#version-tagging" class="hash-link" aria-label="Direct link to Version Tagging" title="Direct link to Version Tagging" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Add version to commit message</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m &quot;Public test release ${DATE} - v0.1.0-alpha&quot;</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-next-steps">🎯 Next Steps<a href="#-next-steps" class="hash-link" aria-label="Direct link to 🎯 Next Steps" title="Direct link to 🎯 Next Steps" translate="no">​</a></h2>
+<ol>
+<li>
+<p><strong>Install GitHub CLI</strong> (if not already):</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">brew install gh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">gh auth login</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p><strong>Make script executable</strong>:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">chmod +x deployTest.sh</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p><strong>Test run</strong>:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./deployTest.sh</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p><strong>Verify deployment</strong>:</p>
+<ul>
+<li>Check GitHub repo created</li>
+<li>Wait 2 minutes</li>
+<li>Visit GitHub Pages URL</li>
+</ul>
+</li>
+<li>
+<p><strong>Share with testers</strong>:</p>
+<ul>
+<li>Post URL in Discord</li>
+<li>Add to docs site</li>
+<li>Request feedback</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-related-scripts">📚 Related Scripts<a href="#-related-scripts" class="hash-link" aria-label="Direct link to 📚 Related Scripts" title="Direct link to 📚 Related Scripts" translate="no">​</a></h2>
+<ul>
+<li><strong>syncDocs.sh</strong> - Sync documentation from private to public docs repo</li>
+<li><strong>deployProd.sh</strong> - Deploy to production (future)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-support">🆘 Support<a href="#-support" class="hash-link" aria-label="Direct link to 🆘 Support" title="Direct link to 🆘 Support" translate="no">​</a></h2>
+<ul>
+<li><strong>Discord:</strong> <a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer">https://discord.gg/psanctuary</a></li>
+<li><strong>GitHub Issues:</strong> <a href="https://github.com/drasticstatic/gratitude-token-project/issues" target="_blank" rel="noopener noreferrer">https://github.com/drasticstatic/gratitude-token-project/issues</a></li>
+<li><strong>Documentation:</strong> See <code>whitepaper/Docusaurus | SetupGuide.md</code></li>
+</ul>
+<hr>
+<p><strong>Ready to deploy! 🚀</strong></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/deployTest/deployTest_README.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-overview" class="table-of-contents__link toc-highlight">📋 Overview</a></li><li><a href="#-whats-new-in-v20" class="table-of-contents__link toc-highlight">⚡ What&#39;s New in v2.0</a></li><li><a href="#-goal" class="table-of-contents__link toc-highlight">🎯 Goal</a></li><li><a href="#️-prerequisites" class="table-of-contents__link toc-highlight">⚙️ Prerequisites</a><ul><li><a href="#required" class="table-of-contents__link toc-highlight">Required</a></li><li><a href="#recommended" class="table-of-contents__link toc-highlight">Recommended</a></li><li><a href="#without-github-cli" class="table-of-contents__link toc-highlight">Without GitHub CLI</a></li></ul></li><li><a href="#-usage" class="table-of-contents__link toc-highlight">🚀 Usage</a><ul><li><a href="#basic-usage-auto-date" class="table-of-contents__link toc-highlight">Basic Usage (Auto Date)</a></li><li><a href="#custom-date" class="table-of-contents__link toc-highlight">Custom Date</a></li><li><a href="#with-build-step" class="table-of-contents__link toc-highlight">With Build Step</a></li></ul></li><li><a href="#-what-gets-excluded" class="table-of-contents__link toc-highlight">📁 What Gets Excluded</a></li><li><a href="#-configuration" class="table-of-contents__link toc-highlight">🔧 Configuration</a></li><li><a href="#-step-by-step-process" class="table-of-contents__link toc-highlight">📊 Step-by-Step Process</a><ul><li><a href="#step-1-determine-date" class="table-of-contents__link toc-highlight">Step 1: Determine Date</a></li><li><a href="#step-2-navigate-to-parent-directory" class="table-of-contents__link toc-highlight">Step 2: Navigate to Parent Directory</a></li><li><a href="#step-3-clean-old-folder" class="table-of-contents__link toc-highlight">Step 3: Clean Old Folder</a></li><li><a href="#step-4-copy-files" class="table-of-contents__link toc-highlight">Step 4: Copy Files</a></li><li><a href="#step-5-build-app-optional" class="table-of-contents__link toc-highlight">Step 5: Build App (Optional)</a></li><li><a href="#step-6-initialize-git" class="table-of-contents__link toc-highlight">Step 6: Initialize Git</a></li><li><a href="#step-7-create-github-repo" class="table-of-contents__link toc-highlight">Step 7: Create GitHub Repo</a></li><li><a href="#step-8-enable-github-pages" class="table-of-contents__link toc-highlight">Step 8: Enable GitHub Pages</a></li><li><a href="#step-9-confirmation" class="table-of-contents__link toc-highlight">Step 9: Confirmation</a></li></ul></li><li><a href="#-github-pages-setup" class="table-of-contents__link toc-highlight">🌐 GitHub Pages Setup</a><ul><li><a href="#automatic-with-gh-cli" class="table-of-contents__link toc-highlight">Automatic (with <code>gh</code> CLI)</a></li><li><a href="#manual-without-gh-cli" class="table-of-contents__link toc-highlight">Manual (without <code>gh</code> CLI)</a></li></ul></li><li><a href="#-authentication" class="table-of-contents__link toc-highlight">🔐 Authentication</a><ul><li><a href="#option-1-github-cli-recommended" class="table-of-contents__link toc-highlight">Option 1: GitHub CLI (Recommended)</a></li><li><a href="#option-2-personal-access-token" class="table-of-contents__link toc-highlight">Option 2: Personal Access Token</a></li><li><a href="#option-3-ssh-keys" class="table-of-contents__link toc-highlight">Option 3: SSH Keys</a></li></ul></li><li><a href="#-cleanup" class="table-of-contents__link toc-highlight">🧹 Cleanup</a><ul><li><a href="#remove-local-folder" class="table-of-contents__link toc-highlight">Remove Local Folder</a></li><li><a href="#delete-github-repo" class="table-of-contents__link toc-highlight">Delete GitHub Repo</a></li></ul></li><li><a href="#️-troubleshooting" class="table-of-contents__link toc-highlight">⚠️ Troubleshooting</a><ul><li><a href="#project-folder-not-found" class="table-of-contents__link toc-highlight">&quot;Project folder not found&quot;</a></li><li><a href="#permission-denied-publickey" class="table-of-contents__link toc-highlight">&quot;Permission denied (publickey)&quot;</a></li><li><a href="#repository-already-exists" class="table-of-contents__link toc-highlight">&quot;Repository already exists&quot;</a></li><li><a href="#github-pages-not-enabled" class="table-of-contents__link toc-highlight">&quot;GitHub Pages not enabled&quot;</a></li><li><a href="#build-fails" class="table-of-contents__link toc-highlight">Build fails</a></li></ul></li><li><a href="#-best-practices" class="table-of-contents__link toc-highlight">📝 Best Practices</a><ul><li><a href="#before-each-deployment" class="table-of-contents__link toc-highlight">Before Each Deployment</a></li><li><a href="#after-each-deployment" class="table-of-contents__link toc-highlight">After Each Deployment</a></li><li><a href="#security-checklist" class="table-of-contents__link toc-highlight">Security Checklist</a></li></ul></li><li><a href="#-integration-with-docs-site" class="table-of-contents__link toc-highlight">🔗 Integration with Docs Site</a></li><li><a href="#-example-workflow" class="table-of-contents__link toc-highlight">📊 Example Workflow</a><ul><li><a href="#weekly-test-releases" class="table-of-contents__link toc-highlight">Weekly Test Releases</a></li><li><a href="#version-tagging" class="table-of-contents__link toc-highlight">Version Tagging</a></li></ul></li><li><a href="#-next-steps" class="table-of-contents__link toc-highlight">🎯 Next Steps</a></li><li><a href="#-related-scripts" class="table-of-contents__link toc-highlight">📚 Related Scripts</a></li><li><a href="#-support" class="table-of-contents__link toc-highlight">🆘 Support</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>
