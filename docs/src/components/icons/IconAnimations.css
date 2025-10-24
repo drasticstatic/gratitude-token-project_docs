@@ -1,0 +1,207 @@
+/* Icon Animations for Ethereal Offering */
+
+/* Breathing animation */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.breathing {
+  animation: breathe 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Heartbeat animation */
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Sparkle animation */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+}
+
+.sparkle {
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
+/* Wavy line animation */
+@keyframes wave {
+  0%, 100% {
+    stroke-dashoffset: 0;
+    opacity: 0.8;
+  }
+  50% {
+    stroke-dashoffset: 4;
+    opacity: 1;
+  }
+}
+
+.wavy-line {
+  animation: wave 2s linear infinite;
+}
+
+/* Ink trail animation */
+@keyframes ink-flow {
+  0% {
+    stroke-dasharray: 0, 100;
+    opacity: 0;
+  }
+  50% {
+    stroke-dasharray: 50, 100;
+    opacity: 1;
+  }
+  100% {
+    stroke-dasharray: 100, 100;
+    opacity: 0.5;
+  }
+}
+
+.ink-trail {
+  animation: ink-flow 3s ease-in-out infinite;
+}
+
+/* Light ray animation */
+@keyframes light-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    stroke-width: 1;
+  }
+  50% {
+    opacity: 0.8;
+    stroke-width: 2;
+  }
+}
+
+.light-ray {
+  animation: light-pulse 2s ease-in-out infinite;
+}
+
+/* Window glow animation */
+@keyframes window-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px rgba(251, 191, 36, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.9));
+  }
+}
+
+.window-glow {
+  animation: window-glow 2s ease-in-out infinite;
+}
+
+/* Sparkle border animation */
+@keyframes sparkle-border {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px rgba(124, 58, 237, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 6px rgba(124, 58, 237, 0.9));
+  }
+}
+
+.sparkle-border {
+  animation: sparkle-border 3s ease-in-out infinite;
+}
+
+/* Rotation animation for favicon */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  animation: rotate 3s linear infinite;
+  transform-origin: center;
+}
+
+/* Combined breathing and rotation for favicon */
+@keyframes breathe-rotate {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.05) rotate(90deg);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1.05) rotate(270deg);
+    opacity: 0.95;
+  }
+}
+
+.breathe-rotate {
+  animation: breathe-rotate 6s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Hover effects for icons */
+.whitepaper-scroll-icon:hover,
+.spiritual-foundation-icon:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px rgba(124, 58, 237, 0.6));
+  transition: filter 0.3s ease;
+}
+
+.whitepaper-scroll-icon:hover .pen,
+.spiritual-foundation-icon:hover .cross {
+  animation: heartbeat 0.5s ease-in-out;
+}
+
+/* Divine light special effect */
+.divine-light {
+  filter: drop-shadow(0 0 4px rgba(251, 191, 36, 0.4));
+}
+
+/* Scroll body special effect */
+.scroll-body {
+  filter: drop-shadow(0 0 3px rgba(124, 58, 237, 0.3));
+}
+
+/* Church body special effect */
+.church-body {
+  filter: drop-shadow(0 0 3px rgba(124, 58, 237, 0.3));
+}
+

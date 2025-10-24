@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Lost in the Mycelial Network | Ethereal Offering</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #1a0b2e 0%, #2d1b4e 50%, #3d2663 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Psanctuary watermark background */
+    body::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      height: 80%;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><text x="50%" y="50%" font-family="Arial" font-size="40" font-weight="bold" fill="rgba(124, 58, 237, 0.08)" text-anchor="middle" dominant-baseline="middle">PSANCTUARY</text></svg>');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      opacity: 0.3;
+      animation: watermarkBreathe 6s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    @keyframes watermarkBreathe {
+      0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
+      50% { transform: translate(-50%, -50%) scale(1.05); opacity: 0.15; }
+    }
+
+    .container {
+      text-align: center;
+      z-index: 10;
+      position: relative;
+      padding: 40px;
+      max-width: 700px;
+    }
+
+    /* Custom 404 SVG */
+    .custom-404 {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      margin: 0 auto 30px;
+      filter: drop-shadow(0 0 30px rgba(236, 72, 153, 0.6));
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: #f472b6;
+      margin-bottom: 25px;
+      font-weight: 700;
+      text-shadow: 0 0 30px rgba(244, 114, 182, 0.8);
+      animation: textPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes textPulse {
+      0%, 100% { text-shadow: 0 0 30px rgba(244, 114, 182, 0.8); }
+      50% { text-shadow: 0 0 50px rgba(236, 72, 153, 1), 0 0 80px rgba(124, 58, 237, 0.6); }
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #d1d5db;
+      margin-bottom: 40px;
+      line-height: 1.8;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 18px 36px;
+      background: linear-gradient(135deg, #7c3aed, #ec4899, #7c3aed);
+      background-size: 200% 200%;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 30px rgba(124, 58, 237, 0.6);
+      animation: heartbeat 2s ease-in-out infinite, gradientShift 4s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .button:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 8px 40px rgba(236, 72, 153, 0.8);
+    }
+
+    /* Trippy mushrooms */
+    .trippy-mushroom {
+      position: absolute;
+      animation: float 8s ease-in-out infinite, colorShift 6s ease-in-out infinite;
+      filter: drop-shadow(0 0 10px currentColor);
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px) rotate(0deg) scale(1);
+      }
+      33% {
+        transform: translateY(-40px) rotate(15deg) scale(1.1);
+      }
+      66% {
+        transform: translateY(-20px) rotate(-10deg) scale(0.95);
+      }
+    }
+
+    @keyframes colorShift {
+      0%, 100% { color: #ec4899; }
+      33% { color: #7c3aed; }
+      66% { color: #22d3ee; }
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      10% {
+        transform: scale(1.08);
+      }
+      20% {
+        transform: scale(1);
+      }
+      30% {
+        transform: scale(1.08);
+      }
+      40% {
+        transform: scale(1);
+      }
+    }
+
+    /* Blockchain cubes */
+    .blockchain-cube {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      animation: cubeFloat 10s ease-in-out infinite, cubeRotate 8s linear infinite;
+      opacity: 0.4;
+    }
+
+    @keyframes cubeFloat {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-50px) translateX(30px); }
+    }
+
+    @keyframes cubeRotate {
+      0% { transform: rotateX(0deg) rotateY(0deg); }
+      100% { transform: rotateX(360deg) rotateY(360deg); }
+    }
+
+    /* Enhanced sparkles */
+    .sparkle {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: radial-gradient(circle, #fbbf24, #ec4899);
+      border-radius: 50%;
+      animation: sparkle-pulse 2s ease-in-out infinite;
+      box-shadow: 0 0 10px currentColor;
+    }
+
+    @keyframes sparkle-pulse {
+      0%, 100% {
+        opacity: 0.4;
+        transform: scale(1) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(2) rotate(180deg);
+      }
+    }
+
+    /* Light rays */
+    .light-ray {
+      position: absolute;
+      width: 2px;
+      height: 100px;
+      background: linear-gradient(to bottom, transparent, rgba(236, 72, 153, 0.6), transparent);
+      animation: rayShine 4s ease-in-out infinite;
+      transform-origin: top;
+    }
+
+    @keyframes rayShine {
+      0%, 100% { opacity: 0.3; transform: scaleY(1); }
+      50% { opacity: 0.8; transform: scaleY(1.5); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Custom 404 SVG -->
+    <svg class="custom-404" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad404" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1">
+            <animate attributeName="stop-color" values="#fbbf24;#ec4899;#22d3ee;#7c3aed;#fbbf24" dur="6s" repeatCount="indefinite"/>
+          </stop>
+          <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1">
+            <animate attributeName="stop-color" values="#ec4899;#22d3ee;#7c3aed;#fbbf24;#ec4899" dur="6s" repeatCount="indefinite"/>
+          </stop>
+          <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1">
+            <animate attributeName="stop-color" values="#22d3ee;#7c3aed;#fbbf24;#ec4899;#22d3ee" dur="6s" repeatCount="indefinite"/>
+          </stop>
+        </linearGradient>
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+          <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+      <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="url(#grad404)" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">
+        404
+        <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+      </text>
+    </svg>
+
+    <h2>Lost in the Mycelial Network</h2>
+    <p>
+      The path you seek has dissolved into the cosmic web.<br>
+      Perhaps it was never meant to be found, or perhaps <br>
+      it's waiting to be discovered in another dimension of the network.
+    </p>
+    <p>
+      Let the mushroom 🍄 unveil the light ✨<br>
+      that's forever shining through the void ⚫️<br>
+      guide you back home 🏡 where all journeys begin 🏁
+    </p>
+    <a href="/" class="button">Return to Sacred Ground</a>
+  </div>
+
+  <!-- Trippy mushrooms -->
+  <div class="trippy-mushroom" style="top: 8%; left: 8%; font-size: 4rem; animation-delay: 0s;">🍄</div>
+  <div class="trippy-mushroom" style="top: 15%; right: 12%; font-size: 3.5rem; animation-delay: 1.5s;">🍄</div>
+  <div class="trippy-mushroom" style="bottom: 12%; left: 15%; font-size: 4.5rem; animation-delay: 3s;">🍄</div>
+  <div class="trippy-mushroom" style="bottom: 20%; right: 8%; font-size: 3rem; animation-delay: 2s;">🍄</div>
+  <div class="trippy-mushroom" style="top: 45%; left: 3%; font-size: 3.8rem; animation-delay: 1s;">🍄</div>
+  <div class="trippy-mushroom" style="top: 55%; right: 5%; font-size: 4.2rem; animation-delay: 2.5s;">🍄</div>
+
+  <script>
+    // Create blockchain cubes
+    const cubeColors = ['#7c3aed', '#ec4899', '#22d3ee', '#fbbf24'];
+    for (let i = 0; i < 8; i++) {
+      const cube = document.createElement('div');
+      cube.className = 'blockchain-cube';
+      cube.style.top = Math.random() * 100 + '%';
+      cube.style.left = Math.random() * 100 + '%';
+      cube.style.animationDelay = Math.random() * 5 + 's';
+      cube.innerHTML = `<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" fill="${cubeColors[i % cubeColors.length]}" opacity="0.6"/>
+        <path d="M20,0 L40,10 L40,30 L20,40 L0,30 L0,10 Z" fill="${cubeColors[(i + 1) % cubeColors.length]}" opacity="0.4"/>
+      </svg>`;
+      document.body.appendChild(cube);
+    }
+
+    // Create enhanced sparkles
+    for (let i = 0; i < 40; i++) {
+      const sparkle = document.createElement('div');
+      sparkle.className = 'sparkle';
+      sparkle.style.top = Math.random() * 100 + '%';
+      sparkle.style.left = Math.random() * 100 + '%';
+      sparkle.style.animationDelay = Math.random() * 2 + 's';
+      document.body.appendChild(sparkle);
+    }
+
+    // Create light rays
+    for (let i = 0; i < 6; i++) {
+      const ray = document.createElement('div');
+      ray.className = 'light-ray';
+      ray.style.top = '0';
+      ray.style.left = (i * 20 + 10) + '%';
+      ray.style.animationDelay = (i * 0.5) + 's';
+      document.body.appendChild(ray);
+    }
+
+    // GitHub Pages SPA redirect handler
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+</body>
+</html>
+

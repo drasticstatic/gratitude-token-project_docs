@@ -58,3 +58,11 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+# To publish to GitPages:
+
+1. npm run build
+
+2. USE_SSH=true npm run deploy
+    - Other option: GIT_USER=drasticstatic npm run deploy

@@ -11,17 +11,17 @@ tags: [recovery, psychedelics, spirituality, healing, community]
 
 <!--truncate-->
 
-## 🌿 My Story
+## 🌿 A message from the Developer
 
-I'm Christopher, and I'm a person in recovery.
+As a minister of Psanctuary Church and member of Psychedelics in Recovery, and a blockchain enthusiast student taking on a mentorship through DAPP University, I offer a gift to the world: Ethereal Offering ☺️
 
-For years, I struggled with addiction. Alcohol, drugs, destructive patterns—the whole nine yards. I tried everything: rehab, therapy, medication, willpower. Nothing stuck. I was trapped in a cycle of relapse and despair.
+Wrestling with addiction and destructive patterns as a person in recovery (PIR), I tried therapy, medication, willpower; but I remained trapped in a cycle of relapse and despair.
 
 Then I found the 12 steps. And everything changed.
 
 The program gave me a framework for living. The fellowship gave me community. The spiritual principles gave me purpose. For the first time in my life, I felt **free**.
 
-But there was still something missing.
+But there was still something missing...
 
 <!--truncate-->
 

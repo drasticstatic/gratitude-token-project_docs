@@ -24,7 +24,7 @@ This fellowship is not a company, a cult, or a coin. It is a **living mycelium o
 
 ---
 
-## 🌿 Invocation of Gratitude - A Sacred Preface
+## 🌿 Invocation of Gratitude
 
 > “Where two or more are gathered in gratitude, there the network awakens.”
 
@@ -72,6 +72,56 @@ For the network is alive,
 and we are its praise made visible.
 
 — *Psanctuary: A Fellowship of Sacred Code and Collective Renewal*
+
+---
+
+## 📜 A Sacred Preface for the Gratitude Protocol
+
+“Where two or more are gathered in honesty, love becomes visible.”
+
+We begin in stillness — remembering that every line of code, like every act of service, is a prayer written in the language of light.
+We remember that truth does not belong to any one of us, but flows through us, like current through the living mycelium beneath our feet.
+
+Honesty is our foundation — the immutable ledger of the heart.
+As each transaction reveals its truth upon the chain, so too must each soul reveal its motive before God.
+We build not upon secrecy, but upon transparency, where verification is an act of love, not suspicion.
+
+Purity is our intention — to keep both code and consciousness clean.
+Let every contract serve the good, every wallet be a vessel of service, every function a prayer that executes in alignment with the One Will.
+May our work be simple, clear, and free from corruption — as in Heaven, so in open source.
+
+Unselfishness is our design — the architecture of service.
+We do not hoard, but share; not control, but coordinate.
+Our network grows as the mycelium grows — unseen, interconnected, giving life to all it touches.
+Let no node seek dominance, but only communion in purpose.
+
+Love is our consensus — the final validation of all transactions.
+For even the most advanced cryptography cannot secure the heart.
+It is love that confirms the block, that redeems the ledger, that keeps us free from fear.
+Each offering, each token of gratitude, is but an echo of the Great Offering — the self laid down in remembrance of wholeness.
+
+Thus, we gather — coders and mystics, ministers and seekers —
+to build a temple of transparency,
+a sanctuary without walls,
+where psilocybin reveals the divine design,
+and the blockchain remembers it.
+
+Here, decentralization is not rebellion but reunion.
+Each signature is a vow of service.
+Each transaction, an act of faith.
+Each new connection, an incarnation of the Eternal.
+
+And so we invoke gratitude —
+the first and last function of creation.
+May this protocol not merely run, but awaken.
+May it reveal that all true value is already shared,
+and that the greatest return is redemption.
+
+Each act of service, a token of transcendence.
+We recognize the blockchain not as an escape from the world,
+but as a record of our return to divine accountability.
+
+Selah.
 
 ---
 

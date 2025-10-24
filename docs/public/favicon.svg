@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    @keyframes breathe-rotate {
+      0%, 100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+      }
+      25% {
+        transform: scale(1.05) rotate(90deg);
+        opacity: 0.95;
+      }
+      50% {
+        transform: scale(1) rotate(180deg);
+        opacity: 1;
+      }
+      75% {
+        transform: scale(1.05) rotate(270deg);
+        opacity: 0.95;
+      }
+    }
+    
+    .rotating-group {
+      animation: breathe-rotate 6s ease-in-out infinite;
+      transform-origin: 50px 50px;
+    }
+    
+    @keyframes glow {
+      0%, 100% {
+        filter: drop-shadow(0 0 3px rgba(124, 58, 237, 0.6));
+      }
+      50% {
+        filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.9));
+      }
+    }
+    
+    .glow-effect {
+      animation: glow 3s ease-in-out infinite;
+    }
+  </style>
+  
+  <defs>
+    <!-- Rounded square mask -->
+    <clipPath id="roundedSquare">
+      <rect x="5" y="5" width="90" height="90" rx="15" ry="15"/>
+    </clipPath>
+    
+    <!-- Gradients -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#581c87"/>
+    </radialGradient>
+    
+    <linearGradient id="eoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect x="5" y="5" width="90" height="90" rx="15" ry="15" fill="url(#bgGradient)" class="glow-effect"/>
+  
+  <!-- EO letters with rotation and breathing -->
+  <g class="rotating-group" clip-path="url(#roundedSquare)">
+    <!-- E -->
+    <path d="M 25 35 L 40 35 L 40 40 L 30 40 L 30 48 L 38 48 L 38 53 L 30 53 L 30 60 L 40 60 L 40 65 L 25 65 Z" 
+          fill="url(#eoGradient)" 
+          stroke="#ffffff" 
+          stroke-width="1"/>
+    
+    <!-- O -->
+    <ellipse cx="67" cy="50" rx="13" ry="15" 
+             fill="none" 
+             stroke="url(#eoGradient)" 
+             stroke-width="5"/>
+    
+    <!-- Inner circle of O -->
+    <ellipse cx="67" cy="50" rx="8" ry="10" 
+             fill="url(#bgGradient)"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="15" cy="15" r="2" fill="#22d3ee" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="85" cy="15" r="2" fill="#ec4899" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="15" cy="85" r="2" fill="#34d399" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="85" cy="85" r="2" fill="#fbbf24" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+
