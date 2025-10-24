@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-whitepaper/technical-architecture" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">Technical Architecture | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/whitepaper/technical-architecture"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Technical Architecture | Ethereal Offering"><meta data-rh="true" name="description" content="System Overview"><meta data-rh="true" property="og:description" content="System Overview"><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/whitepaper/technical-architecture"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/whitepaper/technical-architecture" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/whitepaper/technical-architecture" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.5391598b.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.b55469ae.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.bc151833.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Getting Started</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/fork-the-code/overview">Fork the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Technical Architecture</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="system-overview">System Overview<a href="#system-overview" class="hash-link" aria-label="Direct link to System Overview" title="Direct link to System Overview" translate="no">​</a></h2>
+<p>Ethereal Offering is built on a <strong>modular, upgradeable smart contract architecture</strong> deployed on Ethereum mainnet with Layer 2 scaling solutions. Our technical stack prioritizes security, transparency, and user experience.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="core-components">Core Components<a href="#core-components" class="hash-link" aria-label="Direct link to Core Components" title="Direct link to Core Components" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-smart-contract-layer">1. Smart Contract Layer<a href="#1-smart-contract-layer" class="hash-link" aria-label="Direct link to 1. Smart Contract Layer" title="Direct link to 1. Smart Contract Layer" translate="no">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="psilo-token-contract-erc-20">PSILO Token Contract (ERC-20)<a href="#psilo-token-contract-erc-20" class="hash-link" aria-label="Direct link to PSILO Token Contract (ERC-20)" title="Direct link to PSILO Token Contract (ERC-20)" translate="no">​</a></h4>
+<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// Core features:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Standard ERC-20 functionality</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 2% burn on every transfer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Whitelist for DEX/CEX (no burn on trading)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Pausable for emergency situations</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Upgradeable via proxy pattern</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Multi-sig governance controls</span><br></span></code></pre></div></div>
+<p><strong>Key Functions</strong>:</p>
+<ul>
+<li><code>transfer()</code> - Standard transfer with 2% burn</li>
+<li><code>burn()</code> - Manual burn for PoB NFT minting</li>
+<li><code>stake()</code> - Lock tokens for governance and rewards</li>
+<li><code>unstake()</code> - Withdraw staked tokens (with cooldown)</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="light-token-contract-erc-20">LIGHT Token Contract (ERC-20)<a href="#light-token-contract-erc-20" class="hash-link" aria-label="Direct link to LIGHT Token Contract (ERC-20)" title="Direct link to LIGHT Token Contract (ERC-20)" translate="no">​</a></h4>
+<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// Reward token features:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Minted based on treasury performance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Stakeable for additional rewards</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Convertible to PSILO at dynamic rate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Deflationary through quarterly burns</span><br></span></code></pre></div></div>
+<p><strong>Minting Formula</strong>:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">LIGHT_minted = (Treasury_Growth * Participation_Rate) / Total_Staked_PSILO</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pob-nft-contract-erc-721">PoB NFT Contract (ERC-721)<a href="#pob-nft-contract-erc-721" class="hash-link" aria-label="Direct link to PoB NFT Contract (ERC-721)" title="Direct link to PoB NFT Contract (ERC-721)" translate="no">​</a></h4>
+<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// Unique NFT features:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Dynamic metadata based on burn amount</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Rarity tiers (Bronze, Silver, Gold, Platinum, Diamond)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Governance weight calculation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Soul-bound option (non-transferable)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Breeding/evolution mechanics</span><br></span></code></pre></div></div>
+<p><strong>Rarity Tiers</strong>:</p>
+<ul>
+<li><strong>Bronze</strong>: 100-999 PSILO burned</li>
+<li><strong>Silver</strong>: 1,000-9,999 PSILO burned</li>
+<li><strong>Gold</strong>: 10,000-99,999 PSILO burned</li>
+<li><strong>Platinum</strong>: 100,000-999,999 PSILO burned</li>
+<li><strong>Diamond</strong>: 1,000,000+ PSILO burned</li>
+</ul>
+<p><strong>Metadata Structure</strong>:</p>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">&quot;name&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Living Offering #1234&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">&quot;description&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;A sacred offering of 10,000 PSILO&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">&quot;image&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;ipfs://QmXxx.../offering_gold.png&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">&quot;attributes&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token property" style="color:#36acaa">&quot;trait_type&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Rarity&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">&quot;value&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Gold&quot;</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token property" style="color:#36acaa">&quot;trait_type&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Burn Amount&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">&quot;value&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;10000&quot;</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token property" style="color:#36acaa">&quot;trait_type&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Burn Date&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">&quot;value&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;2025-03-15&quot;</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token property" style="color:#36acaa">&quot;trait_type&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Governance Weight&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">&quot;value&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;100&quot;</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token property" style="color:#36acaa">&quot;trait_type&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Generation&quot;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token property" style="color:#36acaa">&quot;value&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;1&quot;</span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="treasury-dao-contract">Treasury DAO Contract<a href="#treasury-dao-contract" class="hash-link" aria-label="Direct link to Treasury DAO Contract" title="Direct link to Treasury DAO Contract" translate="no">​</a></h4>
+<div class="language-solidity codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-solidity codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// Governance features:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Proposal creation (requires NFT or staked PSILO)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Voting (weighted by NFT rarity + staked PSILO)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Timelock execution (48-hour delay)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Multi-sig override for emergencies</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Transparent fund allocation</span><br></span></code></pre></div></div>
+<p><strong>Governance Process</strong>:</p>
+<ol>
+<li><strong>Proposal Creation</strong>: Requires 10,000 staked PSILO or Gold+ NFT</li>
+<li><strong>Discussion Period</strong>: 3 days for community feedback</li>
+<li><strong>Voting Period</strong>: 7 days for token holders to vote</li>
+<li><strong>Execution Delay</strong>: 48 hours after passing</li>
+<li><strong>Implementation</strong>: Automatic execution via smart contract</li>
+</ol>
+<p><strong>Voting Weight Calculation</strong>:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Total_Weight = Staked_PSILO + (NFT_Rarity_Multiplier * NFT_Count)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">NFT Multipliers:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Bronze: 100</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Silver: 500</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Gold: 2,500</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Platinum: 15,000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- Diamond: 100,000</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-oracle-integration">2. Oracle Integration<a href="#2-oracle-integration" class="hash-link" aria-label="Direct link to 2. Oracle Integration" title="Direct link to 2. Oracle Integration" translate="no">​</a></h3>
+<p>We use <strong>Chainlink Price Feeds</strong> for:</p>
+<ul>
+<li>PSILO/USD price data</li>
+<li>ETH/USD price data</li>
+<li>Treasury valuation in USD</li>
+<li>Dynamic LIGHT minting calculations</li>
+</ul>
+<p><strong>Oracle Contracts</strong>:</p>
+<ul>
+<li>Chainlink VRF for NFT randomness</li>
+<li>Chainlink Keepers for automated treasury operations</li>
+<li>Custom oracle for off-chain data (retreat bookings, charitable impact)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-layer-2-scaling">3. Layer 2 Scaling<a href="#3-layer-2-scaling" class="hash-link" aria-label="Direct link to 3. Layer 2 Scaling" title="Direct link to 3. Layer 2 Scaling" translate="no">​</a></h3>
+<p>To reduce gas costs and improve UX, we deploy on:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="polygon-primary-l2">Polygon (Primary L2)<a href="#polygon-primary-l2" class="hash-link" aria-label="Direct link to Polygon (Primary L2)" title="Direct link to Polygon (Primary L2)" translate="no">​</a></h4>
+<ul>
+<li>Fast, cheap transactions</li>
+<li>EVM-compatible</li>
+<li>Established ecosystem</li>
+<li>Bridge to Ethereum mainnet</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="arbitrum-secondary-l2">Arbitrum (Secondary L2)<a href="#arbitrum-secondary-l2" class="hash-link" aria-label="Direct link to Arbitrum (Secondary L2)" title="Direct link to Arbitrum (Secondary L2)" translate="no">​</a></h4>
+<ul>
+<li>Optimistic rollup security</li>
+<li>Lower fees than mainnet</li>
+<li>Growing DeFi ecosystem</li>
+</ul>
+<p><strong>Cross-Chain Bridge</strong>:</p>
+<ul>
+<li>Lock tokens on source chain</li>
+<li>Mint wrapped tokens on destination chain</li>
+<li>Burn wrapped tokens to unlock on source</li>
+<li>Secured by multi-sig + Chainlink CCIP</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-storage-layer">4. Storage Layer<a href="#4-storage-layer" class="hash-link" aria-label="Direct link to 4. Storage Layer" title="Direct link to 4. Storage Layer" translate="no">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="on-chain-storage">On-Chain Storage<a href="#on-chain-storage" class="hash-link" aria-label="Direct link to On-Chain Storage" title="Direct link to On-Chain Storage" translate="no">​</a></h4>
+<ul>
+<li>Token balances and transfers</li>
+<li>NFT ownership and metadata hashes</li>
+<li>Governance proposals and votes</li>
+<li>Treasury transactions</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ipfs-decentralized-storage">IPFS (Decentralized Storage)<a href="#ipfs-decentralized-storage" class="hash-link" aria-label="Direct link to IPFS (Decentralized Storage)" title="Direct link to IPFS (Decentralized Storage)" translate="no">​</a></h4>
+<ul>
+<li>NFT images and metadata</li>
+<li>Proposal documents</li>
+<li>Community content</li>
+<li>Historical records</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="arweave-permanent-storage">Arweave (Permanent Storage)<a href="#arweave-permanent-storage" class="hash-link" aria-label="Direct link to Arweave (Permanent Storage)" title="Direct link to Arweave (Permanent Storage)" translate="no">​</a></h4>
+<ul>
+<li>Critical governance decisions</li>
+<li>Whitepaper and documentation</li>
+<li>Immutable community records</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-frontend-architecture">5. Frontend Architecture<a href="#5-frontend-architecture" class="hash-link" aria-label="Direct link to 5. Frontend Architecture" title="Direct link to 5. Frontend Architecture" translate="no">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="web-application-react--nextjs">Web Application (React + Next.js)<a href="#web-application-react--nextjs" class="hash-link" aria-label="Direct link to Web Application (React + Next.js)" title="Direct link to Web Application (React + Next.js)" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/src</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  /components</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - WalletConnect</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - TokenSwap</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - NFTMinting</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - GovernanceVoting</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - TreasuryDashboard</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  /hooks</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - useContract</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - useWallet</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - useTokenBalance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  /pages</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - index (landing)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - /app (dApp interface)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - /governance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - /nfts</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    - /docs</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="web3-integration">Web3 Integration<a href="#web3-integration" class="hash-link" aria-label="Direct link to Web3 Integration" title="Direct link to Web3 Integration" translate="no">​</a></h4>
+<ul>
+<li><strong>wagmi</strong> for React hooks</li>
+<li><strong>ethers.js</strong> for contract interaction</li>
+<li><strong>RainbowKit</strong> for wallet connection</li>
+<li><strong>The Graph</strong> for data indexing</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="mobile-application-react-native">Mobile Application (React Native)<a href="#mobile-application-react-native" class="hash-link" aria-label="Direct link to Mobile Application (React Native)" title="Direct link to Mobile Application (React Native)" translate="no">​</a></h4>
+<ul>
+<li>Cross-platform (iOS + Android)</li>
+<li>Wallet integration (WalletConnect)</li>
+<li>Push notifications for governance</li>
+<li>QR code scanning for in-person offerings</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-architecture">Security Architecture<a href="#security-architecture" class="hash-link" aria-label="Direct link to Security Architecture" title="Direct link to Security Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="smart-contract-security">Smart Contract Security<a href="#smart-contract-security" class="hash-link" aria-label="Direct link to Smart Contract Security" title="Direct link to Smart Contract Security" translate="no">​</a></h3>
+<ol>
+<li>
+<p><strong>Audits</strong>:</p>
+<ul>
+<li>CertiK (comprehensive audit)</li>
+<li>OpenZeppelin (focused on governance)</li>
+<li>Internal security review</li>
+</ul>
+</li>
+<li>
+<p><strong>Best Practices</strong>:</p>
+<ul>
+<li>OpenZeppelin contracts as base</li>
+<li>ReentrancyGuard on all state-changing functions</li>
+<li>Checks-Effects-Interactions pattern</li>
+<li>SafeMath for arithmetic operations</li>
+<li>Access control with role-based permissions</li>
+</ul>
+</li>
+<li>
+<p><strong>Upgrade Mechanism</strong>:</p>
+<ul>
+<li>Transparent proxy pattern</li>
+<li>7-day timelock on upgrades</li>
+<li>Multi-sig approval required</li>
+<li>Emergency pause function</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="operational-security">Operational Security<a href="#operational-security" class="hash-link" aria-label="Direct link to Operational Security" title="Direct link to Operational Security" translate="no">​</a></h3>
+<ol>
+<li>
+<p><strong>Multi-Signature Wallets</strong>:</p>
+<ul>
+<li>Treasury: 5-of-9 multi-sig</li>
+<li>Admin functions: 3-of-5 multi-sig</li>
+<li>Emergency pause: 2-of-3 multi-sig</li>
+</ul>
+</li>
+<li>
+<p><strong>Key Management</strong>:</p>
+<ul>
+<li>Hardware wallets (Ledger) for all signers</li>
+<li>Geographic distribution of signers</li>
+<li>Regular key rotation</li>
+<li>Backup and recovery procedures</li>
+</ul>
+</li>
+<li>
+<p><strong>Monitoring</strong>:</p>
+<ul>
+<li>Real-time transaction monitoring</li>
+<li>Anomaly detection alerts</li>
+<li>Regular security audits</li>
+<li>Bug bounty program ($100K pool)</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-flow">Data Flow<a href="#data-flow" class="hash-link" aria-label="Direct link to Data Flow" title="Direct link to Data Flow" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-journey-making-an-offering">User Journey: Making an Offering<a href="#user-journey-making-an-offering" class="hash-link" aria-label="Direct link to User Journey: Making an Offering" title="Direct link to User Journey: Making an Offering" translate="no">​</a></h3>
+<ol>
+<li><strong>User connects wallet</strong> → Frontend calls <code>useWallet()</code> hook</li>
+<li><strong>User approves PSILO</strong> → <code>approve()</code> transaction to NFT contract</li>
+<li><strong>User burns tokens</strong> → <code>burnForNFT(amount)</code> transaction</li>
+<li><strong>Contract burns PSILO</strong> → Tokens sent to 0x000...dead</li>
+<li><strong>Contract mints NFT</strong> → ERC-721 <code>mint()</code> with metadata</li>
+<li><strong>Chainlink VRF</strong> → Generates random traits</li>
+<li><strong>IPFS upload</strong> → Metadata and image stored</li>
+<li><strong>Event emitted</strong> → <code>OfferingMade(user, amount, tokenId)</code></li>
+<li><strong>The Graph indexes</strong> → Event added to subgraph</li>
+<li><strong>Frontend updates</strong> → User sees new NFT in wallet</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="treasury-flow">Treasury Flow<a href="#treasury-flow" class="hash-link" aria-label="Direct link to Treasury Flow" title="Direct link to Treasury Flow" translate="no">​</a></h3>
+<ol>
+<li><strong>Fees collected</strong> → 0.5% of transactions to treasury</li>
+<li><strong>Chainlink Keeper</strong> → Triggers weekly treasury report</li>
+<li><strong>Oracle fetches data</strong> → Treasury value in USD</li>
+<li><strong>LIGHT calculation</strong> → Based on growth and participation</li>
+<li><strong>LIGHT minted</strong> → Distributed to stakers</li>
+<li><strong>Governance proposal</strong> → Community votes on allocation</li>
+<li><strong>Timelock execution</strong> → Funds distributed after delay</li>
+<li><strong>Impact tracking</strong> → Off-chain oracle reports outcomes</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="scalability">Scalability<a href="#scalability" class="hash-link" aria-label="Direct link to Scalability" title="Direct link to Scalability" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="current-capacity">Current Capacity<a href="#current-capacity" class="hash-link" aria-label="Direct link to Current Capacity" title="Direct link to Current Capacity" translate="no">​</a></h3>
+<ul>
+<li><strong>Transactions per second</strong>: 15 (Ethereum mainnet)</li>
+<li><strong>Gas cost per offering</strong>: ~$5-20 (depending on network)</li>
+<li><strong>NFT minting time</strong>: 15-30 seconds</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scaling-solutions">Scaling Solutions<a href="#scaling-solutions" class="hash-link" aria-label="Direct link to Scaling Solutions" title="Direct link to Scaling Solutions" translate="no">​</a></h3>
+<ol>
+<li>
+<p><strong>Layer 2 Migration</strong>:</p>
+<ul>
+<li>Target: 1,000+ TPS on Polygon</li>
+<li>Gas cost: Less than $0.01 per transaction</li>
+<li>Minting time: 2-5 seconds</li>
+</ul>
+</li>
+<li>
+<p><strong>Batch Processing</strong>:</p>
+<ul>
+<li>Merkle tree for multiple offerings</li>
+<li>Single transaction for multiple NFTs</li>
+<li>90% gas savings for bulk operations</li>
+</ul>
+</li>
+<li>
+<p><strong>State Channels</strong>:</p>
+<ul>
+<li>Off-chain micro-offerings</li>
+<li>Periodic settlement to mainnet</li>
+<li>Instant confirmation for users</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="interoperability">Interoperability<a href="#interoperability" class="hash-link" aria-label="Direct link to Interoperability" title="Direct link to Interoperability" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cross-chain-strategy">Cross-Chain Strategy<a href="#cross-chain-strategy" class="hash-link" aria-label="Direct link to Cross-Chain Strategy" title="Direct link to Cross-Chain Strategy" translate="no">​</a></h3>
+<p><strong>Phase 1</strong>: Ethereum + Polygon
+<strong>Phase 2</strong>: Add Arbitrum, Optimism
+<strong>Phase 3</strong>: Cosmos, Polkadot bridges
+<strong>Phase 4</strong>: Bitcoin Lightning integration</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="integration-points">Integration Points<a href="#integration-points" class="hash-link" aria-label="Direct link to Integration Points" title="Direct link to Integration Points" translate="no">​</a></h3>
+<ol>
+<li><strong>DEX Aggregators</strong>: 1inch, Paraswap</li>
+<li><strong>Wallets</strong>: MetaMask, Rainbow, Coinbase Wallet</li>
+<li><strong>NFT Marketplaces</strong>: OpenSea, Rarible, LooksRare</li>
+<li><strong>DeFi Protocols</strong>: Aave, Compound, Uniswap</li>
+<li><strong>Payment Processors</strong>: Stripe, PayPal (fiat on-ramp)</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="development-roadmap">Development Roadmap<a href="#development-roadmap" class="hash-link" aria-label="Direct link to Development Roadmap" title="Direct link to Development Roadmap" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="q1-2025">Q1 2025<a href="#q1-2025" class="hash-link" aria-label="Direct link to Q1 2025" title="Direct link to Q1 2025" translate="no">​</a></h3>
+<ul>
+<li>✅ Core contracts deployed to testnet</li>
+<li>✅ Security audit initiated</li>
+<li>✅ Frontend MVP completed</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="q2-2025">Q2 2025<a href="#q2-2025" class="hash-link" aria-label="Direct link to Q2 2025" title="Direct link to Q2 2025" translate="no">​</a></h3>
+<ul>
+<li>🔄 Mainnet deployment</li>
+<li>🔄 Layer 2 bridges activated</li>
+<li>🔄 Mobile app beta launch</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="q3-2025">Q3 2025<a href="#q3-2025" class="hash-link" aria-label="Direct link to Q3 2025" title="Direct link to Q3 2025" translate="no">​</a></h3>
+<ul>
+<li>Cross-chain expansion</li>
+<li>Advanced governance features</li>
+<li>NFT marketplace integration</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="q4-2025">Q4 2025<a href="#q4-2025" class="hash-link" aria-label="Direct link to Q4 2025" title="Direct link to Q4 2025" translate="no">​</a></h3>
+<ul>
+<li>Real-world asset tokenization</li>
+<li>Fiat on/off ramps</li>
+<li>Enterprise partnerships</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="open-source-commitment">Open Source Commitment<a href="#open-source-commitment" class="hash-link" aria-label="Direct link to Open Source Commitment" title="Direct link to Open Source Commitment" translate="no">​</a></h2>
+<p>All core contracts and frontend code are <strong>open source</strong> under MIT license:</p>
+<ul>
+<li>GitHub: github.com/ethereal-offering</li>
+<li>Documentation: docs.etherealoffering.io</li>
+<li>Community: discord.gg/etherealoffering</li>
+</ul>
+<p>We believe in <strong>radical transparency</strong> - anyone can audit, fork, or contribute to our codebase.</p>
+<hr>
+<p><em>&quot;Let this work stand as one unbroken prayer—that the many may recall themselves as One.&quot;</em></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/whitepaper/02-technical-architecture.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#system-overview" class="table-of-contents__link toc-highlight">System Overview</a></li><li><a href="#core-components" class="table-of-contents__link toc-highlight">Core Components</a><ul><li><a href="#1-smart-contract-layer" class="table-of-contents__link toc-highlight">1. Smart Contract Layer</a></li><li><a href="#2-oracle-integration" class="table-of-contents__link toc-highlight">2. Oracle Integration</a></li><li><a href="#3-layer-2-scaling" class="table-of-contents__link toc-highlight">3. Layer 2 Scaling</a></li><li><a href="#4-storage-layer" class="table-of-contents__link toc-highlight">4. Storage Layer</a></li><li><a href="#5-frontend-architecture" class="table-of-contents__link toc-highlight">5. Frontend Architecture</a></li></ul></li><li><a href="#security-architecture" class="table-of-contents__link toc-highlight">Security Architecture</a><ul><li><a href="#smart-contract-security" class="table-of-contents__link toc-highlight">Smart Contract Security</a></li><li><a href="#operational-security" class="table-of-contents__link toc-highlight">Operational Security</a></li></ul></li><li><a href="#data-flow" class="table-of-contents__link toc-highlight">Data Flow</a><ul><li><a href="#user-journey-making-an-offering" class="table-of-contents__link toc-highlight">User Journey: Making an Offering</a></li><li><a href="#treasury-flow" class="table-of-contents__link toc-highlight">Treasury Flow</a></li></ul></li><li><a href="#scalability" class="table-of-contents__link toc-highlight">Scalability</a><ul><li><a href="#current-capacity" class="table-of-contents__link toc-highlight">Current Capacity</a></li><li><a href="#scaling-solutions" class="table-of-contents__link toc-highlight">Scaling Solutions</a></li></ul></li><li><a href="#interoperability" class="table-of-contents__link toc-highlight">Interoperability</a><ul><li><a href="#cross-chain-strategy" class="table-of-contents__link toc-highlight">Cross-Chain Strategy</a></li><li><a href="#integration-points" class="table-of-contents__link toc-highlight">Integration Points</a></li></ul></li><li><a href="#development-roadmap" class="table-of-contents__link toc-highlight">Development Roadmap</a><ul><li><a href="#q1-2025" class="table-of-contents__link toc-highlight">Q1 2025</a></li><li><a href="#q2-2025" class="table-of-contents__link toc-highlight">Q2 2025</a></li><li><a href="#q3-2025" class="table-of-contents__link toc-highlight">Q3 2025</a></li><li><a href="#q4-2025" class="table-of-contents__link toc-highlight">Q4 2025</a></li></ul></li><li><a href="#open-source-commitment" class="table-of-contents__link toc-highlight">Open Source Commitment</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>
