@@ -176,8 +176,8 @@ if command -v gh &> /dev/null; then
   # Enable Pages via API (correct syntax)
   gh api repos/"$GITHUB_USER"/"$PUBLISH_REPO"/pages \
     --method POST \
-    -F source[branch]=main \
-    -F source[path]=/ > /dev/null 2>&1 || true
+    -F 'source[branch]=main' \
+    -F 'source[path]=/' > /dev/null 2>&1 || true
 
   echo "✅ GitHub Pages enabled!"
 else
