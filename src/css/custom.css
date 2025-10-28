@@ -458,3 +458,13 @@ h3, h4, h5, h6 {
 .floating {
   animation: float 6s ease-in-out infinite;
 }
+
+
+/* Mobile: ensure table of contents and blog lists are visible */
+@media (max-width: 996px) {
+  .theme-doc-toc-mobile { display: block !important; }
+}
+
+@media (max-width: 768px) {
+  .blog-list-page .col--9, .blog-list-page .col--8 { width: 100% !important; max-width: 100% !important; }
+}

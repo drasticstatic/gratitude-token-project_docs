@@ -1,0 +1,258 @@
+@keyframes sparkle {
+  0%, 100% {
+    box-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #667eea,
+      0 0 20px #667eea,
+      0 0 25px #764ba2,
+      0 0 30px #764ba2,
+      0 0 35px #764ba2,
+      inset 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #667eea,
+      0 0 40px #667eea,
+      0 0 50px #764ba2,
+      0 0 60px #764ba2,
+      0 0 70px #764ba2,
+      inset 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.openButton {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+  background-size: 200% 200%;
+  color: white;
+  border: 3px solid transparent;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 16px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  animation: sparkle 2s ease-in-out infinite, pulse 2s ease-in-out infinite;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.openButton::before {
+  content: '✨ ';
+  font-size: 24px;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.openButton::after {
+  content: ' ✨';
+  font-size: 24px;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.openButton:hover {
+  transform: translateY(-4px) scale(1.08);
+  animation: sparkle 1s ease-in-out infinite, pulse 1s ease-in-out infinite;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 50%, #764ba2 100%);
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.modalContent {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 20px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+}
+
+.closeButton {
+  position: sticky;
+  top: 10px;
+  right: 10px;
+  float: right;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(90deg);
+}
+
+.poemContent {
+  padding: 60px 40px 40px;
+  color: #e0e0e0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.scripture {
+  background: rgba(102, 126, 234, 0.1);
+  border-left: 4px solid #667eea;
+  padding: 20px 30px;
+  margin: 30px 0;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+.scripture p {
+  margin: 0 0 10px 0;
+  color: #c0c0c0;
+}
+
+.scripture cite {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #667eea;
+  margin-top: 10px;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #667eea, transparent);
+  margin: 40px 0;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  margin: 30px 0 20px;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.benediction {
+  font-style: italic;
+  color: #b0b0b0;
+  margin: 20px 0;
+}
+
+.signature {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #667eea;
+}
+
+.signature strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.poemContent p {
+  margin: 16px 0;
+}
+
+.poemContent strong {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.poemContent em {
+  color: #9f7aea;
+}
+
+/* Scrollbar styling */
+.modalContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modalContent::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .poemContent {
+    padding: 40px 20px 20px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+  }
+
+  .openButton {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+

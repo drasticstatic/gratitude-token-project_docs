@@ -1,0 +1,12 @@
+{
+  "label": "📖 The Codex",
+  "position": 5,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "The Ethereal Offering Codex",
+    "description": "The complete, formal documentation of Ethereal Offering - a hybrid manuscript combining spiritual foundation, technical architecture, tokenomics, ecosystem design, and implementation roadmap. This is the definitive reference document.",
+    "slug": "/research-and-development/codex"
+  }
+}
+

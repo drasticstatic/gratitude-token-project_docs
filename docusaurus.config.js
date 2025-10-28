@@ -117,6 +117,20 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: ['/community', '/learn'],
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -124,6 +138,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
       },
       navbar: {
         title: 'Ethereal Offering',
@@ -136,7 +154,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
           {
             type: 'docSidebar',
@@ -159,6 +177,17 @@ const config = {
             label: 'Learn the Code',
             position: 'left',
           },
+          {
+            to: '/docs/fork-the-code/overview',
+            label: 'Fork the Code',
+            position: 'left',
+          },
+          {
+            to: '/#agentic-search',
+            label: 'Search',
+            position: 'right',
+          },
+
           {
             href: 'https://github.com/drasticstatic/gratitude-token-project_docs',
             label: 'GitHub',
@@ -192,6 +221,10 @@ const config = {
               {
                 label: 'DAO Governance',
                 to: '/docs/governance/overview',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/docs/privacy-policy',
               },
             ],
           },

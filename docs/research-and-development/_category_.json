@@ -1,0 +1,12 @@
+{
+  "label": "Research & Development",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Research & Development Archive",
+    "description": "Comprehensive archive of all research, development conversations, technical explorations, spiritual insights, and architectural decisions that shaped Ethereal Offering. This is your complete knowledge base and portal into the project's evolution.",
+    "slug": "/research-and-development"
+  }
+}
+
