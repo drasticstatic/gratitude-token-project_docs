@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgratitude_token_project_docs=globalThis.webpackChunkgratitude_token_project_docs||[]).push([[4921],{1597:e=>{e.exports=JSON.parse('{"name":"@easyops-cn/docusaurus-search-local","id":"default"}')}}]);
