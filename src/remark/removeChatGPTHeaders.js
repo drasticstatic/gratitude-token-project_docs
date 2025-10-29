@@ -1,12 +1,13 @@
 /**
- * Remark plugin to transform ChatGPT conversation exports into FAQ-style documentation.
+ * Remark plugin to transform ChatGPT conversation exports into meditative Q&A documentation.
  *
  * Transformations:
- * - Removes "Conversation Metadata" and "Table of Contents" sections
+ * - Removes "Conversation Metadata", "Table of Contents", and "Conversation Analysis" sections
  * - Removes conversation headers (User Message #X, Assistant Response #X)
- * - Removes timestamps
- * - Converts user messages to question-style headings
- * - Converts assistant responses to direct FAQ-style answers
+ * - Removes timestamps (both italic and plain formats)
+ * - Transforms user questions into collapsible Q&A format
+ * - Changes perspective from "your" to "our" for inclusive community feel
+ * - Creates a meditative reading experience with expandable sections
  */
 
 function textFrom(node) {
@@ -31,19 +32,50 @@ function isMetadataSection(node) {
   return (
     /^📋\s*Conversation\s*Metadata$/i.test(content) ||
     /^📑\s*Table\s*of\s*Contents$/i.test(content) ||
-    /^💬\s*Conversation$/i.test(content)
+    /^💬\s*Conversation$/i.test(content) ||
+    /^Conversation\s*Analysis$/i.test(content) ||
+    /^❓\s*Questions\s*Asked$/i.test(content)
   );
 }
 
 function isTimestamp(node) {
   if (!node || node.type !== 'paragraph') return false;
   const content = textFrom(node).trim();
-  // Match timestamps like: *2025-10-16 15:15:37*
-  return /^\*\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\*$/.test(content);
+  // Match timestamps like: *2025-10-16 15:15:37* or plain 2025-10-16 15:15:37
+  return /^\*?\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\*?$/.test(content);
 }
 
 function isHorizontalRule(node) {
   return node && node.type === 'thematicBreak';
+}
+
+function isMetadataLine(node) {
+  if (!node || node.type !== 'paragraph') return false;
+  const content = textFrom(node).trim();
+  // Match lines like "Source: ...", "Analyzed: ...", "Exchanges: ..."
+  return /^(Source|Analyzed|Exchanges|Created|Last Updated|Total Messages|User Messages|Assistant Responses|Total Exchanges):/i.test(content);
+}
+
+function changePerspective(node) {
+  if (!node) return;
+
+  if (node.type === 'text' && node.value) {
+    // Change "your" to "our" (case-insensitive, preserving case)
+    node.value = node.value
+      .replace(/\byour\b/g, 'our')
+      .replace(/\bYour\b/g, 'Our')
+      .replace(/\bYOUR\b/g, 'OUR')
+      // Change "you" to "we" in appropriate contexts
+      .replace(/\byou could\b/gi, 'we could')
+      .replace(/\byou can\b/gi, 'we can')
+      .replace(/\byou might\b/gi, 'we might')
+      .replace(/\byou would\b/gi, 'we would')
+      .replace(/\byou should\b/gi, 'we should');
+  }
+
+  if (node.children) {
+    node.children.forEach(changePerspective);
+  }
 }
 
 function transformConversationToFAQ(tree) {
@@ -96,11 +128,20 @@ function transformConversationToFAQ(tree) {
       continue;
     }
 
+    // Remove metadata lines
+    if (isMetadataLine(node)) {
+      i++;
+      continue;
+    }
+
     // Remove horizontal rules (often used as separators in chat exports)
     if (isHorizontalRule(node)) {
       i++;
       continue;
     }
+
+    // Change perspective from "your" to "our"
+    changePerspective(node);
 
     // Keep everything else
     newChildren.push(node);

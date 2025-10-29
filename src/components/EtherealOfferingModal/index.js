@@ -11,11 +11,13 @@ export default function EtherealOfferingModal() {
         <p className={styles.subtitle}>
           Lifting the Veil Between Spirit and System
         </p>
-        <button 
+        <button
           className={styles.openButton}
           onClick={() => setIsOpen(true)}
         >
-          🌟 Discover the Vision — Unveil the Sacred Technology 🌟
+          <span className={styles.buttonLabel}>Click here to...</span>
+          <span className={styles.buttonMain}>🌟 Discover the Vision 🌟</span>
+          <span className={styles.buttonSubtext}>Unveil the Sacred Technology</span>
         </button>
       </div>
 

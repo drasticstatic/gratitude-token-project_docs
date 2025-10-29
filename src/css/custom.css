@@ -537,3 +537,102 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     color: var(--purple-light) !important;
   }
 }
+
+/* Meditative Q&A Experience: Enhanced collapsible sections */
+details {
+  background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.04));
+  border: 2px solid rgba(124,58,237,0.25);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+}
+
+details:hover {
+  border-color: rgba(124,58,237,0.5);
+  box-shadow: 0 4px 16px rgba(124,58,237,0.2);
+  transform: translateY(-2px);
+}
+
+details[open] {
+  background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06));
+  border-color: rgba(124,58,237,0.6);
+  box-shadow: 0 6px 24px rgba(124,58,237,0.3);
+}
+
+summary {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--purple-light);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: '🔮';
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+summary:hover {
+  color: var(--pink-primary);
+  transform: translateX(4px);
+}
+
+details p {
+  margin-top: 1rem;
+  line-height: 1.8;
+  color: var(--gray-light);
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Breathing meditation prompt for long content sections */
+.theme-doc-markdown > h2,
+.theme-doc-markdown > h3 {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.theme-doc-markdown > h2::before {
+  content: '✨';
+  position: absolute;
+  left: 0;
+  animation: breathingGlow 4s ease-in-out infinite;
+}
+
+@keyframes breathingGlow {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}

@@ -48,18 +48,53 @@
   background: linear-gradient(135deg, #8a2be2 0%, #ff69b4 100%);
   color: white;
   border: none;
-  padding: 1rem 2.5rem;
+  padding: 1.25rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  animation: gentleBounce 2s ease-in-out infinite;
 }
 
 .openButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.6);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(138, 43, 226, 0.7);
+  animation: gentleBounce 1s ease-in-out infinite;
+}
+
+.buttonLabel {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.buttonMain {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.buttonSubtext {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.95;
+  font-style: italic;
+}
+
+@keyframes gentleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 /* Psychedelic breathing aura for the Vision button */
