@@ -470,19 +470,70 @@ h3, h4, h5, h6 {
 }
 
 
+/* Search result highlighting - ensure visibility in purple headings */
+mark {
+  background-color: #fbbf24 !important;
+  color: #000000 !important;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Ensure mark is visible even in gradient text headings */
+h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
+.hero__title mark, .gradient-text mark {
+  -webkit-text-fill-color: #000000 !important;
+  background-color: #fbbf24 !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+}
+
 /* Fix mobile hamburger menu: ensure sidebar overlays content and is clickable */
 @media (max-width: 996px) {
+  /* Ensure mobile sidebar is properly positioned and visible */
   .navbar-sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: 80% !important;
+    max-width: 350px !important;
     z-index: 10000 !important;
+    background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(0, 0, 0, 0.98)) !important;
+    backdrop-filter: blur(12px) !important;
+    border-left: 2px solid rgba(124, 58, 237, 0.5) !important;
+    box-shadow: -4px 0 24px rgba(124, 58, 237, 0.3) !important;
   }
+
+  /* Ensure backdrop is visible and clickable */
   .navbar-sidebar__backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    position: fixed !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.75) !important;
     z-index: 9999 !important;
+    backdrop-filter: blur(4px) !important;
+  }
+
+  /* Ensure menu items are visible and styled */
+  .navbar-sidebar .menu {
+    padding: 1rem !important;
+  }
+
+  .navbar-sidebar .menu__link {
+    color: var(--gray-light) !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 8px !important;
+    margin: 4px 0 !important;
+  }
+
+  .navbar-sidebar .menu__link:hover {
+    background: rgba(124, 58, 237, 0.3) !important;
+    color: var(--purple-light) !important;
+  }
+
+  .navbar-sidebar .menu__link--active {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.4), rgba(236, 72, 153, 0.3)) !important;
+    color: var(--purple-light) !important;
   }
 }
