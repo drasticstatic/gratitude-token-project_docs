@@ -83,7 +83,6 @@ function transformConversationToFAQ(tree) {
 
   const newChildren = [];
   let i = 0;
-  let inMetadataSection = false;
   let skipUntilNextHeading = false;
 
   while (i < tree.children.length) {
@@ -91,26 +90,18 @@ function transformConversationToFAQ(tree) {
 
     // Check if we're entering a metadata section
     if (isMetadataSection(node)) {
-      inMetadataSection = true;
       skipUntilNextHeading = true;
       i++;
       continue;
     }
 
-    // If we hit a non-metadata heading, we're out of metadata sections
-    if (node.type === 'heading' && !isMetadataSection(node) && !isChatHeader(node)) {
-      inMetadataSection = false;
-      skipUntilNextHeading = false;
-    }
-
-    // Skip content in metadata sections
-    if (inMetadataSection || skipUntilNextHeading) {
-      // Keep going until we hit a non-metadata heading
+    // If we're skipping and hit a real content heading (not metadata, not chat header), stop skipping
+    if (skipUntilNextHeading) {
       if (node.type === 'heading' && !isMetadataSection(node) && !isChatHeader(node)) {
         skipUntilNextHeading = false;
-        inMetadataSection = false;
-        // Don't skip this heading, process it below
+        // Process this heading normally below
       } else {
+        // Still skipping
         i++;
         continue;
       }
