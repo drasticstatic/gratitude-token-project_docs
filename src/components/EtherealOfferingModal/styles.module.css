@@ -55,11 +55,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4);
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.25rem;
   animation: gentleBounce 2s ease-in-out infinite;
+  margin: 0 auto;
 }
 
 .openButton:hover {
