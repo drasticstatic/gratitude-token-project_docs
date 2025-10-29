@@ -1,19 +1,23 @@
 import React, {useState, useEffect} from 'react';
 import {useHistory} from '@docusaurus/router';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 import styles from './styles.module.css';
 
 export default function AgenticSearch() {
   const [query, setQuery] = useState('');
   const history = useHistory();
+  const searchPath = useBaseUrl('/search');
+
 
   const onSubmit = (e) => {
     e.preventDefault();
     if (!query.trim()) {
       return;
     }
-    
-    // Navigate to search results page with query
-    history.push(`/search?q=${encodeURIComponent(query.trim())}`);
+
+    // Navigate to search results page with query (baseUrl-safe)
+    history.push(`${searchPath}?q=${encodeURIComponent(query.trim())}`);
   };
 
   // Focus search input when clicking the navbar "Search" link

@@ -468,3 +468,21 @@ h3, h4, h5, h6 {
 @media (max-width: 768px) {
   .blog-list-page .col--9, .blog-list-page .col--8 { width: 100% !important; max-width: 100% !important; }
 }
+
+
+/* Fix mobile hamburger menu: ensure sidebar overlays content and is clickable */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000 !important;
+  }
+  .navbar-sidebar__backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999 !important;
+  }
+}

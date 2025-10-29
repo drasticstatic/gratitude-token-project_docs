@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
+  background:
     radial-gradient(circle at 20% 50%, rgba(138, 43, 226, 0.1) 0%, transparent 50%),
     radial-gradient(circle at 80% 50%, rgba(255, 105, 180, 0.1) 0%, transparent 50%);
   pointer-events: none;
@@ -61,6 +61,42 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(138, 43, 226, 0.6);
 }
+
+/* Psychedelic breathing aura for the Vision button */
+.openButton {
+  position: relative;
+  isolation: isolate;
+}
+
+.openButton::after {
+  content: '';
+  position: absolute;
+  inset: -12px;
+  border-radius: 60px;
+  background:
+    radial-gradient(60% 60% at 50% 50%, rgba(138, 43, 226, 0.45) 0%, rgba(138, 43, 226, 0.0) 70%),
+    radial-gradient(80% 80% at 50% 50%, rgba(255, 105, 180, 0.35) 0%, rgba(255, 105, 180, 0.0) 75%);
+  filter: blur(14px);
+  z-index: -1;
+  animation: auraPulse 4.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.openButton:hover::after {
+  filter: blur(18px);
+}
+
+@keyframes auraPulse {
+  0%, 100% {
+    opacity: 0.85;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
 
 .modalOverlay {
   position: fixed;

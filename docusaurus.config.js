@@ -59,7 +59,9 @@ const config = {
             '**/learn-the-code/**', // Exclude learn-the-code with broken links
             '**/_*.md', // Exclude files starting with underscore
           ],
+          remarkPlugins: [require('./src/remark/removeChatGPTHeaders')],
         },
+
         blog: false, // Disable default blog
         theme: {
           customCss: './src/css/custom.css',
@@ -225,6 +227,10 @@ const config = {
               {
                 label: 'Privacy Policy',
                 to: '/docs/privacy-policy',
+              },
+              {
+                label: 'Lost?',
+                to: '/404.html',
               },
             ],
           },
