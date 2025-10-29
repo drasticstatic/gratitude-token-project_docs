@@ -15,7 +15,7 @@ export default function EtherealOfferingModal() {
           className={styles.openButton}
           onClick={() => setIsOpen(true)}
         >
-          Read the Vision
+          🌟 Discover the Vision — Unveil the Sacred Technology 🌟
         </button>
       </div>
 
