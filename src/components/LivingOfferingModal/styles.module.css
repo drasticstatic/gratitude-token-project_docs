@@ -52,7 +52,7 @@
   font-weight: 700;
   border-radius: 16px;
   cursor: pointer;
-  margin: 20px auto;
+  margin: 20px auto 40px;
   display: block;
   animation: sparkle 2s ease-in-out infinite, pulse 2s ease-in-out infinite;
   transition: all 0.3s ease;

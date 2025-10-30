@@ -488,131 +488,150 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   -webkit-background-clip: border-box !important;
 }
 
-/* Fix mobile hamburger menu: ensure sidebar overlays content and is clickable */
+/* Mobile hamburger menu - Simplified and more reliable */
 @media (max-width: 996px) {
-  /* Ensure mobile sidebar backdrop is visible and clickable */
-  .navbar-sidebar__backdrop,
-  [class*="navbar-sidebar__backdrop"] {
+  /* Backdrop - visible when menu is open */
+  .navbar-sidebar__backdrop {
     position: fixed !important;
-    inset: 0 !important;
-    background: rgba(0, 0, 0, 0.85) !important;
-    z-index: 9998 !important;
-    backdrop-filter: blur(8px) !important;
-    cursor: pointer !important;
-    display: block !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.92) !important;
+    z-index: 70 !important;
+    backdrop-filter: blur(12px) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.3s ease, visibility 0.3s ease !important;
   }
 
-  /* Ensure mobile sidebar container is properly positioned and styled */
-  .navbar-sidebar,
-  [class*="navbar-sidebar"]:not([class*="backdrop"]) {
+  /* Show backdrop when sidebar is shown */
+  .navbar-sidebar--show .navbar-sidebar__backdrop {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Mobile sidebar container */
+  .navbar-sidebar {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
-    left: auto !important;
-    width: 85% !important;
-    max-width: 380px !important;
-    z-index: 9999 !important;
-    background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(0, 0, 0, 0.98)) !important;
-    backdrop-filter: blur(12px) !important;
-    border-left: 2px solid rgba(124, 58, 237, 0.5) !important;
-    box-shadow: -8px 0 32px rgba(124, 58, 237, 0.4), -4px 0 16px rgba(236, 72, 153, 0.2) !important;
-    transform: translateX(0) !important;
+    width: 80% !important;
+    max-width: 350px !important;
+    z-index: 80 !important;
+    background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(10, 0, 20, 0.98)) !important;
+    backdrop-filter: blur(16px) !important;
+    border-left: 2px solid rgba(124, 58, 237, 0.6) !important;
+    box-shadow: -8px 0 32px rgba(124, 58, 237, 0.5) !important;
     overflow-y: auto !important;
-    padding: 1rem 0 !important;
+    transform: translateX(100%) !important;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   }
 
-  /* Style the close button */
-  .navbar-sidebar__close,
-  .navbar-sidebar .clean-btn {
+  /* Show sidebar */
+  .navbar-sidebar--show .navbar-sidebar {
+    transform: translateX(0) !important;
+  }
+
+  /* Close button styling */
+  .navbar-sidebar__close {
     color: var(--purple-light) !important;
-    padding: 0.5rem !important;
-    margin: 0.5rem !important;
+    font-size: 1.75rem !important;
+    padding: 0.75rem !important;
+    background: rgba(124, 58, 237, 0.25) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(124, 58, 237, 0.5) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    margin: 1rem !important;
   }
 
-  /* Ensure primary sidebar content is visible */
-  .navbar-sidebar__items,
-  .navbar-sidebar .navbar-sidebar__items {
-    display: block !important;
-    width: 100% !important;
+  .navbar-sidebar__close:hover {
+    background: rgba(124, 58, 237, 0.45) !important;
+    border-color: rgba(124, 58, 237, 0.7) !important;
+    transform: scale(1.05) !important;
   }
 
-  /* Ensure menu items are visible and styled uniformly */
-  .navbar-sidebar .menu,
-  .navbar-sidebar__items .menu {
-    padding: 0.5rem 1rem !important;
-    width: 100% !important;
+  /* Sidebar content */
+  .navbar-sidebar__items {
+    padding: 1.5rem 1rem !important;
   }
 
-  .navbar-sidebar .menu__list,
-  .navbar-sidebar__items .menu__list {
+  /* Menu styling */
+  .navbar-sidebar .menu {
+    padding: 0 !important;
+  }
+
+  .navbar-sidebar .menu__list {
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
   }
 
-  .navbar-sidebar .menu__link,
-  .navbar-sidebar .navbar__link,
-  .navbar-sidebar__items .menu__link,
-  .navbar-sidebar__items .navbar__link {
-    color: var(--gray-light) !important;
-    padding: 0.875rem 1.25rem !important;
-    border-radius: 8px !important;
-    margin: 0.25rem 0 !important;
+  .navbar-sidebar .menu__list-item {
+    margin: 0.75rem 0 !important;
+  }
+
+  /* Menu links */
+  .navbar-sidebar .menu__link {
     display: block !important;
-    width: 100% !important;
-    text-align: left !important;
-    font-size: 1rem !important;
-    transition: all 0.2s ease !important;
-    background: rgba(0, 0, 0, 0.2) !important;
+    padding: 1.125rem 1.5rem !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid rgba(124, 58, 237, 0.25) !important;
+    border-radius: 12px !important;
+    text-decoration: none !important;
+    font-size: 1.05rem !important;
+    font-weight: 500 !important;
+    transition: all 0.25s ease !important;
   }
 
-  .navbar-sidebar .menu__link:hover,
-  .navbar-sidebar .navbar__link:hover,
-  .navbar-sidebar__items .menu__link:hover,
-  .navbar-sidebar__items .navbar__link:hover {
-    background: rgba(124, 58, 237, 0.3) !important;
-    color: var(--purple-light) !important;
-    transform: translateX(4px) !important;
+  .navbar-sidebar .menu__link:hover {
+    background: rgba(124, 58, 237, 0.35) !important;
+    border-color: rgba(124, 58, 237, 0.6) !important;
+    color: white !important;
+    transform: translateX(8px) !important;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3) !important;
   }
 
-  .navbar-sidebar .menu__link--active,
-  .navbar-sidebar .navbar__link--active,
-  .navbar-sidebar__items .menu__link--active,
-  .navbar-sidebar__items .navbar__link--active {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.4), rgba(236, 72, 153, 0.3)) !important;
-    color: var(--purple-light) !important;
+  .navbar-sidebar .menu__link--active {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.5), rgba(236, 72, 153, 0.35)) !important;
+    border-color: rgba(236, 72, 153, 0.6) !important;
+    color: white !important;
     font-weight: 600 !important;
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.4) !important;
   }
 
-  /* Ensure the navbar items container in mobile sidebar is visible */
-  .navbar-sidebar .navbar__items,
-  .navbar-sidebar__items .navbar__items {
+  /* Navbar items */
+  .navbar-sidebar .navbar__items {
     display: flex !important;
     flex-direction: column !important;
-    padding: 0.5rem 1rem !important;
+    gap: 0.75rem !important;
+    padding: 0 !important;
+  }
+
+  .navbar-sidebar .navbar__item {
     width: 100% !important;
   }
 
-  /* Style navbar item links */
-  .navbar-sidebar .navbar__item,
-  .navbar-sidebar__items .navbar__item {
-    width: 100% !important;
-    margin: 0.25rem 0 !important;
+  .navbar-sidebar .navbar__link {
+    display: block !important;
+    padding: 1.125rem 1.5rem !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    background: rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid rgba(124, 58, 237, 0.25) !important;
+    border-radius: 12px !important;
+    text-decoration: none !important;
+    font-size: 1.05rem !important;
+    transition: all 0.25s ease !important;
   }
 
-  /* Ensure dropdown menus work properly */
-  .navbar-sidebar .dropdown,
-  .navbar-sidebar__items .dropdown {
-    width: 100% !important;
-  }
-
-  .navbar-sidebar .dropdown__menu,
-  .navbar-sidebar__items .dropdown__menu {
-    background: rgba(0, 0, 0, 0.4) !important;
-    border: 1px solid rgba(124, 58, 237, 0.3) !important;
-    border-radius: 8px !important;
-    margin-top: 0.5rem !important;
+  .navbar-sidebar .navbar__link:hover {
+    background: rgba(124, 58, 237, 0.35) !important;
+    border-color: rgba(124, 58, 237, 0.6) !important;
+    color: white !important;
+    transform: translateX(8px) !important;
   }
 }
 

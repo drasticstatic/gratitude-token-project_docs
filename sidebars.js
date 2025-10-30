@@ -35,6 +35,20 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Principles',
+      items: [
+        'principles/overview',
+        'principles/generosity',
+        'principles/truth',
+        'principles/compassion',
+        'principles/transparency',
+        'principles/communion',
+        'principles/regeneration',
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'Tokenomics',
       items: [
         'tokenomics/overview',

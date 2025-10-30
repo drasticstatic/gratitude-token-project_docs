@@ -2,10 +2,10 @@
   background: radial-gradient(ellipse at center, rgba(124,58,237,0.3) 0%, rgba(0,0,0,0.9) 70%);
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
-  padding: 4rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .heroBanner::before {
@@ -23,9 +23,9 @@
 .heroContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 3rem;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .heroText {

@@ -3,6 +3,8 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HeroSection from '@site/src/components/HeroSection';
 import StatsSection from '@site/src/components/StatsSection';
+import HeroStats from '@site/src/components/HeroStats';
+
 import RoadmapPreview from '@site/src/components/RoadmapPreview';
 import LivingOfferingModal from '@site/src/components/LivingOfferingModal';
 import EtherealOfferingModal from '@site/src/components/EtherealOfferingModal';
@@ -18,8 +20,10 @@ export default function Home() {
       <HeroSection />
       <LivingOfferingModal />
       <EtherealOfferingModal />
+
       <PurposeModal />
       <AgenticSearch />
+      <HeroStats />
       <StatsSection />
       <main>
         <HomepageFeatures />

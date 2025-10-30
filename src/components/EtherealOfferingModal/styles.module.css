@@ -1,5 +1,6 @@
 .wrapper {
   padding: 3rem 1rem;
+  margin-top: 1rem;
   background: linear-gradient(135deg, #1a0033 0%, #2d1b4e 50%, #1a0033 100%);
   position: relative;
   overflow: hidden;
