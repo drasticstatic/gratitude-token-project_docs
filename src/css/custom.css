@@ -490,72 +490,129 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
 
 /* Fix mobile hamburger menu: ensure sidebar overlays content and is clickable */
 @media (max-width: 996px) {
-  /* Ensure mobile sidebar backdrop is visible */
-  .navbar-sidebar__backdrop {
+  /* Ensure mobile sidebar backdrop is visible and clickable */
+  .navbar-sidebar__backdrop,
+  [class*="navbar-sidebar__backdrop"] {
     position: fixed !important;
     inset: 0 !important;
-    background: rgba(0, 0, 0, 0.75) !important;
+    background: rgba(0, 0, 0, 0.85) !important;
     z-index: 9998 !important;
-    backdrop-filter: blur(4px) !important;
+    backdrop-filter: blur(8px) !important;
+    cursor: pointer !important;
+    display: block !important;
   }
 
-  /* Ensure mobile sidebar container is properly positioned */
-  [class*="navbar-sidebar"],
-  .navbar-sidebar {
+  /* Ensure mobile sidebar container is properly positioned and styled */
+  .navbar-sidebar,
+  [class*="navbar-sidebar"]:not([class*="backdrop"]) {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
     left: auto !important;
-    width: 80% !important;
-    max-width: 350px !important;
+    width: 85% !important;
+    max-width: 380px !important;
     z-index: 9999 !important;
     background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(0, 0, 0, 0.98)) !important;
     backdrop-filter: blur(12px) !important;
     border-left: 2px solid rgba(124, 58, 237, 0.5) !important;
-    box-shadow: -4px 0 24px rgba(124, 58, 237, 0.3) !important;
+    box-shadow: -8px 0 32px rgba(124, 58, 237, 0.4), -4px 0 16px rgba(236, 72, 153, 0.2) !important;
     transform: translateX(0) !important;
+    overflow-y: auto !important;
+    padding: 1rem 0 !important;
   }
 
-  /* Ensure menu items are visible and styled */
+  /* Style the close button */
+  .navbar-sidebar__close,
+  .navbar-sidebar .clean-btn {
+    color: var(--purple-light) !important;
+    padding: 0.5rem !important;
+    margin: 0.5rem !important;
+  }
+
+  /* Ensure primary sidebar content is visible */
+  .navbar-sidebar__items,
+  .navbar-sidebar .navbar-sidebar__items {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* Ensure menu items are visible and styled uniformly */
   .navbar-sidebar .menu,
-  [class*="navbar-sidebar"] .menu {
-    padding: 1rem !important;
+  .navbar-sidebar__items .menu {
+    padding: 0.5rem 1rem !important;
+    width: 100% !important;
+  }
+
+  .navbar-sidebar .menu__list,
+  .navbar-sidebar__items .menu__list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   .navbar-sidebar .menu__link,
   .navbar-sidebar .navbar__link,
-  [class*="navbar-sidebar"] .menu__link,
-  [class*="navbar-sidebar"] .navbar__link {
+  .navbar-sidebar__items .menu__link,
+  .navbar-sidebar__items .navbar__link {
     color: var(--gray-light) !important;
-    padding: 0.75rem 1rem !important;
+    padding: 0.875rem 1.25rem !important;
     border-radius: 8px !important;
-    margin: 4px 0 !important;
+    margin: 0.25rem 0 !important;
     display: block !important;
+    width: 100% !important;
+    text-align: left !important;
+    font-size: 1rem !important;
+    transition: all 0.2s ease !important;
+    background: rgba(0, 0, 0, 0.2) !important;
   }
 
   .navbar-sidebar .menu__link:hover,
   .navbar-sidebar .navbar__link:hover,
-  [class*="navbar-sidebar"] .menu__link:hover,
-  [class*="navbar-sidebar"] .navbar__link:hover {
+  .navbar-sidebar__items .menu__link:hover,
+  .navbar-sidebar__items .navbar__link:hover {
     background: rgba(124, 58, 237, 0.3) !important;
     color: var(--purple-light) !important;
+    transform: translateX(4px) !important;
   }
 
   .navbar-sidebar .menu__link--active,
   .navbar-sidebar .navbar__link--active,
-  [class*="navbar-sidebar"] .menu__link--active,
-  [class*="navbar-sidebar"] .navbar__link--active {
+  .navbar-sidebar__items .menu__link--active,
+  .navbar-sidebar__items .navbar__link--active {
     background: linear-gradient(135deg, rgba(124, 58, 237, 0.4), rgba(236, 72, 153, 0.3)) !important;
     color: var(--purple-light) !important;
+    font-weight: 600 !important;
   }
 
   /* Ensure the navbar items container in mobile sidebar is visible */
-  .navbar-sidebar [class*="navbar__items"],
-  [class*="navbar-sidebar"] [class*="navbar__items"] {
+  .navbar-sidebar .navbar__items,
+  .navbar-sidebar__items .navbar__items {
     display: flex !important;
     flex-direction: column !important;
-    padding: 1rem !important;
+    padding: 0.5rem 1rem !important;
+    width: 100% !important;
+  }
+
+  /* Style navbar item links */
+  .navbar-sidebar .navbar__item,
+  .navbar-sidebar__items .navbar__item {
+    width: 100% !important;
+    margin: 0.25rem 0 !important;
+  }
+
+  /* Ensure dropdown menus work properly */
+  .navbar-sidebar .dropdown,
+  .navbar-sidebar__items .dropdown {
+    width: 100% !important;
+  }
+
+  .navbar-sidebar .dropdown__menu,
+  .navbar-sidebar__items .dropdown__menu {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(124, 58, 237, 0.3) !important;
+    border-radius: 8px !important;
+    margin-top: 0.5rem !important;
   }
 }
 

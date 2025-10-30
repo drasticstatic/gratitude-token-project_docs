@@ -6,6 +6,7 @@ import StatsSection from '@site/src/components/StatsSection';
 import RoadmapPreview from '@site/src/components/RoadmapPreview';
 import LivingOfferingModal from '@site/src/components/LivingOfferingModal';
 import EtherealOfferingModal from '@site/src/components/EtherealOfferingModal';
+import PurposeModal from '@site/src/components/PurposeModal';
 import AgenticSearch from '@site/src/components/AgenticSearch';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <HeroSection />
       <LivingOfferingModal />
       <EtherealOfferingModal />
+      <PurposeModal />
       <AgenticSearch />
       <StatsSection />
       <main>
