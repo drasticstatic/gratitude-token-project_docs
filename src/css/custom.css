@@ -575,21 +575,42 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Sidebar content */
   .navbar-sidebar__items {
     padding: 1.5rem 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Override inert attribute styling */
+  .navbar-sidebar__item[inert],
+  .navbar-sidebar__item[inert=""] {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
   /* Menu styling */
   .navbar-sidebar .menu {
     padding: 0 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   .navbar-sidebar .menu__list {
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   .navbar-sidebar .menu__list-item {
     margin: 0.75rem 0 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   /* Menu links */
