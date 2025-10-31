@@ -520,12 +520,13 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     bottom: 0 !important;
     width: 80% !important;
     max-width: 350px !important;
+    height: 100vh !important;
     z-index: 5100 !important;
     background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(10, 0, 20, 0.98)) !important;
     backdrop-filter: blur(16px) !important;
     border-left: 2px solid rgba(124, 58, 237, 0.6) !important;
     box-shadow: -8px 0 32px rgba(124, 58, 237, 0.5) !important;
-    overflow-y: auto !important;
+    overflow: hidden !important; /* Container should not scroll, only items inside */
     transform: translateX(100%) !important;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   }
@@ -572,19 +573,37 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     transform: scale(1.05) !important;
   }
 
-  /* Sidebar content */
+  /* Sidebar content - MUST fill full height and scroll */
   .navbar-sidebar__items {
+    position: absolute !important;
+    top: 60px !important; /* Below the header/close button */
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
     padding: 1.5rem 1rem !important;
     display: flex !important;
     flex-direction: column !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
     visibility: visible !important;
     opacity: 1 !important;
   }
 
+  /* Panel items - these are the primary/secondary menu containers */
+  .navbar-sidebar__item {
+    flex: 1 !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
   /* Override inert attribute styling - FORCE visibility of menu items */
   .navbar-sidebar__item[inert],
-  .navbar-sidebar__item[inert=""],
-  .navbar-sidebar__item {
+  .navbar-sidebar__item[inert=""] {
     pointer-events: auto !important;
     opacity: 1 !important;
     visibility: visible !important;
@@ -592,7 +611,8 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
 
   /* Force all child elements to be visible too */
   .navbar-sidebar__item[inert] *,
-  .navbar-sidebar__item[inert=""] * {
+  .navbar-sidebar__item[inert=""] *,
+  .navbar-sidebar__item * {
     pointer-events: auto !important;
     opacity: 1 !important;
     visibility: visible !important;
