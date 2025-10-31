@@ -160,7 +160,7 @@ h3, h4, h5, h6 {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(124,58,237,0.3);
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  z-index: 300 !important; /* Ensure navbar and its sidebar sit above page content */
+  z-index: 5000 !important; /* Ensure navbar and its sidebar sit above page content */
 }
 
 .navbar__logo {
@@ -499,7 +499,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     right: 0 !important;
     bottom: 0 !important;
     background: rgba(0, 0, 0, 0.92) !important;
-    z-index: 70 !important;
+    z-index: 5050 !important;
     backdrop-filter: blur(12px) !important;
     opacity: 0 !important;
     visibility: hidden !important;
@@ -520,7 +520,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     bottom: 0 !important;
     width: 80% !important;
     max-width: 350px !important;
-    z-index: 80 !important;
+    z-index: 5100 !important;
     background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(10, 0, 20, 0.98)) !important;
     backdrop-filter: blur(16px) !important;
     border-left: 2px solid rgba(124, 58, 237, 0.6) !important;
@@ -549,7 +549,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     align-items: center;
     justify-content: center;
     color: var(--purple-light) !important;
-    z-index: 1000 !important;
+    z-index: 5200 !important;
   }
 
 
@@ -581,9 +581,18 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     opacity: 1 !important;
   }
 
-  /* Override inert attribute styling */
+  /* Override inert attribute styling - FORCE visibility of menu items */
   .navbar-sidebar__item[inert],
-  .navbar-sidebar__item[inert=""] {
+  .navbar-sidebar__item[inert=""],
+  .navbar-sidebar__item {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Force all child elements to be visible too */
+  .navbar-sidebar__item[inert] *,
+  .navbar-sidebar__item[inert=""] * {
     pointer-events: auto !important;
     opacity: 1 !important;
     visibility: visible !important;

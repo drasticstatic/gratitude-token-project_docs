@@ -57,6 +57,7 @@ const sidebars = {
         'tokenomics/etho-token',
         'tokenomics/psd-stablecoin',
         'tokenomics/dm-token',
+        'tokenomics/token-economics-review',
       ],
     },
     {

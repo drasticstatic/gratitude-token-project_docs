@@ -17,7 +17,7 @@
 ## 00-START-HERE
 
 ### README.md
-**Reading Time:** 5 minutes  
+**Reading Time:** 5 minutes
 **Purpose:** Introduction, directory structure, and reading guide
 
 **Key Topics:**
@@ -31,7 +31,7 @@
 ## 01-modals
 
 ### 01-vision-ethereal-offering.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** The foundational vision - lifting the veil between spirit and system
 
 **Key Topics:**
@@ -46,7 +46,7 @@
 **Why Read This:** This is the spiritual and philosophical foundation of everything we build. It explains WHY Ethereal Offering exists and HOW technology can serve spirit.
 
 ### 02-purpose-and-values.md
-**Reading Time:** 20 minutes  
+**Reading Time:** 20 minutes
 **Purpose:** Mission, purpose, and six core values
 
 **Key Topics:**
@@ -66,7 +66,7 @@
 **Why Read This:** This document translates the vision into practical values and shows how each principle manifests in the platform.
 
 ### 03-living-offering.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** The origin story - The Alabaster Ledger
 
 **Key Topics:**
@@ -82,27 +82,27 @@
 ## 02-principles
 
 ### 01-generosity.md
-**Reading Time:** 5 minutes  
+**Reading Time:** 5 minutes
 **Key Concepts:** Circulating love, transparent treasury, soulbound recognition, regenerative flows
 
 ### 02-truth.md
-**Reading Time:** 3 minutes  
+**Reading Time:** 3 minutes
 **Key Concepts:** Zero-knowledge proofs, decentralized verification, mathematical certainty, privacy with authenticity
 
 ### 03-compassion.md
-**Reading Time:** 4 minutes  
+**Reading Time:** 4 minutes
 **Key Concepts:** Recovery-based governance, soulbound identity, technology as care, systems that forgive
 
 ### 04-transparency.md
-**Reading Time:** 4 minutes  
+**Reading Time:** 4 minutes
 **Key Concepts:** Sacred transparency, collective visibility, privacy preserved, on-chain accountability
 
 ### 05-communion.md
-**Reading Time:** 4 minutes  
+**Reading Time:** 4 minutes
 **Key Concepts:** Holacratic DAO, collaborative intelligence, governance as prayer, emergent leadership
 
 ### 06-regeneration.md
-**Reading Time:** 4 minutes  
+**Reading Time:** 4 minutes
 **Key Concepts:** Cycles of renewal, evolutionary feedback, restoration over growth, circular economics
 
 **Why Read These:** Each principle page shows how spiritual values translate into practical platform features. They're concise and actionable.
@@ -112,7 +112,7 @@
 ## 03-whitepaper
 
 ### 01-introduction.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** Formal introduction to the Ethereal Offering project
 
 **Key Topics:**
@@ -122,7 +122,7 @@
 - Vision and mission
 
 ### 02-executive-summary.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** High-level overview of the entire project
 
 **Key Topics:**
@@ -134,7 +134,7 @@
 - Roadmap highlights
 
 ### 03-spiritual-foundation.md
-**Reading Time:** 20 minutes  
+**Reading Time:** 20 minutes
 **Purpose:** Deep dive into the spiritual philosophy
 
 **Key Topics:**
@@ -148,7 +148,7 @@
 **Why Read This:** This is the most comprehensive spiritual document. It weaves together Course in Miracles teachings, blockchain technology, and mycelial networks into a coherent spiritual-technical vision.
 
 ### 04-technical-architecture.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Complete technical architecture and design
 
 **Key Topics:**
@@ -161,7 +161,7 @@
 - Security and privacy
 
 ### 05-tokenomics.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Complete token economics and treasury design
 
 **Key Topics:**
@@ -173,7 +173,7 @@
 - Regenerative economics
 
 ### 06-governance-model.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Complete DAO governance design
 
 **Key Topics:**
@@ -189,7 +189,7 @@
 ## 04-getting-started
 
 ### overview.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Practical guide for new users
 
 **Key Topics:**
@@ -208,7 +208,7 @@
 ## 05-tokenomics
 
 ### overview.md
-**Reading Time:** 5 minutes  
+**Reading Time:** 5 minutes
 **Purpose:** Quick reference for tokenomics with links to detailed docs
 
 **Key Topics:**
@@ -218,11 +218,17 @@
 - Links to full documentation
 
 ---
+### token-economics-review.md
+**Reading Time:** varies
+**Purpose:** Raw ChatGPT "Token economics review" export consolidated into readable markdown for archival reference
+
+---
+
 
 ## 06-governance
 
 ### overview.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** DAO governance overview
 
 **Key Topics:**
@@ -237,7 +243,7 @@
 ## 07-architecture
 
 ### overview.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** Technical architecture overview
 
 **Key Topics:**
@@ -255,7 +261,7 @@
 ## 08-research
 
 ### overview.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** Research and development archive overview
 
 **Key Topics:**
@@ -266,19 +272,19 @@
 - Analysis documents
 
 ### elevator-pitch.md
-**Reading Time:** 5 minutes  
+**Reading Time:** 5 minutes
 **Purpose:** Distilled project essence for investors and mentors
 
 ### treasury-flow.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Complete treasury mechanics and flow patterns
 
 ### tokenomics-analysis.md
-**Reading Time:** 15 minutes  
+**Reading Time:** 15 minutes
 **Purpose:** Deep dive into tokenomics design decisions
 
 ### living-offering-analysis.md
-**Reading Time:** 10 minutes  
+**Reading Time:** 10 minutes
 **Purpose:** Analysis of The Living Offering and Alabaster Ledger concept
 
 ---

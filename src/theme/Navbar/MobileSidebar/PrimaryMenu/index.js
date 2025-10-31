@@ -13,10 +13,8 @@ export default function NavbarMobilePrimaryMenu() {
   // Should we allow providing a different list of items?
   const items = useNavbarItems();
 
-  console.log('NavbarMobilePrimaryMenu rendering with items:', items);
-
   return (
-    <ul className="menu__list" style={{display: 'block', visibility: 'visible', opacity: 1}}>
+    <ul className="menu__list">
       {items.map((item, i) => (
         <NavbarItem
           mobile

@@ -41,25 +41,21 @@ export default function NavbarMobileSidebarLayout({
 }: Props): ReactNode {
   const {shown: secondaryMenuShown} = useNavbarSecondaryMenu();
 
-  console.log('NavbarMobileSidebarLayout rendering, secondaryMenuShown:', secondaryMenuShown);
-
   return (
     <div
       className={clsx(
         ThemeClassNames.layout.navbar.mobileSidebar.container,
         'navbar-sidebar',
-      )}
-      style={{display: 'block', visibility: 'visible', opacity: 1}}>
+      )}>
       {header}
       <div
         className={clsx('navbar-sidebar__items', {
           'navbar-sidebar__items--show-secondary': secondaryMenuShown,
-        })}
-        style={{display: 'flex', flexDirection: 'column', visibility: 'visible', opacity: 1}}>
+        })}>
         <NavbarMobileSidebarPanel inert={false}>
           {primaryMenu}
         </NavbarMobileSidebarPanel>
-        <NavbarMobileSidebarPanel inert={false}>
+        <NavbarMobileSidebarPanel inert={!secondaryMenuShown}>
           {secondaryMenu}
         </NavbarMobileSidebarPanel>
       </div>
