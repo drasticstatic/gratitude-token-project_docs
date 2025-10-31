@@ -712,6 +712,9 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     min-height: 40px !important;
   }
 
+  /* CRITICAL: Target the actual mobile menu link class */
+  .navbar-sidebar .menu__link,
+  .navbar-sidebar__item .menu__link,
   .navbar-sidebar .navbar__link,
   .navbar-sidebar__item .navbar__link,
   .navbar-sidebar a {
@@ -726,7 +729,6 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     border: 1px solid rgba(124, 58, 237, 0.25) !important;
     border-radius: 12px !important;
     text-decoration: none !important;
-    font-size: 1.05rem !important;
     transition: all 0.25s ease !important;
   }
 
@@ -752,6 +754,24 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     display: inline-block !important;
     visibility: visible !important;
     opacity: 1 !important;
+  }
+
+  /* Force menu link text to be visible */
+  .navbar-sidebar .menu__link,
+  .navbar-sidebar__item .menu__link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.05rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+
+  /* Hover state for menu links */
+  .navbar-sidebar .menu__link:hover,
+  .navbar-sidebar__item .menu__link:hover {
+    background: rgba(124, 58, 237, 0.3) !important;
+    border-color: rgba(124, 58, 237, 0.6) !important;
+    color: white !important;
   }
 }
 
