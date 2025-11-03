@@ -1,0 +1,88 @@
+.sporeContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.spore {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: sporeFloat var(--duration, 2s) ease-out var(--delay, 0s) forwards;
+  box-shadow: 
+    0 0 10px currentColor,
+    0 0 20px currentColor,
+    0 0 30px currentColor;
+  filter: blur(1px);
+}
+
+@keyframes sporeFloat {
+  0% {
+    opacity: 0;
+    transform: 
+      translate(0, 0) 
+      rotate(0deg) 
+      scale(0);
+  }
+  10% {
+    opacity: 1;
+    transform: 
+      translate(
+        calc(cos(var(--angle, 0deg)) * calc(var(--distance, 100px) * 0.1)),
+        calc(sin(var(--angle, 0deg)) * calc(var(--distance, 100px) * 0.1))
+      )
+      rotate(calc(var(--rotation, 0deg) * 0.1))
+      scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: 
+      translate(
+        calc(cos(var(--angle, 0deg)) * calc(var(--distance, 100px) * 0.5)),
+        calc(sin(var(--angle, 0deg)) * calc(var(--distance, 100px) * 0.5))
+      )
+      rotate(calc(var(--rotation, 0deg) * 0.5))
+      scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: 
+      translate(
+        calc(cos(var(--angle, 0deg)) * var(--distance, 100px)),
+        calc(sin(var(--angle, 0deg)) * var(--distance, 100px))
+      )
+      rotate(var(--rotation, 0deg))
+      scale(0.5);
+  }
+}
+
+/* Pulsing glow effect */
+.spore::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: inherit;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: sporePulse calc(var(--duration, 2s) * 0.5) ease-in-out infinite;
+}
+
+@keyframes sporePulse {
+  0%, 100% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+}
+

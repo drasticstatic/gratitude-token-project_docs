@@ -512,7 +512,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     visibility: visible !important;
   }
 
-  /* Mobile sidebar container */
+  /* Mobile sidebar container - ENHANCED with animations */
   .navbar-sidebar {
     position: fixed !important;
     top: 0 !important;
@@ -525,10 +525,43 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     background: linear-gradient(180deg, rgba(26, 0, 51, 0.98), rgba(10, 0, 20, 0.98)) !important;
     backdrop-filter: blur(16px) !important;
     border-left: 2px solid rgba(124, 58, 237, 0.6) !important;
-    box-shadow: -8px 0 32px rgba(124, 58, 237, 0.5) !important;
+    box-shadow:
+      -8px 0 32px rgba(124, 58, 237, 0.5),
+      -4px 0 16px rgba(236, 72, 153, 0.3),
+      inset 2px 0 8px rgba(124, 58, 237, 0.2) !important;
     overflow: hidden !important; /* Container should not scroll, only items inside */
     transform: translateX(100%) !important;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
+  /* Animated gradient overlay */
+  .navbar-sidebar::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(
+      135deg,
+      rgba(124, 58, 237, 0.1) 0%,
+      transparent 50%,
+      rgba(236, 72, 153, 0.1) 100%
+    ) !important;
+    animation: menuGradientShift 8s ease-in-out infinite !important;
+    pointer-events: none !important;
+    z-index: 0 !important;
+  }
+
+  @keyframes menuGradientShift {
+    0%, 100% {
+      opacity: 0.3;
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      opacity: 0.6;
+      transform: translateY(-10px) scale(1.05);
+    }
   }
 
   /* Show sidebar */
@@ -544,13 +577,47 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
-  /* Ensure hamburger toggle is visible and clickable */
+  /* Ensure hamburger toggle is visible and clickable - ENHANCED */
   .navbar__toggle {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
     color: var(--purple-light) !important;
     z-index: 5200 !important;
+    position: relative !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
+  .navbar__toggle:hover {
+    transform: scale(1.1) rotate(5deg) !important;
+  }
+
+  .navbar__toggle:active {
+    transform: scale(0.95) rotate(-5deg) !important;
+  }
+
+  /* Glowing effect on hamburger icon */
+  .navbar__toggle svg {
+    filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.5)) !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .navbar__toggle:hover svg {
+    filter: drop-shadow(0 0 12px rgba(236, 72, 153, 0.7)) !important;
+  }
+
+  /* Pulsing glow animation */
+  @keyframes iconPulse {
+    0%, 100% {
+      filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.5));
+    }
+    50% {
+      filter: drop-shadow(0 0 16px rgba(236, 72, 153, 0.8));
+    }
+  }
+
+  .navbar__toggle svg {
+    animation: iconPulse 2s ease-in-out infinite !important;
   }
 
 
@@ -661,7 +728,32 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     margin: 0.75rem 0 !important;
   }
 
-  /* Menu links */
+  /* Staggered entrance animation for menu items */
+  .navbar-sidebar--show .menu__list-item {
+    animation: slideInFromRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) backwards !important;
+  }
+
+  .navbar-sidebar--show .menu__list-item:nth-child(1) { animation-delay: 0.05s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(2) { animation-delay: 0.1s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(3) { animation-delay: 0.15s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(4) { animation-delay: 0.2s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(5) { animation-delay: 0.25s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(6) { animation-delay: 0.3s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(7) { animation-delay: 0.35s !important; }
+  .navbar-sidebar--show .menu__list-item:nth-child(8) { animation-delay: 0.4s !important; }
+
+  @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px) scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+  }
+
+  /* Menu links - ENHANCED with animations */
   .navbar-sidebar .menu__link {
     display: block !important;
     padding: 1.125rem 1.5rem !important;
@@ -672,23 +764,67 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     text-decoration: none !important;
     font-size: 1.05rem !important;
     font-weight: 500 !important;
-    transition: all 0.25s ease !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Shimmer effect on menu links */
+  .navbar-sidebar .menu__link::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    ) !important;
+    transition: left 0.5s ease !important;
+  }
+
+  .navbar-sidebar .menu__link:hover::before {
+    left: 100% !important;
   }
 
   .navbar-sidebar .menu__link:hover {
-    background: rgba(124, 58, 237, 0.35) !important;
-    border-color: rgba(124, 58, 237, 0.6) !important;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.45), rgba(236, 72, 153, 0.35)) !important;
+    border-color: rgba(124, 58, 237, 0.7) !important;
     color: white !important;
-    transform: translateX(8px) !important;
-    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3) !important;
+    transform: translateX(12px) scale(1.02) !important;
+    box-shadow:
+      0 4px 20px rgba(124, 58, 237, 0.4),
+      0 0 30px rgba(236, 72, 153, 0.2) !important;
   }
 
   .navbar-sidebar .menu__link--active {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.5), rgba(236, 72, 153, 0.35)) !important;
-    border-color: rgba(236, 72, 153, 0.6) !important;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.6), rgba(236, 72, 153, 0.4)) !important;
+    border-color: rgba(236, 72, 153, 0.7) !important;
     color: white !important;
     font-weight: 600 !important;
-    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.4) !important;
+    box-shadow:
+      0 4px 20px rgba(124, 58, 237, 0.5),
+      0 0 40px rgba(236, 72, 153, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    animation: activePulse 2s ease-in-out infinite !important;
+  }
+
+  @keyframes activePulse {
+    0%, 100% {
+      box-shadow:
+        0 4px 20px rgba(124, 58, 237, 0.5),
+        0 0 40px rgba(236, 72, 153, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    50% {
+      box-shadow:
+        0 6px 25px rgba(124, 58, 237, 0.6),
+        0 0 50px rgba(236, 72, 153, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
   }
 
   /* Navbar items - FORCE visibility */
