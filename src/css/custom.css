@@ -644,35 +644,36 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
-  /* Mobile sidebar header stacked layout: logo/title on top row, icon + color mode toggle on second row */
+  /* Mobile sidebar header: single row with logo, color toggle, and close button */
   .navbar-sidebar__brand--stacked {
     display: flex !important;
-    flex-direction: column !important;
-    gap: 0.4rem !important;
-    padding: 0.5rem 0.75rem 0.75rem !important;
-    border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
-    background: linear-gradient(180deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06)) !important;
-  }
-
-  .navbar-sidebar__brand--stacked .brand-row {
-    display: flex !important;
+    flex-direction: row !important;
     align-items: center !important;
     justify-content: space-between !important;
-    gap: 0.5rem !important;
+    gap: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
+    background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06)) !important;
+    min-height: 60px !important;
   }
 
-  .navbar-sidebar__brand--stacked .brand-row--controls {
-    justify-content: flex-start !important;
-    gap: 0.5rem !important;
-    padding-left: 0.25rem !important;
+  .navbar-sidebar__brand--stacked .brand-row--top {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    flex: 1 !important;
   }
 
-  .navbar-sidebar__brand--stacked .brand-icon {
-    width: 24px !important;
-    height: 24px !important;
-    border-radius: 6px !important;
-    box-shadow: 0 0 10px rgba(124,58,237,0.35) !important;
+  /* Ensure logo and title are visible */
+  .navbar-sidebar__brand--stacked .navbar__logo {
+    height: 32px !important;
   }
+
+  .navbar-sidebar__brand--stacked .navbar__title {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+  }
+
 
 
   /* Fix navbar header spacing to prevent cramming */
@@ -768,7 +769,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Sidebar content - MUST fill full height and scroll */
   .navbar-sidebar__items {
     position: absolute !important;
-    top: 112px !important; /* Below the stacked header rows */
+    top: 60px !important; /* Below the single-row header */
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
@@ -1053,10 +1054,14 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     border-radius: 12px !important;
     text-decoration: none !important;
     transition: all 0.25s ease !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
   }
 
   .navbar-sidebar .navbar__link:hover,
-  .navbar-sidebar__item .navbar__link:hover {
+  .navbar-sidebar__item .navbar__link:hover,
+  .navbar-sidebar .navbar__link:active,
+  .navbar-sidebar__item .navbar__link:active {
     background: rgba(124, 58, 237, 0.35) !important;
     border-color: rgba(124, 58, 237, 0.6) !important;
     color: white !important;
