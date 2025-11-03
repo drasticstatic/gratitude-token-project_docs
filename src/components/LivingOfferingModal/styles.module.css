@@ -235,6 +235,73 @@
   background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
 }
 
+/* Light mode styling */
+[data-theme='light'] .modalContent {
+  background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(249,250,251,0.98));
+  border: 2px solid rgba(102, 126, 234, 0.3);
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.15), 0 0 100px rgba(118, 75, 162, 0.08);
+}
+
+[data-theme='light'] .closeButton {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #1a1a1a;
+}
+
+[data-theme='light'] .closeButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='light'] .poemContent {
+  color: #1a1a1a;
+}
+
+[data-theme='light'] .title {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme='light'] .sectionTitle {
+  color: #667eea;
+}
+
+[data-theme='light'] .scripture {
+  color: #374151 !important;
+  border-left-color: rgba(102, 126, 234, 0.4);
+  background: rgba(102, 126, 234, 0.05);
+}
+
+[data-theme='light'] .scripture cite {
+  color: #6b7280;
+}
+
+[data-theme='light'] .poemContent strong {
+  color: #667eea;
+}
+
+[data-theme='light'] .poemContent em {
+  color: #764ba2;
+}
+
+[data-theme='light'] .signature {
+  color: #374151;
+}
+
+/* Light mode scrollbar */
+[data-theme='light'] .modalContent::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='light'] .modalContent::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+[data-theme='light'] .modalContent::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .poemContent {
@@ -255,4 +322,3 @@
     padding: 12px 24px;
   }
 }
-

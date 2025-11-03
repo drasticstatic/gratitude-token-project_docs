@@ -361,6 +361,92 @@
   }
 }
 
+/* Light mode styling */
+[data-theme='light'] .modalContent {
+  background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(249,250,251,0.98));
+  border: 2px solid rgba(138, 43, 226, 0.3);
+  box-shadow: 0 20px 60px rgba(138, 43, 226, 0.15), 0 0 100px rgba(255, 105, 180, 0.08);
+}
+
+[data-theme='light'] .closeButton {
+  background: rgba(138, 43, 226, 0.1);
+  border: 2px solid rgba(138, 43, 226, 0.3);
+  color: #1a1a1a;
+}
+
+[data-theme='light'] .closeButton:hover {
+  background: rgba(138, 43, 226, 0.2);
+}
+
+[data-theme='light'] .scrollContent {
+  color: #1a1a1a;
+}
+
+[data-theme='light'] .modalTitle {
+  background: linear-gradient(135deg, #8a2be2 0%, #ff69b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme='light'] .section h2 {
+  color: #8a2be2;
+  border-bottom-color: rgba(138, 43, 226, 0.3);
+}
+
+[data-theme='light'] .section h3 {
+  color: #7c3aed;
+}
+
+[data-theme='light'] .section p {
+  color: #1a1a1a;
+}
+
+[data-theme='light'] .section strong {
+  color: #ff69b4;
+}
+
+[data-theme='light'] .section em {
+  color: #8a2be2;
+}
+
+[data-theme='light'] .quote {
+  background: rgba(138, 43, 226, 0.05);
+  border-left-color: #8a2be2;
+  color: #374151;
+}
+
+[data-theme='light'] .quote cite {
+  color: #6b7280;
+}
+
+[data-theme='light'] .tokenTable {
+  background: rgba(138, 43, 226, 0.05);
+}
+
+[data-theme='light'] .tokenTable th {
+  background: linear-gradient(135deg, #8a2be2 0%, #ff69b4 100%);
+  color: white;
+}
+
+[data-theme='light'] .tokenTable td {
+  color: #1a1a1a;
+  border-bottom-color: rgba(138, 43, 226, 0.15);
+}
+
+[data-theme='light'] .tokenTable tbody tr:hover {
+  background: rgba(138, 43, 226, 0.08);
+}
+
+/* Light mode scrollbar */
+[data-theme='light'] .scrollContent::-webkit-scrollbar-track {
+  background: rgba(138, 43, 226, 0.05);
+}
+
+[data-theme='light'] .scrollContent::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8a2be2 0%, #ff69b4 100%);
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 1.75rem;
@@ -400,4 +486,3 @@
     padding: 0.75rem 0.5rem;
   }
 }
-

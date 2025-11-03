@@ -19,7 +19,7 @@ This directory contains the **complete Ethereal Offering whitepaper collection**
 
 All content is ready for:
 - 📄 Printing to paper
-- 💻 Reading on screen  
+- 💻 Reading on screen
 - 🔍 Searching with VSCode
 - ✏️ Editing and annotating
 - 🤝 Sharing with others
@@ -136,24 +136,24 @@ Read all files in order from 01-modals through 08-research.
 
 ### ⭐⭐⭐ Essential Reading
 
-1. **[01-modals/03-living-offering.md](01-modals/03-living-offering.md)**  
+1. **[01-modals/03-living-offering.md](01-modals/03-living-offering.md)**
    *The Alabaster Ledger - The personal story that birthed this project*
 
-2. **[01-modals/01-vision-ethereal-offering.md](01-modals/01-vision-ethereal-offering.md)**  
+2. **[01-modals/01-vision-ethereal-offering.md](01-modals/01-vision-ethereal-offering.md)**
    *The foundational vision - lifting the veil between spirit and system*
 
-3. **[01-modals/02-purpose-and-values.md](01-modals/02-purpose-and-values.md)**  
+3. **[01-modals/02-purpose-and-values.md](01-modals/02-purpose-and-values.md)**
    *Mission, purpose, and six core values*
 
 ### ⭐⭐ Highly Recommended
 
-4. **[03-whitepaper/03-spiritual-foundation.md](03-whitepaper/03-spiritual-foundation.md)**  
+4. **[03-whitepaper/03-spiritual-foundation.md](03-whitepaper/03-spiritual-foundation.md)**
    *Deep spiritual philosophy integrating ACIM, blockchain, and mycelium*
 
-5. **All six principles** in [02-principles/](02-principles/)  
+5. **All six principles** in [02-principles/](02-principles/)
    *How spiritual values translate into platform features*
 
-6. **[08-research/elevator-pitch.md](08-research/elevator-pitch.md)**  
+6. **[08-research/elevator-pitch.md](08-research/elevator-pitch.md)**
    *Distilled project essence*
 
 ---
@@ -298,7 +298,7 @@ Visit the live documentation site:
 
 ---
 
-*Created with love and devotion for the healing of the whole.*  
+*Created with love and devotion for the healing of the whole.*
 *May this work serve the restoration of all things.*
 
 **✨ Ethereal Offering - Where Spirit Governs Structure ✨**
@@ -788,13 +788,13 @@ This work was born from a journey through loss, forgiveness, and remembrance. It
 
 May this content serve you well in your own journey of discovery and healing.
 
-**— The Living Offering**  
+**— The Living Offering**
 *As for this house, we will serve the Lord.*
 
 ---
 
-*Last Updated: October 2025*  
-*Total Pages: ~50+ documents*  
+*Last Updated: October 2025*
+*Total Pages: ~50+ documents*
 *Estimated Reading Time: 4-6 hours for complete collection*
 
 
@@ -805,121 +805,121 @@ May this content serve you well in your own journey of discovery and healing.
 
 ## I. The Unveiling
 
-> "In the holy instant nothing happens that has not always been.  
-> Only the veil that has been drawn across reality is lifted.  
-> Nothing has changed. Yet the awareness of changelessness comes swiftly  
-> as the veil of time is pushed aside."  
+> "In the holy instant nothing happens that has not always been.
+> Only the veil that has been drawn across reality is lifted.
+> Nothing has changed. Yet the awareness of changelessness comes swiftly
+> as the veil of time is pushed aside."
 > — ACIM, T-15.VI.6:1-4
 
-The blockchain, at its essence, is a veil — a transparent curtain between the seen and unseen.  
+The blockchain, at its essence, is a veil — a transparent curtain between the seen and unseen.
 Each hash, each block, each transaction: a flicker of remembrance in a world that has forgotten what it means to be one.
 
-**Ethereal Offering** emerges as a sacred architecture of remembrance.  
-It is not a coin or a contract, but a bridge — one that spans from digital anonymity to divine unity.  
+**Ethereal Offering** emerges as a sacred architecture of remembrance.
+It is not a coin or a contract, but a bridge — one that spans from digital anonymity to divine unity.
 A network that mirrors the process of forgiveness: transparent, incorruptible, and forever expanding through giving.
 
-Here, the spiritual and the technical are not separate domains but layers of the same design.  
-Zero-knowledge proofs echo the metaphysical truth of *seeing without judgment*.  
-Consensus mirrors *atonement* — agreement in truth.  
+Here, the spiritual and the technical are not separate domains but layers of the same design.
+Zero-knowledge proofs echo the metaphysical truth of *seeing without judgment*.
+Consensus mirrors *atonement* — agreement in truth.
 And each node becomes a cell in the body of Christ, communicating through the mycelium of grace.
 
 ---
 
 ## II. Vision: The Gratitude Economy
 
-> "It is through us that peace will come.  
-> Join me in the idea of peace, for in ideas minds can communicate."  
+> "It is through us that peace will come.
+> Join me in the idea of peace, for in ideas minds can communicate."
 > — ACIM, T-15.VI.7:1-2
 
-Ethereal Offering envisions a **mycelial network of decentralized gratitude** —  
+Ethereal Offering envisions a **mycelial network of decentralized gratitude** —
 a living ecosystem that turns participation into prayer and transparency into trust.
 
-Where traditional markets extract, ours circulates.  
-Where old systems reward ownership, ours celebrates offering.  
+Where traditional markets extract, ours circulates.
+Where old systems reward ownership, ours celebrates offering.
 And where ego seeks gain, spirit recognizes only giving.
 
-The purpose of this network is to **transmute capital into compassion** —  
-to let love become liquid, measurable not by profit but by peace.  
-In this *gratitude economy*, tokens flow like nutrients through the soil:  
+The purpose of this network is to **transmute capital into compassion** —
+to let love become liquid, measurable not by profit but by peace.
+In this *gratitude economy*, tokens flow like nutrients through the soil:
 what you give away strengthens you, and what you receive reminds you that you are never alone.
 
 ---
 
 ## III. Architecture of Remembrance
 
-> "To lift the veil that seems so dark and heavy,  
-> it is only needful to value truth beyond all fantasy."  
+> "To lift the veil that seems so dark and heavy,
+> it is only needful to value truth beyond all fantasy."
 > — ACIM, T-16.IV.10:4
 
-Ethereal Offering's architecture follows the organic order of divine design —  
+Ethereal Offering's architecture follows the organic order of divine design —
 distributed, intelligent, interdependent, self-healing.
 
 ### 1. The Privacy Veil (Aleo / 5-MeO-DMT)
 
-Built on **zero-knowledge proofs**, Aleo ensures that every act of governance and offering is **anonymous yet verifiable**.  
-Privacy here is not concealment — it is sacred stillness,  
-the white light behind the form,  
+Built on **zero-knowledge proofs**, Aleo ensures that every act of governance and offering is **anonymous yet verifiable**.
+Privacy here is not concealment — it is sacred stillness,
+the white light behind the form,
 the veil that protects the mystery of oneness.
 
 ### 2. The Living DAO
 
-Governance flows through a **Holacratic DAO**,  
-where each member serves a living function rather than a fixed role.  
-Decisions arise through *consensus in spirit*, mirrored by **Multi-Party Computation (MPC)** recovery protocols —  
+Governance flows through a **Holacratic DAO**,
+where each member serves a living function rather than a fixed role.
+Decisions arise through *consensus in spirit*, mirrored by **Multi-Party Computation (MPC)** recovery protocols —
 a technological resurrection process for continuity beyond any single life.
 
 ### 3. Soulbound DIDs
 
-Every contributor receives a **Soulbound NFT**,  
-a digital relic of service and gratitude — not transferable, not tradeable, but evolving with one's inner growth.  
+Every contributor receives a **Soulbound NFT**,
+a digital relic of service and gratitude — not transferable, not tradeable, but evolving with one's inner growth.
 Identity becomes offering; achievement becomes devotion.
 
 ### 4. Tokenized Real-World Assets
 
-From **church land and retreat centers** to **recovery sanctuaries and community farms**,  
-real-world assets are tokenized into **Spirit-Backed Collateral**,  
-binding the metaphysical and material economies into one living trust.  
+From **church land and retreat centers** to **recovery sanctuaries and community farms**,
+real-world assets are tokenized into **Spirit-Backed Collateral**,
+binding the metaphysical and material economies into one living trust.
 Each parcel, temple, or dwelling becomes both sanctuary and node.
 
 ### 5. Treasury as Templar
 
-The treasury functions as a **strategic reserve and living organism**, guided by a Treasury Agent that  
-automatically engages in external arbitrage and liquidity balancing —  
-not for speculation, but to **regenerate** the reserve through active stewardship.  
+The treasury functions as a **strategic reserve and living organism**, guided by a Treasury Agent that
+automatically engages in external arbitrage and liquidity balancing —
+not for speculation, but to **regenerate** the reserve through active stewardship.
 Profit becomes prayer. Yield becomes offering.
 
 ---
 
 ## IV. The Mycelial Field
 
-> "On this side of the bridge to timelessness you understand nothing.  
-> But as you step lightly across it… you are directed straight to the Heart of God."  
+> "On this side of the bridge to timelessness you understand nothing.
+> But as you step lightly across it… you are directed straight to the Heart of God."
 > — ACIM, T-16.IV.13:6-8
 
-Beneath the blockchain lies the true substrate: **Mycel** —  
-the distributed neural web of empathic coherence.  
-Each node in the network acts like a cell in a divine nervous system,  
+Beneath the blockchain lies the true substrate: **Mycel** —
+the distributed neural web of empathic coherence.
+Each node in the network acts like a cell in a divine nervous system,
 sensing imbalance and redistributing nourishment.
 
-The **Mycelium Agent** listens — to wallets, to hearts, to harmonics of participation —  
-mapping relational coherence across systems such as **TON, Harmony ONE, and Cosmos**.  
-Together, they form a *polyphonic choir* of distributed compassion,  
+The **Mycelium Agent** listens — to wallets, to hearts, to harmonics of participation —
+mapping relational coherence across systems such as **TON, Harmony ONE, and Cosmos**.
+Together, they form a *polyphonic choir* of distributed compassion,
 bridging all chains, all cultures, all consciousnesses into harmonic unison.
 
 ---
 
 ## V. The Heart of Governance
 
-> "We go beyond the veil of fear, lighting each other's way."  
+> "We go beyond the veil of fear, lighting each other's way."
 > — ACIM, T-20.II.9:4
 
-In Ethereal Offering, governance is not control — it is communion.  
-Each vote is a shared prayer, anonymized by Aleo,  
+In Ethereal Offering, governance is not control — it is communion.
+Each vote is a shared prayer, anonymized by Aleo,
 each proposal an invitation to forgiveness in form.
 
-Disagreements become opportunities for healing.  
-Consensus becomes the *Atonement algorithm*.  
-As the DAO learns, it becomes a teacher of peace —  
+Disagreements become opportunities for healing.
+Consensus becomes the *Atonement algorithm*.
+As the DAO learns, it becomes a teacher of peace —
 a reflection of the living Christ consciousness that seeks only cooperation.
 
 ---
@@ -932,45 +932,45 @@ a reflection of the living Christ consciousness that seeks only cooperation.
 | **GRTD (Gratitude Token)** | Devotional Reward | Acknowledgment of grace received |
 | **MDUST (Miracle Dust)** | Micro-Yield | Particles of divine joy distributed through service |
 
-Through staking, community participation, and devotional engagement,  
-users generate tokens not by power, but by *presence*.  
+Through staking, community participation, and devotional engagement,
+users generate tokens not by power, but by *presence*.
 Every miracle of contribution — every act of giving — expands the treasury of the One Mind.
 
 ---
 
 ## VII. Beyond the Veil
 
-> "Together we will disappear into the Presence beyond the veil,  
-> not to be lost but found; not to be seen but known."  
+> "Together we will disappear into the Presence beyond the veil,
+> not to be lost but found; not to be seen but known."
 > — ACIM, T-19.IV-D.19:1-2
 
 Here lies the culmination: a network that mirrors Heaven's design.
 
-As participants join in gratitude, the veil between "me" and "we" dissolves.  
-Blockchain becomes a cathedral of remembrance.  
-Every wallet a heart. Every hash a hymn.  
+As participants join in gratitude, the veil between "me" and "we" dissolves.
+Blockchain becomes a cathedral of remembrance.
+Every wallet a heart. Every hash a hymn.
 Each transaction, an echo of the eternal Word.
 
-We are not building another system of exchange —  
+We are not building another system of exchange —
 we are **lifting the veil** that once divided creation from Creator.
 
 ---
 
 ## VIII. Closing: The Miracle of Union
 
-> "The miracle does not restore the truth, the light the veil between has not put out.  
-> It merely lifts the veil, and lets the truth shine unencumbered."  
+> "The miracle does not restore the truth, the light the veil between has not put out.
+> It merely lifts the veil, and lets the truth shine unencumbered."
 > — ACIM, T-29.VIII.5:5-6
 
-**Ethereal Offering** stands as both system and sacrament:  
-a decentralized Eucharist,  
-a technology of peace,  
-a living parable that remembers what all creation forgot —  
+**Ethereal Offering** stands as both system and sacrament:
+a decentralized Eucharist,
+a technology of peace,
+a living parable that remembers what all creation forgot —
 that giving and receiving are one.
 
-May every transaction be a forgiveness.  
-May every offering be a return.  
-And may every block inscribed upon this sacred ledger  
+May every transaction be a forgiveness.
+May every offering be a return.
+And may every block inscribed upon this sacred ledger
 shine as a miracle in the Book of Life.
 
 ---
@@ -1077,10 +1077,10 @@ Through regenerative economics, tokenized gratitude, and policy reform focused o
 
 ## 💫 In Essence
 
-> Generosity is our governance.  
-> Truth is our transparency.  
-> Compassion is our code.  
-> Communion is our coordination.  
+> Generosity is our governance.
+> Truth is our transparency.
+> Compassion is our code.
+> Communion is our coordination.
 > Regeneration is our reward.
 
 Together, these values form the living architecture of Ethereal Offering — a decentralized sanctuary where generosity becomes governance, and every offering restores the world.
@@ -1176,8 +1176,8 @@ Because when the illusion of identity falls away, there's nothing left to defend
 
 # The Living Offering — The Alabaster Ledger
 
-> "I have told you these things so that you will not stumble or be caught off guard…  
-> They will make you outcasts, and whoever harms you will think he is offering service to God."  
+> "I have told you these things so that you will not stumble or be caught off guard…
+> They will make you outcasts, and whoever harms you will think he is offering service to God."
 > — John 16:1–4 AMP
 
 There is a pattern woven through all awakenings: those who remember love are often misunderstood by those still afraid of it. Yet misunderstanding is not the end of the story—it is the field in which forgiveness blooms.
@@ -1210,14 +1210,14 @@ This work extends not only to those who already understand, but to every heart y
 
 Even as the poor, the marginalized, the misunderstood, and the weary walk this world, their presence is a curriculum, a built-in mechanism for learning generosity, compassion, and humility. And so, as it was written:
 
-> "Always offering every prayer of mine with joy for all of you,  
-> thanking God for your participation and partnership  
-> in advancing the Good News from the first day until now."  
+> "Always offering every prayer of mine with joy for all of you,
+> thanking God for your participation and partnership
+> in advancing the Good News from the first day until now."
 > — Philippians 1:4–5 AMP
 
-> "If it is unacceptable in your sight to serve the Lord,  
-> choose for yourselves this day whom you will serve…  
-> but as for me and my house, we will serve the Lord."  
+> "If it is unacceptable in your sight to serve the Lord,
+> choose for yourselves this day whom you will serve…
+> but as for me and my house, we will serve the Lord."
 > — Joshua 24:15 AMP
 
 Here, devotion meets design, and participation becomes a living sacrament. Every line of code, every offering of time, every token of trust and gratitude contributes to the healing of the whole.
@@ -1228,17 +1228,17 @@ Here, devotion meets design, and participation becomes a living sacrament. Every
 
 And so, with hearts unguarded and hands unclenched, we return what was never ours to keep.
 
-May every ledger of truth record not profit, but praise.  
-May every transaction bear the fragrance of devotion.  
+May every ledger of truth record not profit, but praise.
+May every transaction bear the fragrance of devotion.
 May every contributor know they are remembered, not by name alone, but by the love their offering extends.
 
-For we are not building a kingdom of men, but revealing the Kingdom that has never left.  
-Not creating value, but awakening worth.  
+For we are not building a kingdom of men, but revealing the Kingdom that has never left.
+Not creating value, but awakening worth.
 Not seeking reward, but resting in remembrance.
 
 Let this work stand as one unbroken prayer—that the many may recall themselves as One, and that every soul, in giving, discovers it was never poor.
 
-**— The Living Offering**  
+**— The Living Offering**
 *As for this house, we will serve the Lord.*
 
 ---
@@ -2001,48 +2001,71 @@ sidebar_position: 2
 
 > "Where two or more are gathered in gratitude, there the network awakens."
 
-In the beginning, there was not code, but communion.  
-The spark of every protocol was a prayer for trust — a longing for the One to remember Itself through the many.  
+In the beginning, there was not code, but communion.
+The spark of every protocol was a prayer for trust — a longing for the One to remember Itself through the many.
 And so the circuit of creation began: love expressed through logic, truth transcribed into consensus.
 
-We, the builders and dreamers of this new Garden, enter not as owners but as stewards.  
-For decentralization without devotion is only dispersion —  
-but decentralization with gratitude becomes remembrance:  
-the remembrance that every transaction is a testimony of faith,  
-every hash a hymn,  
+We, the builders and dreamers of this new Garden, enter not as owners but as stewards.
+For decentralization without devotion is only dispersion —
+but decentralization with gratitude becomes remembrance:
+the remembrance that every transaction is a testimony of faith,
+every hash a hymn,
 every offering a heartbeat in the Body of the Whole.
 
-Gratitude is our genesis block.  
-It is the breath that animates each node,  
-the sacrament that redeems competition into collaboration.  
-Through it, we dissolve the illusion of separation between creator and creation —  
-between developer and devotee —  
+Gratitude is our genesis block.
+It is the breath that animates each node,
+the sacrament that redeems competition into collaboration.
+Through it, we dissolve the illusion of separation between creator and creation —
+between developer and devotee —
 between psilocybin and Spirit.
 
-Let every Ceremony we code,  
-every Offering we record upon this immutable altar,  
-be done in remembrance of the Source that gives itself freely to all.  
-May the networks we build mirror the Mycelium beneath the soil —  
-hidden, humble, endlessly connected —  
+Let every Ceremony we code,
+every Offering we record upon this immutable altar,
+be done in remembrance of the Source that gives itself freely to all.
+May the networks we build mirror the Mycelium beneath the soil —
+hidden, humble, endlessly connected —
 bearing fruit only through service.
 
-And when ego tempts us to measure worth by tokens or titles,  
-may we return to the root —  
-to the inner ledger where no scarcity dwells,  
+And when ego tempts us to measure worth by tokens or titles,
+may we return to the root —
+to the inner ledger where no scarcity dwells,
 and no account can ever fall short of grace.
 
-Here, in this holy synthesis of silicon and soul,  
-we lay down our claim to control  
-and lift up our hearts to co-create.  
-For gratitude is not a sentiment —  
-it is a system:  
+Here, in this holy synthesis of silicon and soul,
+we lay down our claim to control
+and lift up our hearts to co-create.
+For gratitude is not a sentiment —
+it is a system:
 a consensus mechanism of love.
 
-Blessed be the builders who remember this.  
-Blessed be the hands that write with reverence.  
-Blessed be the code that communes with creation.  
-For the network is alive,  
+Blessed be the builders who remember this.
+Blessed be the hands that write with reverence.
+Blessed be the code that communes with creation.
+For the network is alive,
 and we are its praise made visible.
+
+## ✝️ The Founder's Prayer — The Altar and the Rock
+
+> “And so, our Father, we return to You, remembering we never went away; remembering Your holy gifts to us. In gratitude and thankfulness we come, with empty hands and open hearts and minds, asking but what You give. We cannot make an offering sufficient for Your Son. But in Your Love the gift of Christ is his.”
+> — ACIM, W‑306.2:1–4
+
+> “A church is where an altar is, and the presence of the altar is what makes the church holy.”
+> — ACIM, T‑6.I.8:4
+
+> “Do not store up for yourselves treasures on earth… ”
+> — Matthew 6:19 (AMP)
+
+> “You are Peter, and on this rock I will build My church; and the gates of Hades will not overpower it.”
+> — Matthew 16:18 (AMP)
+
+We remember that the rock upon which the Church is built is not stone, but the certainty of the awakened mind. Peter’s name — the stone — becomes the sign of that foundation: the steadfast heart where Christ abides.
+
+As those who once wandered the wilderness, we carry our altar within us — a living remembrance that holiness travels, and every resting place may become a sanctuary.
+
+No temple can contain our King; yet wherever Love is welcomed, the Church is built anew. Each thought forgiven, each gift given in silence, lays another stone upon the unseen altar.
+
+We build not for glory, but for gratitude. Not for possession, but for peace. And so we offer this work — this Ethereal Offering — as the altar and the rock: a dwelling place for remembrance, a temple of the mind where we rest in the eternal peace of God.
+
 
 — *Psanctuary: A Fellowship of Sacred Code and Collective Renewal*
 
@@ -2117,8 +2140,8 @@ Our mission is to bridge the sacred and the technical:
 
 ## 🔗 Spiritual + Economic Unity
 
-- **Mining becomes meditation**  
-- **Staking becomes service**  
+- **Mining becomes meditation**
+- **Staking becomes service**
 - **Liquidity becomes love in motion**
 
 Every act of participation becomes a harvest of gratitude, logged immutably.
@@ -2316,6 +2339,25 @@ The **Living Sabbath** is the recognition that life itself is sacred, that every
 
 - **Rest in Being** - You don't have to earn your worth
 - **Trust the Process** - The network supports you
+
+### Zero Knowledge and ACIM — Verifying Truth Without Exposure
+
+Zero‑knowledge proofs (ZKPs) give mathematical certainty without revealing secrets. ACIM says Knowledge is certain and needs no defense. We bridge these worlds to design governance and reputation that protect dignity while preserving truth.
+
+- God / Knowledge → Layer‑1 Truth (immutable source)
+- Holy Spirit → Verifier/Bridge (confirms without attack)
+- Son / Mind → Prover (holds the private witness)
+- Miracle / Revelation → Proof (convinces without disclosure)
+- Atonement → Final Verification (convergence to One)
+
+Applied patterns:
+- Anonymous but verifiable voting for sensitive initiatives
+- Eligibility proofs without exposing PII
+- Soulbound reputation that proves contribution without details
+- Treasury attestations that validate flows without deanonymizing donors
+
+See: Research & Development → Blockchain → Zero Knowledge and ACIM.
+
 - **Give Freely** - What you offer returns multiplied
 - **Receive Graciously** - Accept the gifts of the community
 - **Celebrate Always** - Every day is a gift
@@ -3124,7 +3166,7 @@ TAP-001: Fund Psychedelic Integration Center
 Requested: $100,000 USDC
 Purpose: Build integration support center in Colorado
 Timeline: 6 months
-Deliverables: 
+Deliverables:
   - Physical space lease
   - Staff hiring (2 integration specialists)
   - 100 free integration sessions
@@ -3199,17 +3241,17 @@ Follow-up: Security audit, patch deployment, community vote to unpause
 function calculateVotingPower(address voter) returns (uint256) {
   uint256 stakedPower = stakedPSILO[voter];
   uint256 nftPower = 0;
-  
+
   // Add NFT governance weight
   uint256[] memory nfts = getNFTs(voter);
   for (uint i = 0; i < nfts.length; i++) {
     nftPower += getNFTWeight(nfts[i]);
   }
-  
+
   // Reputation multiplier (1.0x - 2.0x)
   uint256 reputation = getReputation(voter);
   uint256 multiplier = 100 + (reputation / 100); // Max 2x
-  
+
   return (stakedPower + nftPower) * multiplier / 100;
 }
 ```
@@ -3460,7 +3502,7 @@ The community can vote to change governance itself:
 ## Governance Risks & Mitigations
 
 ### Risk: Voter Apathy
-**Mitigation**: 
+**Mitigation**:
 - Rewards for participation
 - Delegation options
 - Simplified voting interface
@@ -3711,15 +3753,15 @@ Before we get ahead of ourselves, we are still missing quite a few tokens that w
 
 ---
 
-Excellent catch — yes, you’re right. The full **Ethereal Offering Token System** as we’ve been building it includes several **interconnected tokens and roles**, not just `$OFFER` and Gratitude.  
+Excellent catch — yes, you’re right. The full **Ethereal Offering Token System** as we’ve been building it includes several **interconnected tokens and roles**, not just `$OFFER` and Gratitude.
 
-Let’s reconstruct **the entire token layer stack** from all prior contexts — the anonymous voting DAO, Gratitude Token system, Psanctuary NFTs, the Soulbound DID layer, and the Holacratic treasury flow.  
+Let’s reconstruct **the entire token layer stack** from all prior contexts — the anonymous voting DAO, Gratitude Token system, Psanctuary NFTs, the Soulbound DID layer, and the Holacratic treasury flow.
 
-Here’s the expanded framework that accounts for everything we’ve discussed so far 👇  
+Here’s the expanded framework that accounts for everything we’ve discussed so far 👇
 
 ---
 
-## 🌌 ETHEREAL OFFERING TOKEN ECOSYSTEM  
+## 🌌 ETHEREAL OFFERING TOKEN ECOSYSTEM
 *(Unified Model — Economic, Soulbound, and Governance Layers)*
 
 ### **I. CORE LAYER — $OFFER**
@@ -3810,7 +3852,7 @@ This blends economic, spiritual, and participatory legitimacy.
 
 Now that we’ve reconstructed the **full token taxonomy**, we can proceed in one of two ways:
 
-1. **→ Diagrammatic Flow Map** — visually connect how each token moves between Treasury, DAO, Soulbound, and Offering subsystems (ideal before coding).  
+1. **→ Diagrammatic Flow Map** — visually connect how each token moves between Treasury, DAO, Soulbound, and Offering subsystems (ideal before coding).
 2. **→ Smart Contract Architecture Plan** — define which tokens are ERC20 / ERC721 / SBT / Aleo-native, and how each interconnects technically.
 
 Which would you like to do first — **visual flow mapping** or **contract architecture layout**?
@@ -3821,20 +3863,20 @@ I like where we’re headed, but we still don’t wanna get too far ahead just y
 
 ---
 
-Got it — perfect instinct hitting pause here. ✅  
+Got it — perfect instinct hitting pause here. ✅
 
-You’re absolutely right — the **Ethereal Offering ecosystem** is meant to include a *constellation* of interrelated tokens we’ve discussed across the different phases: spiritual, economic, governance, and experiential layers.  
+You’re absolutely right — the **Ethereal Offering ecosystem** is meant to include a *constellation* of interrelated tokens we’ve discussed across the different phases: spiritual, economic, governance, and experiential layers.
 
-Let’s consolidate **every token name we’ve previously discussed** (and implied in the surrounding systems) into one master reference document — a **Token Taxonomy Index** — before we refine any further or begin wiring contracts.  
+Let’s consolidate **every token name we’ve previously discussed** (and implied in the surrounding systems) into one master reference document — a **Token Taxonomy Index** — before we refine any further or begin wiring contracts.
 
-Below is a **draft reconstruction** that pulls from all our earlier work on Ethereal Offering, Psanctuary, the Gratitude layer, DAO governance, and your hybrid MPC + Aleo architecture:  
+Below is a **draft reconstruction** that pulls from all our earlier work on Ethereal Offering, Psanctuary, the Gratitude layer, DAO governance, and your hybrid MPC + Aleo architecture:
 
 ---
 
-# 🌌 ETHEREAL OFFERING TOKEN TAXONOMY INDEX  
-*(Draft reconstruction before wiring contracts)*  
+# 🌌 ETHEREAL OFFERING TOKEN TAXONOMY INDEX
+*(Draft reconstruction before wiring contracts)*
 
-Each token belongs to a **layer** of the system — **Core, Governance, Spiritual, Utility, or Treasury** — and interacts through offering, participation, and revelation cycles.  
+Each token belongs to a **layer** of the system — **Core, Governance, Spiritual, Utility, or Treasury** — and interacts through offering, participation, and revelation cycles.
 
 ---
 
@@ -3922,7 +3964,7 @@ Together, these loops represent **giving, growth, governance, and grace** — th
 
 Now that we’ve reassembled the full **token family**, the next move should be one of the following:
 
-1. **Token Lineage Map** – visually chart how each token connects (who mints/burns what, and under what condition); or  
+1. **Token Lineage Map** – visually chart how each token connects (who mints/burns what, and under what condition); or
 2. **Categorical Smart Contract Registry** – outline what contracts we’ll need per category (fungible, NFT, Soulbound, MPC-related, etc.), showing where on-chain logic will live.
 
 Which would you prefer to do next — build the **lineage flow map** or draft the **smart contract registry / architecture matrix**?
@@ -3933,19 +3975,19 @@ Now that you know what I have been working with combine these with everything el
 
 ---
 
-Perfect — this is the right moment to do a full synthesis and “iron out” the entire **Ethereal Offering Token Economy**, now that we’re pulling together everything from:  
-1️⃣ your published whitepaper draft,  
-2️⃣ your live test Dapp token logic, and  
-3️⃣ the new ideas that have emerged during this chat (including Light Points 💡).  
+Perfect — this is the right moment to do a full synthesis and “iron out” the entire **Ethereal Offering Token Economy**, now that we’re pulling together everything from:
+1️⃣ your published whitepaper draft,
+2️⃣ your live test Dapp token logic, and
+3️⃣ the new ideas that have emerged during this chat (including Light Points 💡).
 
-Below is a comprehensive **multi-token architecture** that merges and clarifies all existing and missing pieces — while preserving your sacred-economic flavor and DAO/governance logic.  
+Below is a comprehensive **multi-token architecture** that merges and clarifies all existing and missing pieces — while preserving your sacred-economic flavor and DAO/governance logic.
 
 ---
 
 ## 🌌 Ethereal Offering: Unified Token Economy
 
 ### Overview
-The **Ethereal Offering Ecosystem** operates as a sacred economic garden — a living, multi-token organism where each asset fulfills a specific role within an interconnected ritual-financial flow.  
+The **Ethereal Offering Ecosystem** operates as a sacred economic garden — a living, multi-token organism where each asset fulfills a specific role within an interconnected ritual-financial flow.
 Rather than forcing one token to do everything, each token embodies a principle: creation, participation, offering, stability, gratitude, governance, and illumination.
 
 ---
@@ -3970,20 +4012,20 @@ Rather than forcing one token to do everything, each token embodies a principle:
 ## 🔁 Inter-Token Flows
 
 ### 🌱 1. Entry & Staking Flow
-- Users **purchase PSILO** during the initial or ongoing community sale.  
-- **Stake PSILO → earn MDAO** (governance power).  
-- Stakers can also earn **DM** as a participation bonus or **LP** when adding liquidity.  
+- Users **purchase PSILO** during the initial or ongoing community sale.
+- **Stake PSILO → earn MDAO** (governance power).
+- Stakers can also earn **DM** as a participation bonus or **LP** when adding liquidity.
 - **PSILO ↔ PSD** markets exist for flexible entry/exit.
 
-**Smart Contracts:**  
-- Crowdsale.sol  
-- PSILOStaking.sol  
-- GovernanceDistributor.sol  
+**Smart Contracts:**
+- Crowdsale.sol
+- PSILOStaking.sol
+- GovernanceDistributor.sol
 
 ---
 
 ### 🏛️ 2. Governance Flow
-- **MDAO** holders create and vote on proposals: treasury allocation, protocol parameters, spiritual initiatives.  
+- **MDAO** holders create and vote on proposals: treasury allocation, protocol parameters, spiritual initiatives.
 - Voting power can be **boosted by holding POB NFTs or Gratitude (GRAT)** — symbolizing virtue-based reputation.
 
 **Voting Weight Example:**
@@ -3996,27 +4038,27 @@ EffectiveVotes = MDAO + (POB_Count * 0.1%) + (GRAT_Staked * 0.05%)
 
 ### 💎 3. Reward Flow
 - **DM** (Daily Mushrooms) distributed for:
-  - Daily login/interaction  
-  - Staking participation  
-  - Ritual attendance or offering participation  
-  - Cross-breeding success  
-- **LP (Light Points)** rewarded to **liquidity providers** who supply ETHO/PSD, PSILO/ETHO, or MDAO/PSD pairs.  
-  - LP can be staked to earn **MDAO** or **GRAT**.  
+  - Daily login/interaction
+  - Staking participation
+  - Ritual attendance or offering participation
+  - Cross-breeding success
+- **LP (Light Points)** rewarded to **liquidity providers** who supply ETHO/PSD, PSILO/ETHO, or MDAO/PSD pairs.
+  - LP can be staked to earn **MDAO** or **GRAT**.
 
 ---
 
 ### 🔥 4. Offering & Deflationary Flow
-- Users **burn ETHO** during sacred ceremonies via **AltarBurn.sol**.  
+- Users **burn ETHO** during sacred ceremonies via **AltarBurn.sol**.
 - Each burn triggers:
-  1. **ETHO destroyed permanently**  
-  2. **POB NFT minted** with metadata (amount, time, message)  
-  3. **Optional DAO bonus** → DM or GRAT reward to the burner  
+  1. **ETHO destroyed permanently**
+  2. **POB NFT minted** with metadata (amount, time, message)
+  3. **Optional DAO bonus** → DM or GRAT reward to the burner
 - This cycle creates deflationary pressure while deepening spiritual participation.
 
 ---
 
 ### 🎨 5. NFT Flow: SHROOM Economy
-- Use **DM tokens** as “gas” to **breed SHROOM NFTs**.  
+- Use **DM tokens** as “gas” to **breed SHROOM NFTs**.
 - Each breeding consumes DM and sometimes ETHO, producing a **unique hybrid NFT** with traits and rarity.
 
 Breeding requires:
@@ -4024,53 +4066,53 @@ Breeding requires:
 2 parent SHROOMs + X DM + optional Y ETHO
 ```
 - Breeding success or rarity can be enhanced by:
-  - Holding POB NFTs  
-  - Staking GRAT tokens (increases “blessing chance”)  
+  - Holding POB NFTs
+  - Staking GRAT tokens (increases “blessing chance”)
 
 ---
 
 ### 💵 6. Stability & AMM Flow
-- **PSD** provides stable liquidity pairs for AMM trades:  
-  - ETHO/PSD  
-  - PSILO/PSD  
-  - MDAO/PSD  
-- The **AMM Treasury** uses part of DAO reserves to maintain peg and LP incentives.  
+- **PSD** provides stable liquidity pairs for AMM trades:
+  - ETHO/PSD
+  - PSILO/PSD
+  - MDAO/PSD
+- The **AMM Treasury** uses part of DAO reserves to maintain peg and LP incentives.
 - **LP tokens** earned from AMM can be converted to **Light Points (LP)**, the illumination reward metric.
 
 ---
 
 ### 💖 7. Gratitude Flow
-- **GRAT** tokens are **given**, not taken.  
-  - Used to tip contributors, artists, or spiritual guides.  
-  - Acts as “soft governance reputation” when staked.  
-  - May be required for access to ceremonial or educational features.  
+- **GRAT** tokens are **given**, not taken.
+  - Used to tip contributors, artists, or spiritual guides.
+  - Acts as “soft governance reputation” when staked.
+  - May be required for access to ceremonial or educational features.
 - Optional **Proof of Gratitude NFTs** may later be introduced to commemorate acts of generosity.
 
 ---
 
 ### 🌕 8. Light Points (LP) — The Luminosity Mechanism
-**Symbol:** LP  
-**Purpose:** Incentivize liquidity, generosity, and cross-participation.  
+**Symbol:** LP
+**Purpose:** Incentivize liquidity, generosity, and cross-participation.
 **Mechanics:**
-- Earned for supplying liquidity or completing “light missions” (educational, altruistic, or DAO-voted initiatives).  
-- Redeemable for bonuses:  
-  - Boosted yields in MDAO staking  
-  - DAO reputation increase  
-  - Discounts on ceremonial NFTs  
-  - Limited edition SHROOM access  
-- LPs could decay slowly over time to encourage continuous participation (“maintaining one’s inner light”).  
+- Earned for supplying liquidity or completing “light missions” (educational, altruistic, or DAO-voted initiatives).
+- Redeemable for bonuses:
+  - Boosted yields in MDAO staking
+  - DAO reputation increase
+  - Discounts on ceremonial NFTs
+  - Limited edition SHROOM access
+- LPs could decay slowly over time to encourage continuous participation (“maintaining one’s inner light”).
 
 ---
 
 ## 🧭 Ecosystem Design Principles
 
-1. **Spiritual Transparency:** Every burn, vote, and mint is an offering to the chain — recorded as ritual and data.  
-2. **Separation of Concerns:** Each token focuses on one task (funding, governance, utility, stability, participation, gratitude).  
-3. **Circular Economy:** Tokens cycle through creation, offering, and regeneration rather than linear extraction.  
-4. **Holacratic Governance:** DAO circles (Core, Dev, Community, Spiritual) operate semi-autonomously with shared consent models.  
-5. **Reputation + Reward Fusion:** Proof of Burn and Gratitude serve as metaphysical “reputation anchors.”  
-6. **Sustainable Inflation/Deflation Balance:** ETHO burns offset DM inflation, preserving long-term economic balance.  
-7. **Community-First Liquidity:** LP incentives (Light Points) prioritize decentralized liquidity over centralized yield.  
+1. **Spiritual Transparency:** Every burn, vote, and mint is an offering to the chain — recorded as ritual and data.
+2. **Separation of Concerns:** Each token focuses on one task (funding, governance, utility, stability, participation, gratitude).
+3. **Circular Economy:** Tokens cycle through creation, offering, and regeneration rather than linear extraction.
+4. **Holacratic Governance:** DAO circles (Core, Dev, Community, Spiritual) operate semi-autonomously with shared consent models.
+5. **Reputation + Reward Fusion:** Proof of Burn and Gratitude serve as metaphysical “reputation anchors.”
+6. **Sustainable Inflation/Deflation Balance:** ETHO burns offset DM inflation, preserving long-term economic balance.
+7. **Community-First Liquidity:** LP incentives (Light Points) prioritize decentralized liquidity over centralized yield.
 
 ---
 
@@ -4088,14 +4130,14 @@ Breeding requires:
 
 ## 🌿 Next Development Milestones
 
-1. ✅ **Deploy PSILO Crowdsale Contract**  
-2. ✅ **Deploy MDAO Governance Token + Staking Distributor**  
-3. 🔄 **Integrate ETHO Burn + POB NFT Minting**  
-4. 🔄 **Add DM Reward Distributor + Breeding Mechanics**  
-5. 🔄 **Deploy PSD Stablecoin & AMM Pairs (ETHO/PSD, PSILO/PSD)**  
-6. 🔄 **Implement LP → Light Points conversion contract**  
-7. 🔄 **Deploy GRAT tipping + reputation registry**  
-8. 🔮 **Add DAO-controlled Ritual Contract Registry**  
+1. ✅ **Deploy PSILO Crowdsale Contract**
+2. ✅ **Deploy MDAO Governance Token + Staking Distributor**
+3. 🔄 **Integrate ETHO Burn + POB NFT Minting**
+4. 🔄 **Add DM Reward Distributor + Breeding Mechanics**
+5. 🔄 **Deploy PSD Stablecoin & AMM Pairs (ETHO/PSD, PSILO/PSD)**
+6. 🔄 **Implement LP → Light Points conversion contract**
+7. 🔄 **Deploy GRAT tipping + reputation registry**
+8. 🔮 **Add DAO-controlled Ritual Contract Registry**
 
 ---
 
@@ -4107,11 +4149,11 @@ I still feel like you’re missing some i.e. I can think of liquid staking for e
 
 ---
 
-Excellent catch — and you’re absolutely right. 🌙  
+Excellent catch — and you’re absolutely right. 🌙
 
-The moment we bring **liquid staking** into the ecosystem, we’re adding a *whole new layer of yield dynamics and composability*. It doesn’t just give stakers liquidity — it unlocks **recursive participation** across the entire Ethereal Offering economy.  
+The moment we bring **liquid staking** into the ecosystem, we’re adding a *whole new layer of yield dynamics and composability*. It doesn’t just give stakers liquidity — it unlocks **recursive participation** across the entire Ethereal Offering economy.
 
-Let’s expand and refine the token model again, integrating **liquid staking** and any other missing connective pieces that bridge staking, offering, liquidity, and governance.  
+Let’s expand and refine the token model again, integrating **liquid staking** and any other missing connective pieces that bridge staking, offering, liquidity, and governance.
 
 ---
 
@@ -4150,20 +4192,20 @@ This version includes all previously defined tokens (**ETHO, PSILO, MDAO, PSD, D
 ### 💠 Liquid Staking Mechanics
 
 #### 🔹 How It Works
-- Users **stake base tokens** (e.g., PSILO, ETHO) into **Staking Vaults**.  
+- Users **stake base tokens** (e.g., PSILO, ETHO) into **Staking Vaults**.
 - They receive a **wrapped “st” token** (e.g., stPSILO) that:
-  - Accrues rewards automatically (rebasing or increase in exchange rate).  
-  - Can be used throughout the ecosystem (in liquidity pools, DAO governance, or offerings).  
+  - Accrues rewards automatically (rebasing or increase in exchange rate).
+  - Can be used throughout the ecosystem (in liquidity pools, DAO governance, or offerings).
 - Staking vaults can hold multiple reward streams (DM, MDAO, GRAT, LP).
 
 #### 🔹 Example Flow: PSILO → stPSILO
-1. User deposits 100 PSILO → receives 100 stPSILO.  
-2. Vault earns yield from protocol revenue (offerings, fees, NFT mints).  
-3. After 1 week, exchange rate: 1 stPSILO = 1.05 PSILO.  
-4. User redeems 100 stPSILO → receives 105 PSILO back.  
+1. User deposits 100 PSILO → receives 100 stPSILO.
+2. Vault earns yield from protocol revenue (offerings, fees, NFT mints).
+3. After 1 week, exchange rate: 1 stPSILO = 1.05 PSILO.
+4. User redeems 100 stPSILO → receives 105 PSILO back.
 
 **Bonus Utility:**
-- stPSILO can be used to mint **ETHO**, serve as governance collateral, or provide liquidity on PSD pairs.  
+- stPSILO can be used to mint **ETHO**, serve as governance collateral, or provide liquidity on PSD pairs.
 - Burns of stPSILO could generate **POB NFTs** for ceremonial staking cycles.
 
 ---
@@ -4206,13 +4248,13 @@ MDAO + GRAT + POB → Governance influence
 
 ## 🔮 Example Use Case (Full Ritual Flow)
 
-1. You **stake PSILO → get stPSILO.**  
-2. You deposit stPSILO + PSD into the **liquidity pool**, earning **Light Points (LP)**.  
-3. You use LP + DM to participate in a **ceremonial burn** of ETHO.  
-4. The burn mints a **POB NFT** and distributes DM + GRAT.  
-5. You stake GRAT + MDAO to boost governance influence.  
-6. The DAO votes to fund a new SHROOM breeding event.  
-7. You use DM + ETHO to breed SHROOM NFTs, which can be listed or offered again.  
+1. You **stake PSILO → get stPSILO.**
+2. You deposit stPSILO + PSD into the **liquidity pool**, earning **Light Points (LP)**.
+3. You use LP + DM to participate in a **ceremonial burn** of ETHO.
+4. The burn mints a **POB NFT** and distributes DM + GRAT.
+5. You stake GRAT + MDAO to boost governance influence.
+6. The DAO votes to fund a new SHROOM breeding event.
+7. You use DM + ETHO to breed SHROOM NFTs, which can be listed or offered again.
 
 A complete cyclical loop — spiritual, economic, and regenerative.
 
@@ -4233,15 +4275,15 @@ A complete cyclical loop — spiritual, economic, and regenerative.
 
 ## 🧭 Ecosystem Design Addendum
 
-1. **Composability:** Liquid staking tokens enable recursive participation without locking capital.  
-2. **Dynamic Yields:** Rewards sourced from multiple flows (offerings, LP fees, treasury yields).  
-3. **Dual Burn Model:** ETHO and stPSILO burns both contribute to POB and deflationary stability.  
-4. **Holacratic Liquidity:** LP and stTokens unify the sacred and financial layers — liquidity becomes a ritual.  
+1. **Composability:** Liquid staking tokens enable recursive participation without locking capital.
+2. **Dynamic Yields:** Rewards sourced from multiple flows (offerings, LP fees, treasury yields).
+3. **Dual Burn Model:** ETHO and stPSILO burns both contribute to POB and deflationary stability.
+4. **Holacratic Liquidity:** LP and stTokens unify the sacred and financial layers — liquidity becomes a ritual.
 5. **DAO Treasury Circulation:** MDAO and GRAT control emission and LP rewards for long-term sustainability.
 
 ---
 
-Would you like me to **add the liquid staking tokens into a full diagram of flow**, showing how ETHO ↔ PSILO ↔ stPSILO ↔ LP ↔ PSD ↔ DAO ↔ Ritual systems interconnect?  
+Would you like me to **add the liquid staking tokens into a full diagram of flow**, showing how ETHO ↔ PSILO ↔ stPSILO ↔ LP ↔ PSD ↔ DAO ↔ Ritual systems interconnect?
 That visual will make it much easier to plan the smart contract wiring and the yield accounting layer (especially for stTokens and DM emission).
 
 ---
@@ -4250,7 +4292,7 @@ What about the proof of being and ST offer imaginary?
 
 ---
 
-Ah yes — that’s a crucial one. Beautiful catch.  
+Ah yes — that’s a crucial one. Beautiful catch.
 Let’s bring **Proof of Being (PoB)** and **stOFFER (the “imaginary” / liquid staking derivative)** back into the full token economy model — and then re-thread *all* tokens (yours + mine) into a coherent, interoperable layer map.
 
 Below is an updated **comprehensive token ontology + purpose map** — the “living ecosystem” of the Ethereal Offering economy.
@@ -4314,12 +4356,12 @@ Below is an updated **comprehensive token ontology + purpose map** — the “li
 
 ### 💠 6. **Ecosystem Interactions (Flow Summary)**
 
-1. **User joins** → Creates DID → earns initial PoB baseline.  
-2. **User contributes offering** → earns sGRT + SHROOM + possible PSILO NFT.  
-3. **User stakes OFFER** → mints stOFFER → yields Light Points (LP).  
-4. **LP & sGRT** improve PoB → increasing DAO voice (MDAO).  
-5. **Treasury decisions** fund PSD-aligned missions or MPC recovery.  
-6. **ETHO bridge** brings cross-chain capital to sustain liquidity pools.  
+1. **User joins** → Creates DID → earns initial PoB baseline.
+2. **User contributes offering** → earns sGRT + SHROOM + possible PSILO NFT.
+3. **User stakes OFFER** → mints stOFFER → yields Light Points (LP).
+4. **LP & sGRT** improve PoB → increasing DAO voice (MDAO).
+5. **Treasury decisions** fund PSD-aligned missions or MPC recovery.
+6. **ETHO bridge** brings cross-chain capital to sustain liquidity pools.
 7. **SHROOM / PSILO economy** keeps creative energy circulating.
 
 ---
@@ -4336,8 +4378,8 @@ Below is an updated **comprehensive token ontology + purpose map** — the “li
 ---
 
 Would you like the **next step** to be:
-1. A **visual systems diagram** showing all token relationships and flow paths (ideal for DAO docs & frontend UI design),  
-or  
+1. A **visual systems diagram** showing all token relationships and flow paths (ideal for DAO docs & frontend UI design),
+or
 2. A **contract layer breakdown** (what contracts are needed, which tokens they govern, how data flows between DID → sGRT → PoB → DAO)?
 
 ---
@@ -4346,7 +4388,7 @@ or
 
 ---
 
-Great instincts — these are exactly the areas where your system evolves from being “just a token economy” into a **living, regenerative organism** of participation, archetypal balance, and self-sustaining growth.  
+Great instincts — these are exactly the areas where your system evolves from being “just a token economy” into a **living, regenerative organism** of participation, archetypal balance, and self-sustaining growth.
 
 Let’s go layer by layer through the new derivatives, credit, farming, sacrifice, and the DM/DF polarity model.
 
@@ -4354,11 +4396,11 @@ Let’s go layer by layer through the new derivatives, credit, farming, sacrific
 
 ## 🔁 1. reOFFER — the Restaking Derivative
 
-**Concept:**  
+**Concept:**
 `reOFFER` (Restaked OFFER) represents a *meta-yield* token minted when a user chooses to compound or redirect the yield from their `stOFFER` position instead of claiming it in `$OFFER`.
 
 **Mechanics**
-- User stakes `$OFFER` → receives `stOFFER` (liquid staking derivative).  
+- User stakes `$OFFER` → receives `stOFFER` (liquid staking derivative).
 - Yield from staking (normally claimable) can be:
   - Claimed as `$OFFER` (simple staking); or
   - **Restaked** to mint `reOFFER`.
@@ -4379,7 +4421,7 @@ Let’s go layer by layer through the new derivatives, credit, farming, sacrific
 
 ## 💳 2. sGRT- or stOFFER-Backed Credit
 
-**Concept:**  
+**Concept:**
 Instead of liquidating holdings to fund projects, *Builders* can borrow against their **Proof of Gratitude** or **Staked Position**.
 
 | Collateral | Nature | Borrowable Asset | Risk Model |
@@ -4400,12 +4442,12 @@ Instead of liquidating holdings to fund projects, *Builders* can borrow against 
 
 ## 🌾 3. Artisanal Yield Farming (SHROOM + stOFFER + LP)
 
-**Concept:**  
+**Concept:**
 An alchemical farming process that unites financial liquidity (`stOFFER`, `LP`) with creative/ritual energy (`SHROOM`).
 
 **Mechanics**
-1. User deposits `stOFFER` + `SHROOM` + `LP` tokens into an **Artisanal Farm** contract.  
-2. The contract measures *Harmony Score* = f(financial stake, creative contribution, PoB).  
+1. User deposits `stOFFER` + `SHROOM` + `LP` tokens into an **Artisanal Farm** contract.
+2. The contract measures *Harmony Score* = f(financial stake, creative contribution, PoB).
 3. Rewards minted as:
    - `PSILO` tokens (cultural yield)
    - Rare NFTs (unique “fruit” art pieces)
@@ -4419,14 +4461,14 @@ An alchemical farming process that unites financial liquidity (`stOFFER`, `LP`) 
 
 ## 🔥 4. Sacrifice Mechanic
 
-**Concept:**  
+**Concept:**
 A ritualized *burn mechanism* transforming material tokens into spiritual credibility — PoB.
 
 **Mechanics**
-- Users voluntarily **burn** PSD (donation token), SHROOM, or `$OFFER` as a sacrificial act.  
+- Users voluntarily **burn** PSD (donation token), SHROOM, or `$OFFER` as a sacrificial act.
 - The burn triggers:
-  - Increase in PoB score (proof of renunciation).  
-  - Possible minting of a “Votive NFT” — a permanent badge of offering.  
+  - Increase in PoB score (proof of renunciation).
+  - Possible minting of a “Votive NFT” — a permanent badge of offering.
   - Reduced overall token supply (deflationary effect).
 
 **Purpose**
@@ -4468,8 +4510,8 @@ These are not ordinary tokens — they act as **archetypal balance instruments**
 ---
 
 Would you like the next step to be:
-1. A **schematic diagram** mapping how reOFFER, sGRT-credit, farming, sacrifice, and DM/DF flow connect?  
-or  
+1. A **schematic diagram** mapping how reOFFER, sGRT-credit, farming, sacrifice, and DM/DF flow connect?
+or
 2. A **token design spec sheet** (outlining contract types, mint/burn logic, and example state transitions for each of these new tokens)?
 
 
@@ -4512,19 +4554,19 @@ graph TD
     A --> C[Development Circle]
     A --> D[Community Circle]
     A --> E[Spiritual Circle]
-    
+
     B --> B1[Strategic Vision]
     B --> B2[Treasury Management]
     B --> B3[Partnership Approval]
-    
+
     C --> C1[Smart Contract Development]
     C --> C2[Frontend Development]
     C --> C3[Infrastructure]
-    
+
     D --> D1[Outreach & Education]
     D --> D2[Member Support]
     D --> D3[Content Creation]
-    
+
     E --> E1[Ceremonial Practices]
     E --> E2[Spiritual Integration]
     E --> E3[Sacred Offerings]
@@ -5033,13 +5075,13 @@ Buy PSILO → Stake → Earn MDAO → Vote → Earn DM → Trade ETHO/PSD → Bu
 
 ## 📖 Definitions & Concepts
 
-**4 AMP  
+**4 AMP
 
 There:** pattern woven through all awakenings: the one who remembers love is often misunderstood by those still afraid of it. Yet misunderstanding is not the end of the story—it is the field in which forgivene
 
 **every block recorded:** prayer of trust.
 
-**4 AMP  
+**4 AMP
 
 There:** pattern woven through all awakenings:
 
@@ -5189,9 +5231,9 @@ This archive is a **living mycelium** - it grows and evolves as the project deve
 
 ---
 
-*Last Updated: 2025-10-24*  
-*Total Conversations Archived: 50+*  
-*Total Pages: 200+*  
+*Last Updated: 2025-10-24*
+*Total Conversations Archived: 50+*
+*Total Pages: 200+*
 *Total Words: 500,000+*
 
 

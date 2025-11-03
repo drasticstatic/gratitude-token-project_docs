@@ -101,6 +101,27 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Research & Development',
+      items: [
+        {
+          type: 'category',
+          label: 'Blockchain',
+          items: [
+            'research-and-development/specialized/blockchain/zero-knowledge-and-acim',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Spiritual',
+          items: [
+            'research-and-development/specialized/spiritual/zero-knowledge-and-acim-spiritual',
+          ],
+        },
+      ],
+      collapsed: true,
+    },
+    {
+      type: 'category',
       label: 'SyncDocs 2025-10-24',
       items: [
         {

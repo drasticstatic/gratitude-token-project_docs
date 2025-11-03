@@ -59,7 +59,74 @@
   --ifm-background-surface-color: #ffffff;
   --ifm-font-color-base: #1a1a1a;
   --ifm-heading-color: #1a1a1a;
+  --ifm-menu-color: #374151;
+  --ifm-navbar-link-color: #374151;
+  --ifm-color-primary: #7c3aed;
+  --ifm-link-color: #7c3aed;
+  --ifm-link-hover-color: #6d28d9;
   --docusaurus-highlighted-code-line-bg: rgba(124, 58, 237, 0.1);
+}
+
+/* Light mode - improve navbar and sidebar text visibility */
+/* Navbar links - lighter gray for better contrast */
+[data-theme='light'] .navbar__link,
+[data-theme='light'] .navbar__item {
+  color: #6b7280 !important;
+}
+
+[data-theme='light'] .navbar__link:hover,
+[data-theme='light'] .navbar__item:hover {
+  color: #7c3aed !important;
+}
+
+[data-theme='light'] .navbar__link--active,
+[data-theme='light'] .navbar__item--active {
+  color: #7c3aed !important;
+  font-weight: 600;
+}
+
+/* Right sidebar (table of contents) and left sidebar - darker for better readability */
+[data-theme='light'] .table-of-contents__link,
+[data-theme='light'] .menu__link {
+  color: #1f2937 !important;
+}
+
+[data-theme='light'] .table-of-contents__link:hover,
+[data-theme='light'] .menu__link:hover {
+  color: #7c3aed !important;
+  background: rgba(124, 58, 237, 0.08) !important;
+}
+
+[data-theme='light'] .table-of-contents__link--active,
+[data-theme='light'] .menu__link--active {
+  color: #7c3aed !important;
+  background: rgba(124, 58, 237, 0.12) !important;
+  font-weight: 600;
+}
+
+/* Light mode - mobile sidebar menu items */
+[data-theme='light'] .navbar-sidebar .menu__link {
+  color: #1f2937 !important;
+}
+
+[data-theme='light'] .navbar-sidebar .menu__link:hover {
+  color: #7c3aed !important;
+  background: rgba(124, 58, 237, 0.1) !important;
+}
+
+[data-theme='light'] .navbar-sidebar .menu__link--active {
+  color: #7c3aed !important;
+  background: rgba(124, 58, 237, 0.15) !important;
+  font-weight: 600;
+}
+
+/* Light mode - modal text visibility */
+[data-theme='light'] .modalContent {
+  color: #1a1a1a !important;
+}
+
+[data-theme='light'] blockquote {
+  color: #374151 !important;
 }
 
 /* Keyframe Animations */
@@ -577,6 +644,25 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
+  /* Fix navbar header spacing to prevent cramming */
+  .navbar {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .navbar__inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 0.5rem !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .navbar__items {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+  }
+
   /* Ensure hamburger toggle is visible and clickable - ENHANCED */
   .navbar__toggle {
     display: inline-flex !important;
@@ -586,14 +672,17 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     z-index: 5200 !important;
     position: relative !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    margin-left: 0.5rem !important;
+    flex-shrink: 0 !important;
+    transform: rotate(0deg) !important;
   }
 
   .navbar__toggle:hover {
-    transform: scale(1.1) rotate(5deg) !important;
+    transform: scale(1.08) rotate(90deg) !important;
   }
 
   .navbar__toggle:active {
-    transform: scale(0.95) rotate(-5deg) !important;
+    transform: scale(0.92) !important;
   }
 
   /* Glowing effect on hamburger icon */
@@ -656,18 +745,98 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     visibility: visible !important;
     opacity: 1 !important;
   }
+  /* CRITICAL: Ensure menu list is always visible */
+  .navbar-sidebar .menu__list,
+  .navbar-sidebar__item .menu__list,
+  .navbar-sidebar ul {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
 
-  /* Panel items - these are the primary/secondary menu containers */
+  /* CRITICAL: Ensure menu list items are always visible */
+  .navbar-sidebar .menu__list-item,
+  .navbar-sidebar__item .menu__list-item,
+  .navbar-sidebar li {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-bottom: 0.75rem !important;
+    width: 100% !important;
+  }
+
+  /* Ensure primary menu stays visible when secondary is present */
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child {
+    display: block !important;
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child .menu__list,
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child ul {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Hide secondary panel by default on mobile to prioritize main nav */
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:last-child {
+    display: none !important;
+  }
+
+  /* Colorful, prominent scrollbar for the mobile items container */
+  .navbar-sidebar__items::-webkit-scrollbar {
+    width: 12px;
+  }
+  .navbar-sidebar__items::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(26,0,51,0.6), rgba(10,0,20,0.6));
+    border-radius: 8px;
+  }
+  .navbar-sidebar__items::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(124,58,237,0.9), rgba(59,130,246,0.9)); /* purple → blue */
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.15);
+  }
+  .navbar-sidebar__items::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(236,72,153,0.9), rgba(96,165,250,0.9)); /* pink → light blue */
+  }
+
+  /* Subtle scroll hint arrow at bottom */
+  .navbar-sidebar__items::after {
+    content: '\2193'; /* down arrow */
+    position: sticky;
+    bottom: 8px;
+    left: 100%;
+    margin-left: 6px;
+    transform: translateX(-100%);
+    font-size: 18px;
+    line-height: 1;
+    color: rgba(236,72,153,0.9); /* pink */
+    text-shadow: 0 0 8px rgba(59,130,246,0.6); /* blue glow */
+    opacity: 0.8;
+    animation: arrowBounce 1.6s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes arrowBounce {
+    0%, 100% { transform: translate(-100%, 0); opacity: 0.6; }
+    50% { transform: translate(-100%, 4px); opacity: 1; }
+  }
+
+  /* Panel items - primary/secondary containers */
   .navbar-sidebar__item {
     flex: 1 !important;
-    min-height: 100px !important; /* Ensure it has height */
+    min-height: 100px !important;
     display: flex !important;
     flex-direction: column !important;
     pointer-events: auto !important;
     opacity: 1 !important;
     visibility: visible !important;
-    /* DEBUG: Temporary background to see if panel is rendering */
-    background: rgba(255, 0, 0, 0.1) !important;
+    background: transparent !important;
   }
 
   /* Override inert attribute styling - FORCE visibility of menu items */
@@ -756,17 +925,18 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Menu links - ENHANCED with animations */
   .navbar-sidebar .menu__link {
     display: block !important;
-    padding: 1.125rem 1.5rem !important;
-    color: rgba(255, 255, 255, 0.85) !important;
-    background: rgba(0, 0, 0, 0.35) !important;
+    padding: 0.85rem 1rem !important; /* smaller to fit more */
+    color: rgba(255, 255, 255, 0.88) !important;
+    background: rgba(0, 0, 0, 0.28) !important;
     border: 1px solid rgba(124, 58, 237, 0.25) !important;
     border-radius: 12px !important;
     text-decoration: none !important;
-    font-size: 1.05rem !important;
+    font-size: 0.98rem !important; /* slightly smaller */
     font-weight: 500 !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     position: relative !important;
     overflow: hidden !important;
+    animation: breathing 6s ease-in-out infinite; /* gentle breathing */
   }
 
   /* Shimmer effect on menu links */
@@ -855,13 +1025,13 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   .navbar-sidebar__item .navbar__link,
   .navbar-sidebar a {
     display: block !important;
-    padding: 1.125rem 1.5rem !important;
-    color: rgba(255, 255, 255, 0.85) !important;
-    font-size: 1.05rem !important;
+    padding: 0.85rem 1rem !important; /* smaller to fit more */
+    color: rgba(255, 255, 255, 0.88) !important;
+    font-size: 0.98rem !important; /* slightly smaller */
     font-weight: 500 !important;
     visibility: visible !important;
     opacity: 1 !important;
-    background: rgba(0, 0, 0, 0.35) !important;
+    background: rgba(0, 0, 0, 0.28) !important;
     border: 1px solid rgba(124, 58, 237, 0.25) !important;
     border-radius: 12px !important;
     text-decoration: none !important;
@@ -908,6 +1078,66 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     background: rgba(124, 58, 237, 0.3) !important;
     border-color: rgba(124, 58, 237, 0.6) !important;
     color: white !important;
+  }
+
+  /* Light mode hamburger menu styling */
+  [data-theme='light'] .navbar-sidebar {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(249, 250, 251, 0.98)) !important;
+    border-left: 2px solid rgba(124, 58, 237, 0.3) !important;
+    box-shadow:
+      -8px 0 32px rgba(124, 58, 237, 0.15),
+      -4px 0 16px rgba(236, 72, 153, 0.1),
+      inset 2px 0 8px rgba(124, 58, 237, 0.05) !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar::before {
+    background: linear-gradient(
+      135deg,
+      rgba(124, 58, 237, 0.05) 0%,
+      transparent 50%,
+      rgba(236, 72, 153, 0.05) 100%
+    ) !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar__brand {
+    background: rgba(124, 58, 237, 0.05) !important;
+    border-bottom-color: rgba(124, 58, 237, 0.2) !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar__items {
+    background: transparent !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar .menu__link,
+  [data-theme='light'] .navbar-sidebar__item .menu__link,
+  [data-theme='light'] .navbar-sidebar .navbar__link,
+  [data-theme='light'] .navbar-sidebar__item .navbar__link,
+  [data-theme='light'] .navbar-sidebar a {
+    color: #1a1a1a !important;
+    background: rgba(124, 58, 237, 0.05) !important;
+    border-color: rgba(124, 58, 237, 0.15) !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar .menu__link:hover,
+  [data-theme='light'] .navbar-sidebar__item .menu__link:hover {
+    background: rgba(124, 58, 237, 0.15) !important;
+    border-color: rgba(124, 58, 237, 0.4) !important;
+    color: #7c3aed !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar .menu__link--active {
+    background: rgba(124, 58, 237, 0.2) !important;
+    border-color: rgba(124, 58, 237, 0.5) !important;
+    color: #7c3aed !important;
+    font-weight: 600;
+  }
+
+  [data-theme='light'] .navbar-sidebar__close {
+    color: #1a1a1a !important;
+  }
+
+  [data-theme='light'] .navbar-sidebar__close:hover {
+    background: rgba(124, 58, 237, 0.1) !important;
   }
 }
 

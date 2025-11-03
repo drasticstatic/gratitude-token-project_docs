@@ -69,10 +69,10 @@ function getRandomSporeColor() {
   const colors = [
     'radial-gradient(circle, rgba(124, 58, 237, 0.9), rgba(124, 58, 237, 0.3))', // Purple
     'radial-gradient(circle, rgba(236, 72, 153, 0.9), rgba(236, 72, 153, 0.3))', // Pink
-    'radial-gradient(circle, rgba(147, 51, 234, 0.9), rgba(147, 51, 234, 0.3))', // Violet
-    'radial-gradient(circle, rgba(219, 39, 119, 0.9), rgba(219, 39, 119, 0.3))', // Rose
-    'radial-gradient(circle, rgba(168, 85, 247, 0.9), rgba(168, 85, 247, 0.3))', // Light purple
-    'radial-gradient(circle, rgba(244, 114, 182, 0.9), rgba(244, 114, 182, 0.3))', // Light pink
+    'radial-gradient(circle, rgba(59, 130, 246, 0.9), rgba(59, 130, 246, 0.3))',   // Blue
+    'radial-gradient(circle, rgba(96, 165, 250, 0.9), rgba(96, 165, 250, 0.3))',   // Light Blue
+    'radial-gradient(circle, rgba(147, 51, 234, 0.9), rgba(147, 51, 234, 0.3))',   // Violet
+    'radial-gradient(circle, rgba(168, 85, 247, 0.9), rgba(168, 85, 247, 0.3))',   // Light Purple
     'radial-gradient(circle, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3))', // White sparkle
   ];
   return colors[Math.floor(Math.random() * colors.length)];

@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 
 export default function HeroSection() {
   const {siteConfig} = useDocusaurusContext();
-  
+
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
@@ -20,8 +20,8 @@ export default function HeroSection() {
               {siteConfig.tagline}
             </p>
             <p className={styles.heroDescription}>
-              Transform your healing journey through sacred blockchain ceremonies. 
-              Burn gratitude tokens, set intentions, and connect with a supportive 
+              Transform your healing journey through sacred blockchain ceremonies.
+              Burn gratitude tokens, set intentions, and connect with a supportive
               community on the path to recovery and spiritual growth.
             </p>
             <div className={styles.heroButtons}>
@@ -40,6 +40,12 @@ export default function HeroSection() {
                 className={clsx('button button--secondary button--lg', styles.secondaryButton)}
                 to="/docs/whitepaper/introduction">
                 📜 Whitepaper
+              </Link>
+              <Link
+                className={clsx('button button--secondary button--lg', styles.secondaryButton)}
+                to="https://raw.githubusercontent.com/drasticstatic/gratitude-token-project_docs/main/whitepaper4print/ALL-IN-ONE.pdf"
+                target="_blank" rel="noopener">
+                📄 Whitepaper PDF
               </Link>
             </div>
           </div>
@@ -60,7 +66,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        
+
 
       </div>
     </header>

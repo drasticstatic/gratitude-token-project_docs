@@ -45,3 +45,7 @@ Truth, in the deepest sense, is what remains when illusion falls away. Eventuall
 3. **Immutable records** — On-chain history that can't be rewritten
 4. **Transparent processes** — How decisions are made is always visible
 
+## Further reading
+
+- Research & Development → Blockchain: [Zero Knowledge and ACIM](/research-and-development/specialized/blockchain/zero-knowledge-and-acim)
+- Research & Development → Spiritual: [ZK + ACIM (Spiritual)](/research-and-development/specialized/spiritual/zero-knowledge-and-acim)

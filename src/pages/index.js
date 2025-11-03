@@ -9,6 +9,7 @@ import RoadmapPreview from '@site/src/components/RoadmapPreview';
 import LivingOfferingModal from '@site/src/components/LivingOfferingModal';
 import EtherealOfferingModal from '@site/src/components/EtherealOfferingModal';
 import PurposeModal from '@site/src/components/PurposeModal';
+import FoundersPrayerModal from '@site/src/components/FoundersPrayerModal';
 import AgenticSearch from '@site/src/components/AgenticSearch';
 
 export default function Home() {
@@ -21,7 +22,11 @@ export default function Home() {
       <LivingOfferingModal />
       <EtherealOfferingModal />
 
-      <PurposeModal />
+      <div style={{display:'flex',flexWrap:'wrap',gap:'1rem',justifyContent:'center'}}>
+        <PurposeModal />
+        <FoundersPrayerModal />
+      </div>
+
       <AgenticSearch />
       <HeroStats />
       <StatsSection />
