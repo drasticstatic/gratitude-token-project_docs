@@ -644,6 +644,37 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
+  /* Mobile sidebar header stacked layout: logo/title on top row, icon + color mode toggle on second row */
+  .navbar-sidebar__brand--stacked {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.4rem !important;
+    padding: 0.5rem 0.75rem 0.75rem !important;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
+    background: linear-gradient(180deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06)) !important;
+  }
+
+  .navbar-sidebar__brand--stacked .brand-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 0.5rem !important;
+  }
+
+  .navbar-sidebar__brand--stacked .brand-row--controls {
+    justify-content: flex-start !important;
+    gap: 0.5rem !important;
+    padding-left: 0.25rem !important;
+  }
+
+  .navbar-sidebar__brand--stacked .brand-icon {
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 6px !important;
+    box-shadow: 0 0 10px rgba(124,58,237,0.35) !important;
+  }
+
+
   /* Fix navbar header spacing to prevent cramming */
   .navbar {
     padding: 0.5rem 1rem !important;
@@ -671,14 +702,19 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     color: var(--purple-light) !important;
     z-index: 5200 !important;
     position: relative !important;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: transform 0.25s ease, filter 0.25s ease !important;
     margin-left: 0.5rem !important;
     flex-shrink: 0 !important;
     transform: rotate(0deg) !important;
   }
 
+  /* Rotate only when sidebar is shown (never get stuck after collapse) */
+  .navbar-sidebar--show .navbar__toggle {
+    transform: rotate(90deg) !important;
+  }
+
   .navbar__toggle:hover {
-    transform: scale(1.08) rotate(90deg) !important;
+    transform: scale(1.06) !important;
   }
 
   .navbar__toggle:active {
@@ -732,11 +768,11 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Sidebar content - MUST fill full height and scroll */
   .navbar-sidebar__items {
     position: absolute !important;
-    top: 60px !important; /* Below the header/close button */
+    top: 112px !important; /* Below the stacked header rows */
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
-    padding: 1.5rem 1rem !important;
+    padding: 1.25rem 1rem 1.5rem !important;
     display: flex !important;
     flex-direction: column !important;
     overflow-y: auto !important;
@@ -769,25 +805,6 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     width: 100% !important;
   }
 
-  /* Ensure primary menu stays visible when secondary is present */
-  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child {
-    display: block !important;
-    transform: translateX(0) !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child .menu__list,
-  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-child ul {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-
-  /* Hide secondary panel by default on mobile to prioritize main nav */
-  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:last-child {
-    display: none !important;
-  }
 
   /* Colorful, prominent scrollbar for the mobile items container */
   .navbar-sidebar__items::-webkit-scrollbar {

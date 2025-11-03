@@ -1,8 +1,11 @@
 import React from 'react';
 import {useNavbarMobileSidebar} from '@docusaurus/theme-common/internal';
 import {translate} from '@docusaurus/Translate';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import NavbarColorModeToggle from '@theme/Navbar/ColorModeToggle';
 import IconClose from '@theme/Icon/Close';
 import NavbarLogo from '@theme/Navbar/Logo';
+
 function CloseButton() {
   const mobileSidebar = useNavbarMobileSidebar();
   return (
@@ -19,11 +22,19 @@ function CloseButton() {
     </button>
   );
 }
+
 export default function NavbarMobileSidebarHeader() {
+  const iconSrc = useBaseUrl('img/psanctuary-icon.webp');
   return (
-    <div className="navbar-sidebar__brand">
-      <NavbarLogo />
-      <CloseButton />
+    <div className="navbar-sidebar__brand navbar-sidebar__brand--stacked">
+      <div className="brand-row brand-row--top">
+        <NavbarLogo />
+        <CloseButton />
+      </div>
+      <div className="brand-row brand-row--controls">
+        <img src={iconSrc} alt="Psanctuary Icon" className="brand-icon" />
+        <NavbarColorModeToggle className="margin-right--md" />
+      </div>
     </div>
   );
 }
