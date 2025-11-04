@@ -73,14 +73,10 @@ export default function NavbarMobileSidebarLayout({
       {header}
       <div
         ref={itemsRef}
-        className={clsx('navbar-sidebar__items', {
-          'navbar-sidebar__items--show-secondary': secondaryMenuShown,
-        })}>
+        className={clsx('navbar-sidebar__items')}>
+        {/* Only show primary menu - secondary menu is hidden since we include docs in primary */}
         <NavbarMobileSidebarPanel inert={false}>
           {primaryMenu}
-        </NavbarMobileSidebarPanel>
-        <NavbarMobileSidebarPanel inert={!secondaryMenuShown}>
-          {secondaryMenu}
         </NavbarMobileSidebarPanel>
         <button
           type="button"

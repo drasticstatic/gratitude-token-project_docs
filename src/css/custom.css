@@ -473,8 +473,12 @@ h3, h4, h5, h6 {
 @media (max-width: 996px) {
   .navbar__items--right { position: relative; z-index: 5201; }
   .navbar__brand { position: relative; z-index: 5199; }
-  /* Show color toggle on mobile navbar */
-  .navbar .colorModeToggle { display: flex !important; }
+
+  /* Show color toggle on mobile navbar - target the actual component */
+  .navbar__items--right .colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
+  .navbar__items--right [class*="colorModeToggle"] {
+    display: flex !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -643,7 +647,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
-  /* Mobile sidebar header: single row with logo, color toggle, and close button */
+  /* Mobile sidebar header: single row with color toggle and close button */
   .navbar-sidebar__brand--stacked {
     display: flex !important;
     flex-direction: row !important;
@@ -656,13 +660,14 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     min-height: 60px !important;
     position: sticky !important;
     top: 0 !important;
-    z-index: 10 !important;
+    z-index: 100 !important; /* Higher z-index to ensure buttons are clickable */
   }
 
   .navbar-sidebar__brand--stacked button {
     position: relative !important;
-    z-index: 20 !important;
+    z-index: 101 !important; /* Even higher to be above everything */
     pointer-events: auto !important;
+    cursor: pointer !important;
   }
 
   .navbar-sidebar__brand--stacked .brand-row--top {
@@ -788,36 +793,40 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     position: relative !important;
     z-index: 5 !important;
   }
-  /* Sticky scroll hint button at bottom of mobile menu - as footer */
+  /* Sticky scroll hint button at bottom of mobile menu - rounded pill style */
   .navbar-sidebar__scrollHint {
     position: sticky;
-    bottom: 0;
-    margin: 0 auto;
-    padding: 1rem;
-    display: flex;
+    bottom: 1rem;
+    margin: 2rem auto 1rem auto;
+    padding: 0.5rem 0.75rem;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06));
-    border-top: 1px solid rgba(124,58,237,0.35);
+    border-radius: 999px;
+    border: 1px solid rgba(124,58,237,0.35);
+    background: linear-gradient(90deg, rgba(124,58,237,0.15), rgba(236,72,153,0.15));
     color: var(--ifm-font-color-base);
     backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: fit-content;
+    align-self: center;
     z-index: 10;
     cursor: pointer;
     transition: all 0.2s ease;
   }
 
   .navbar-sidebar__scrollHint:hover {
-    background: linear-gradient(135deg, rgba(124,58,237,0.18), rgba(236,72,153,0.12));
+    background: linear-gradient(90deg, rgba(124,58,237,0.25), rgba(236,72,153,0.25));
+    transform: scale(1.05);
   }
 
   [data-theme='light'] .navbar-sidebar__scrollHint {
-    background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.04));
-    border-top-color: rgba(124,58,237,0.25);
+    background: rgba(124,58,237,0.08);
+    border-color: rgba(124,58,237,0.25);
   }
 
   [data-theme='light'] .navbar-sidebar__scrollHint:hover {
-    background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.08));
+    background: rgba(124,58,237,0.15);
   }
 
 

@@ -71,6 +71,50 @@ export default function FoundersPrayerModal() {
                   <div className={styles.footerNote}>
                     <p style={{textAlign:'center',fontStyle:'italic'}}>O King of Heaven, receive this offering not as our achievement, but as our remembrance. May this work be the wilderness altar where we pause and praise, where we lay down the armor we once carried, and rest at last in the stillness of Your peace.</p>
                   </div>
+
+                  <div className={styles.bodySection} style={{marginTop: '2rem', borderTop: '1px solid rgba(124,58,237,0.3)', paddingTop: '2rem'}}>
+                    <h2 style={{textAlign: 'center', fontSize: '1.5rem', marginBottom: '1.5rem', background: 'linear-gradient(135deg, rgba(124,58,237,0.9), rgba(236,72,153,0.9))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Prayer of Self Wholeness</h2>
+
+                    <p>Beloved Light within us,<br/>
+                    we turn inward now to the altar of our hearts,<br/>
+                    to remember what has never changed.</p>
+
+                    <p>No two abiding in Self Wholeness can ever be in disharmony,<br/>
+                    for here there is no other —<br/>
+                    only the one Self,<br/>
+                    shining through every form that Love has made.</p>
+
+                    <p>Let us release all thought of getting,<br/>
+                    and rest in the peace of giving.<br/>
+                    For to have is to give,<br/>
+                    and what we give, we keep forever.</p>
+
+                    <p>We give our peace to every mind,<br/>
+                    and in that giving, we remember our own.<br/>
+                    We teach love, that we may remember love;<br/>
+                    we teach forgiveness, that we may be free.</p>
+
+                    <p>The altar of God is within us,<br/>
+                    radiant, still, untouched by fear.<br/>
+                    Here, we are joined as one —<br/>
+                    in the quiet recognition<br/>
+                    that nothing real can be lost,<br/>
+                    and nothing unreal can remain.</p>
+
+                    <p>Holy Spirit, keep our minds vigilant for God,<br/>
+                    that we may see only the Wholeness that is.<br/>
+                    May our thoughts be used for healing,<br/>
+                    our words for blessing,<br/>
+                    our presence for peace.</p>
+
+                    <p>And in this remembrance,<br/>
+                    let all questions fall away into the Answer that was always here:<br/>
+                    Only Love is real,<br/>
+                    and Love is what we are.</p>
+
+                    <p style={{textAlign: 'center', fontStyle: 'italic', marginTop: '1.5rem'}}>Amen.</p>
+                  </div>
+
                   <button
                     className={styles.scrollHint}
                     type="button"
