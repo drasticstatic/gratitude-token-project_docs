@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import styles from './styles.module.css';
 
 export default function FoundersPrayerModal() {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollRef = useRef(null);
+  const [atBottom, setAtBottom] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -20,7 +22,12 @@ export default function FoundersPrayerModal() {
               <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
                 <button className={styles.closeButton} onClick={() => setIsOpen(false)} aria-label="Close modal">✕</button>
 
-                <div className={styles.scrollContent}>
+                <div className={styles.scrollContent} ref={scrollRef} onScroll={() => {
+                  const el = scrollRef.current;
+                  if (el) {
+                    setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
+                  }
+                }}>
                   <h1 className={styles.title}>🕊️ The Founder's Prayer — The Word Beyond Words</h1>
 
                   <div className={styles.quoteBlock}>
@@ -64,6 +71,23 @@ export default function FoundersPrayerModal() {
                   <div className={styles.footerNote}>
                     <p style={{textAlign:'center',fontStyle:'italic'}}>O King of Heaven, receive this offering not as our achievement, but as our remembrance. May this work be the wilderness altar where we pause and praise, where we lay down the armor we once carried, and rest at last in the stillness of Your peace.</p>
                   </div>
+                  <button
+                    className={styles.scrollHint}
+                    type="button"
+                    onClick={() => {
+                      const el = scrollRef.current;
+                      if (!el) return;
+                      if (atBottom) {
+                        el.scrollTo({top: 0, behavior: 'smooth'});
+                      } else {
+                        el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
+                      }
+                    }}
+                    aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+                  >
+                    <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
+                    {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+                  </button>
                 </div>
               </div>
             </div>

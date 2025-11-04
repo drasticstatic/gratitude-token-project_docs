@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
@@ -7,6 +7,8 @@ import styles from './styles.module.css';
 
 export default function PurposeModal() {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollRef = useRef(null);
+  const [atBottom, setAtBottom] = useState(false);
 
   const cosmicMapUrl = useBaseUrl('/img/cosmic-map-eo.png');
   const tokenomicsUrl = useBaseUrl('/docs/whitepaper/tokenomics');
@@ -34,7 +36,12 @@ export default function PurposeModal() {
         <BrowserOnly>
           {() => (
             <div className={styles.modalOverlay} onClick={() => setIsOpen(false)}>
-              <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+              <div className={styles.modalContent} onClick={(e) => e.stopPropagation()} ref={scrollRef} onScroll={() => {
+                const el = scrollRef.current;
+                if (el) {
+                  setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
+                }
+              }}>
                 <button className={styles.closeButton} onClick={() => setIsOpen(false)}>
                   ✕
                 </button>
@@ -214,6 +221,25 @@ export default function PurposeModal() {
                     </blockquote>
                     <p>Because when the illusion of identity falls away, there's nothing left to defend — only to express.</p>
                   </div>
+
+
+	                <button
+	                  className={styles.scrollHint}
+	                  type="button"
+	                  onClick={() => {
+	                    const el = scrollRef.current;
+	                    if (!el) return;
+	                    if (atBottom) {
+	                      el.scrollTo({top: 0, behavior: 'smooth'});
+	                    } else {
+	                      el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
+	                    }
+	                  }}
+	                  aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+	                >
+	                  <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
+	                  {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+	                </button>
 
                   <div className={styles.closing}>
                     <blockquote>

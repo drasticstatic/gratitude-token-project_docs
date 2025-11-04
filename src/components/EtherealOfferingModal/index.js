@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from './styles.module.css';
 
 export default function EtherealOfferingModal() {
   const [isOpen, setIsOpen] = useState(false);
+  const scrollRef = useRef(null);
+  const [atBottom, setAtBottom] = useState(false);
 
   return (
     <section className={styles.wrapper}>
@@ -24,15 +26,15 @@ export default function EtherealOfferingModal() {
       {isOpen && (
         <div className={styles.modalOverlay} onClick={() => setIsOpen(false)}>
           <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
-            <button 
+            <button
               className={styles.closeButton}
               onClick={() => setIsOpen(false)}
               aria-label="Close modal"
             >
               ×
             </button>
-            
-            <div className={styles.scrollContent}>
+
+            <div className={styles.scrollContent} ref={scrollRef} onScroll={() => { const el = scrollRef.current; if (el) { setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4); } }}>
               <h1 className={styles.modalTitle}>
                 Ethereal Offering: Lifting the Veil Between Spirit and System
               </h1>
@@ -253,6 +255,25 @@ export default function EtherealOfferingModal() {
                 <p>
                   May every transaction be a forgiveness.<br />
                   May every offering be a return.<br />
+
+              <button
+                className={styles.scrollHint}
+                type="button"
+                onClick={() => {
+                  const el = scrollRef.current;
+                  if (!el) return;
+                  if (atBottom) {
+                    el.scrollTo({top: 0, behavior: 'smooth'});
+                  } else {
+                    el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
+                  }
+                }}
+                aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+              >
+                <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
+                {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+              </button>
+
                   And may every block inscribed upon this sacred ledger<br />
                   shine as a miracle in the Book of Life.
                 </p>

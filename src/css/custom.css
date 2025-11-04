@@ -463,21 +463,17 @@ h3, h4, h5, h6 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero__title {
-    font-size: 2.5rem;
-  }
+  .hero__title { font-size: 2.5rem; }
+  .hero__subtitle { font-size: 1.2rem; }
+  .navbar__title { font-size: 1.2rem; }
+  .card, .item { margin: 0.5rem 0; }
+}
 
-  .hero__subtitle {
-    font-size: 1.2rem;
-  }
-
-  .navbar__title {
-    font-size: 1.2rem;
-  }
-
-  .card, .item {
-    margin: 0.5rem 0;
-  }
+/* On small screens, hide the top navbar color mode toggle (we show it in the hamburger header instead) */
+@media (max-width: 996px) {
+  .navbar .colorModeToggle { display: none !important; }
+  .navbar__items--right { position: relative; z-index: 5201; }
+  .navbar__brand { position: relative; z-index: 5199; }
 }
 
 @media (max-width: 480px) {
@@ -654,7 +650,9 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     padding: 0.75rem 1rem !important;
     border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
     background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06)) !important;
-    min-height: 60px !important;
+    height: 60px !important;
+    position: relative !important;
+    z-index: 1 !important;
   }
 
   .navbar-sidebar__brand--stacked .brand-row--top {
@@ -781,30 +779,31 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     -webkit-overflow-scrolling: touch !important;
     visibility: visible !important;
     opacity: 1 !important;
+    z-index: 2 !important; /* Ensure items sit above header for reliable taps */
   }
-  /* CRITICAL: Ensure menu list is always visible */
-  .navbar-sidebar .menu__list,
-  .navbar-sidebar__item .menu__list,
-  .navbar-sidebar ul {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
+  /* Sticky scroll hint button at bottom of mobile menu */
+  .navbar-sidebar__scrollHint {
+    position: sticky;
+    bottom: 0;
+    margin: 0.5rem auto 0.75rem auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid rgba(124,58,237,0.35);
+    background: linear-gradient(90deg, rgba(124,58,237,0.15), rgba(236,72,153,0.15));
+    color: var(--ifm-font-color-base);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 2;
   }
 
-  /* CRITICAL: Ensure menu list items are always visible */
-  .navbar-sidebar .menu__list-item,
-  .navbar-sidebar__item .menu__list-item,
-  .navbar-sidebar li {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    margin-bottom: 0.75rem !important;
-    width: 100% !important;
+  [data-theme='light'] .navbar-sidebar__scrollHint {
+    background: rgba(124,58,237,0.08);
+    border-color: rgba(124,58,237,0.25);
   }
+
 
 
   /* Colorful, prominent scrollbar for the mobile items container */
@@ -845,75 +844,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     50% { transform: translate(-100%, 4px); opacity: 1; }
   }
 
-  /* Panel items - primary/secondary containers */
-  .navbar-sidebar__item {
-    flex: 1 !important;
-    min-height: 100px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    background: transparent !important;
-  }
 
-  /* Override inert attribute styling - FORCE visibility of menu items */
-  .navbar-sidebar__item[inert],
-  .navbar-sidebar__item[inert=""] {
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  /* Force all child elements to be visible too */
-  .navbar-sidebar__item[inert] *,
-  .navbar-sidebar__item[inert=""] *,
-  .navbar-sidebar__item * {
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  /* Menu styling - FORCE all menu elements to be visible */
-  .navbar-sidebar .menu,
-  .navbar-sidebar__item .menu {
-    padding: 0 !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    width: 100% !important;
-    min-height: 50px !important;
-  }
-
-  .navbar-sidebar .menu__list,
-  .navbar-sidebar__item .menu__list {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    width: 100% !important;
-  }
-
-  .navbar-sidebar .menu__list-item,
-  .navbar-sidebar__item .menu__list-item {
-    margin: 0.75rem 0 !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    width: 100% !important;
-    min-height: 40px !important;
-  }
-
-  /* Force list items to show */
-  .navbar-sidebar__item li,
-  .navbar-sidebar li {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    margin: 0.75rem 0 !important;
-  }
 
   /* Staggered entrance animation for menu items */
   .navbar-sidebar--show .menu__list-item {
@@ -1015,26 +946,6 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     }
   }
 
-  /* Navbar items - FORCE visibility */
-  .navbar-sidebar .navbar__items,
-  .navbar-sidebar__item .navbar__items {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0.75rem !important;
-    padding: 0 !important;
-    width: 100% !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-
-  .navbar-sidebar .navbar__item,
-  .navbar-sidebar__item .navbar__item {
-    width: 100% !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    min-height: 40px !important;
-  }
 
   /* CRITICAL: Target the actual mobile menu link class */
   .navbar-sidebar .menu__link,

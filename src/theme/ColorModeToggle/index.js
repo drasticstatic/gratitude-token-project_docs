@@ -65,14 +65,15 @@ function getColorModeAriaLabel(colorMode) {
   );
 }
 
-function CurrentColorModeIcon() {
-  return (
-    <>
-      <IconLightMode aria-hidden className={clsx(styles.toggleIcon, styles.lightToggleIcon)} />
-      <IconDarkMode aria-hidden className={clsx(styles.toggleIcon, styles.darkToggleIcon)} />
-      <IconSystemColorMode aria-hidden className={clsx(styles.toggleIcon, styles.systemToggleIcon)} />
-    </>
-  );
+function CurrentColorModeIcon({value}) {
+  switch (value) {
+    case 'light':
+      return <IconLightMode aria-hidden className={clsx(styles.toggleIcon)} />;
+    case 'dark':
+      return <IconDarkMode aria-hidden className={clsx(styles.toggleIcon)} />;
+    default:
+      return <IconSystemColorMode aria-hidden className={clsx(styles.toggleIcon)} />;
+  }
 }
 
 function ColorModeToggle({ className, buttonClassName, respectPrefersColorScheme, value, onChange }) {
@@ -93,7 +94,7 @@ function ColorModeToggle({ className, buttonClassName, respectPrefersColorScheme
         disabled={!isBrowser}
         title={getColorModeLabel(value)}
         aria-label={getColorModeAriaLabel(value)}>
-        <CurrentColorModeIcon />
+        <CurrentColorModeIcon value={value} />
       </button>
     </div>
   );

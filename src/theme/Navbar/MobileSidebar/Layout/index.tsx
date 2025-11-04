@@ -1,4 +1,4 @@
-import React, {version, type ReactNode} from 'react';
+import React, {version, type ReactNode, useEffect, useRef, useState} from 'react';
 import clsx from 'clsx';
 import {useNavbarSecondaryMenu} from '@docusaurus/theme-common/internal';
 import {ThemeClassNames} from '@docusaurus/theme-common';
@@ -40,6 +40,29 @@ export default function NavbarMobileSidebarLayout({
   secondaryMenu,
 }: Props): ReactNode {
   const {shown: secondaryMenuShown} = useNavbarSecondaryMenu();
+  const itemsRef = useRef<HTMLDivElement | null>(null);
+  const [atBottom, setAtBottom] = useState(false);
+
+  useEffect(() => {
+    const el = itemsRef.current;
+    if (!el) return;
+    const onScroll = () => {
+      setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
+    };
+    el.addEventListener('scroll', onScroll);
+    onScroll();
+    return () => el.removeEventListener('scroll', onScroll);
+  }, [itemsRef]);
+
+  const handleScrollHintClick = () => {
+    const el = itemsRef.current;
+    if (!el) return;
+    if (atBottom) {
+      el.scrollTo({top: 0, behavior: 'smooth'});
+    } else {
+      el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
+    }
+  };
 
   return (
     <div
@@ -49,6 +72,7 @@ export default function NavbarMobileSidebarLayout({
       )}>
       {header}
       <div
+        ref={itemsRef}
         className={clsx('navbar-sidebar__items', {
           'navbar-sidebar__items--show-secondary': secondaryMenuShown,
         })}>
@@ -58,6 +82,15 @@ export default function NavbarMobileSidebarLayout({
         <NavbarMobileSidebarPanel inert={!secondaryMenuShown}>
           {secondaryMenu}
         </NavbarMobileSidebarPanel>
+        <button
+          type="button"
+          className="navbar-sidebar__scrollHint clean-btn"
+          onClick={handleScrollHintClick}
+          aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+        >
+          <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
+          {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+        </button>
       </div>
     </div>
   );

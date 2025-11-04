@@ -185,7 +185,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/#agentic-search',
+            to: '/search',
             label: 'Search',
             position: 'right',
           },

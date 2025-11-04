@@ -20,10 +20,7 @@
   transform: rotate(8deg) scale(1.02);
 }
 
-.toggleIcon { display: none; }
-[data-theme-choice='system'] .systemToggleIcon,
-[data-theme-choice='light'] .lightToggleIcon,
-[data-theme-choice='dark'] .darkToggleIcon { display: initial; }
+.toggleIcon { display: inline-block; }
 
 .toggleButtonDisabled { cursor: not-allowed; }
 
