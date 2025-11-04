@@ -469,9 +469,8 @@ h3, h4, h5, h6 {
   .card, .item { margin: 0.5rem 0; }
 }
 
-/* On small screens, hide the top navbar color mode toggle (we show it in the hamburger header instead) */
+/* Navbar items positioning */
 @media (max-width: 996px) {
-  .navbar .colorModeToggle { display: none !important; }
   .navbar__items--right { position: relative; z-index: 5201; }
   .navbar__brand { position: relative; z-index: 5199; }
 }
@@ -595,6 +594,8 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     overflow: hidden !important; /* Container should not scroll, only items inside */
     transform: translateX(100%) !important;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   /* Animated gradient overlay */
@@ -645,14 +646,21 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    justify-content: space-between !important;
-    gap: 0.75rem !important;
+    justify-content: flex-end !important;
+    gap: 1rem !important;
     padding: 0.75rem 1rem !important;
     border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
     background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(236,72,153,0.06)) !important;
-    height: 60px !important;
+    min-height: 60px !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10 !important;
+  }
+
+  .navbar-sidebar__brand--stacked button {
     position: relative !important;
-    z-index: 1 !important;
+    z-index: 20 !important;
+    pointer-events: auto !important;
   }
 
   .navbar-sidebar__brand--stacked .brand-row--top {
@@ -766,11 +774,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
 
   /* Sidebar content - MUST fill full height and scroll */
   .navbar-sidebar__items {
-    position: absolute !important;
-    top: 60px !important; /* Below the single-row header */
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
+    flex: 1 !important;
     padding: 1.25rem 1rem 1.5rem !important;
     display: flex !important;
     flex-direction: column !important;
@@ -779,13 +783,14 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     -webkit-overflow-scrolling: touch !important;
     visibility: visible !important;
     opacity: 1 !important;
-    z-index: 2 !important; /* Ensure items sit above header for reliable taps */
+    position: relative !important;
+    z-index: 5 !important;
   }
   /* Sticky scroll hint button at bottom of mobile menu */
   .navbar-sidebar__scrollHint {
     position: sticky;
     bottom: 0;
-    margin: 0.5rem auto 0.75rem auto;
+    margin: 1.5rem auto 1rem auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -797,6 +802,8 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     backdrop-filter: blur(6px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     z-index: 2;
+    width: fit-content;
+    align-self: center;
   }
 
   [data-theme='light'] .navbar-sidebar__scrollHint {

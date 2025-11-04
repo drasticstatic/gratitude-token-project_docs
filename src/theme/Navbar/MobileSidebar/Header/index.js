@@ -50,11 +50,8 @@ function SimpleColorModeToggle() {
 export default function NavbarMobileSidebarHeader() {
   return (
     <div className="navbar-sidebar__brand navbar-sidebar__brand--stacked">
-      <div className="brand-row brand-row--top">
-        <NavbarLogo />
-        <SimpleColorModeToggle />
-        <CloseButton />
-      </div>
+      <SimpleColorModeToggle />
+      <CloseButton />
     </div>
   );
 }

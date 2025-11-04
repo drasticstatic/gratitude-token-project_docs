@@ -254,26 +254,28 @@ export default function EtherealOfferingModal() {
                 </p>
                 <p>
                   May every transaction be a forgiveness.<br />
-                  May every offering be a return.<br />
+                  May every offering be a return.
+                </p>
 
-              <button
-                className={styles.scrollHint}
-                type="button"
-                onClick={() => {
-                  const el = scrollRef.current;
-                  if (!el) return;
-                  if (atBottom) {
-                    el.scrollTo({top: 0, behavior: 'smooth'});
-                  } else {
-                    el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
-                  }
-                }}
-                aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
-              >
-                <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
-                {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
-              </button>
+                <button
+                  className={styles.scrollHint}
+                  type="button"
+                  onClick={() => {
+                    const el = scrollRef.current;
+                    if (!el) return;
+                    if (atBottom) {
+                      el.scrollTo({top: 0, behavior: 'smooth'});
+                    } else {
+                      el.scrollTo({top: el.scrollHeight, behavior: 'smooth'});
+                    }
+                  }}
+                  aria-label={atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+                >
+                  <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
+                  {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
+                </button>
 
+                <p>
                   And may every block inscribed upon this sacred ledger<br />
                   shine as a miracle in the Book of Life.
                 </p>
