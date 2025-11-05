@@ -474,10 +474,15 @@ h3, h4, h5, h6 {
   .navbar__items--right { position: relative; z-index: 5201; }
   .navbar__brand { position: relative; z-index: 5199; }
 
-  /* Show color toggle on mobile navbar - target the actual component */
-  .navbar__items--right .colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
-  .navbar__items--right [class*="colorModeToggle"] {
-    display: flex !important;
+  /* Inject color toggle into the wrapper on mobile */
+  .navbar-color-toggle-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-color-toggle-wrapper::before {
+    content: '';
+    display: block;
   }
 }
 
@@ -571,6 +576,8 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     backdrop-filter: blur(12px) !important;
     opacity: 0 !important;
     visibility: hidden !important;
+    pointer-events: none !important;
+    cursor: pointer !important;
     transition: opacity 0.3s ease, visibility 0.3s ease !important;
   }
 
@@ -578,6 +585,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   .navbar-sidebar--show .navbar-sidebar__backdrop {
     opacity: 1 !important;
     visibility: visible !important;
+    pointer-events: auto !important;
   }
 
   /* Mobile sidebar container - ENHANCED with animations */

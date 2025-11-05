@@ -185,6 +185,11 @@ const config = {
             position: 'left',
           },
           {
+            type: 'html',
+            position: 'right',
+            value: '<div class="navbar-color-toggle-wrapper"></div>',
+          },
+          {
             to: '/search',
             label: 'Search',
             position: 'right',

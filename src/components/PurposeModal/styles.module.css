@@ -150,8 +150,10 @@
 }
 
 .scrollContent {
-  padding: 2rem;
+  padding: 2rem 2rem 1.5rem 2rem;
   clear: both;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -428,8 +430,8 @@
 /* Sticky scroll hint control - rounded pill at bottom */
 .scrollHint {
   position: sticky;
-  bottom: 1rem;
-  margin: 2rem auto 1.5rem auto;
+  bottom: 0;
+  margin: 2rem auto 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
