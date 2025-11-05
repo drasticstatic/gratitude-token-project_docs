@@ -473,17 +473,6 @@ h3, h4, h5, h6 {
 @media (max-width: 996px) {
   .navbar__items--right { position: relative; z-index: 5201; }
   .navbar__brand { position: relative; z-index: 5199; }
-
-  /* Inject color toggle into the wrapper on mobile */
-  .navbar-color-toggle-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar-color-toggle-wrapper::before {
-    content: '';
-    display: block;
-  }
 }
 
 @media (max-width: 480px) {
@@ -655,12 +644,12 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
-  /* Mobile sidebar header: single row with color toggle and close button */
+  /* Mobile sidebar header: single row with logo and close button only */
   .navbar-sidebar__brand--stacked {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    justify-content: flex-end !important;
+    justify-content: space-between !important;
     gap: 1rem !important;
     padding: 0.75rem 1rem !important;
     border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;
@@ -678,21 +667,14 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     cursor: pointer !important;
   }
 
-  .navbar-sidebar__brand--stacked .brand-row--top {
-    display: flex !important;
-    align-items: center !important;
-    gap: 0.75rem !important;
-    flex: 1 !important;
+  /* Hide title in hamburger header - show logo only */
+  .navbar-sidebar__brand--stacked .navbar__title {
+    display: none !important;
   }
 
-  /* Ensure logo and title are visible */
+  /* Ensure logo is visible */
   .navbar-sidebar__brand--stacked .navbar__logo {
     height: 32px !important;
-  }
-
-  .navbar-sidebar__brand--stacked .navbar__title {
-    font-size: 1.1rem !important;
-    font-weight: 600 !important;
   }
 
 
@@ -790,7 +772,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Sidebar content - MUST fill full height and scroll */
   .navbar-sidebar__items {
     flex: 1 !important;
-    padding: 1.25rem 1rem 1.5rem !important;
+    padding: 1.25rem 1rem 0.75rem !important;
     display: flex !important;
     flex-direction: column !important;
     overflow-y: auto !important;
@@ -804,8 +786,8 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   /* Sticky scroll hint button at bottom of mobile menu - rounded pill style */
   .navbar-sidebar__scrollHint {
     position: sticky;
-    bottom: 1rem;
-    margin: 2rem auto 1rem auto;
+    bottom: 0;
+    margin: 2rem auto 0 auto;
     padding: 0.5rem 0.75rem;
     display: inline-flex;
     align-items: center;

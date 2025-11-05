@@ -9,6 +9,8 @@ tags: [prayer, meditation, spiritual-foundation, prosperity, psalm-1, jeremiah-2
 
 *A Reflective Prayer Weaving Psalm 1 and Jeremiah 29*
 
+<!--truncate-->
+
 ---
 
 Blessed are we, who delight in the law of the Lord,  
