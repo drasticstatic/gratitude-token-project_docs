@@ -222,6 +222,13 @@ export default function PurposeModal() {
                     <p>Because when the illusion of identity falls away, there's nothing left to defend — only to express.</p>
                   </div>
 
+                  <div className={styles.closing}>
+                    <blockquote>
+                      <p><strong>Ethereal Offering is a digital organism where spirit governs structure.</strong></p>
+                      <p>Each contract is a covenant, each vote a prayer, each token a seed of renewal.</p>
+                      <p>Through this architecture, technology learns to remember its origin — not as machinery of control, but as an instrument of communion.</p>
+                    </blockquote>
+                  </div>
 
 	                <button
 	                  className={styles.scrollHint}
@@ -240,14 +247,6 @@ export default function PurposeModal() {
 	                  <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
 	                  {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
 	                </button>
-
-                  <div className={styles.closing}>
-                    <blockquote>
-                      <p><strong>Ethereal Offering is a digital organism where spirit governs structure.</strong></p>
-                      <p>Each contract is a covenant, each vote a prayer, each token a seed of renewal.</p>
-                      <p>Through this architecture, technology learns to remember its origin — not as machinery of control, but as an instrument of communion.</p>
-                    </blockquote>
-                  </div>
                 </div>
               </div>
             </div>
