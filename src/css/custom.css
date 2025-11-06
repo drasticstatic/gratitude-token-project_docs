@@ -553,7 +553,7 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
 
 /* Mobile hamburger menu - Simplified and more reliable */
 @media (max-width: 996px) {
-  /* Backdrop - visible when menu is open */
+  /* Backdrop - visible when menu is open - MUST be clickable to close menu */
   .navbar-sidebar__backdrop {
     position: fixed !important;
     top: 0 !important;
@@ -568,10 +568,12 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: none !important;
     cursor: pointer !important;
     transition: opacity 0.3s ease, visibility 0.3s ease !important;
+    display: none !important;
   }
 
   /* Show backdrop when sidebar is shown */
   .navbar-sidebar--show .navbar-sidebar__backdrop {
+    display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
     pointer-events: auto !important;
@@ -668,13 +670,18 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
   }
 
   /* Hide title in hamburger header - show logo only */
-  .navbar-sidebar__brand--stacked .navbar__title {
+  .navbar-sidebar__brand--stacked .navbar__title,
+  .navbar-sidebar__brand .navbar__title,
+  .navbar-sidebar .navbar__title {
     display: none !important;
   }
 
   /* Ensure logo is visible */
-  .navbar-sidebar__brand--stacked .navbar__logo {
+  .navbar-sidebar__brand--stacked .navbar__logo,
+  .navbar-sidebar__brand .navbar__logo,
+  .navbar-sidebar .navbar__logo {
     height: 32px !important;
+    display: block !important;
   }
 
 

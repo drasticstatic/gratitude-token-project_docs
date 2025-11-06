@@ -1,10 +1,19 @@
 /*
-Show color mode toggle on mobile - positioned above search
+Show color mode toggle on mobile - positioned to the left of search
  */
 @media (max-width: 996px) {
   .colorModeToggle {
     display: flex !important;
     order: -1; /* Place before search */
+    margin-right: 0.5rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Ensure navbar items wrap properly on mobile */
+  :global(.navbar__items--right) {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
   }
 }
 

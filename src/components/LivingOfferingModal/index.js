@@ -18,12 +18,7 @@ export default function LivingOfferingModal() {
 
       {isOpen && (
         <div className={styles.modalOverlay} onClick={() => setIsOpen(false)}>
-          <div className={styles.modalContent} onClick={(e) => e.stopPropagation()} ref={scrollRef} onScroll={() => {
-            const el = scrollRef.current;
-            if (el) {
-              setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
-            }
-          }}>
+          <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
             <button
               className={styles.closeButton}
               onClick={() => setIsOpen(false)}
@@ -32,7 +27,12 @@ export default function LivingOfferingModal() {
               ✕
             </button>
 
-            <div className={styles.poemContent}>
+            <div className={styles.poemContent} ref={scrollRef} onScroll={() => {
+              const el = scrollRef.current;
+              if (el) {
+                setAtBottom(el.scrollTop + el.clientHeight >= el.scrollHeight - 4);
+              }
+            }}>
               <h1 className={styles.title}>
                 <strong>The Living Offering — The Alabaster Ledger</strong>
               </h1>
@@ -176,6 +176,15 @@ export default function LivingOfferingModal() {
                 Let this work stand as one unbroken prayer—that the many may recall themselves as One.
               </p>
 
+              <p>
+                And that every soul, in giving, discovers it was never poor.
+              </p>
+
+              <p className={styles.signature}>
+                <strong>— The Living Offering</strong><br />
+                <em>As for this house, we will serve the Lord.</em>
+              </p>
+
               <button
                 className={styles.scrollHint}
                 type="button"
@@ -193,15 +202,6 @@ export default function LivingOfferingModal() {
                 <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
                 {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
               </button>
-
-              <p>
-                And that every soul, in giving, discovers it was never poor.
-              </p>
-
-              <p className={styles.signature}>
-                <strong>— The Living Offering</strong><br />
-                <em>As for this house, we will serve the Lord.</em>
-              </p>
             </div>
           </div>
         </div>

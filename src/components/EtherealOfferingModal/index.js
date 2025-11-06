@@ -257,6 +257,11 @@ export default function EtherealOfferingModal() {
                   May every offering be a return.
                 </p>
 
+                <p>
+                  And may every block inscribed upon this sacred ledger<br />
+                  shine as a miracle in the Book of Life.
+                </p>
+
                 <button
                   className={styles.scrollHint}
                   type="button"
@@ -274,11 +279,6 @@ export default function EtherealOfferingModal() {
                   <span style={{transform: atBottom ? 'rotate(180deg)' : 'none', display: 'inline-block', marginRight: 8}}>↓</span>
                   {atBottom ? 'Click to return to top' : 'Click to scroll to bottom'}
                 </button>
-
-                <p>
-                  And may every block inscribed upon this sacred ledger<br />
-                  shine as a miracle in the Book of Life.
-                </p>
               </section>
             </div>
           </div>
