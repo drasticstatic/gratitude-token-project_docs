@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-how-to-use-dapp/06-token-swap" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.1">
+<title data-rh="true">Token Swap (AMM/DEX) | Ethereal Offering</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://drasticstatic.github.io/gratitude-token-project_docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://drasticstatic.github.io/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Token Swap (AMM/DEX) | Ethereal Offering"><meta data-rh="true" name="description" content="Decentralized exchange powered by constant product formula"><meta data-rh="true" property="og:description" content="Decentralized exchange powered by constant product formula"><link data-rh="true" rel="icon" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><link data-rh="true" rel="canonical" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap" hreflang="en"><link data-rh="true" rel="alternate" href="https://drasticstatic.github.io/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Token Swap","item":"https://drasticstatic.github.io/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap"}]}</script><link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/community/rss.xml" title="Ethereal Offering Community Updates RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/community/atom.xml" title="Ethereal Offering Community Updates Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/gratitude-token-project_docs/learn/rss.xml" title="Ethereal Offering - Learn the Code RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/gratitude-token-project_docs/learn/atom.xml" title="Ethereal Offering - Learn the Code Atom Feed"><link rel="stylesheet" href="/gratitude-token-project_docs/assets/css/styles.5c879ddd.css">
+<script src="/gratitude-token-project_docs/assets/js/runtime~main.fc9b11f9.js" defer="defer"></script>
+<script src="/gratitude-token-project_docs/assets/js/main.e34f8d30.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/gratitude-token-project_docs/img/psanctuary-icon.webp"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><div class="sporeContainer_ySOz"></div><a class="navbar__brand" href="/gratitude-token-project_docs/"><div class="navbar__logo"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/gratitude-token-project_docs/img/psanctuary-icon.webp" alt="Psanctuary Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Ethereal Offering</b></a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/how-to-use-dapp/00-overview">Tutorial</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/tutorial/getting-started">Getting Started</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/gratitude-token-project_docs/docs/intro">Read Docs</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/community">Community</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/learn">Learn the Code</a><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/docs/fork-the-code/overview">Fork the Code</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/gratitude-token-project_docs/search">Search</a><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_MW0i colorModeToggle_x44X"><button class="clean-btn toggleButton_yw5v toggleButtonDisabled_BJd7" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_oIOL"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/intro"><span title="Welcome to Ethereal Offering" class="linkLabel_WmDU">Welcome to Ethereal Offering</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/getting-started/overview"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/gratitude-token-project_docs/docs/how-to-use-dapp/00-overview"><span title="🎮 How to Use the dApp" class="categoryLinkLabel_W154">🎮 How to Use the dApp</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/00-overview"><span title="Overview &amp; Getting Started" class="linkLabel_WmDU">Overview &amp; Getting Started</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/01-mushroom-farm"><span title="Mushroom Farm" class="linkLabel_WmDU">Mushroom Farm</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/02-cross-breeding"><span title="Cross-Breeding" class="linkLabel_WmDU">Cross-Breeding</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/03-altar-burn"><span title="Sacred Altar" class="linkLabel_WmDU">Sacred Altar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/04-dao-governance"><span title="DAO Governance" class="linkLabel_WmDU">DAO Governance</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/05-oracle"><span title="Oracle of Fruit" class="linkLabel_WmDU">Oracle of Fruit</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/06-token-swap"><span title="Token Swap" class="linkLabel_WmDU">Token Swap</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/07-sacred-offering"><span title="Sacred Offering" class="linkLabel_WmDU">Sacred Offering</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/how-to-use-dapp/08-roadmap-community"><span title="Roadmap &amp; Community" class="linkLabel_WmDU">Roadmap &amp; Community</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/whitepaper/introduction"><span title="Whitepaper" class="categoryLinkLabel_W154">Whitepaper</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/principles/overview"><span title="Principles" class="categoryLinkLabel_W154">Principles</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/tokenomics/overview"><span title="Tokenomics" class="categoryLinkLabel_W154">Tokenomics</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/governance/overview"><span title="DAO Governance" class="categoryLinkLabel_W154">DAO Governance</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/nfts/overview"><span title="NFT Ecosystem" class="categoryLinkLabel_W154">NFT Ecosystem</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/sacred-altar/overview"><span title="Sacred Altar" class="categoryLinkLabel_W154">Sacred Altar</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/architecture/overview"><span title="Technical Architecture" class="categoryLinkLabel_W154">Technical Architecture</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/developers/smart-contracts"><span title="For Developers" class="categoryLinkLabel_W154">For Developers</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/gratitude-token-project_docs/docs/research-and-development/specialized/blockchain/zero-knowledge-and-acim"><span title="Research &amp; Development" class="categoryLinkLabel_W154">Research &amp; Development</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/gratitude-token-project_docs/docs/SyncDocs2025_10-24/frontend/components/effects"><span title="SyncDocs 2025-10-24" class="categoryLinkLabel_W154">SyncDocs 2025-10-24</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/gratitude-token-project_docs/docs/SyncDocs2025_10-24/frontend/components/effects"><span title="Front-End Reference" class="categoryLinkLabel_W154">Front-End Reference</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/gratitude-token-project_docs/docs/SyncDocs2025_10-24/deploy/gh-pages"><span title="Publishing &amp; Access" class="categoryLinkLabel_W154">Publishing &amp; Access</span></a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/gratitude-token-project_docs/docs/SyncDocs2025_10-24/overview"><span title="Sync Pack 2025-10-24 Overview" class="linkLabel_WmDU">Sync Pack 2025-10-24 Overview</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/security"><span title="Security Best Practices" class="linkLabel_WmDU">Security Best Practices</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/roadmap"><span title="Development Roadmap" class="linkLabel_WmDU">Development Roadmap</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/faq"><span title="Frequently Asked Questions (FAQ)" class="linkLabel_WmDU">Frequently Asked Questions (FAQ)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/gratitude-token-project_docs/docs/glossary"><span title="Glossary" class="linkLabel_WmDU">Glossary</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/gratitude-token-project_docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🎮 How to Use the dApp</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Token Swap</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Token Swap (AMM/DEX)</h1></header>
+<p><em>Decentralized exchange powered by constant product formula</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview" translate="no">​</a></h2>
+<p>The Ethereal Offering AMM (Automated Market Maker) allows you to swap between ETHO, PSD, and other tokens without a centralized exchange. we can:</p>
+<ul>
+<li><strong>Swap tokens</strong> instantly at algorithmic prices</li>
+<li><strong>Provide liquidity</strong> to earn trading fees</li>
+<li><strong>View pool analytics</strong> and our position</li>
+<li><strong>Track transaction history</strong> on-chain</li>
+<li><strong>Earn passive income</strong> from liquidity provision</li>
+</ul>
+<p><strong>Core Principle:</strong></p>
+<blockquote>
+<p><em>Reciprocity — The exchange flows both ways, creating mutual benefit</em></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-an-amm">What is an AMM?<a href="#what-is-an-amm" class="hash-link" aria-label="Direct link to What is an AMM?" title="Direct link to What is an AMM?" translate="no">​</a></h2>
+<p>An <strong>Automated Market Maker (AMM)</strong> is a decentralized exchange protocol that uses a mathematical formula to price assets and facilitate trades without order books or centralized intermediaries.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-it-works">How It Works<a href="#how-it-works" class="hash-link" aria-label="Direct link to How It Works" title="Direct link to How It Works" translate="no">​</a></h3>
+<p><strong>Constant Product Formula:</strong> <code>x * y = k</code></p>
+<ul>
+<li><strong>x</strong> = Amount of Token A in the pool</li>
+<li><strong>y</strong> = Amount of Token B in the pool</li>
+<li><strong>k</strong> = Constant product (stays the same after trades)</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Pool has 1,000 ETHO and 10 ETH</li>
+<li>k = 1,000 × 10 = 10,000</li>
+<li>If you buy 100 ETHO, you must add enough ETH to keep k = 10,000</li>
+<li>Price adjusts automatically based on supply/demand</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="benefits">Benefits<a href="#benefits" class="hash-link" aria-label="Direct link to Benefits" title="Direct link to Benefits" translate="no">​</a></h3>
+<p>✅ <strong>No intermediaries</strong> — Trade directly from our wallet<br>
+<!-- -->✅ <strong>Always available</strong> — 24/7 liquidity<br>
+<!-- -->✅ <strong>Transparent pricing</strong> — Algorithm-based, no manipulation<br>
+<!-- -->✅ <strong>Earn fees</strong> — Liquidity providers earn 0.3% of all trades<br>
+<!-- -->✅ <strong>Permissionless</strong> — Anyone can trade or provide liquidity</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-swap-tokens">How to Swap Tokens<a href="#how-to-swap-tokens" class="hash-link" aria-label="Direct link to How to Swap Tokens" title="Direct link to How to Swap Tokens" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-navigate-to-token-swap">Step 1: Navigate to Token Swap<a href="#step-1-navigate-to-token-swap" class="hash-link" aria-label="Direct link to Step 1: Navigate to Token Swap" title="Direct link to Step 1: Navigate to Token Swap" translate="no">​</a></h3>
+<ol>
+<li>Go to the <strong>Token Swap</strong> page in the dApp</li>
+<li>Ensure our wallet is connected</li>
+<li>Check our token balances (displayed in interface)</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-select-tokens">Step 2: Select Tokens<a href="#step-2-select-tokens" class="hash-link" aria-label="Direct link to Step 2: Select Tokens" title="Direct link to Step 2: Select Tokens" translate="no">​</a></h3>
+<p><strong>Swap Interface:</strong></p>
+<ul>
+<li><strong>From:</strong> Select token you want to swap (e.g., ETH)</li>
+<li><strong>To:</strong> Select token you want to receive (e.g., ETHO)</li>
+<li><strong>Amount:</strong> Enter how much you want to swap</li>
+</ul>
+<p><strong>Available pairs:</strong></p>
+<ul>
+<li>ETH ↔ ETHO</li>
+<li>ETH ↔ PSD</li>
+<li>ETHO ↔ PSD</li>
+<li>(Additional pairs may be added via DAO governance)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-review-swap-details">Step 3: Review Swap Details<a href="#step-3-review-swap-details" class="hash-link" aria-label="Direct link to Step 3: Review Swap Details" title="Direct link to Step 3: Review Swap Details" translate="no">​</a></h3>
+<p><strong>Before confirming, review:</strong></p>
+<ul>
+<li><strong>Exchange Rate:</strong> How much you&#x27;ll receive per token</li>
+<li><strong>Price Impact:</strong> How much our trade affects the pool price</li>
+<li><strong>Minimum Received:</strong> Accounting for slippage</li>
+<li><strong>Liquidity Provider Fee:</strong> 0.3% of swap amount</li>
+<li><strong>Gas Fee:</strong> ETH cost for transaction</li>
+</ul>
+<p><strong>Price impact warnings:</strong></p>
+<ul>
+<li><strong>&lt; 1%</strong> — ✅ Good trade</li>
+<li><strong>1-3%</strong> — ⚠️ Moderate impact</li>
+<li><strong>3-5%</strong> — ⚠️ High impact, consider smaller amount</li>
+<li><strong>&gt; 5%</strong> — 🚫 Very high impact, split into multiple trades</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-set-slippage-tolerance">Step 4: Set Slippage Tolerance<a href="#step-4-set-slippage-tolerance" class="hash-link" aria-label="Direct link to Step 4: Set Slippage Tolerance" title="Direct link to Step 4: Set Slippage Tolerance" translate="no">​</a></h3>
+<p><strong>Slippage</strong> = Difference between expected and actual price due to market movement</p>
+<p><strong>Settings:</strong></p>
+<ul>
+<li><strong>0.1%</strong> — Very tight, may fail in volatile markets</li>
+<li><strong>0.5%</strong> — Recommended for stable markets</li>
+<li><strong>1.0%</strong> — Recommended for normal conditions</li>
+<li><strong>3.0%</strong> — High tolerance, use for large trades or volatile markets</li>
+<li><strong>Custom</strong> — Set our own percentage</li>
+</ul>
+<p><strong>Note:</strong> Higher slippage = more likely to succeed, but we might get a worse price.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-confirm-swap">Step 5: Confirm Swap<a href="#step-5-confirm-swap" class="hash-link" aria-label="Direct link to Step 5: Confirm Swap" title="Direct link to Step 5: Confirm Swap" translate="no">​</a></h3>
+<ol>
+<li>Click <strong>&quot;Swap&quot;</strong> button</li>
+<li>Review transaction in wallet popup</li>
+<li>Confirm transaction</li>
+<li>Wait for confirmation (usually 15-60 seconds)</li>
+<li>Tokens appear in our wallet</li>
+</ol>
+<p><strong>Transaction details:</strong></p>
+<ul>
+<li><strong>From:</strong> Our wallet address</li>
+<li><strong>To:</strong> AMM contract address</li>
+<li><strong>Tokens sent:</strong> Amount you&#x27;re swapping</li>
+<li><strong>Tokens received:</strong> Amount you&#x27;ll get (minus fees)</li>
+<li><strong>Gas fee:</strong> ETH cost</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-provide-liquidity">How to Provide Liquidity<a href="#how-to-provide-liquidity" class="hash-link" aria-label="Direct link to How to Provide Liquidity" title="Direct link to How to Provide Liquidity" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-provide-liquidity">Why Provide Liquidity?<a href="#why-provide-liquidity" class="hash-link" aria-label="Direct link to Why Provide Liquidity?" title="Direct link to Why Provide Liquidity?" translate="no">​</a></h3>
+<p><strong>Earn passive income</strong> by depositing tokens into liquidity pools:</p>
+<ul>
+<li><strong>Trading fees:</strong> Earn 0.3% of every swap that uses our liquidity</li>
+<li><strong>Proportional rewards:</strong> Our share = our % of total pool</li>
+<li><strong>Compounding:</strong> Fees automatically added to our position</li>
+<li><strong>Community support:</strong> Help others trade smoothly</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You provide $1,000 of liquidity (50% ETHO, 50% ETH)</li>
+<li>Pool has $100,000 total liquidity</li>
+<li>Our share = 1%</li>
+<li>Pool earns $10,000 in trading fees per month</li>
+<li>You earn $100 per month (1% of $10,000)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-navigate-to-liquidity">Step 1: Navigate to Liquidity<a href="#step-1-navigate-to-liquidity" class="hash-link" aria-label="Direct link to Step 1: Navigate to Liquidity" title="Direct link to Step 1: Navigate to Liquidity" translate="no">​</a></h3>
+<ol>
+<li>Go to <strong>Token Swap</strong> page</li>
+<li>Click <strong>&quot;Liquidity&quot;</strong> tab</li>
+<li>View available pools</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-select-pool">Step 2: Select Pool<a href="#step-2-select-pool" class="hash-link" aria-label="Direct link to Step 2: Select Pool" title="Direct link to Step 2: Select Pool" translate="no">​</a></h3>
+<p><strong>Available pools:</strong></p>
+<ul>
+<li><strong>ETHO/ETH</strong> — Primary pool</li>
+<li><strong>PSD/ETH</strong> — Secondary pool</li>
+<li><strong>ETHO/PSD</strong> — Direct swap pool</li>
+<li>(Additional pools may be added)</li>
+</ul>
+<p><strong>Pool info displayed:</strong></p>
+<ul>
+<li><strong>Total Liquidity:</strong> Total value locked in pool</li>
+<li><strong>Volume (24h):</strong> Trading volume last 24 hours</li>
+<li><strong>Fees (24h):</strong> Fees earned last 24 hours</li>
+<li><strong>APR:</strong> Estimated annual percentage return</li>
+<li><strong>Our Share:</strong> Our % of the pool (if you&#x27;re already providing)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-add-liquidity">Step 3: Add Liquidity<a href="#step-3-add-liquidity" class="hash-link" aria-label="Direct link to Step 3: Add Liquidity" title="Direct link to Step 3: Add Liquidity" translate="no">​</a></h3>
+<ol>
+<li>Click <strong>&quot;Add Liquidity&quot;</strong> on desired pool</li>
+<li>Enter amount of <strong>first token</strong> (e.g., 100 ETHO)</li>
+<li><strong>Second token amount</strong> auto-calculates to maintain pool ratio</li>
+<li>Review the amounts and ratio</li>
+<li>Click <strong>&quot;Approve [Token]&quot;</strong> (first time only)</li>
+<li>Wait for approval transaction to confirm</li>
+<li>Click <strong>&quot;Add Liquidity&quot;</strong></li>
+<li>Confirm transaction in wallet</li>
+<li>Receive <strong>LP tokens</strong> (liquidity provider tokens) representing our share</li>
+</ol>
+<p><strong>Important:</strong></p>
+<ul>
+<li>You must provide <strong>equal value</strong> of both tokens</li>
+<li>Ratio is determined by current pool price</li>
+<li>You&#x27;ll receive LP tokens representing our share</li>
+<li>LP tokens can be redeemed anytime for our share of the pool</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-track-your-position">Step 4: Track Our Position<a href="#step-4-track-your-position" class="hash-link" aria-label="Direct link to Step 4: Track Our Position" title="Direct link to Step 4: Track Our Position" translate="no">​</a></h3>
+<p><strong>Our Liquidity Position:</strong></p>
+<ul>
+<li><strong>Pool:</strong> Which pool you&#x27;re in</li>
+<li><strong>Our Share:</strong> % of total pool</li>
+<li><strong>Tokens Deposited:</strong> Amount of each token</li>
+<li><strong>Current Value:</strong> USD value of our position</li>
+<li><strong>Fees Earned:</strong> Total fees accumulated</li>
+<li><strong>APR:</strong> Our current annual return rate</li>
+</ul>
+<p><strong>View in:</strong></p>
+<ul>
+<li>Token Swap page → Liquidity tab → Our Positions</li>
+<li>Wallet → LP tokens (ERC-20)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-remove-liquidity-when-ready">Step 5: Remove Liquidity (When Ready)<a href="#step-5-remove-liquidity-when-ready" class="hash-link" aria-label="Direct link to Step 5: Remove Liquidity (When Ready)" title="Direct link to Step 5: Remove Liquidity (When Ready)" translate="no">​</a></h3>
+<ol>
+<li>Navigate to <strong>Our Positions</strong></li>
+<li>Click <strong>&quot;Remove&quot;</strong> on the position</li>
+<li>Choose <strong>percentage to remove</strong> (25% / 50% / 75% / 100%)</li>
+<li>Review tokens you&#x27;ll receive</li>
+<li>Click <strong>&quot;Remove Liquidity&quot;</strong></li>
+<li>Confirm transaction</li>
+<li>LP tokens are burned</li>
+<li>You receive our share of both tokens + accumulated fees</li>
+</ol>
+<p><strong>Note:</strong> we can remove liquidity anytime. No lock-up period.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-impermanent-loss">Understanding Impermanent Loss<a href="#understanding-impermanent-loss" class="hash-link" aria-label="Direct link to Understanding Impermanent Loss" title="Direct link to Understanding Impermanent Loss" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-impermanent-loss">What is Impermanent Loss?<a href="#what-is-impermanent-loss" class="hash-link" aria-label="Direct link to What is Impermanent Loss?" title="Direct link to What is Impermanent Loss?" translate="no">​</a></h3>
+<p><strong>Impermanent loss</strong> occurs when the price ratio of our deposited tokens changes compared to when you deposited them.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You deposit 100 ETHO + 1 ETH when 1 ETH = 100 ETHO</li>
+<li>ETHO price doubles (now 1 ETH = 50 ETHO)</li>
+<li>Pool rebalances automatically</li>
+<li>You now have ~70.7 ETHO + ~1.41 ETH</li>
+<li>If you had just held, you&#x27;d have 100 ETHO + 1 ETH (worth more)</li>
+<li>The difference is &quot;impermanent loss&quot;</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-impermanent">Why &quot;Impermanent&quot;?<a href="#why-impermanent" class="hash-link" aria-label="Direct link to Why &quot;Impermanent&quot;?" title="Direct link to Why &quot;Impermanent&quot;?" translate="no">​</a></h3>
+<ul>
+<li><strong>Loss is only realized</strong> when you withdraw</li>
+<li><strong>If prices return</strong> to original ratio, loss disappears</li>
+<li><strong>Trading fees</strong> often offset impermanent loss</li>
+<li><strong>Long-term</strong> providers usually profit despite IL</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-minimize">How to Minimize<a href="#how-to-minimize" class="hash-link" aria-label="Direct link to How to Minimize" title="Direct link to How to Minimize" translate="no">​</a></h3>
+<ol>
+<li><strong>Provide to stable pairs</strong> — Less price volatility = less IL</li>
+<li><strong>Long-term provision</strong> — Fees accumulate over time</li>
+<li><strong>High-volume pools</strong> — More fees to offset IL</li>
+<li><strong>Monitor our position</strong> — Remove if IL becomes significant</li>
+<li><strong>Understand the risk</strong> — Only provide what we can afford</li>
+</ol>
+<p><strong>Rule of thumb:</strong> If trading fees &gt; impermanent loss, you&#x27;re profitable.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pool-analytics">Pool Analytics<a href="#pool-analytics" class="hash-link" aria-label="Direct link to Pool Analytics" title="Direct link to Pool Analytics" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="global-pool-stats">Global Pool Stats<a href="#global-pool-stats" class="hash-link" aria-label="Direct link to Global Pool Stats" title="Direct link to Global Pool Stats" translate="no">​</a></h3>
+<p><strong>Visible on Token Swap page:</strong></p>
+<ul>
+<li><strong>Total Value Locked (TVL):</strong> Total $ value in all pools</li>
+<li><strong>24h Volume:</strong> Total trading volume last 24 hours</li>
+<li><strong>24h Fees:</strong> Total fees earned by LPs last 24 hours</li>
+<li><strong>Total Transactions:</strong> All-time swap count</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="individual-pool-stats">Individual Pool Stats<a href="#individual-pool-stats" class="hash-link" aria-label="Direct link to Individual Pool Stats" title="Direct link to Individual Pool Stats" translate="no">​</a></h3>
+<p><strong>For each pool:</strong></p>
+<ul>
+<li><strong>Liquidity:</strong> Total tokens in pool (e.g., 10,000 ETHO + 100 ETH)</li>
+<li><strong>Volume (24h):</strong> Trading volume</li>
+<li><strong>Fees (24h):</strong> Fees earned</li>
+<li><strong>APR:</strong> Estimated annual return for LPs</li>
+<li><strong>Price:</strong> Current exchange rate</li>
+<li><strong>Our Share:</strong> Our % of pool (if providing)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="your-transaction-history">Our Transaction History<a href="#your-transaction-history" class="hash-link" aria-label="Direct link to Our Transaction History" title="Direct link to Our Transaction History" translate="no">​</a></h3>
+<p><strong>Track all our swaps and liquidity actions:</strong></p>
+<ul>
+<li><strong>Date/Time:</strong> When transaction occurred</li>
+<li><strong>Type:</strong> Swap, Add Liquidity, Remove Liquidity</li>
+<li><strong>Tokens:</strong> What you traded or deposited</li>
+<li><strong>Amount:</strong> How much</li>
+<li><strong>Transaction Hash:</strong> Link to block explorer</li>
+<li><strong>Status:</strong> Confirmed, Pending, Failed</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-features">Advanced Features<a href="#advanced-features" class="hash-link" aria-label="Direct link to Advanced Features" title="Direct link to Advanced Features" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="limit-orders-coming-soon">Limit Orders (Coming Soon)<a href="#limit-orders-coming-soon" class="hash-link" aria-label="Direct link to Limit Orders (Coming Soon)" title="Direct link to Limit Orders (Coming Soon)" translate="no">​</a></h3>
+<p><strong>Place orders at specific prices:</strong></p>
+<ul>
+<li>Set our desired exchange rate</li>
+<li>Order executes automatically when price is reached</li>
+<li>No need to monitor constantly</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="liquidity-mining-potential">Liquidity Mining (Potential)<a href="#liquidity-mining-potential" class="hash-link" aria-label="Direct link to Liquidity Mining (Potential)" title="Direct link to Liquidity Mining (Potential)" translate="no">​</a></h3>
+<p><strong>Earn additional rewards for providing liquidity:</strong></p>
+<ul>
+<li>Bonus ETHO or PSD tokens</li>
+<li>Distributed based on our share and duration</li>
+<li>Incentivize liquidity for new pools</li>
+<li>Governed by DAO proposals</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="multi-hop-swaps-if-needed">Multi-Hop Swaps (If Needed)<a href="#multi-hop-swaps-if-needed" class="hash-link" aria-label="Direct link to Multi-Hop Swaps (If Needed)" title="Direct link to Multi-Hop Swaps (If Needed)" translate="no">​</a></h3>
+<p><strong>Swap through multiple pools for best price:</strong></p>
+<ul>
+<li>Example: ETH → ETHO → PSD (if direct ETH/PSD pool has low liquidity)</li>
+<li>Automatically routes through best path</li>
+<li>May have higher fees (multiple swaps)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices">Best Practices<a href="#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="for-swapping">For Swapping<a href="#for-swapping" class="hash-link" aria-label="Direct link to For Swapping" title="Direct link to For Swapping" translate="no">​</a></h3>
+<ol>
+<li><strong>Check price impact</strong> before large trades</li>
+<li><strong>Split large trades</strong> into smaller chunks if impact &gt; 3%</li>
+<li><strong>Set appropriate slippage</strong> (0.5-1% for normal conditions)</li>
+<li><strong>Compare prices</strong> with other DEXs if available</li>
+<li><strong>Verify token addresses</strong> to avoid scams</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="for-liquidity-provision">For Liquidity Provision<a href="#for-liquidity-provision" class="hash-link" aria-label="Direct link to For Liquidity Provision" title="Direct link to For Liquidity Provision" translate="no">​</a></h3>
+<ol>
+<li><strong>Start small</strong> to learn the mechanics</li>
+<li><strong>Understand impermanent loss</strong> before providing</li>
+<li><strong>Choose high-volume pools</strong> for better fee earnings</li>
+<li><strong>Monitor our position</strong> regularly</li>
+<li><strong>Reinvest fees</strong> by adding more liquidity (compound)</li>
+<li><strong>Diversify</strong> across multiple pools if possible</li>
+<li><strong>Long-term mindset</strong> — Fees accumulate over time</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a href="#security" class="hash-link" aria-label="Direct link to Security" title="Direct link to Security" translate="no">​</a></h3>
+<ol>
+<li><strong>Never share</strong> our private keys or seed phrase</li>
+<li><strong>Verify contract addresses</strong> before approving</li>
+<li><strong>Use hardware wallet</strong> for large amounts</li>
+<li><strong>Revoke approvals</strong> for contracts you no longer use</li>
+<li><strong>Be cautious</strong> of phishing sites (bookmark the real dApp)</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting">Troubleshooting<a href="#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="insufficient-liquidity-for-this-trade">&quot;Insufficient liquidity for this trade&quot;<a href="#insufficient-liquidity-for-this-trade" class="hash-link" aria-label="Direct link to &quot;Insufficient liquidity for this trade&quot;" title="Direct link to &quot;Insufficient liquidity for this trade&quot;" translate="no">​</a></h3>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Pool doesn&#x27;t have enough tokens for our swap size</li>
+<li>Try a smaller amount</li>
+<li>Provide liquidity to the pool yourself</li>
+<li>Wait for others to add liquidity</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="price-impact-too-high">&quot;Price impact too high&quot;<a href="#price-impact-too-high" class="hash-link" aria-label="Direct link to &quot;Price impact too high&quot;" title="Direct link to &quot;Price impact too high&quot;" translate="no">​</a></h3>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Our trade is too large relative to pool size</li>
+<li>Split into multiple smaller trades</li>
+<li>Wait for pool to grow</li>
+<li>Increase slippage tolerance (with caution)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="transaction-failed">&quot;Transaction failed&quot;<a href="#transaction-failed" class="hash-link" aria-label="Direct link to &quot;Transaction failed&quot;" title="Direct link to &quot;Transaction failed&quot;" translate="no">​</a></h3>
+<p><strong>Possible causes:</strong></p>
+<ul>
+<li>Slippage tolerance too low (price moved during transaction)</li>
+<li>Insufficient ETH for gas</li>
+<li>Token approval not confirmed</li>
+<li>Pool parameters changed</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Increase slippage tolerance</li>
+<li>Ensure enough ETH for gas</li>
+<li>Confirm approval transaction first</li>
+<li>Try again</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="i-cant-remove-my-liquidity">&quot;I can&#x27;t remove my liquidity&quot;<a href="#i-cant-remove-my-liquidity" class="hash-link" aria-label="Direct link to &quot;I can&#x27;t remove my liquidity&quot;" title="Direct link to &quot;I can&#x27;t remove my liquidity&quot;" translate="no">​</a></h3>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Ensure you have LP tokens in our wallet</li>
+<li>Check if tokens are staked elsewhere</li>
+<li>Verify you&#x27;re on the correct network</li>
+<li>Contact support if issue persists</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="fee-structure">Fee Structure<a href="#fee-structure" class="hash-link" aria-label="Direct link to Fee Structure" title="Direct link to Fee Structure" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="trading-fees">Trading Fees<a href="#trading-fees" class="hash-link" aria-label="Direct link to Trading Fees" title="Direct link to Trading Fees" translate="no">​</a></h3>
+<ul>
+<li><strong>0.3%</strong> of every swap goes to liquidity providers</li>
+<li><strong>0.0%</strong> protocol fee (may be added via DAO governance)</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>You swap 100 ETHO for ETH</li>
+<li>Fee = 0.3 ETHO</li>
+<li>You receive ETH equivalent to 99.7 ETHO</li>
+<li>0.3 ETHO distributed to all LPs proportionally</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="gas-fees">Gas Fees<a href="#gas-fees" class="hash-link" aria-label="Direct link to Gas Fees" title="Direct link to Gas Fees" translate="no">​</a></h3>
+<ul>
+<li><strong>Swap:</strong> ~50,000-100,000 gas (varies by network congestion)</li>
+<li><strong>Add Liquidity:</strong> ~100,000-150,000 gas</li>
+<li><strong>Remove Liquidity:</strong> ~80,000-120,000 gas</li>
+<li><strong>Approve Token:</strong> ~45,000-60,000 gas (one-time per token)</li>
+</ul>
+<p><strong>Tip:</strong> Trade during low-traffic times for lower gas fees.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps">Next Steps<a href="#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps" translate="no">​</a></h2>
+<p>Now that you understand the AMM/DEX:</p>
+<ol>
+<li><strong>Try a small swap</strong> to get comfortable</li>
+<li><strong>Consider providing liquidity</strong> if you hold both tokens</li>
+<li><strong>Monitor pool analytics</strong> to find best opportunities</li>
+<li><strong>Track our positions</strong> and fees earned</li>
+<li><strong>Participate in DAO</strong> to propose new pools or features</li>
+</ol>
+<p><strong>Ready to participate in the crowdsale?</strong>
+→ Continue to <a href="/gratitude-token-project_docs/docs/how-to-use-dapp/07-sacred-offering">Sacred Offering (Crowdsale)</a></p>
+<p><strong>Want to see the project roadmap?</strong>
+→ Jump to <a href="/gratitude-token-project_docs/docs/how-to-use-dapp/08-roadmap-community">Roadmap &amp; Community</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="navigation">Navigation<a href="#navigation" class="hash-link" aria-label="Direct link to Navigation" title="Direct link to Navigation" translate="no">​</a></h2>
+<ul>
+<li><strong>Previous:</strong> <a href="/gratitude-token-project_docs/docs/how-to-use-dapp/05-oracle">Oracle of Fruit</a></li>
+<li><strong>Next:</strong> <a href="/gratitude-token-project_docs/docs/how-to-use-dapp/07-sacred-offering">Sacred Offering (Crowdsale)</a></li>
+<li><strong>Back to:</strong> <a href="/gratitude-token-project_docs/docs/00-EXPANDED-TOC.md">Expanded Table of Contents</a></li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/drasticstatic/gratitude-token-project_docs/tree/main/docs/how-to-use-dapp/06-token-swap.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/gratitude-token-project_docs/docs/how-to-use-dapp/05-oracle"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Oracle of Fruit</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/gratitude-token-project_docs/docs/how-to-use-dapp/07-sacred-offering"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Sacred Offering</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#what-is-an-amm" class="table-of-contents__link toc-highlight">What is an AMM?</a><ul><li><a href="#how-it-works" class="table-of-contents__link toc-highlight">How It Works</a></li><li><a href="#benefits" class="table-of-contents__link toc-highlight">Benefits</a></li></ul></li><li><a href="#how-to-swap-tokens" class="table-of-contents__link toc-highlight">How to Swap Tokens</a><ul><li><a href="#step-1-navigate-to-token-swap" class="table-of-contents__link toc-highlight">Step 1: Navigate to Token Swap</a></li><li><a href="#step-2-select-tokens" class="table-of-contents__link toc-highlight">Step 2: Select Tokens</a></li><li><a href="#step-3-review-swap-details" class="table-of-contents__link toc-highlight">Step 3: Review Swap Details</a></li><li><a href="#step-4-set-slippage-tolerance" class="table-of-contents__link toc-highlight">Step 4: Set Slippage Tolerance</a></li><li><a href="#step-5-confirm-swap" class="table-of-contents__link toc-highlight">Step 5: Confirm Swap</a></li></ul></li><li><a href="#how-to-provide-liquidity" class="table-of-contents__link toc-highlight">How to Provide Liquidity</a><ul><li><a href="#why-provide-liquidity" class="table-of-contents__link toc-highlight">Why Provide Liquidity?</a></li><li><a href="#step-1-navigate-to-liquidity" class="table-of-contents__link toc-highlight">Step 1: Navigate to Liquidity</a></li><li><a href="#step-2-select-pool" class="table-of-contents__link toc-highlight">Step 2: Select Pool</a></li><li><a href="#step-3-add-liquidity" class="table-of-contents__link toc-highlight">Step 3: Add Liquidity</a></li><li><a href="#step-4-track-your-position" class="table-of-contents__link toc-highlight">Step 4: Track Your Position</a></li><li><a href="#step-5-remove-liquidity-when-ready" class="table-of-contents__link toc-highlight">Step 5: Remove Liquidity (When Ready)</a></li></ul></li><li><a href="#understanding-impermanent-loss" class="table-of-contents__link toc-highlight">Understanding Impermanent Loss</a><ul><li><a href="#what-is-impermanent-loss" class="table-of-contents__link toc-highlight">What is Impermanent Loss?</a></li><li><a href="#why-impermanent" class="table-of-contents__link toc-highlight">Why &quot;Impermanent&quot;?</a></li><li><a href="#how-to-minimize" class="table-of-contents__link toc-highlight">How to Minimize</a></li></ul></li><li><a href="#pool-analytics" class="table-of-contents__link toc-highlight">Pool Analytics</a><ul><li><a href="#global-pool-stats" class="table-of-contents__link toc-highlight">Global Pool Stats</a></li><li><a href="#individual-pool-stats" class="table-of-contents__link toc-highlight">Individual Pool Stats</a></li><li><a href="#your-transaction-history" class="table-of-contents__link toc-highlight">Your Transaction History</a></li></ul></li><li><a href="#advanced-features" class="table-of-contents__link toc-highlight">Advanced Features</a><ul><li><a href="#limit-orders-coming-soon" class="table-of-contents__link toc-highlight">Limit Orders (Coming Soon)</a></li><li><a href="#liquidity-mining-potential" class="table-of-contents__link toc-highlight">Liquidity Mining (Potential)</a></li><li><a href="#multi-hop-swaps-if-needed" class="table-of-contents__link toc-highlight">Multi-Hop Swaps (If Needed)</a></li></ul></li><li><a href="#best-practices" class="table-of-contents__link toc-highlight">Best Practices</a><ul><li><a href="#for-swapping" class="table-of-contents__link toc-highlight">For Swapping</a></li><li><a href="#for-liquidity-provision" class="table-of-contents__link toc-highlight">For Liquidity Provision</a></li><li><a href="#security" class="table-of-contents__link toc-highlight">Security</a></li></ul></li><li><a href="#troubleshooting" class="table-of-contents__link toc-highlight">Troubleshooting</a><ul><li><a href="#insufficient-liquidity-for-this-trade" class="table-of-contents__link toc-highlight">&quot;Insufficient liquidity for this trade&quot;</a></li><li><a href="#price-impact-too-high" class="table-of-contents__link toc-highlight">&quot;Price impact too high&quot;</a></li><li><a href="#transaction-failed" class="table-of-contents__link toc-highlight">&quot;Transaction failed&quot;</a></li><li><a href="#i-cant-remove-my-liquidity" class="table-of-contents__link toc-highlight">&quot;I can&#39;t remove my liquidity&quot;</a></li></ul></li><li><a href="#fee-structure" class="table-of-contents__link toc-highlight">Fee Structure</a><ul><li><a href="#trading-fees" class="table-of-contents__link toc-highlight">Trading Fees</a></li><li><a href="#gas-fees" class="table-of-contents__link toc-highlight">Gas Fees</a></li></ul></li><li><a href="#next-steps" class="table-of-contents__link toc-highlight">Next Steps</a></li><li><a href="#navigation" class="table-of-contents__link toc-highlight">Navigation</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Documentation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/getting-started/overview">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/whitepaper/introduction">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/tokenomics/overview">Tokenomics</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/governance/overview">DAO Governance</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/privacy-policy">Privacy Policy</a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/404.html">Lost?</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/psanctuary" target="_blank" rel="noopener noreferrer" class="footer__link-item">X / Twitter<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/community">Community Updates</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Developers</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/learn">Learn the Code</a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/drasticstatic/gratitude-token-project_docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Documentation Repo<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Psanctuary Church</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/intro">About Us</a></li><li class="footer__item"><a href="https://psanctuary.org" target="_blank" rel="noopener noreferrer" class="footer__link-item">Psychedelics in Recovery<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/gratitude-token-project_docs/docs/sacred-altar/overview">Sacred Altar</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Psanctuary Church. Built with love and sacred intention. 🍄✨</div></div></div></footer></div>
+</body>
+</html>
