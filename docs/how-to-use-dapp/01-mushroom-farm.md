@@ -339,7 +339,7 @@ Now that you understand the Mushroom Farm:
 
 ## Navigation
 
-- **Previous:** [Overview](./00-overview.md)
-- **Next:** [Cross-Breeding Tutorial](./02-cross-breeding.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Previous:** [Overview](00-overview)
+- **Next:** [Cross-Breeding Tutorial](02-cross-breeding)
+- **Back to:** [Documentation Home](/docs/intro)
 

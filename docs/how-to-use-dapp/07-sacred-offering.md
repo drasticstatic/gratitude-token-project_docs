@@ -370,7 +370,7 @@ Now that you understand the Sacred Offering:
 5. **Participate in the ecosystem** — farm, breed, govern, offer
 
 **Want to see the project roadmap?**
-→ Continue to [Roadmap & Community](./08-roadmap-community.md)
+→ Continue to [Roadmap [Roadmap & Community](./08-roadmap-community.md) Community](08-roadmap-community)
 
 **Ready to explore all features?**
 → Back to [Overview & Getting Started](./00-overview.md)
@@ -380,6 +380,6 @@ Now that you understand the Sacred Offering:
 ## Navigation
 
 - **Previous:** [Token Swap (AMM/DEX)](./06-token-swap.md)
-- **Next:** [Roadmap & Community](./08-roadmap-community.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Next:** [Roadmap Next:** [Roadmap [Roadmap & Community](./08-roadmap-community.md) Community](08-roadmap-community) Community](08-roadmap-community)
+- **Back to:** [Documentation Home](/docs/intro)
 

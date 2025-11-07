@@ -421,5 +421,5 @@ Now that you understand the Oracle:
 
 - **Previous:** [DAO Governance Participation](./04-dao-governance.md)
 - **Next:** [Token Swap (AMM/DEX)](./06-token-swap.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Back to:** [Documentation Home](/docs/intro)
 

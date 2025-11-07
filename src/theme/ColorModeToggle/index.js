@@ -68,9 +68,11 @@ function getColorModeAriaLabel(colorMode) {
 function CurrentColorModeIcon({value}) {
   switch (value) {
     case 'light':
-      return <IconLightMode aria-hidden className={clsx(styles.toggleIcon)} />;
-    case 'dark':
+      // In light mode, show moon icon (to switch to dark)
       return <IconDarkMode aria-hidden className={clsx(styles.toggleIcon)} />;
+    case 'dark':
+      // In dark mode, show sun icon (to switch to light)
+      return <IconLightMode aria-hidden className={clsx(styles.toggleIcon)} />;
     default:
       return <IconSystemColorMode aria-hidden className={clsx(styles.toggleIcon)} />;
   }

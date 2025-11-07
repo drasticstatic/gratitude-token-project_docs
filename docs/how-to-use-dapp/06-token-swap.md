@@ -416,7 +416,7 @@ Now that you understand the AMM/DEX:
 
 ## Navigation
 
-- **Previous:** [Oracle of Fruit](./05-oracle.md)
+- **Previous:** [Oracle of Fruit](05-oracle)
 - **Next:** [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Back to:** [Documentation Home](/docs/intro)
 

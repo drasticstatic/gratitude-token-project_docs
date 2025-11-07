@@ -48,24 +48,18 @@ Before diving into specific features, make sure you have:
 3. [Frequently Asked Questions](#frequently-asked-questions)
 
 ### Core Features
-4. [Mushroom Farm Guide](#mushroom-farm-guide)
-5. [Daily Shrooms Collection](#daily-shrooms-collection)
-6. [Cross-Breeding Tutorial](#cross-breeding-tutorial)
-7. [Altar Burn Ceremony](#altar-burn-ceremony)
-8. [Token Swap (AMM/DEX)](#token-swap-amm-dex)
-9. [Sacred Offering (Crowdsale)](#sacred-offering-crowdsale)
+4. [Mushroom Farm Guide](01-mushroom-farm)
+5. [Cross-Breeding Tutorial](02-cross-breeding)
+6. [Altar Burn Ceremony](03-altar-burn)
+7. [Token Swap (AMM/DEX)](06-token-swap)
+8. [Sacred Offering (Crowdsale)](07-sacred-offering)
 
 ### Advanced Features
-10. [DAO Governance Participation](#dao-governance-participation)
-11. [Oracle of Fruit](#oracle-of-fruit)
-12. [Liquidity Provision](#liquidity-provision)
+9. [DAO Governance Participation](04-dao-governance)
+10. [Oracle of Fruit](05-oracle)
 
-### Administration
-13. [Admin Panel](#admin-panel) (For Authorized Users)
-
-### Community
-14. [Connect With Us](#connect-with-us)
-15. [Roadmap](#roadmap)
+### Community & Roadmap
+11. [Roadmap & Community](08-roadmap-community)
 
 ---
 
@@ -257,6 +251,6 @@ Both are ways to put your tokens to work and earn passive income while supportin
 
 ## Navigation
 
-- **Next:** [Mushroom Farm Guide](#mushroom-farm-guide)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Next:** [Mushroom Farm Guide](01-mushroom-farm)
+- **Back to:** [Documentation Home](/docs/intro)
 

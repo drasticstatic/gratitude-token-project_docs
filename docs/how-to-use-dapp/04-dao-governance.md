@@ -495,16 +495,16 @@ Now that you understand DAO governance:
 5. **Work toward earning a role NFT** through consistent participation
 
 **Want to access the Oracle?**
-→ Continue to [Oracle of Fruit](./05-oracle.md)
+→ Continue to [Oracle of Fruit](05-oracle)
 
-**Ready to provide liquidity?**
-→ Jump to [Liquidity Provision](./06-liquidity.md)
+**Ready to trade tokens?**
+→ Jump to [Token Swap (AMM/DEX)](06-token-swap)
 
 ---
 
 ## Navigation
 
-- **Previous:** [Altar Burn Ceremony](./03-altar-burn.md)
-- **Next:** [Oracle of Fruit](./05-oracle.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Previous:** [Altar Burn Ceremony](03-altar-burn)
+- **Next:** [Oracle of Fruit](05-oracle)
+- **Back to:** [Documentation Home](/docs/intro)
 

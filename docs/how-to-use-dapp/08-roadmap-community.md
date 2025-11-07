@@ -467,5 +467,5 @@ The Ethereal Offering Community
 
 - **Previous:** [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
 - **Next:** [Back to Overview](./00-overview.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Back to:** [Documentation Home](/docs/intro)
 

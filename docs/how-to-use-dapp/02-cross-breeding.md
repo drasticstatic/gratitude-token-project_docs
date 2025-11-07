@@ -380,7 +380,7 @@ Now that you understand cross-breeding:
 
 ## Navigation
 
-- **Previous:** [Mushroom Farm Guide](./01-mushroom-farm.md)
-- **Next:** [Altar Burn Ceremony](./03-altar-burn.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Previous:** [Mushroom Farm Guide](01-mushroom-farm)
+- **Next:** [Altar Burn Ceremony](03-altar-burn)
+- **Back to:** [Documentation Home](/docs/intro)
 

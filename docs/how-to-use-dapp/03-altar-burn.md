@@ -474,17 +474,17 @@ Now that you understand the Altar Burn ceremony:
 4. **Integrate** the experience through journaling
 5. **Participate** in the community to see how funds are deployed
 
-**Ready to trade tokens?**
-→ Continue to [Token Swap (AMM/DEX)](./04-token-swap.md)
+**Ready to participate in governance?**
+→ Continue to [DAO Governance Participation](04-dao-governance)
 
-**Want to participate in governance?**
-→ Jump to [DAO Governance Participation](./05-dao-governance.md)
+**Want to trade tokens?**
+→ Jump to [Token Swap (AMM/DEX)](06-token-swap)
 
 ---
 
 ## Navigation
 
-- **Previous:** [Cross-Breeding Tutorial](./02-cross-breeding.md)
-- **Next:** [Token Swap (AMM/DEX)](./04-token-swap.md)
-- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+- **Previous:** [Cross-Breeding Tutorial](02-cross-breeding)
+- **Next:** [DAO Governance Participation](04-dao-governance)
+- **Back to:** [Documentation Home](/docs/intro)
 
