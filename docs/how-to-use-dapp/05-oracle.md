@@ -1,3 +1,8 @@
+---
+id: 05-oracle
+title: Oracle of Fruit
+sidebar_label: Oracle of Fruit
+---
 # Oracle of Fruit
 
 *Your AI-powered spiritual guide and community assistant*

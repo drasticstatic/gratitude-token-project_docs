@@ -1,4 +1,10 @@
-# Part 9: How to Use the dApp — Complete User Guide
+---
+id: 00-overview
+title: How to Use the dApp - Overview
+sidebar_label: Overview & Getting Started
+---
+
+# How to Use the dApp — Complete User Guide
 
 *Practical guidance for participating in the Ethereal Offering ecosystem*
 

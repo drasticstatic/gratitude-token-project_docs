@@ -1,3 +1,8 @@
+---
+id: 08-roadmap-community
+title: Roadmap & Community
+sidebar_label: Roadmap & Community
+---
 # Roadmap & Community
 
 *The journey ahead and how to connect*

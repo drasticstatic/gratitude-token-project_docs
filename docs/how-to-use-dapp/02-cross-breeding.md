@@ -1,3 +1,8 @@
+---
+id: 02-cross-breeding
+title: Cross-Breeding Tutorial
+sidebar_label: Cross-Breeding
+---
 # Cross-Breeding Tutorial
 
 *Mycelial Fusion Alchemy — Creating Rare Hybrid Strains*

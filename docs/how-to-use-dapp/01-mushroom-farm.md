@@ -1,3 +1,8 @@
+---
+id: 01-mushroom-farm
+title: Mushroom Farm Guide
+sidebar_label: Mushroom Farm
+---
 # Mushroom Farm Guide
 
 *Your daily practice of cultivation and harvest*

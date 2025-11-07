@@ -1,3 +1,8 @@
+---
+id: 03-altar-burn
+title: Altar Burn Ceremony
+sidebar_label: Sacred Altar
+---
 # Altar Burn Ceremony
 
 *Transform your tokens into sacred offerings*

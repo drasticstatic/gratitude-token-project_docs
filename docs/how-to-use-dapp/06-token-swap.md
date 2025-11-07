@@ -1,3 +1,8 @@
+---
+id: 06-token-swap
+title: Token Swap (AMM/DEX)
+sidebar_label: Token Swap
+---
 # Token Swap (AMM/DEX)
 
 *Decentralized exchange powered by constant product formula*

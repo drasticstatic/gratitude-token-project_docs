@@ -1,3 +1,8 @@
+---
+id: 07-sacred-offering
+title: Sacred Offering (Crowdsale)
+sidebar_label: Sacred Offering
+---
 # Sacred Offering (Crowdsale)
 
 *Contribute to the vision, receive ETHO tokens*

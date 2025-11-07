@@ -1,3 +1,8 @@
+---
+id: 04-dao-governance
+title: DAO Governance Participation
+sidebar_label: DAO Governance
+---
 # DAO Governance Participation
 
 *Mycelial Democracy — Co-creating a living system rooted in trust, transparency, and Spirit-led generosity*
