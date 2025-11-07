@@ -24,7 +24,6 @@ function CloseButton() {
 export default function NavbarMobileSidebarHeader() {
   return (
     <div className="navbar-sidebar__brand navbar-sidebar__brand--stacked">
-      <NavbarLogo />
       <CloseButton />
     </div>
   );

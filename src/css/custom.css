@@ -646,12 +646,12 @@ h1 mark, h2 mark, h3 mark, h4 mark, h5 mark, h6 mark,
     pointer-events: auto !important;
   }
 
-  /* Mobile sidebar header: single row with logo and close button only */
+  /* Mobile sidebar header: single row with close button only (no logo to avoid double icon) */
   .navbar-sidebar__brand--stacked {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
-    justify-content: space-between !important;
+    justify-content: flex-end !important;
     gap: 1rem !important;
     padding: 0.75rem 1rem !important;
     border-bottom: 1px solid rgba(124, 58, 237, 0.35) !important;

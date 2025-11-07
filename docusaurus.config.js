@@ -139,7 +139,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false, // Set to false for 2-way toggle (light/dark only, no auto)
       },
       tableOfContents: {
         minHeadingLevel: 2,
