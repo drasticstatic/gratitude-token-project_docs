@@ -11,6 +11,7 @@ import EtherealOfferingModal from '@site/src/components/EtherealOfferingModal';
 import PurposeModal from '@site/src/components/PurposeModal';
 import FoundersPrayerModal from '@site/src/components/FoundersPrayerModal';
 import AgenticSearch from '@site/src/components/AgenticSearch';
+import DAppTutorialButton from '@site/src/components/DAppTutorialButton';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -28,6 +29,7 @@ export default function Home() {
       </div>
 
       <AgenticSearch />
+      <DAppTutorialButton />
       <HeroStats />
       <StatsSection />
       <main>

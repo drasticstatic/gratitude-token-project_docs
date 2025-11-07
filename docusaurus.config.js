@@ -155,6 +155,11 @@ const config = {
         },
         items: [
           {
+            to: '/docs/how-to-use-dapp/00-overview',
+            label: 'Tutorial',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',

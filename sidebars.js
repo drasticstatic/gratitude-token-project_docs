@@ -27,6 +27,22 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '🎮 How to Use the dApp',
+      items: [
+        'how-to-use-dapp/00-overview',
+        'how-to-use-dapp/01-mushroom-farm',
+        'how-to-use-dapp/02-cross-breeding',
+        'how-to-use-dapp/03-altar-burn',
+        'how-to-use-dapp/04-dao-governance',
+        'how-to-use-dapp/05-oracle',
+        'how-to-use-dapp/06-token-swap',
+        'how-to-use-dapp/07-sacred-offering',
+        'how-to-use-dapp/08-roadmap-community',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
       label: 'Whitepaper',
       items: [
         'whitepaper/introduction',
