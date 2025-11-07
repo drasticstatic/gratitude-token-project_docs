@@ -5,7 +5,7 @@ Show color mode toggle on mobile - positioned to the left of search
   .colorModeToggle {
     display: flex !important;
     order: -1; /* Place before search */
-    margin-right: 0.5rem !important;
+    margin-right: 5.5rem !important;
     flex-shrink: 0 !important;
   }
 
