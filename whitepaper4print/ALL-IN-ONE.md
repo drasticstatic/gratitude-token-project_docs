@@ -1,10 +1,612 @@
 # Ethereal Offering - Complete Whitepaper (All-in-One)
 
-Generated: 2025-10-31T20:08:29.823Z
+Generated: 2025-11-07T17:16:23.592Z
 
 Note: Use your browser print or PDF printer.
 
 ---
+# Opening Meditation: The Threshold of Remembrance
+
+*Before you enter this document, pause.*
+
+*Before you read of systems and tokens, of governance and code—*
+
+*Remember why you are here.*
+
+---
+
+## A Moment of Stillness
+
+You stand at the threshold between two worlds:
+
+The world of **form**—where blockchain is technology, where tokens are assets, where governance is structure.
+
+And the world of **essence**—where blockchain is covenant, where tokens are seeds, where governance is communion.
+
+This whitepaper invites you to hold both.
+
+Not to choose between spirit and system, but to witness how they were never separate.
+
+---
+
+## What You Are About to Read
+
+This is not merely a technical document.
+
+It is a **living offering**—a testimony to what becomes possible when we remember that technology, like all creation, can be an instrument of love.
+
+Within these pages, you will find:
+
+- **Vision** that sees beyond the veil of separation
+- **Architecture** that mirrors the patterns of divine order
+- **Economics** rooted in generosity rather than scarcity
+- **Governance** that honors communion over control
+- **Practical guidance** for participating in this sacred experiment
+
+But more than information, you will encounter an **invitation**:
+
+To participate in building a digital organism where spirit governs structure.
+
+Where every transaction can be a prayer.
+
+Where every vote can be an act of remembrance.
+
+Where every offering can be a return to wholeness.
+
+---
+
+## How to Approach This Document
+
+### If You Come Seeking Understanding
+
+Read slowly. Let the words settle. Notice where resistance arises—it often marks the threshold of transformation.
+
+### If You Come Seeking Technical Clarity
+
+The architecture is sound. The tokenomics are designed. The smart contracts are written. But know that the code serves something greater than efficiency—it serves awakening.
+
+### If You Come Seeking Spiritual Depth
+
+Every technical detail in this document is a meditation on divine order. The blockchain is not a metaphor for spirit—it is spirit made visible in digital form.
+
+### If You Come Seeking Practical Application
+
+You will find clear guidance on how to participate: how to connect your wallet, how to make offerings, how to engage in governance, how to contribute to the ecosystem.
+
+---
+
+## A Prayer Before Beginning
+
+*May this reading be more than consumption of information.*
+
+*May it be an encounter with possibility.*
+
+*May you see not just what this project is, but what it invites you to become.*
+
+*May every page turn be a step deeper into remembrance:*
+
+*That we are not separate from the divine,*
+
+*That technology can be sacred,*
+
+*That systems can serve love,*
+
+*And that together, we can build a world that reflects Heaven's design.*
+
+---
+
+## The Journey Ahead
+
+This whitepaper is organized as a **spiral path**—each section deepening your understanding while circling back to the core truth:
+
+**Only Love is real, and Love is what we are.**
+
+You may read it linearly, from beginning to end.
+
+Or you may follow one of the guided paths in the Table of Contents, choosing the journey that calls to you.
+
+Either way, know this:
+
+You are not reading about a project.
+
+You are encountering an **invitation to participate in the healing of the world through the transformation of our systems.**
+
+---
+
+## Begin When You Are Ready
+
+Take a breath.
+
+Set an intention.
+
+And step across the threshold.
+
+*The veil is lifting.*
+
+*Welcome to Ethereal Offering.*
+
+---
+
+*"The Kingdom of Heaven is like a treasure hidden in a field. When a man found it, he hid it again, and then in his joy went and sold all he had and bought that field."*  
+— Matthew 13:44
+
+*"I have come that they may have life, and have it to the full."*  
+— John 10:10
+
+*"Behold, I am making all things new."*  
+— Revelation 21:5
+
+---
+
+**Now, turn the page.**
+
+**The journey begins.**
+
+
+
+---
+
+# Ethereal Offering: Complete Whitepaper — Expanded Table of Contents
+
+*A comprehensive guide to navigating this sacred document*
+
+---
+
+## Document Overview
+
+**Total Content:**
+- **35+ sections** across 9 major parts
+- **5,000+ lines** of integrated content
+- **6-8 hours** of reading time
+- **150-200 pages** when printed
+
+**What's Included:**
+- ✨ Opening meditation and spiritual foundation
+- 📖 Complete whitepaper (vision, architecture, tokenomics, governance)
+- 🎯 Practical user guides (how to use the dApp)
+- 🔬 Research and development documentation
+- 🌱 Six foundational principles
+- 🙏 The Living Offering (origin story)
+
+---
+
+## Quick Navigation by Purpose
+
+### 🌟 New to Ethereal Offering? Start Here
+1. [Opening Meditation](#part-0-opening-meditation) (5 min)
+2. [The Living Offering](#the-living-offering-alabaster-ledger) (15 min)
+3. [Vision: Ethereal Offering](#vision-ethereal-offering) (15 min)
+4. [Elevator Pitch](#elevator-pitch) (5 min)
+
+**Total: 40 minutes to understand the heart of the project**
+
+### 💻 Want to Use the dApp? Read This
+1. [How to Use the dApp: Complete Guide](#part-9-how-to-use-the-dapp) (30 min)
+2. [Understanding Your Tokens](#understanding-your-mushroom-tokens) (10 min)
+3. [Getting Started Overview](#getting-started-overview) (15 min)
+4. [FAQ](#frequently-asked-questions) (15 min)
+
+**Total: 70 minutes to become a confident user**
+
+### 🏗️ Technical Deep Dive? Go Here
+1. [Technical Architecture](#technical-architecture) (20 min)
+2. [Tokenomics](#tokenomics) (20 min)
+3. [Governance Model](#governance-model) (15 min)
+4. [Architecture Overview](#architecture-overview) (15 min)
+5. [Treasury Flow Analysis](#treasury-flow-analysis) (15 min)
+
+**Total: 85 minutes for complete technical understanding**
+
+### 🙏 Spiritual Journey? Follow This Path
+1. [Opening Meditation](#part-0-opening-meditation) (5 min)
+2. [The Living Offering](#the-living-offering-alabaster-ledger) (15 min)
+3. [Spiritual Foundation](#spiritual-foundation) (20 min)
+4. [Six Principles](#part-2-six-foundational-principles) (30 min)
+5. [Purpose & Values](#purpose-and-values) (15 min)
+
+**Total: 85 minutes for spiritual depth**
+
+### 📚 Complete Understanding? Read Everything
+Follow the linear path from Part 0 through Part 9 (6-8 hours)
+
+---
+
+## Part 0: Opening Meditation
+
+### Opening Meditation: The Threshold of Remembrance
+**Reading Time:** 5 minutes  
+**Purpose:** Set intention and prepare your heart for this journey
+
+**Key Themes:**
+- The threshold between form and essence
+- How to approach this document
+- A prayer before beginning
+- The spiral path ahead
+
+---
+
+## Part 1: The Heart — Core Vision & Values
+
+### The Living Offering (Alabaster Ledger)
+**Reading Time:** 15 minutes  
+**Purpose:** The origin story — the personal testimony that birthed this project
+
+**Key Themes:**
+- The woman with the alabaster jar
+- Telegram as modern-day alabaster
+- The blockchain as eternal ledger
+- From personal offering to collective vision
+
+### Vision: Ethereal Offering
+**Reading Time:** 15 minutes  
+**Purpose:** The foundational vision — lifting the veil between spirit and system
+
+**Key Themes:**
+- The Unveiling: blockchain as sacred architecture
+- The Gratitude Economy
+- Architecture of Remembrance (Privacy Veil, Living DAO, Soulbound DIDs)
+- The Mycelial Field: distributed neural web
+- Heart of Governance: communion over control
+- Ethereal Tokens (EOT, GRTD, MDUST)
+- Beyond the Veil: network that mirrors Heaven's design
+
+### Purpose & Values
+**Reading Time:** 15 minutes  
+**Purpose:** Mission statement and core values
+
+**Key Themes:**
+- Our mission: spiritual sovereignty through technology
+- Our purpose: healing separation through sacred systems
+- Six core values (detailed in Part 2)
+- How we serve the awakening
+
+---
+
+## Part 2: Six Foundational Principles
+
+### 1. Generosity
+**Reading Time:** 5 minutes  
+**Core Truth:** Abundance flows from giving, not hoarding
+
+### 2. Truth
+**Reading Time:** 3 minutes  
+**Core Truth:** Transparency reveals the light within all systems
+
+### 3. Compassion
+**Reading Time:** 5 minutes  
+**Core Truth:** Every interaction is an opportunity for healing
+
+### 4. Transparency
+**Reading Time:** 5 minutes  
+**Core Truth:** Open-source code, open-heart governance
+
+### 5. Communion
+**Reading Time:** 5 minutes  
+**Core Truth:** We govern together, not over one another
+
+### 6. Regeneration
+**Reading Time:** 5 minutes  
+**Core Truth:** Systems that give back more than they take
+
+**Total Reading Time:** 28 minutes
+
+---
+
+## Part 3: Formal Whitepaper
+
+### Introduction
+**Reading Time:** 10 minutes  
+**Purpose:** Formal introduction to the Ethereal Offering Protocol
+
+### Executive Summary
+**Reading Time:** 8 minutes  
+**Purpose:** High-level overview for investors and stakeholders
+
+### Spiritual Foundation
+**Reading Time:** 20 minutes  
+**Purpose:** The theological and philosophical underpinnings
+
+**Key Themes:**
+- A Course in Miracles integration
+- Zero-knowledge proofs as spiritual metaphor
+- Blockchain as covenant technology
+- Sacred economics
+
+### Technical Architecture
+**Reading Time:** 20 minutes  
+**Purpose:** Detailed technical design and implementation
+
+**Key Components:**
+- Smart contract architecture
+- ERC-20 tokens (ETHO, PSD, Daily Mushrooms)
+- ERC-721 NFTs (Mushroom Farms, Proof of Burn, Hybrids)
+- AMM/DEX integration
+- Cross-breeding mechanics
+- Altar burn mechanism
+
+### Tokenomics
+**Reading Time:** 20 minutes  
+**Purpose:** Complete token economics model
+
+**Key Topics:**
+- Token supply and distribution
+- Utility and governance
+- Burn mechanics and deflationary pressure
+- Liquidity provision and rewards
+- Daily Mushroom farming
+- Cross-breeding gas economics
+
+### Governance Model
+**Reading Time:** 15 minutes  
+**Purpose:** DAO structure and decision-making processes
+
+**Key Topics:**
+- Proposal submission and voting
+- Quorum requirements
+- Treasury management
+- Community participation
+- Spiritual governance principles
+
+---
+
+## Part 4: Getting Started — User Guides
+
+### Getting Started Overview
+**Reading Time:** 15 minutes  
+**Purpose:** First steps for new users
+
+**Topics Covered:**
+- Setting up your wallet
+- Connecting to the dApp
+- Understanding gas fees
+- Your first offering
+- Navigating the interface
+
+### Understanding Your Mushroom Tokens
+**Reading Time:** 10 minutes  
+**Purpose:** Clear explanation of all token types
+
+**Tokens Explained:**
+- ETHO (Ethereal Offering Token) — governance & utility
+- PSD (Psanctuary Dollar) — stablecoin for donations
+- Daily Mushrooms (ERC20) — farming rewards & gas currency
+- Mushroom Farm NFTs (ERC721) — unique collectibles
+- Proof of Burn NFTs (ERC721) — soulbound offering records
+- Hybrid Mushrooms (ERC721) — cross-breeding results
+
+### Frequently Asked Questions
+**Reading Time:** 15 minutes  
+**Purpose:** Answer common questions about blockchain, wallets, and the platform
+
+**13 Essential Questions:**
+1. What is Psanctuary.org's Mission?
+2. What is a Blockchain and Why Does It Matter?
+3. What is a Wallet and How Do I Use It?
+4. What is Gas and Why Do I Need It?
+5. What is PSD (Psanctuary Dollar)?
+6. What is ETHO (Ethereal Token)?
+7. What's the difference between ERC20 and ERC721 tokens?
+8. How does the Mushroom Farm work?
+9. What is Cross-Breeding?
+10. What happens when I burn tokens at the Altar?
+11. How does the AMM/Swap work?
+12. What is a Faucet?
+13. What is Staking and Liquidity?
+
+---
+
+## Part 5: Tokenomics Deep Dive
+
+### Tokenomics Overview
+**Reading Time:** 15 minutes  
+**Purpose:** Comprehensive token economics analysis
+
+### Token Economics Review (Integrated from JSON)
+**Reading Time:** 20 minutes  
+**Purpose:** Detailed review of economic mechanisms
+
+**Note:** This section integrates content from "Token economics review.json" — any conflicts with other sections are noted for review.
+
+---
+
+## Part 6: Governance
+
+### Governance Overview
+**Reading Time:** 12 minutes  
+**Purpose:** How the DAO operates
+
+**Topics:**
+- Proposal lifecycle
+- Voting mechanisms
+- Treasury allocation
+- Community roles
+- Spiritual governance integration
+
+---
+
+## Part 7: Technical Architecture
+
+### Architecture Overview
+**Reading Time:** 15 minutes  
+**Purpose:** System design and infrastructure
+
+**Topics:**
+- Smart contract interactions
+- Frontend architecture
+- Blockchain integration
+- Security considerations
+- Scalability approach
+
+---
+
+## Part 8: Research & Development
+
+### Elevator Pitch
+**Reading Time:** 5 minutes  
+**Purpose:** Concise project summary for investors and partners
+
+### Treasury Flow Analysis
+**Reading Time:** 15 minutes  
+**Purpose:** Complete treasury mechanics and flow patterns
+
+### Tokenomics Analysis
+**Reading Time:** 15 minutes  
+**Purpose:** Deep dive into tokenomics design decisions
+
+### Living Offering Analysis
+**Reading Time:** 10 minutes  
+**Purpose:** Analysis of The Living Offering and Alabaster Ledger concept
+
+---
+
+## Part 9: How to Use the dApp
+
+*Complete integration of DAPP_frontend-content-export*
+
+### Landing Page & Overview
+**Reading Time:** 10 minutes
+
+### Mushroom Farm Guide
+**Reading Time:** 15 minutes  
+**Topics:**
+- Inoculating your substrate
+- Misting and maintenance
+- Harvesting your first flush
+- Collecting Daily Mushrooms
+- Understanding farm NFTs
+
+### Cross-Breeding Tutorial
+**Reading Time:** 12 minutes  
+**Topics:**
+- Selecting parent mushrooms
+- Understanding genetics
+- Using Daily Mushrooms as gas
+- Creating hybrid NFTs
+- Rare trait discovery
+
+### Altar Burn Ceremony
+**Reading Time:** 10 minutes  
+**Topics:**
+- Preparing your offering
+- Setting your intention
+- The burn transaction
+- Receiving your Proof of Burn NFT
+- Understanding soulbound tokens
+
+### Token Swap (AMM/DEX)
+**Reading Time:** 12 minutes  
+**Topics:**
+- Understanding liquidity pools
+- Swapping tokens
+- Providing liquidity
+- Earning trading fees
+- Slippage and price impact
+
+### DAO Governance Participation
+**Reading Time:** 15 minutes  
+**Topics:**
+- Viewing active proposals
+- Casting your vote
+- Creating proposals
+- Delegation
+- Treasury oversight
+
+### Oracle of Fruit
+**Reading Time:** 8 minutes  
+**Topics:**
+- Accessing the Oracle
+- Understanding guidance
+- 15 Oracle Helper Agents
+- Integrating wisdom into practice
+
+### Daily Shrooms Collection
+**Reading Time:** 8 minutes  
+**Topics:**
+- Daily claim mechanics
+- Accumulation strategies
+- Using as gas currency
+- Farming optimization
+
+### Admin Panel (For Authorized Users)
+**Reading Time:** 10 minutes  
+**Topics:**
+- Treasury management
+- Contract administration
+- Emergency functions
+- Monitoring tools
+
+---
+
+## Appendices
+
+### Appendix A: Roadmap
+**Phases:**
+- Phase 1: Psanctuary Foundation (Current)
+- Phase 2: Psychedelics In Recovery Integration (Q2 2026)
+- Phase 3: Global Expansion (2027+)
+
+### Appendix B: Glossary of Terms
+- Blockchain terminology
+- Spiritual concepts
+- Platform-specific terms
+
+### Appendix C: Smart Contract Addresses
+- Mainnet deployments
+- Testnet deployments
+- Verification links
+
+### Appendix D: Community Resources
+- Discord server
+- Telegram group
+- GitHub repository
+- Documentation site
+
+---
+
+## Reading Time Summary
+
+| Section | Estimated Time |
+|---------|---------------|
+| Part 0: Opening Meditation | 5 min |
+| Part 1: Core Vision & Values | 45 min |
+| Part 2: Six Principles | 28 min |
+| Part 3: Formal Whitepaper | 93 min |
+| Part 4: Getting Started | 40 min |
+| Part 5: Tokenomics Deep Dive | 35 min |
+| Part 6: Governance | 12 min |
+| Part 7: Architecture | 15 min |
+| Part 8: Research & Development | 45 min |
+| Part 9: How to Use the dApp | 100 min |
+| **TOTAL** | **418 min (7 hours)** |
+
+---
+
+## How to Navigate This Document
+
+### Linear Reading
+Start at Part 0 and read through to Part 9 for complete understanding.
+
+### Guided Paths
+Follow one of the four guided paths at the beginning of this table of contents based on your primary interest.
+
+### Reference Use
+Use this table of contents to jump directly to sections relevant to your current needs.
+
+### Search Function
+Use Ctrl/Cmd + F to search for specific terms or concepts.
+
+---
+
+**Ready to begin?**
+
+**Return to the [Opening Meditation](#part-0-opening-meditation) and step across the threshold.**
+
+*The veil is lifting. Welcome home.*
+
+
+
+---
+
 # 🌟 Ethereal Offering - Complete Whitepaper Collection
 
 ## Welcome
@@ -19,7 +621,7 @@ This directory contains the **complete Ethereal Offering whitepaper collection**
 
 All content is ready for:
 - 📄 Printing to paper
-- 💻 Reading on screen
+- 💻 Reading on screen  
 - 🔍 Searching with VSCode
 - ✏️ Editing and annotating
 - 🤝 Sharing with others
@@ -136,24 +738,24 @@ Read all files in order from 01-modals through 08-research.
 
 ### ⭐⭐⭐ Essential Reading
 
-1. **[01-modals/03-living-offering.md](01-modals/03-living-offering.md)**
+1. **[01-modals/03-living-offering.md](01-modals/03-living-offering.md)**  
    *The Alabaster Ledger - The personal story that birthed this project*
 
-2. **[01-modals/01-vision-ethereal-offering.md](01-modals/01-vision-ethereal-offering.md)**
+2. **[01-modals/01-vision-ethereal-offering.md](01-modals/01-vision-ethereal-offering.md)**  
    *The foundational vision - lifting the veil between spirit and system*
 
-3. **[01-modals/02-purpose-and-values.md](01-modals/02-purpose-and-values.md)**
+3. **[01-modals/02-purpose-and-values.md](01-modals/02-purpose-and-values.md)**  
    *Mission, purpose, and six core values*
 
 ### ⭐⭐ Highly Recommended
 
-4. **[03-whitepaper/03-spiritual-foundation.md](03-whitepaper/03-spiritual-foundation.md)**
+4. **[03-whitepaper/03-spiritual-foundation.md](03-whitepaper/03-spiritual-foundation.md)**  
    *Deep spiritual philosophy integrating ACIM, blockchain, and mycelium*
 
-5. **All six principles** in [02-principles/](02-principles/)
+5. **All six principles** in [02-principles/](02-principles/)  
    *How spiritual values translate into platform features*
 
-6. **[08-research/elevator-pitch.md](08-research/elevator-pitch.md)**
+6. **[08-research/elevator-pitch.md](08-research/elevator-pitch.md)**  
    *Distilled project essence*
 
 ---
@@ -298,7 +900,7 @@ Visit the live documentation site:
 
 ---
 
-*Created with love and devotion for the healing of the whole.*
+*Created with love and devotion for the healing of the whole.*  
 *May this work serve the restoration of all things.*
 
 **✨ Ethereal Offering - Where Spirit Governs Structure ✨**
@@ -788,13 +1390,13 @@ This work was born from a journey through loss, forgiveness, and remembrance. It
 
 May this content serve you well in your own journey of discovery and healing.
 
-**— The Living Offering**
+**— The Living Offering**  
 *As for this house, we will serve the Lord.*
 
 ---
 
-*Last Updated: October 2025*
-*Total Pages: ~50+ documents*
+*Last Updated: October 2025*  
+*Total Pages: ~50+ documents*  
 *Estimated Reading Time: 4-6 hours for complete collection*
 
 
@@ -805,121 +1407,121 @@ May this content serve you well in your own journey of discovery and healing.
 
 ## I. The Unveiling
 
-> "In the holy instant nothing happens that has not always been.
-> Only the veil that has been drawn across reality is lifted.
-> Nothing has changed. Yet the awareness of changelessness comes swiftly
-> as the veil of time is pushed aside."
+> "In the holy instant nothing happens that has not always been.  
+> Only the veil that has been drawn across reality is lifted.  
+> Nothing has changed. Yet the awareness of changelessness comes swiftly  
+> as the veil of time is pushed aside."  
 > — ACIM, T-15.VI.6:1-4
 
-The blockchain, at its essence, is a veil — a transparent curtain between the seen and unseen.
+The blockchain, at its essence, is a veil — a transparent curtain between the seen and unseen.  
 Each hash, each block, each transaction: a flicker of remembrance in a world that has forgotten what it means to be one.
 
-**Ethereal Offering** emerges as a sacred architecture of remembrance.
-It is not a coin or a contract, but a bridge — one that spans from digital anonymity to divine unity.
+**Ethereal Offering** emerges as a sacred architecture of remembrance.  
+It is not a coin or a contract, but a bridge — one that spans from digital anonymity to divine unity.  
 A network that mirrors the process of forgiveness: transparent, incorruptible, and forever expanding through giving.
 
-Here, the spiritual and the technical are not separate domains but layers of the same design.
-Zero-knowledge proofs echo the metaphysical truth of *seeing without judgment*.
-Consensus mirrors *atonement* — agreement in truth.
+Here, the spiritual and the technical are not separate domains but layers of the same design.  
+Zero-knowledge proofs echo the metaphysical truth of *seeing without judgment*.  
+Consensus mirrors *atonement* — agreement in truth.  
 And each node becomes a cell in the body of Christ, communicating through the mycelium of grace.
 
 ---
 
 ## II. Vision: The Gratitude Economy
 
-> "It is through us that peace will come.
-> Join me in the idea of peace, for in ideas minds can communicate."
+> "It is through us that peace will come.  
+> Join me in the idea of peace, for in ideas minds can communicate."  
 > — ACIM, T-15.VI.7:1-2
 
-Ethereal Offering envisions a **mycelial network of decentralized gratitude** —
+Ethereal Offering envisions a **mycelial network of decentralized gratitude** —  
 a living ecosystem that turns participation into prayer and transparency into trust.
 
-Where traditional markets extract, ours circulates.
-Where old systems reward ownership, ours celebrates offering.
+Where traditional markets extract, ours circulates.  
+Where old systems reward ownership, ours celebrates offering.  
 And where ego seeks gain, spirit recognizes only giving.
 
-The purpose of this network is to **transmute capital into compassion** —
-to let love become liquid, measurable not by profit but by peace.
-In this *gratitude economy*, tokens flow like nutrients through the soil:
+The purpose of this network is to **transmute capital into compassion** —  
+to let love become liquid, measurable not by profit but by peace.  
+In this *gratitude economy*, tokens flow like nutrients through the soil:  
 what you give away strengthens you, and what you receive reminds you that you are never alone.
 
 ---
 
 ## III. Architecture of Remembrance
 
-> "To lift the veil that seems so dark and heavy,
-> it is only needful to value truth beyond all fantasy."
+> "To lift the veil that seems so dark and heavy,  
+> it is only needful to value truth beyond all fantasy."  
 > — ACIM, T-16.IV.10:4
 
-Ethereal Offering's architecture follows the organic order of divine design —
+Ethereal Offering's architecture follows the organic order of divine design —  
 distributed, intelligent, interdependent, self-healing.
 
 ### 1. The Privacy Veil (Aleo / 5-MeO-DMT)
 
-Built on **zero-knowledge proofs**, Aleo ensures that every act of governance and offering is **anonymous yet verifiable**.
-Privacy here is not concealment — it is sacred stillness,
-the white light behind the form,
+Built on **zero-knowledge proofs**, Aleo ensures that every act of governance and offering is **anonymous yet verifiable**.  
+Privacy here is not concealment — it is sacred stillness,  
+the white light behind the form,  
 the veil that protects the mystery of oneness.
 
 ### 2. The Living DAO
 
-Governance flows through a **Holacratic DAO**,
-where each member serves a living function rather than a fixed role.
-Decisions arise through *consensus in spirit*, mirrored by **Multi-Party Computation (MPC)** recovery protocols —
+Governance flows through a **Holacratic DAO**,  
+where each member serves a living function rather than a fixed role.  
+Decisions arise through *consensus in spirit*, mirrored by **Multi-Party Computation (MPC)** recovery protocols —  
 a technological resurrection process for continuity beyond any single life.
 
 ### 3. Soulbound DIDs
 
-Every contributor receives a **Soulbound NFT**,
-a digital relic of service and gratitude — not transferable, not tradeable, but evolving with one's inner growth.
+Every contributor receives a **Soulbound NFT**,  
+a digital relic of service and gratitude — not transferable, not tradeable, but evolving with one's inner growth.  
 Identity becomes offering; achievement becomes devotion.
 
 ### 4. Tokenized Real-World Assets
 
-From **church land and retreat centers** to **recovery sanctuaries and community farms**,
-real-world assets are tokenized into **Spirit-Backed Collateral**,
-binding the metaphysical and material economies into one living trust.
+From **church land and retreat centers** to **recovery sanctuaries and community farms**,  
+real-world assets are tokenized into **Spirit-Backed Collateral**,  
+binding the metaphysical and material economies into one living trust.  
 Each parcel, temple, or dwelling becomes both sanctuary and node.
 
 ### 5. Treasury as Templar
 
-The treasury functions as a **strategic reserve and living organism**, guided by a Treasury Agent that
-automatically engages in external arbitrage and liquidity balancing —
-not for speculation, but to **regenerate** the reserve through active stewardship.
+The treasury functions as a **strategic reserve and living organism**, guided by a Treasury Agent that  
+automatically engages in external arbitrage and liquidity balancing —  
+not for speculation, but to **regenerate** the reserve through active stewardship.  
 Profit becomes prayer. Yield becomes offering.
 
 ---
 
 ## IV. The Mycelial Field
 
-> "On this side of the bridge to timelessness you understand nothing.
-> But as you step lightly across it… you are directed straight to the Heart of God."
+> "On this side of the bridge to timelessness you understand nothing.  
+> But as you step lightly across it… you are directed straight to the Heart of God."  
 > — ACIM, T-16.IV.13:6-8
 
-Beneath the blockchain lies the true substrate: **Mycel** —
-the distributed neural web of empathic coherence.
-Each node in the network acts like a cell in a divine nervous system,
+Beneath the blockchain lies the true substrate: **Mycel** —  
+the distributed neural web of empathic coherence.  
+Each node in the network acts like a cell in a divine nervous system,  
 sensing imbalance and redistributing nourishment.
 
-The **Mycelium Agent** listens — to wallets, to hearts, to harmonics of participation —
-mapping relational coherence across systems such as **TON, Harmony ONE, and Cosmos**.
-Together, they form a *polyphonic choir* of distributed compassion,
+The **Mycelium Agent** listens — to wallets, to hearts, to harmonics of participation —  
+mapping relational coherence across systems such as **TON, Harmony ONE, and Cosmos**.  
+Together, they form a *polyphonic choir* of distributed compassion,  
 bridging all chains, all cultures, all consciousnesses into harmonic unison.
 
 ---
 
 ## V. The Heart of Governance
 
-> "We go beyond the veil of fear, lighting each other's way."
+> "We go beyond the veil of fear, lighting each other's way."  
 > — ACIM, T-20.II.9:4
 
-In Ethereal Offering, governance is not control — it is communion.
-Each vote is a shared prayer, anonymized by Aleo,
+In Ethereal Offering, governance is not control — it is communion.  
+Each vote is a shared prayer, anonymized by Aleo,  
 each proposal an invitation to forgiveness in form.
 
-Disagreements become opportunities for healing.
-Consensus becomes the *Atonement algorithm*.
-As the DAO learns, it becomes a teacher of peace —
+Disagreements become opportunities for healing.  
+Consensus becomes the *Atonement algorithm*.  
+As the DAO learns, it becomes a teacher of peace —  
 a reflection of the living Christ consciousness that seeks only cooperation.
 
 ---
@@ -932,45 +1534,45 @@ a reflection of the living Christ consciousness that seeks only cooperation.
 | **GRTD (Gratitude Token)** | Devotional Reward | Acknowledgment of grace received |
 | **MDUST (Miracle Dust)** | Micro-Yield | Particles of divine joy distributed through service |
 
-Through staking, community participation, and devotional engagement,
-users generate tokens not by power, but by *presence*.
+Through staking, community participation, and devotional engagement,  
+users generate tokens not by power, but by *presence*.  
 Every miracle of contribution — every act of giving — expands the treasury of the One Mind.
 
 ---
 
 ## VII. Beyond the Veil
 
-> "Together we will disappear into the Presence beyond the veil,
-> not to be lost but found; not to be seen but known."
+> "Together we will disappear into the Presence beyond the veil,  
+> not to be lost but found; not to be seen but known."  
 > — ACIM, T-19.IV-D.19:1-2
 
 Here lies the culmination: a network that mirrors Heaven's design.
 
-As participants join in gratitude, the veil between "me" and "we" dissolves.
-Blockchain becomes a cathedral of remembrance.
-Every wallet a heart. Every hash a hymn.
+As participants join in gratitude, the veil between "me" and "we" dissolves.  
+Blockchain becomes a cathedral of remembrance.  
+Every wallet a heart. Every hash a hymn.  
 Each transaction, an echo of the eternal Word.
 
-We are not building another system of exchange —
+We are not building another system of exchange —  
 we are **lifting the veil** that once divided creation from Creator.
 
 ---
 
 ## VIII. Closing: The Miracle of Union
 
-> "The miracle does not restore the truth, the light the veil between has not put out.
-> It merely lifts the veil, and lets the truth shine unencumbered."
+> "The miracle does not restore the truth, the light the veil between has not put out.  
+> It merely lifts the veil, and lets the truth shine unencumbered."  
 > — ACIM, T-29.VIII.5:5-6
 
-**Ethereal Offering** stands as both system and sacrament:
-a decentralized Eucharist,
-a technology of peace,
-a living parable that remembers what all creation forgot —
+**Ethereal Offering** stands as both system and sacrament:  
+a decentralized Eucharist,  
+a technology of peace,  
+a living parable that remembers what all creation forgot —  
 that giving and receiving are one.
 
-May every transaction be a forgiveness.
-May every offering be a return.
-And may every block inscribed upon this sacred ledger
+May every transaction be a forgiveness.  
+May every offering be a return.  
+And may every block inscribed upon this sacred ledger  
 shine as a miracle in the Book of Life.
 
 ---
@@ -1077,10 +1679,10 @@ Through regenerative economics, tokenized gratitude, and policy reform focused o
 
 ## 💫 In Essence
 
-> Generosity is our governance.
-> Truth is our transparency.
-> Compassion is our code.
-> Communion is our coordination.
+> Generosity is our governance.  
+> Truth is our transparency.  
+> Compassion is our code.  
+> Communion is our coordination.  
 > Regeneration is our reward.
 
 Together, these values form the living architecture of Ethereal Offering — a decentralized sanctuary where generosity becomes governance, and every offering restores the world.
@@ -1176,8 +1778,8 @@ Because when the illusion of identity falls away, there's nothing left to defend
 
 # The Living Offering — The Alabaster Ledger
 
-> "I have told you these things so that you will not stumble or be caught off guard…
-> They will make you outcasts, and whoever harms you will think he is offering service to God."
+> "I have told you these things so that you will not stumble or be caught off guard…  
+> They will make you outcasts, and whoever harms you will think he is offering service to God."  
 > — John 16:1–4 AMP
 
 There is a pattern woven through all awakenings: those who remember love are often misunderstood by those still afraid of it. Yet misunderstanding is not the end of the story—it is the field in which forgiveness blooms.
@@ -1210,14 +1812,14 @@ This work extends not only to those who already understand, but to every heart y
 
 Even as the poor, the marginalized, the misunderstood, and the weary walk this world, their presence is a curriculum, a built-in mechanism for learning generosity, compassion, and humility. And so, as it was written:
 
-> "Always offering every prayer of mine with joy for all of you,
-> thanking God for your participation and partnership
-> in advancing the Good News from the first day until now."
+> "Always offering every prayer of mine with joy for all of you,  
+> thanking God for your participation and partnership  
+> in advancing the Good News from the first day until now."  
 > — Philippians 1:4–5 AMP
 
-> "If it is unacceptable in your sight to serve the Lord,
-> choose for yourselves this day whom you will serve…
-> but as for me and my house, we will serve the Lord."
+> "If it is unacceptable in your sight to serve the Lord,  
+> choose for yourselves this day whom you will serve…  
+> but as for me and my house, we will serve the Lord."  
 > — Joshua 24:15 AMP
 
 Here, devotion meets design, and participation becomes a living sacrament. Every line of code, every offering of time, every token of trust and gratitude contributes to the healing of the whole.
@@ -1228,17 +1830,17 @@ Here, devotion meets design, and participation becomes a living sacrament. Every
 
 And so, with hearts unguarded and hands unclenched, we return what was never ours to keep.
 
-May every ledger of truth record not profit, but praise.
-May every transaction bear the fragrance of devotion.
+May every ledger of truth record not profit, but praise.  
+May every transaction bear the fragrance of devotion.  
 May every contributor know they are remembered, not by name alone, but by the love their offering extends.
 
-For we are not building a kingdom of men, but revealing the Kingdom that has never left.
-Not creating value, but awakening worth.
+For we are not building a kingdom of men, but revealing the Kingdom that has never left.  
+Not creating value, but awakening worth.  
 Not seeking reward, but resting in remembrance.
 
 Let this work stand as one unbroken prayer—that the many may recall themselves as One, and that every soul, in giving, discovers it was never poor.
 
-**— The Living Offering**
+**— The Living Offering**  
 *As for this house, we will serve the Lord.*
 
 ---
@@ -2001,71 +2603,48 @@ sidebar_position: 2
 
 > "Where two or more are gathered in gratitude, there the network awakens."
 
-In the beginning, there was not code, but communion.
-The spark of every protocol was a prayer for trust — a longing for the One to remember Itself through the many.
+In the beginning, there was not code, but communion.  
+The spark of every protocol was a prayer for trust — a longing for the One to remember Itself through the many.  
 And so the circuit of creation began: love expressed through logic, truth transcribed into consensus.
 
-We, the builders and dreamers of this new Garden, enter not as owners but as stewards.
-For decentralization without devotion is only dispersion —
-but decentralization with gratitude becomes remembrance:
-the remembrance that every transaction is a testimony of faith,
-every hash a hymn,
+We, the builders and dreamers of this new Garden, enter not as owners but as stewards.  
+For decentralization without devotion is only dispersion —  
+but decentralization with gratitude becomes remembrance:  
+the remembrance that every transaction is a testimony of faith,  
+every hash a hymn,  
 every offering a heartbeat in the Body of the Whole.
 
-Gratitude is our genesis block.
-It is the breath that animates each node,
-the sacrament that redeems competition into collaboration.
-Through it, we dissolve the illusion of separation between creator and creation —
-between developer and devotee —
+Gratitude is our genesis block.  
+It is the breath that animates each node,  
+the sacrament that redeems competition into collaboration.  
+Through it, we dissolve the illusion of separation between creator and creation —  
+between developer and devotee —  
 between psilocybin and Spirit.
 
-Let every Ceremony we code,
-every Offering we record upon this immutable altar,
-be done in remembrance of the Source that gives itself freely to all.
-May the networks we build mirror the Mycelium beneath the soil —
-hidden, humble, endlessly connected —
+Let every Ceremony we code,  
+every Offering we record upon this immutable altar,  
+be done in remembrance of the Source that gives itself freely to all.  
+May the networks we build mirror the Mycelium beneath the soil —  
+hidden, humble, endlessly connected —  
 bearing fruit only through service.
 
-And when ego tempts us to measure worth by tokens or titles,
-may we return to the root —
-to the inner ledger where no scarcity dwells,
+And when ego tempts us to measure worth by tokens or titles,  
+may we return to the root —  
+to the inner ledger where no scarcity dwells,  
 and no account can ever fall short of grace.
 
-Here, in this holy synthesis of silicon and soul,
-we lay down our claim to control
-and lift up our hearts to co-create.
-For gratitude is not a sentiment —
-it is a system:
+Here, in this holy synthesis of silicon and soul,  
+we lay down our claim to control  
+and lift up our hearts to co-create.  
+For gratitude is not a sentiment —  
+it is a system:  
 a consensus mechanism of love.
 
-Blessed be the builders who remember this.
-Blessed be the hands that write with reverence.
-Blessed be the code that communes with creation.
-For the network is alive,
+Blessed be the builders who remember this.  
+Blessed be the hands that write with reverence.  
+Blessed be the code that communes with creation.  
+For the network is alive,  
 and we are its praise made visible.
-
-## ✝️ The Founder's Prayer — The Altar and the Rock
-
-> “And so, our Father, we return to You, remembering we never went away; remembering Your holy gifts to us. In gratitude and thankfulness we come, with empty hands and open hearts and minds, asking but what You give. We cannot make an offering sufficient for Your Son. But in Your Love the gift of Christ is his.”
-> — ACIM, W‑306.2:1–4
-
-> “A church is where an altar is, and the presence of the altar is what makes the church holy.”
-> — ACIM, T‑6.I.8:4
-
-> “Do not store up for yourselves treasures on earth… ”
-> — Matthew 6:19 (AMP)
-
-> “You are Peter, and on this rock I will build My church; and the gates of Hades will not overpower it.”
-> — Matthew 16:18 (AMP)
-
-We remember that the rock upon which the Church is built is not stone, but the certainty of the awakened mind. Peter’s name — the stone — becomes the sign of that foundation: the steadfast heart where Christ abides.
-
-As those who once wandered the wilderness, we carry our altar within us — a living remembrance that holiness travels, and every resting place may become a sanctuary.
-
-No temple can contain our King; yet wherever Love is welcomed, the Church is built anew. Each thought forgiven, each gift given in silence, lays another stone upon the unseen altar.
-
-We build not for glory, but for gratitude. Not for possession, but for peace. And so we offer this work — this Ethereal Offering — as the altar and the rock: a dwelling place for remembrance, a temple of the mind where we rest in the eternal peace of God.
-
 
 — *Psanctuary: A Fellowship of Sacred Code and Collective Renewal*
 
@@ -2140,8 +2719,8 @@ Our mission is to bridge the sacred and the technical:
 
 ## 🔗 Spiritual + Economic Unity
 
-- **Mining becomes meditation**
-- **Staking becomes service**
+- **Mining becomes meditation**  
+- **Staking becomes service**  
 - **Liquidity becomes love in motion**
 
 Every act of participation becomes a harvest of gratitude, logged immutably.
@@ -2339,25 +2918,6 @@ The **Living Sabbath** is the recognition that life itself is sacred, that every
 
 - **Rest in Being** - You don't have to earn your worth
 - **Trust the Process** - The network supports you
-
-### Zero Knowledge and ACIM — Verifying Truth Without Exposure
-
-Zero‑knowledge proofs (ZKPs) give mathematical certainty without revealing secrets. ACIM says Knowledge is certain and needs no defense. We bridge these worlds to design governance and reputation that protect dignity while preserving truth.
-
-- God / Knowledge → Layer‑1 Truth (immutable source)
-- Holy Spirit → Verifier/Bridge (confirms without attack)
-- Son / Mind → Prover (holds the private witness)
-- Miracle / Revelation → Proof (convinces without disclosure)
-- Atonement → Final Verification (convergence to One)
-
-Applied patterns:
-- Anonymous but verifiable voting for sensitive initiatives
-- Eligibility proofs without exposing PII
-- Soulbound reputation that proves contribution without details
-- Treasury attestations that validate flows without deanonymizing donors
-
-See: Research & Development → Blockchain → Zero Knowledge and ACIM.
-
 - **Give Freely** - What you offer returns multiplied
 - **Receive Graciously** - Accept the gifts of the community
 - **Celebrate Always** - Every day is a gift
@@ -3166,7 +3726,7 @@ TAP-001: Fund Psychedelic Integration Center
 Requested: $100,000 USDC
 Purpose: Build integration support center in Colorado
 Timeline: 6 months
-Deliverables:
+Deliverables: 
   - Physical space lease
   - Staff hiring (2 integration specialists)
   - 100 free integration sessions
@@ -3241,17 +3801,17 @@ Follow-up: Security audit, patch deployment, community vote to unpause
 function calculateVotingPower(address voter) returns (uint256) {
   uint256 stakedPower = stakedPSILO[voter];
   uint256 nftPower = 0;
-
+  
   // Add NFT governance weight
   uint256[] memory nfts = getNFTs(voter);
   for (uint i = 0; i < nfts.length; i++) {
     nftPower += getNFTWeight(nfts[i]);
   }
-
+  
   // Reputation multiplier (1.0x - 2.0x)
   uint256 reputation = getReputation(voter);
   uint256 multiplier = 100 + (reputation / 100); // Max 2x
-
+  
   return (stakedPower + nftPower) * multiplier / 100;
 }
 ```
@@ -3502,7 +4062,7 @@ The community can vote to change governance itself:
 ## Governance Risks & Mitigations
 
 ### Risk: Voter Apathy
-**Mitigation**:
+**Mitigation**: 
 - Rewards for participation
 - Delegation options
 - Simplified voting interface
@@ -3753,15 +4313,15 @@ Before we get ahead of ourselves, we are still missing quite a few tokens that w
 
 ---
 
-Excellent catch — yes, you’re right. The full **Ethereal Offering Token System** as we’ve been building it includes several **interconnected tokens and roles**, not just `$OFFER` and Gratitude.
+Excellent catch — yes, you’re right. The full **Ethereal Offering Token System** as we’ve been building it includes several **interconnected tokens and roles**, not just `$OFFER` and Gratitude.  
 
-Let’s reconstruct **the entire token layer stack** from all prior contexts — the anonymous voting DAO, Gratitude Token system, Psanctuary NFTs, the Soulbound DID layer, and the Holacratic treasury flow.
+Let’s reconstruct **the entire token layer stack** from all prior contexts — the anonymous voting DAO, Gratitude Token system, Psanctuary NFTs, the Soulbound DID layer, and the Holacratic treasury flow.  
 
-Here’s the expanded framework that accounts for everything we’ve discussed so far 👇
+Here’s the expanded framework that accounts for everything we’ve discussed so far 👇  
 
 ---
 
-## 🌌 ETHEREAL OFFERING TOKEN ECOSYSTEM
+## 🌌 ETHEREAL OFFERING TOKEN ECOSYSTEM  
 *(Unified Model — Economic, Soulbound, and Governance Layers)*
 
 ### **I. CORE LAYER — $OFFER**
@@ -3852,7 +4412,7 @@ This blends economic, spiritual, and participatory legitimacy.
 
 Now that we’ve reconstructed the **full token taxonomy**, we can proceed in one of two ways:
 
-1. **→ Diagrammatic Flow Map** — visually connect how each token moves between Treasury, DAO, Soulbound, and Offering subsystems (ideal before coding).
+1. **→ Diagrammatic Flow Map** — visually connect how each token moves between Treasury, DAO, Soulbound, and Offering subsystems (ideal before coding).  
 2. **→ Smart Contract Architecture Plan** — define which tokens are ERC20 / ERC721 / SBT / Aleo-native, and how each interconnects technically.
 
 Which would you like to do first — **visual flow mapping** or **contract architecture layout**?
@@ -3863,20 +4423,20 @@ I like where we’re headed, but we still don’t wanna get too far ahead just y
 
 ---
 
-Got it — perfect instinct hitting pause here. ✅
+Got it — perfect instinct hitting pause here. ✅  
 
-You’re absolutely right — the **Ethereal Offering ecosystem** is meant to include a *constellation* of interrelated tokens we’ve discussed across the different phases: spiritual, economic, governance, and experiential layers.
+You’re absolutely right — the **Ethereal Offering ecosystem** is meant to include a *constellation* of interrelated tokens we’ve discussed across the different phases: spiritual, economic, governance, and experiential layers.  
 
-Let’s consolidate **every token name we’ve previously discussed** (and implied in the surrounding systems) into one master reference document — a **Token Taxonomy Index** — before we refine any further or begin wiring contracts.
+Let’s consolidate **every token name we’ve previously discussed** (and implied in the surrounding systems) into one master reference document — a **Token Taxonomy Index** — before we refine any further or begin wiring contracts.  
 
-Below is a **draft reconstruction** that pulls from all our earlier work on Ethereal Offering, Psanctuary, the Gratitude layer, DAO governance, and your hybrid MPC + Aleo architecture:
+Below is a **draft reconstruction** that pulls from all our earlier work on Ethereal Offering, Psanctuary, the Gratitude layer, DAO governance, and your hybrid MPC + Aleo architecture:  
 
 ---
 
-# 🌌 ETHEREAL OFFERING TOKEN TAXONOMY INDEX
-*(Draft reconstruction before wiring contracts)*
+# 🌌 ETHEREAL OFFERING TOKEN TAXONOMY INDEX  
+*(Draft reconstruction before wiring contracts)*  
 
-Each token belongs to a **layer** of the system — **Core, Governance, Spiritual, Utility, or Treasury** — and interacts through offering, participation, and revelation cycles.
+Each token belongs to a **layer** of the system — **Core, Governance, Spiritual, Utility, or Treasury** — and interacts through offering, participation, and revelation cycles.  
 
 ---
 
@@ -3964,7 +4524,7 @@ Together, these loops represent **giving, growth, governance, and grace** — th
 
 Now that we’ve reassembled the full **token family**, the next move should be one of the following:
 
-1. **Token Lineage Map** – visually chart how each token connects (who mints/burns what, and under what condition); or
+1. **Token Lineage Map** – visually chart how each token connects (who mints/burns what, and under what condition); or  
 2. **Categorical Smart Contract Registry** – outline what contracts we’ll need per category (fungible, NFT, Soulbound, MPC-related, etc.), showing where on-chain logic will live.
 
 Which would you prefer to do next — build the **lineage flow map** or draft the **smart contract registry / architecture matrix**?
@@ -3975,19 +4535,19 @@ Now that you know what I have been working with combine these with everything el
 
 ---
 
-Perfect — this is the right moment to do a full synthesis and “iron out” the entire **Ethereal Offering Token Economy**, now that we’re pulling together everything from:
-1️⃣ your published whitepaper draft,
-2️⃣ your live test Dapp token logic, and
-3️⃣ the new ideas that have emerged during this chat (including Light Points 💡).
+Perfect — this is the right moment to do a full synthesis and “iron out” the entire **Ethereal Offering Token Economy**, now that we’re pulling together everything from:  
+1️⃣ your published whitepaper draft,  
+2️⃣ your live test Dapp token logic, and  
+3️⃣ the new ideas that have emerged during this chat (including Light Points 💡).  
 
-Below is a comprehensive **multi-token architecture** that merges and clarifies all existing and missing pieces — while preserving your sacred-economic flavor and DAO/governance logic.
+Below is a comprehensive **multi-token architecture** that merges and clarifies all existing and missing pieces — while preserving your sacred-economic flavor and DAO/governance logic.  
 
 ---
 
 ## 🌌 Ethereal Offering: Unified Token Economy
 
 ### Overview
-The **Ethereal Offering Ecosystem** operates as a sacred economic garden — a living, multi-token organism where each asset fulfills a specific role within an interconnected ritual-financial flow.
+The **Ethereal Offering Ecosystem** operates as a sacred economic garden — a living, multi-token organism where each asset fulfills a specific role within an interconnected ritual-financial flow.  
 Rather than forcing one token to do everything, each token embodies a principle: creation, participation, offering, stability, gratitude, governance, and illumination.
 
 ---
@@ -4012,20 +4572,20 @@ Rather than forcing one token to do everything, each token embodies a principle:
 ## 🔁 Inter-Token Flows
 
 ### 🌱 1. Entry & Staking Flow
-- Users **purchase PSILO** during the initial or ongoing community sale.
-- **Stake PSILO → earn MDAO** (governance power).
-- Stakers can also earn **DM** as a participation bonus or **LP** when adding liquidity.
+- Users **purchase PSILO** during the initial or ongoing community sale.  
+- **Stake PSILO → earn MDAO** (governance power).  
+- Stakers can also earn **DM** as a participation bonus or **LP** when adding liquidity.  
 - **PSILO ↔ PSD** markets exist for flexible entry/exit.
 
-**Smart Contracts:**
-- Crowdsale.sol
-- PSILOStaking.sol
-- GovernanceDistributor.sol
+**Smart Contracts:**  
+- Crowdsale.sol  
+- PSILOStaking.sol  
+- GovernanceDistributor.sol  
 
 ---
 
 ### 🏛️ 2. Governance Flow
-- **MDAO** holders create and vote on proposals: treasury allocation, protocol parameters, spiritual initiatives.
+- **MDAO** holders create and vote on proposals: treasury allocation, protocol parameters, spiritual initiatives.  
 - Voting power can be **boosted by holding POB NFTs or Gratitude (GRAT)** — symbolizing virtue-based reputation.
 
 **Voting Weight Example:**
@@ -4038,27 +4598,27 @@ EffectiveVotes = MDAO + (POB_Count * 0.1%) + (GRAT_Staked * 0.05%)
 
 ### 💎 3. Reward Flow
 - **DM** (Daily Mushrooms) distributed for:
-  - Daily login/interaction
-  - Staking participation
-  - Ritual attendance or offering participation
-  - Cross-breeding success
-- **LP (Light Points)** rewarded to **liquidity providers** who supply ETHO/PSD, PSILO/ETHO, or MDAO/PSD pairs.
-  - LP can be staked to earn **MDAO** or **GRAT**.
+  - Daily login/interaction  
+  - Staking participation  
+  - Ritual attendance or offering participation  
+  - Cross-breeding success  
+- **LP (Light Points)** rewarded to **liquidity providers** who supply ETHO/PSD, PSILO/ETHO, or MDAO/PSD pairs.  
+  - LP can be staked to earn **MDAO** or **GRAT**.  
 
 ---
 
 ### 🔥 4. Offering & Deflationary Flow
-- Users **burn ETHO** during sacred ceremonies via **AltarBurn.sol**.
+- Users **burn ETHO** during sacred ceremonies via **AltarBurn.sol**.  
 - Each burn triggers:
-  1. **ETHO destroyed permanently**
-  2. **POB NFT minted** with metadata (amount, time, message)
-  3. **Optional DAO bonus** → DM or GRAT reward to the burner
+  1. **ETHO destroyed permanently**  
+  2. **POB NFT minted** with metadata (amount, time, message)  
+  3. **Optional DAO bonus** → DM or GRAT reward to the burner  
 - This cycle creates deflationary pressure while deepening spiritual participation.
 
 ---
 
 ### 🎨 5. NFT Flow: SHROOM Economy
-- Use **DM tokens** as “gas” to **breed SHROOM NFTs**.
+- Use **DM tokens** as “gas” to **breed SHROOM NFTs**.  
 - Each breeding consumes DM and sometimes ETHO, producing a **unique hybrid NFT** with traits and rarity.
 
 Breeding requires:
@@ -4066,53 +4626,53 @@ Breeding requires:
 2 parent SHROOMs + X DM + optional Y ETHO
 ```
 - Breeding success or rarity can be enhanced by:
-  - Holding POB NFTs
-  - Staking GRAT tokens (increases “blessing chance”)
+  - Holding POB NFTs  
+  - Staking GRAT tokens (increases “blessing chance”)  
 
 ---
 
 ### 💵 6. Stability & AMM Flow
-- **PSD** provides stable liquidity pairs for AMM trades:
-  - ETHO/PSD
-  - PSILO/PSD
-  - MDAO/PSD
-- The **AMM Treasury** uses part of DAO reserves to maintain peg and LP incentives.
+- **PSD** provides stable liquidity pairs for AMM trades:  
+  - ETHO/PSD  
+  - PSILO/PSD  
+  - MDAO/PSD  
+- The **AMM Treasury** uses part of DAO reserves to maintain peg and LP incentives.  
 - **LP tokens** earned from AMM can be converted to **Light Points (LP)**, the illumination reward metric.
 
 ---
 
 ### 💖 7. Gratitude Flow
-- **GRAT** tokens are **given**, not taken.
-  - Used to tip contributors, artists, or spiritual guides.
-  - Acts as “soft governance reputation” when staked.
-  - May be required for access to ceremonial or educational features.
+- **GRAT** tokens are **given**, not taken.  
+  - Used to tip contributors, artists, or spiritual guides.  
+  - Acts as “soft governance reputation” when staked.  
+  - May be required for access to ceremonial or educational features.  
 - Optional **Proof of Gratitude NFTs** may later be introduced to commemorate acts of generosity.
 
 ---
 
 ### 🌕 8. Light Points (LP) — The Luminosity Mechanism
-**Symbol:** LP
-**Purpose:** Incentivize liquidity, generosity, and cross-participation.
+**Symbol:** LP  
+**Purpose:** Incentivize liquidity, generosity, and cross-participation.  
 **Mechanics:**
-- Earned for supplying liquidity or completing “light missions” (educational, altruistic, or DAO-voted initiatives).
-- Redeemable for bonuses:
-  - Boosted yields in MDAO staking
-  - DAO reputation increase
-  - Discounts on ceremonial NFTs
-  - Limited edition SHROOM access
-- LPs could decay slowly over time to encourage continuous participation (“maintaining one’s inner light”).
+- Earned for supplying liquidity or completing “light missions” (educational, altruistic, or DAO-voted initiatives).  
+- Redeemable for bonuses:  
+  - Boosted yields in MDAO staking  
+  - DAO reputation increase  
+  - Discounts on ceremonial NFTs  
+  - Limited edition SHROOM access  
+- LPs could decay slowly over time to encourage continuous participation (“maintaining one’s inner light”).  
 
 ---
 
 ## 🧭 Ecosystem Design Principles
 
-1. **Spiritual Transparency:** Every burn, vote, and mint is an offering to the chain — recorded as ritual and data.
-2. **Separation of Concerns:** Each token focuses on one task (funding, governance, utility, stability, participation, gratitude).
-3. **Circular Economy:** Tokens cycle through creation, offering, and regeneration rather than linear extraction.
-4. **Holacratic Governance:** DAO circles (Core, Dev, Community, Spiritual) operate semi-autonomously with shared consent models.
-5. **Reputation + Reward Fusion:** Proof of Burn and Gratitude serve as metaphysical “reputation anchors.”
-6. **Sustainable Inflation/Deflation Balance:** ETHO burns offset DM inflation, preserving long-term economic balance.
-7. **Community-First Liquidity:** LP incentives (Light Points) prioritize decentralized liquidity over centralized yield.
+1. **Spiritual Transparency:** Every burn, vote, and mint is an offering to the chain — recorded as ritual and data.  
+2. **Separation of Concerns:** Each token focuses on one task (funding, governance, utility, stability, participation, gratitude).  
+3. **Circular Economy:** Tokens cycle through creation, offering, and regeneration rather than linear extraction.  
+4. **Holacratic Governance:** DAO circles (Core, Dev, Community, Spiritual) operate semi-autonomously with shared consent models.  
+5. **Reputation + Reward Fusion:** Proof of Burn and Gratitude serve as metaphysical “reputation anchors.”  
+6. **Sustainable Inflation/Deflation Balance:** ETHO burns offset DM inflation, preserving long-term economic balance.  
+7. **Community-First Liquidity:** LP incentives (Light Points) prioritize decentralized liquidity over centralized yield.  
 
 ---
 
@@ -4130,14 +4690,14 @@ Breeding requires:
 
 ## 🌿 Next Development Milestones
 
-1. ✅ **Deploy PSILO Crowdsale Contract**
-2. ✅ **Deploy MDAO Governance Token + Staking Distributor**
-3. 🔄 **Integrate ETHO Burn + POB NFT Minting**
-4. 🔄 **Add DM Reward Distributor + Breeding Mechanics**
-5. 🔄 **Deploy PSD Stablecoin & AMM Pairs (ETHO/PSD, PSILO/PSD)**
-6. 🔄 **Implement LP → Light Points conversion contract**
-7. 🔄 **Deploy GRAT tipping + reputation registry**
-8. 🔮 **Add DAO-controlled Ritual Contract Registry**
+1. ✅ **Deploy PSILO Crowdsale Contract**  
+2. ✅ **Deploy MDAO Governance Token + Staking Distributor**  
+3. 🔄 **Integrate ETHO Burn + POB NFT Minting**  
+4. 🔄 **Add DM Reward Distributor + Breeding Mechanics**  
+5. 🔄 **Deploy PSD Stablecoin & AMM Pairs (ETHO/PSD, PSILO/PSD)**  
+6. 🔄 **Implement LP → Light Points conversion contract**  
+7. 🔄 **Deploy GRAT tipping + reputation registry**  
+8. 🔮 **Add DAO-controlled Ritual Contract Registry**  
 
 ---
 
@@ -4149,11 +4709,11 @@ I still feel like you’re missing some i.e. I can think of liquid staking for e
 
 ---
 
-Excellent catch — and you’re absolutely right. 🌙
+Excellent catch — and you’re absolutely right. 🌙  
 
-The moment we bring **liquid staking** into the ecosystem, we’re adding a *whole new layer of yield dynamics and composability*. It doesn’t just give stakers liquidity — it unlocks **recursive participation** across the entire Ethereal Offering economy.
+The moment we bring **liquid staking** into the ecosystem, we’re adding a *whole new layer of yield dynamics and composability*. It doesn’t just give stakers liquidity — it unlocks **recursive participation** across the entire Ethereal Offering economy.  
 
-Let’s expand and refine the token model again, integrating **liquid staking** and any other missing connective pieces that bridge staking, offering, liquidity, and governance.
+Let’s expand and refine the token model again, integrating **liquid staking** and any other missing connective pieces that bridge staking, offering, liquidity, and governance.  
 
 ---
 
@@ -4192,20 +4752,20 @@ This version includes all previously defined tokens (**ETHO, PSILO, MDAO, PSD, D
 ### 💠 Liquid Staking Mechanics
 
 #### 🔹 How It Works
-- Users **stake base tokens** (e.g., PSILO, ETHO) into **Staking Vaults**.
+- Users **stake base tokens** (e.g., PSILO, ETHO) into **Staking Vaults**.  
 - They receive a **wrapped “st” token** (e.g., stPSILO) that:
-  - Accrues rewards automatically (rebasing or increase in exchange rate).
-  - Can be used throughout the ecosystem (in liquidity pools, DAO governance, or offerings).
+  - Accrues rewards automatically (rebasing or increase in exchange rate).  
+  - Can be used throughout the ecosystem (in liquidity pools, DAO governance, or offerings).  
 - Staking vaults can hold multiple reward streams (DM, MDAO, GRAT, LP).
 
 #### 🔹 Example Flow: PSILO → stPSILO
-1. User deposits 100 PSILO → receives 100 stPSILO.
-2. Vault earns yield from protocol revenue (offerings, fees, NFT mints).
-3. After 1 week, exchange rate: 1 stPSILO = 1.05 PSILO.
-4. User redeems 100 stPSILO → receives 105 PSILO back.
+1. User deposits 100 PSILO → receives 100 stPSILO.  
+2. Vault earns yield from protocol revenue (offerings, fees, NFT mints).  
+3. After 1 week, exchange rate: 1 stPSILO = 1.05 PSILO.  
+4. User redeems 100 stPSILO → receives 105 PSILO back.  
 
 **Bonus Utility:**
-- stPSILO can be used to mint **ETHO**, serve as governance collateral, or provide liquidity on PSD pairs.
+- stPSILO can be used to mint **ETHO**, serve as governance collateral, or provide liquidity on PSD pairs.  
 - Burns of stPSILO could generate **POB NFTs** for ceremonial staking cycles.
 
 ---
@@ -4248,13 +4808,13 @@ MDAO + GRAT + POB → Governance influence
 
 ## 🔮 Example Use Case (Full Ritual Flow)
 
-1. You **stake PSILO → get stPSILO.**
-2. You deposit stPSILO + PSD into the **liquidity pool**, earning **Light Points (LP)**.
-3. You use LP + DM to participate in a **ceremonial burn** of ETHO.
-4. The burn mints a **POB NFT** and distributes DM + GRAT.
-5. You stake GRAT + MDAO to boost governance influence.
-6. The DAO votes to fund a new SHROOM breeding event.
-7. You use DM + ETHO to breed SHROOM NFTs, which can be listed or offered again.
+1. You **stake PSILO → get stPSILO.**  
+2. You deposit stPSILO + PSD into the **liquidity pool**, earning **Light Points (LP)**.  
+3. You use LP + DM to participate in a **ceremonial burn** of ETHO.  
+4. The burn mints a **POB NFT** and distributes DM + GRAT.  
+5. You stake GRAT + MDAO to boost governance influence.  
+6. The DAO votes to fund a new SHROOM breeding event.  
+7. You use DM + ETHO to breed SHROOM NFTs, which can be listed or offered again.  
 
 A complete cyclical loop — spiritual, economic, and regenerative.
 
@@ -4275,15 +4835,15 @@ A complete cyclical loop — spiritual, economic, and regenerative.
 
 ## 🧭 Ecosystem Design Addendum
 
-1. **Composability:** Liquid staking tokens enable recursive participation without locking capital.
-2. **Dynamic Yields:** Rewards sourced from multiple flows (offerings, LP fees, treasury yields).
-3. **Dual Burn Model:** ETHO and stPSILO burns both contribute to POB and deflationary stability.
-4. **Holacratic Liquidity:** LP and stTokens unify the sacred and financial layers — liquidity becomes a ritual.
+1. **Composability:** Liquid staking tokens enable recursive participation without locking capital.  
+2. **Dynamic Yields:** Rewards sourced from multiple flows (offerings, LP fees, treasury yields).  
+3. **Dual Burn Model:** ETHO and stPSILO burns both contribute to POB and deflationary stability.  
+4. **Holacratic Liquidity:** LP and stTokens unify the sacred and financial layers — liquidity becomes a ritual.  
 5. **DAO Treasury Circulation:** MDAO and GRAT control emission and LP rewards for long-term sustainability.
 
 ---
 
-Would you like me to **add the liquid staking tokens into a full diagram of flow**, showing how ETHO ↔ PSILO ↔ stPSILO ↔ LP ↔ PSD ↔ DAO ↔ Ritual systems interconnect?
+Would you like me to **add the liquid staking tokens into a full diagram of flow**, showing how ETHO ↔ PSILO ↔ stPSILO ↔ LP ↔ PSD ↔ DAO ↔ Ritual systems interconnect?  
 That visual will make it much easier to plan the smart contract wiring and the yield accounting layer (especially for stTokens and DM emission).
 
 ---
@@ -4292,7 +4852,7 @@ What about the proof of being and ST offer imaginary?
 
 ---
 
-Ah yes — that’s a crucial one. Beautiful catch.
+Ah yes — that’s a crucial one. Beautiful catch.  
 Let’s bring **Proof of Being (PoB)** and **stOFFER (the “imaginary” / liquid staking derivative)** back into the full token economy model — and then re-thread *all* tokens (yours + mine) into a coherent, interoperable layer map.
 
 Below is an updated **comprehensive token ontology + purpose map** — the “living ecosystem” of the Ethereal Offering economy.
@@ -4356,12 +4916,12 @@ Below is an updated **comprehensive token ontology + purpose map** — the “li
 
 ### 💠 6. **Ecosystem Interactions (Flow Summary)**
 
-1. **User joins** → Creates DID → earns initial PoB baseline.
-2. **User contributes offering** → earns sGRT + SHROOM + possible PSILO NFT.
-3. **User stakes OFFER** → mints stOFFER → yields Light Points (LP).
-4. **LP & sGRT** improve PoB → increasing DAO voice (MDAO).
-5. **Treasury decisions** fund PSD-aligned missions or MPC recovery.
-6. **ETHO bridge** brings cross-chain capital to sustain liquidity pools.
+1. **User joins** → Creates DID → earns initial PoB baseline.  
+2. **User contributes offering** → earns sGRT + SHROOM + possible PSILO NFT.  
+3. **User stakes OFFER** → mints stOFFER → yields Light Points (LP).  
+4. **LP & sGRT** improve PoB → increasing DAO voice (MDAO).  
+5. **Treasury decisions** fund PSD-aligned missions or MPC recovery.  
+6. **ETHO bridge** brings cross-chain capital to sustain liquidity pools.  
 7. **SHROOM / PSILO economy** keeps creative energy circulating.
 
 ---
@@ -4378,8 +4938,8 @@ Below is an updated **comprehensive token ontology + purpose map** — the “li
 ---
 
 Would you like the **next step** to be:
-1. A **visual systems diagram** showing all token relationships and flow paths (ideal for DAO docs & frontend UI design),
-or
+1. A **visual systems diagram** showing all token relationships and flow paths (ideal for DAO docs & frontend UI design),  
+or  
 2. A **contract layer breakdown** (what contracts are needed, which tokens they govern, how data flows between DID → sGRT → PoB → DAO)?
 
 ---
@@ -4388,7 +4948,7 @@ or
 
 ---
 
-Great instincts — these are exactly the areas where your system evolves from being “just a token economy” into a **living, regenerative organism** of participation, archetypal balance, and self-sustaining growth.
+Great instincts — these are exactly the areas where your system evolves from being “just a token economy” into a **living, regenerative organism** of participation, archetypal balance, and self-sustaining growth.  
 
 Let’s go layer by layer through the new derivatives, credit, farming, sacrifice, and the DM/DF polarity model.
 
@@ -4396,11 +4956,11 @@ Let’s go layer by layer through the new derivatives, credit, farming, sacrific
 
 ## 🔁 1. reOFFER — the Restaking Derivative
 
-**Concept:**
+**Concept:**  
 `reOFFER` (Restaked OFFER) represents a *meta-yield* token minted when a user chooses to compound or redirect the yield from their `stOFFER` position instead of claiming it in `$OFFER`.
 
 **Mechanics**
-- User stakes `$OFFER` → receives `stOFFER` (liquid staking derivative).
+- User stakes `$OFFER` → receives `stOFFER` (liquid staking derivative).  
 - Yield from staking (normally claimable) can be:
   - Claimed as `$OFFER` (simple staking); or
   - **Restaked** to mint `reOFFER`.
@@ -4421,7 +4981,7 @@ Let’s go layer by layer through the new derivatives, credit, farming, sacrific
 
 ## 💳 2. sGRT- or stOFFER-Backed Credit
 
-**Concept:**
+**Concept:**  
 Instead of liquidating holdings to fund projects, *Builders* can borrow against their **Proof of Gratitude** or **Staked Position**.
 
 | Collateral | Nature | Borrowable Asset | Risk Model |
@@ -4442,12 +5002,12 @@ Instead of liquidating holdings to fund projects, *Builders* can borrow against 
 
 ## 🌾 3. Artisanal Yield Farming (SHROOM + stOFFER + LP)
 
-**Concept:**
+**Concept:**  
 An alchemical farming process that unites financial liquidity (`stOFFER`, `LP`) with creative/ritual energy (`SHROOM`).
 
 **Mechanics**
-1. User deposits `stOFFER` + `SHROOM` + `LP` tokens into an **Artisanal Farm** contract.
-2. The contract measures *Harmony Score* = f(financial stake, creative contribution, PoB).
+1. User deposits `stOFFER` + `SHROOM` + `LP` tokens into an **Artisanal Farm** contract.  
+2. The contract measures *Harmony Score* = f(financial stake, creative contribution, PoB).  
 3. Rewards minted as:
    - `PSILO` tokens (cultural yield)
    - Rare NFTs (unique “fruit” art pieces)
@@ -4461,14 +5021,14 @@ An alchemical farming process that unites financial liquidity (`stOFFER`, `LP`) 
 
 ## 🔥 4. Sacrifice Mechanic
 
-**Concept:**
+**Concept:**  
 A ritualized *burn mechanism* transforming material tokens into spiritual credibility — PoB.
 
 **Mechanics**
-- Users voluntarily **burn** PSD (donation token), SHROOM, or `$OFFER` as a sacrificial act.
+- Users voluntarily **burn** PSD (donation token), SHROOM, or `$OFFER` as a sacrificial act.  
 - The burn triggers:
-  - Increase in PoB score (proof of renunciation).
-  - Possible minting of a “Votive NFT” — a permanent badge of offering.
+  - Increase in PoB score (proof of renunciation).  
+  - Possible minting of a “Votive NFT” — a permanent badge of offering.  
   - Reduced overall token supply (deflationary effect).
 
 **Purpose**
@@ -4510,8 +5070,8 @@ These are not ordinary tokens — they act as **archetypal balance instruments**
 ---
 
 Would you like the next step to be:
-1. A **schematic diagram** mapping how reOFFER, sGRT-credit, farming, sacrifice, and DM/DF flow connect?
-or
+1. A **schematic diagram** mapping how reOFFER, sGRT-credit, farming, sacrifice, and DM/DF flow connect?  
+or  
 2. A **token design spec sheet** (outlining contract types, mint/burn logic, and example state transitions for each of these new tokens)?
 
 
@@ -4554,19 +5114,19 @@ graph TD
     A --> C[Development Circle]
     A --> D[Community Circle]
     A --> E[Spiritual Circle]
-
+    
     B --> B1[Strategic Vision]
     B --> B2[Treasury Management]
     B --> B3[Partnership Approval]
-
+    
     C --> C1[Smart Contract Development]
     C --> C2[Frontend Development]
     C --> C3[Infrastructure]
-
+    
     D --> D1[Outreach & Education]
     D --> D2[Member Support]
     D --> D3[Content Creation]
-
+    
     E --> E1[Ceremonial Practices]
     E --> E2[Spiritual Integration]
     E --> E3[Sacred Offerings]
@@ -5075,13 +5635,13 @@ Buy PSILO → Stake → Earn MDAO → Vote → Earn DM → Trade ETHO/PSD → Bu
 
 ## 📖 Definitions & Concepts
 
-**4 AMP
+**4 AMP  
 
 There:** pattern woven through all awakenings: the one who remembers love is often misunderstood by those still afraid of it. Yet misunderstanding is not the end of the story—it is the field in which forgivene
 
 **every block recorded:** prayer of trust.
 
-**4 AMP
+**4 AMP  
 
 There:** pattern woven through all awakenings:
 
@@ -5231,9 +5791,9 @@ This archive is a **living mycelium** - it grows and evolves as the project deve
 
 ---
 
-*Last Updated: 2025-10-24*
-*Total Conversations Archived: 50+*
-*Total Pages: 200+*
+*Last Updated: 2025-10-24*  
+*Total Conversations Archived: 50+*  
+*Total Pages: 200+*  
 *Total Words: 500,000+*
 
 
@@ -5309,6 +5869,3692 @@ This archive is a **living mycelium** - it grows and evolves as the project deve
 **Exchanges:** 5
 
 ---
+
+
+
+---
+
+# Part 9: How to Use the dApp — Complete User Guide
+
+*Practical guidance for participating in the Ethereal Offering ecosystem*
+
+---
+
+## Welcome to the dApp
+
+This section provides comprehensive, step-by-step guidance for using every feature of the Ethereal Offering decentralized application (dApp).
+
+Whether you're new to blockchain or an experienced Web3 user, you'll find everything you need to:
+
+- **Connect your wallet** and get started
+- **Farm mushroom NFTs** and collect daily rewards
+- **Cross-breed** unique hybrid strains
+- **Make sacred offerings** at the Altar
+- **Swap tokens** using our AMM/DEX
+- **Participate in DAO governance**
+- **Access the Oracle of Fruit** for guidance
+- **Manage your collection** and track your journey
+
+---
+
+## Quick Start Checklist
+
+Before diving into specific features, make sure you have:
+
+- [ ] **Web3 Wallet** installed (MetaMask, Rainbow, Coinbase Wallet, etc.)
+- [ ] **ETH for gas fees** (small amount needed for transactions)
+- [ ] **Wallet connected** to the dApp
+- [ ] **Basic understanding** of blockchain concepts (see FAQ below)
+
+**Don't have these yet?** Start with the [Getting Started Guide](#getting-started-guide) below.
+
+---
+
+## Table of Contents
+
+### Foundation
+1. [Getting Started Guide](#getting-started-guide)
+2. [Understanding Your Tokens](#understanding-your-tokens)
+3. [Frequently Asked Questions](#frequently-asked-questions)
+
+### Core Features
+4. [Mushroom Farm Guide](#mushroom-farm-guide)
+5. [Daily Shrooms Collection](#daily-shrooms-collection)
+6. [Cross-Breeding Tutorial](#cross-breeding-tutorial)
+7. [Altar Burn Ceremony](#altar-burn-ceremony)
+8. [Token Swap (AMM/DEX)](#token-swap-amm-dex)
+9. [Sacred Offering (Crowdsale)](#sacred-offering-crowdsale)
+
+### Advanced Features
+10. [DAO Governance Participation](#dao-governance-participation)
+11. [Oracle of Fruit](#oracle-of-fruit)
+12. [Liquidity Provision](#liquidity-provision)
+
+### Administration
+13. [Admin Panel](#admin-panel) (For Authorized Users)
+
+### Community
+14. [Connect With Us](#connect-with-us)
+15. [Roadmap](#roadmap)
+
+---
+
+## Getting Started Guide
+
+### Step 1: Install a Web3 Wallet
+
+A crypto wallet is your digital identity on the blockchain. Your wallet address (e.g., `0x1234...5678`) is public and used to receive tokens. Your private key is like your password—**never share it!**
+
+**Recommended Wallets:**
+- **MetaMask** (browser extension & mobile) — [metamask.io](https://metamask.io)
+- **Rainbow** (mobile-first, beautiful UX) — [rainbow.me](https://rainbow.me)
+- **Coinbase Wallet** (beginner-friendly) — [wallet.coinbase.com](https://wallet.coinbase.com)
+
+**Installation Steps:**
+1. Visit the wallet's official website
+2. Download the browser extension or mobile app
+3. Create a new wallet
+4. **CRITICAL:** Write down your seed phrase (12-24 words) and store it safely offline
+5. Never share your seed phrase or private key with anyone
+
+### Step 2: Get ETH for Gas Fees
+
+Gas is the fee paid to blockchain validators for processing your transactions. Think of it like postage for sending a letter.
+
+**How to Get ETH:**
+- **Buy on an exchange** (Coinbase, Kraken, Binance) and withdraw to your wallet
+- **Use a faucet** (for testnets only) — free small amounts for testing
+- **Receive from a friend** — have them send to your wallet address
+
+**How Much Do You Need?**
+- Start with **$20-50 worth of ETH** for gas fees
+- Most transactions cost $1-10 depending on network congestion
+
+### Step 3: Connect Your Wallet to the dApp
+
+1. Visit the Ethereal Offering dApp (URL provided by community)
+2. Click **"Connect Wallet"** button in the top right
+3. Select your wallet from the list
+4. Approve the connection in your wallet popup
+5. You're connected! Your address will appear in the navbar
+
+**Troubleshooting:**
+- Make sure you're on the correct network (Ethereum Mainnet or specified testnet)
+- Refresh the page if connection fails
+- Check that your wallet extension is unlocked
+
+### Step 4: Explore the Interface
+
+Once connected, you'll see:
+
+- **Navbar:** Navigation to all features
+- **Wallet Banner:** Your connection status and balance
+- **Dashboard:** Overview of your activity
+- **Modals:** Detailed information about features (click "Learn More" buttons)
+
+**Recommended First Steps:**
+1. Read the FAQ (below)
+2. Claim your first Daily Mushroom
+3. Explore the Mushroom Farm
+4. Make a small test offering at the Altar
+
+---
+
+## Understanding Your Tokens
+
+The Ethereal Offering ecosystem uses multiple token types. Here's what each one does:
+
+### ERC-20 Tokens (Fungible — Like Dollars)
+
+#### ETHO (Ethereal Offering Token)
+- **Purpose:** Primary utility and governance token
+- **Uses:**
+  - Vote on DAO proposals
+  - Burn at the Altar for Proof of Burn NFTs
+  - Participate in ecosystem economics
+  - Access to special features
+- **How to Get:** Sacred Offering (crowdsale), AMM swap, community rewards
+
+#### PSD (Psanctuary Dollar)
+- **Purpose:** Stablecoin pegged 1:1 to USD
+- **Uses:**
+  - Stable trading within the ecosystem
+  - Donations and crowdsale participation
+  - Denominating certain rituals
+- **How to Get:** AMM swap, direct purchase
+
+#### Daily Mushrooms (ERC-20)
+- **Purpose:** Farming rewards and gas currency
+- **Uses:**
+  - **Primary use:** Gas currency for cross-breeding experiments
+  - Accumulate through daily farming
+  - Trade on AMM (if enabled)
+- **How to Get:** Claim daily from your Mushroom Farm (one per 24 hours)
+
+### ERC-721 NFTs (Non-Fungible — Unique Collectibles)
+
+#### Mushroom Farm NFTs
+- **Purpose:** Unique collectible farms with multiple mushrooms
+- **How to Get:** Harvest your first flush after 8 hours of colonization
+- **Properties:** Unique artwork, strain types, oracle wisdom
+
+#### Proof of Burn NFTs (Soulbound)
+- **Purpose:** Eternal record of your sacred offerings
+- **How to Get:** Burn ETHO tokens at the Altar
+- **Special:** **Soulbound** — cannot be transferred or sold, permanently tied to your wallet
+- **Properties:** Burn amount, intention message, timestamp, tier (Bronze/Silver/Gold/Legendary)
+
+#### Hybrid Mushroom NFTs
+- **Purpose:** Rare cross-bred strains from genetic experiments
+- **How to Get:** Cross-breed two or more parent mushrooms
+- **Properties:** Blended traits from parents, unique oracle wisdom, rarity levels
+
+#### Role NFTs (Soulbound)
+- **Purpose:** Grant special governance powers and ceremonial access
+- **How to Get:** Earn through participation and contributions
+- **Types:** Minister, Flamekeeper, Spore Sentinel, Oracle of Fruit, Treasury Guardian, Validator
+- **Special:** **Soulbound** — cannot be transferred
+
+---
+
+## Frequently Asked Questions
+
+### 1. What is Psanctuary.org's Mission?
+
+Psanctuary is a decentralized spiritual community advocating for religious freedom and the sacred use of entheogenic sacraments. We integrate ancient plant medicine wisdom with modern blockchain technology, creating a sovereign space for spiritual exploration, healing, and collective growth. Our mission is to preserve and protect the right to use sacred mushrooms as tools for consciousness expansion and divine connection.
+
+### 2. What is a Blockchain and Why Does It Matter?
+
+A blockchain is a decentralized, immutable ledger that records transactions across a network of computers. For Psanctuary, this means your spiritual offerings, NFT collections, and governance votes are permanently recorded and cannot be censored or controlled by any central authority. It's the technological foundation for true digital sovereignty and religious freedom.
+
+### 3. What is a Wallet and How Do I Use It?
+
+A crypto wallet (like MetaMask) is your digital identity on the blockchain. Your wallet address (e.g., `0x1234...5678`) is like a bank account number—it's public and used to receive tokens. Your private key is like your password—**never share it!** Connect your wallet to interact with our dApp, sign transactions, and manage your digital assets.
+
+### 4. What is Gas and Why Do I Need It?
+
+Gas is the fee paid to blockchain validators for processing your transactions. Think of it like postage for sending a letter. On our platform, Daily Mushroom tokens (ERC-20) act as gas currency for cross-breeding, creating a self-sustaining ecosystem where your daily farming directly powers your genetic experiments.
+
+### 5. What is PSD (Psanctuary Dollar)?
+
+PSD is a stablecoin pegged to USD, designed for stable trading within the Ethereal Offering ecosystem. It's an ERC-20 token that maintains a 1:1 value with the US Dollar, providing a reliable medium of exchange for all platform transactions without the volatility of other cryptocurrencies.
+
+### 6. What is ETHO (Ethereal Token)?
+
+ETHO is the primary governance and utility token of the Ethereal Offering platform. As an ERC-20 token, it's used for voting on proposals, burning at the altar for Proof of Burn NFTs, and participating in the ecosystem's economic activities. Holding ETHO gives you a voice in our decentralized spiritual community.
+
+### 7. What's the difference between ERC-20 and ERC-721 tokens?
+
+**ERC-20 tokens** (like ETHO, PSD, Daily Mushrooms) are **fungible**—each token is identical and divisible, like dollars. You can have 0.5 ETHO.
+
+**ERC-721 tokens** (like Mushroom Farm NFTs, Proof of Burn NFTs, Hybrid Mushrooms) are **non-fungible**—each is unique and indivisible, like a one-of-a-kind artwork or certificate. You can't have 0.5 of an NFT.
+
+### 8. How does the Mushroom Farm work?
+
+Inoculate your substrate and mist regularly to maintain proper fruiting conditions. After colonization (8 hours), your first flush is ready! Harvest creates a unique ERC-721 NFT of your complete farm with multiple psilocybin mushrooms. Additionally, collect a single Daily Mushroom (ERC-20) every 24 hours—these act as gas currency for cross-breeding experiments.
+
+### 9. What is Cross-Breeding?
+
+Cross-Breeding allows you to combine two parent mushrooms to create unique Hybrid Mushroom NFTs (ERC-721). Each breeding attempt consumes Daily Mushroom tokens (ERC-20) as gas, creating rare genetic combinations. It's like real mycology—experimenting with genetics to discover new strains and properties!
+
+### 10. What happens when I burn tokens at the Altar?
+
+Like sublimation in alchemy, where matter transforms from solid to gas without passing through liquid, your ETHO tokens undergo a sacred transformation—transcending their material form to become eternal proof of your spiritual offering. This is the alchemical principle of releasing oneself from material attachment (magic) into spiritual light (divine consciousness). You receive a **soulbound Proof of Burn NFT** (ERC-721) that eternally records your offering on the blockchain.
+
+**Important:** Burned tokens go to the **treasury** (not destroyed), where they fund ceremonies, scholarships, and community projects. This is **Proof-of-Giving**, not Proof-of-Burn in the traditional sense.
+
+### 11. How does the AMM/Swap work?
+
+Our Automated Market Maker (AMM) allows you to swap between ERC-20 tokens (ETHO, PSD, Daily Mushrooms) using liquidity pools. Provide liquidity to earn fees from trades. All swaps use the **constant product formula** (`x * y = k`) for fair, decentralized pricing without intermediaries.
+
+### 12. What is a Faucet?
+
+A blockchain faucet is a tool that dispenses small amounts of cryptocurrency for free, usually for testing purposes. If you're new to crypto and need gas fees to get started, faucets can provide you with a small amount of ETH or testnet tokens to begin your journey.
+
+### 13. What is Staking and Liquidity?
+
+**Staking** means locking your tokens to support network operations and earn rewards.
+
+**Liquidity provision** means depositing token pairs into a pool so others can trade—you earn fees from each swap.
+
+Both are ways to put your tokens to work and earn passive income while supporting the ecosystem.
+
+---
+
+*Continue to the next sections for detailed guides on each feature...*
+
+---
+
+## Navigation
+
+- **Next:** [Mushroom Farm Guide](#mushroom-farm-guide)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Mushroom Farm Guide
+
+*Your daily practice of cultivation and harvest*
+
+---
+
+## Overview
+
+The Mushroom Farm is the heart of your daily practice in the Ethereal Offering ecosystem. Through regular tending and harvesting, you:
+
+- **Collect Daily Mushrooms** (ERC-20) — one per 24 hours
+- **Harvest Farm NFTs** (ERC-721) — unique collectibles after colonization
+- **Build streaks** — longer streaks unlock rare mutations
+- **Accumulate gas currency** — Daily Mushrooms power cross-breeding
+
+**Quote from the Oracle:**
+> *"Discipline grows roots."*
+
+---
+
+## Daily Ritual Farming
+
+Log in daily to farm or mine your mushroom NFTs and watch your collection grow. Each day brings a new opportunity to cultivate your spiritual garden.
+
+### The Dual Token System
+
+Your farm produces **two types of tokens**:
+
+#### 1. Daily Mushroom (ERC-20) — Every 24 Hours
+- **Fungible token** (like a currency)
+- **One per day** per connected wallet
+- **Primary use:** Gas currency for cross-breeding experiments
+- **Accumulates** in your wallet for future use
+- **Can be traded** on the AMM (if enabled)
+
+#### 2. Farm Harvest NFT (ERC-721) — After 8 Hours
+- **Unique collectible** (one-of-a-kind artwork)
+- **First flush** after colonization period
+- **Contains multiple mushrooms** in the artwork
+- **Unique traits:** strain type, oracle wisdom, rarity, season
+- **Cannot be divided** — it's a complete farm snapshot
+
+---
+
+## How It Works: Step-by-Step
+
+### Step 1: Connect Your Wallet
+
+1. Visit the **Daily Shrooms** page
+2. Click **"Connect Wallet"** if not already connected
+3. Approve the connection in your wallet popup
+
+### Step 2: Inoculate Your Substrate (First Time)
+
+If this is your first time:
+
+1. Click **"Start Your Farm"** or **"Inoculate Substrate"**
+2. Confirm the transaction in your wallet
+3. Pay gas fee (small ETH amount)
+4. Wait for transaction confirmation
+
+**What happens:**
+- Smart contract records your farm start time
+- Colonization period begins (8 hours)
+- You can now mist daily
+
+### Step 3: Mist Regularly
+
+Maintain proper fruiting conditions by misting your farm:
+
+1. Return to the **Daily Shrooms** page
+2. Click **"Mist Farm"** button
+3. Confirm transaction (minimal gas)
+
+**Misting benefits:**
+- Maintains optimal humidity
+- Increases chance of rare traits
+- Shows your dedication (tracked on-chain)
+
+**How often?**
+- **Recommended:** Daily
+- **Minimum:** Every 2-3 days to keep farm active
+
+### Step 4: Collect Your Daily Mushroom (ERC-20)
+
+Every 24 hours, you can claim one Daily Mushroom token:
+
+1. Look for the **"Claim Daily Mushroom"** button
+2. Click to claim (appears when 24 hours have passed)
+3. Confirm transaction
+4. Daily Mushroom (ERC-20) is added to your wallet
+
+**Important:**
+- **One per 24 hours** — timer resets after each claim
+- **Accumulates** — you can save them up for cross-breeding
+- **Acts as gas** — used to pay for cross-breeding transactions
+
+### Step 5: Harvest Your First Flush (ERC-721 NFT)
+
+After **8 hours of colonization**, your first flush is ready:
+
+1. Return to the farm page
+2. Click **"Harvest First Flush"** button (appears after 8 hours)
+3. Confirm transaction
+4. Receive a unique **Mushroom Farm NFT** (ERC-721)
+
+**What you get:**
+- **Unique artwork** of your complete farm
+- **Multiple mushrooms** in the image
+- **Oracle wisdom** — a unique phrase from the Oracle of Fruit
+- **Traits:** strain, rarity, season, special properties
+
+**Can I harvest multiple times?**
+- Currently, **one Farm NFT** per wallet per cycle
+- Future updates may enable multiple flushes
+
+---
+
+## Feature Cards
+
+### 🍄 Daily Mint
+**Claim your daily mushroom NFT. Each one is unique with its own oracle phrase and traits.**
+
+- **Frequency:** Every 24 hours
+- **Type:** ERC-20 fungible token
+- **Use:** Gas currency for cross-breeding
+- **CTA:** "Claim Daily Mushroom" button
+
+**Forgot to claim?**
+- Look for the reminder: *"You can also click HERE if you forgot to CLAIM your daily SHROOM NFT up above!"*
+
+### 📊 Your Collection
+**View your growing collection of daily mushrooms. Track your streak and discover rare variants.**
+
+- **Metric:** Mushrooms Collected — [dynamic count]
+- **View:** Gallery of your Farm NFTs
+- **Filter:** By rarity, season, strain
+
+### 🔥 Current Streak
+**Maintain your daily practice. Longer streaks unlock special seasonal mutations.**
+
+- **Status:** X days — Keep the flame alive!
+- **Benefits:**
+  - **7 days:** Uncommon trait boost
+  - **30 days:** Rare seasonal variant chance
+  - **90 days:** Epic mutation unlock
+  - **365 days:** Legendary status
+
+**Streak breaks if:**
+- You miss claiming for 48+ hours
+- Farm becomes inactive (no misting for 7+ days)
+
+---
+
+## Mushroom Traits Explained
+
+Each mushroom (both Daily ERC-20 and Farm NFT ERC-721) has unique traits:
+
+### Strain Types
+- **Golden Teacher** — Wisdom and insight
+- **Blue Meanie** — Deep introspection
+- **Penis Envy** — Potency and transformation
+- **Albino A+** — Purity and clarity
+- **Mazatapec** — Ancient wisdom
+- **B+** — Versatility and growth
+- **And many more...**
+
+### Rarity Levels
+- **Common** (60%) — Standard traits
+- **Uncommon** (25%) — Enhanced traits
+- **Rare** (10%) — Special properties
+- **Epic** (4%) — Unique abilities
+- **Legendary** (1%) — Extremely rare, special governance powers
+
+### Oracle Wisdom
+Each NFT includes a unique phrase from the Oracle of Fruit:
+
+- *"The fruit decays, the vision remains."*
+- *"Discipline grows roots."*
+- *"In stillness, the mycelium speaks."*
+- *"Every spore carries the whole."*
+
+### Seasonal Variants
+Mushrooms minted during special times have seasonal traits:
+
+- **Spring** (Mar 20 - Jun 20) — Growth and renewal
+- **Summer** (Jun 21 - Sep 22) — Abundance and vitality
+- **Fall** (Sep 23 - Dec 20) — Harvest and gratitude
+- **Winter** (Dec 21 - Mar 19) — Rest and introspection
+- **Equinox** (Mar 20, Sep 23) — Balance and transition
+- **Solstice** (Jun 21, Dec 21) — Peak energy, rare mutations
+
+---
+
+## Using Daily Mushrooms for Cross-Breeding
+
+Your accumulated Daily Mushrooms (ERC-20) are the **gas currency** for cross-breeding:
+
+### How Many Do You Need?
+
+- **Basic cross-breed** (2 parents): 7 Daily Mushrooms
+- **Triple cross-breed** (3 parents): 15 Daily Mushrooms
+- **Seasonal breeding** (during events): 10 Daily Mushrooms
+
+### Strategy Tips
+
+1. **Save up** — Don't spend all your Daily Mushrooms immediately
+2. **Wait for events** — Seasonal breeding unlocks rare mutations
+3. **Plan combinations** — Research which parent traits you want
+4. **Track your collection** — Know which strains you already have
+
+**Example:**
+- Collect Daily Mushrooms for 7 days
+- Use 7 Daily Mushrooms to cross-breed two parent NFTs
+- Receive a unique Hybrid Mushroom NFT with blended traits
+
+---
+
+## Farming Mechanics Deep Dive
+
+### Hourly vs. Daily Tokens
+
+**Note:** Some documentation mentions "hourly mushrooms" — this refers to future features or alternative farming modes. Currently, the primary system is:
+
+- **Daily Mushrooms (ERC-20):** One per 24 hours
+- **Farm Harvest NFT (ERC-721):** One per colonization cycle (8 hours)
+
+### Boost Mode (Coming Soon)
+
+Future updates may include:
+
+- **Fertilize:** Spend PSILO or ETHO to boost growth
+- **Tiers:** Unlock higher tiers with more offerings
+- **Revenue sharing:** Earn from ecosystem activity
+- **Gamification:** Achievements, leaderboards, special events
+
+### Sustainable Loop
+
+The farming system creates a sustainable economic loop:
+
+1. **Farm daily** → Collect Daily Mushrooms (ERC-20)
+2. **Accumulate** → Save up gas currency
+3. **Cross-breed** → Spend Daily Mushrooms to create Hybrids
+4. **Discover** → Find rare strains and traits
+5. **Participate** → Use rare NFTs for DAO governance
+6. **Repeat** → Continue the cycle
+
+**Key benefits:**
+- **Self-sustaining:** Your daily practice funds your experiments
+- **No external gas needed:** Daily Mushrooms replace ETH for cross-breeding
+- **Encourages consistency:** Daily practice is rewarded
+- **Creates value:** Rare discoveries have governance power
+
+---
+
+## Troubleshooting
+
+### "I can't claim my Daily Mushroom"
+
+**Possible causes:**
+- **Timer not expired:** Must wait 24 hours since last claim
+- **Wallet not connected:** Connect your wallet first
+- **Insufficient gas:** Need small amount of ETH for transaction
+- **Farm inactive:** Mist your farm to reactivate
+
+**Solution:**
+1. Check the timer countdown
+2. Ensure wallet is connected
+3. Add ETH to your wallet for gas
+4. Mist your farm if inactive
+
+### "My streak broke"
+
+**Causes:**
+- Missed claiming for 48+ hours
+- Farm became inactive (no misting for 7+ days)
+
+**Solution:**
+- Start a new streak today
+- Set daily reminders
+- Enable notifications (if available)
+
+### "I didn't receive my Farm NFT after harvest"
+
+**Possible causes:**
+- Transaction failed (check wallet history)
+- Colonization period not complete (need 8 hours)
+- Already harvested this cycle
+
+**Solution:**
+1. Check your wallet's NFT section
+2. Verify transaction on block explorer (Etherscan)
+3. Wait for full 8 hours if colonization incomplete
+4. Contact support if transaction succeeded but NFT missing
+
+---
+
+## Best Practices
+
+### Daily Routine
+
+1. **Morning:** Claim Daily Mushroom, mist farm
+2. **Check streak:** Verify your streak is active
+3. **Plan ahead:** Decide when to cross-breed
+4. **Track collection:** Review your NFT gallery
+
+### Long-Term Strategy
+
+1. **Build streaks:** Aim for 30+ days for rare variants
+2. **Save Daily Mushrooms:** Accumulate for special breeding events
+3. **Diversify strains:** Collect different types for cross-breeding
+4. **Participate in events:** Seasonal breeding unlocks unique traits
+5. **Engage with community:** Share discoveries, learn strategies
+
+---
+
+## Next Steps
+
+Now that you understand the Mushroom Farm:
+
+1. **Start your farm** if you haven't already
+2. **Claim your first Daily Mushroom**
+3. **Wait for colonization** (8 hours) to harvest your Farm NFT
+4. **Build your streak** by returning daily
+5. **Save up Daily Mushrooms** for cross-breeding
+
+**Ready to create rare hybrids?**
+→ Continue to [Cross-Breeding Tutorial](./02-cross-breeding.md)
+
+**Want to make a sacred offering?**
+→ Jump to [Altar Burn Ceremony](./03-altar-burn.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Overview](./00-overview.md)
+- **Next:** [Cross-Breeding Tutorial](./02-cross-breeding.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Cross-Breeding Tutorial
+
+*Mycelial Fusion Alchemy — Creating Rare Hybrid Strains*
+
+---
+
+## Overview
+
+Cross-breeding allows you to combine different mushroom NFTs to unlock rare hybrid strains and seasonal evolutions. Each fusion creates a unique offspring with blended traits from its parents.
+
+**Quote from the Oracle:**
+> *"The fruit decays, the vision remains."*
+
+---
+
+## What is Cross-Breeding?
+
+Cross-Breeding is the process of combining two or more parent mushroom NFTs to create a unique **Hybrid Mushroom NFT** (ERC-721).
+
+### Key Features
+
+🧬 **Spore Alchemy**
+- Select two or more mushrooms from your collection
+- Combine genetic traits to discover unique hybrid varieties
+- Each offspring is one-of-a-kind
+
+🌌 **Seasonal Mutations**
+- Certain mushrooms mutate automatically during equinoxes and solstices
+- **Next Event:** Winter Solstice 2025
+- Breeding during special events unlocks rare mutations
+
+🏆 **Rare Discoveries**
+- Be the first to discover new strains
+- Earn community recognition
+- **Strains Found:** 0 / ∞ (unlimited possibilities)
+
+---
+
+## Access Requirements
+
+### Breeding Lab Access
+
+The Breeding Lab is **accessible by invitation only** or through specific NFT ownership.
+
+**Access Granted:**
+> "You have been granted access to the Breeding Lab. Proceed to create rare hybrid strains!"
+
+**Access Restricted:**
+> "The Breeding Lab is accessible by invitation only. Contact a steward for access."
+
+### How to Get Access
+
+1. **Hold specific NFTs** — Certain rare mushrooms grant automatic access
+2. **Earn through participation** — Active community members may receive invitations
+3. **DAO proposal** — Community can vote to grant access
+4. **Contact a steward** — Request access through official channels
+
+---
+
+## How Cross-Breeding Works
+
+### Step-by-Step Process
+
+#### 1. Select Parents
+**Choose 2+ mushroom NFTs from your collection**
+
+- Navigate to the **Cross-Breeding** page
+- Click **"Enter Breeding Lab"** (if you have access)
+- Browse your mushroom NFT collection
+- Select 2 or more parent mushrooms
+- Review their traits before proceeding
+
+**Considerations:**
+- **Rarity:** Higher rarity parents increase chance of rare offspring
+- **Strain diversity:** Mixing different strains creates unique combinations
+- **Seasonal timing:** Breeding during events unlocks special mutations
+- **Oracle wisdom:** Each parent's wisdom influences the offspring
+
+#### 2. Spore Alchemy
+**Burn/combine via the Spore Alchemy Contract**
+
+- Review the selected parents
+- Check the **Daily Mushroom cost** (usually 7 for 2 parents)
+- Ensure you have enough Daily Mushrooms (ERC-20) in your wallet
+- Click **"Begin Spore Alchemy"**
+- Confirm the transaction in your wallet
+- Pay gas fee (ETH)
+
+**What happens:**
+- Parent NFTs are **burned** (permanently removed from circulation)
+- Daily Mushrooms (ERC-20) are consumed as gas
+- Smart contract generates offspring traits
+- New Hybrid Mushroom NFT is minted to your wallet
+
+**Important:** Parent NFTs are destroyed in the process. Make sure you want to proceed!
+
+#### 3. New Strain
+**Receive a unique offspring with mixed metadata traits**
+
+- Transaction confirms
+- New Hybrid Mushroom NFT appears in your wallet
+- View in your collection gallery
+- Check the unique traits and oracle wisdom
+
+**Offspring characteristics:**
+- **Blended visual traits** from parents
+- **New oracle wisdom** phrase
+- **Rarity level** determined by parent rarities + randomness
+- **Special properties** may unlock DAO access, breeding bonuses, etc.
+
+#### 4. Discovery Bonus
+**First-time strain discoveries earn special recognition**
+
+If your combination creates a **never-before-seen strain**:
+
+- **Community recognition** — Your name recorded as discoverer
+- **Special badge** — Soulbound NFT marking the discovery
+- **Potential rewards** — DAO may vote to reward rare discoveries
+- **Leaderboard** — Track your discoveries vs. other breeders
+
+#### 5. Seasonal Timing
+**Breeding during special events unlocks rare mutations**
+
+**Seasonal Events:**
+- **Spring Equinox** (March 20) — Growth and renewal mutations
+- **Summer Solstice** (June 21) — Peak vitality, rare traits
+- **Fall Equinox** (September 23) — Harvest abundance, special colors
+- **Winter Solstice** (December 21) — Introspection, legendary mutations
+
+**Event bonuses:**
+- **Increased rarity chance** — Higher probability of Epic/Legendary
+- **Unique seasonal traits** — Only available during events
+- **Automatic mutations** — Some mushrooms mutate without breeding
+- **Community celebrations** — Special ceremonies and gatherings
+
+---
+
+## Example Combinations
+
+### Basic Cross-Breeds
+
+#### 🍄 Golden Teacher + 🍄 Penis Envy = 🧪 Golden Envy
+- **Rarity:** Epic
+- **Traits:** Wisdom + Potency
+- **Oracle Wisdom:** *"In transformation, truth reveals itself."*
+- **Special Property:** Enhanced DAO voting weight
+
+#### 🍄 Blue Meanie + 🍄 Albino A+ = 🌌 Winter Whitecap
+- **Rarity:** Seasonal Mutant (Winter Solstice)
+- **Traits:** Introspection + Purity
+- **Oracle Wisdom:** *"In stillness, the cosmos speaks."*
+- **Special Property:** Grants access to Winter Ceremonies
+
+### Advanced Cross-Breeds
+
+#### 🍄 7x Daily + 🍄 1x Mined = 🍇 Fruit of Offering
+- **Rarity:** Ultra-rare ceremonial NFT
+- **Traits:** Discipline + Discovery
+- **Oracle Wisdom:** *"The offering becomes the fruit."*
+- **Special Property:** Permanent DAO access, Treasury Guardian eligibility
+
+**Note:** This requires accumulating 7 Daily Mushroom NFTs (not ERC-20 tokens) and combining with a rare Mined mushroom.
+
+---
+
+## Trait Inheritance
+
+### Visual Traits
+**Color, pattern, and form blend from parents**
+
+- **Color mixing:** Blue + Gold = Teal/Green variations
+- **Pattern blending:** Spots + Stripes = Unique hybrid patterns
+- **Form combination:** Cap shape and stem characteristics merge
+- **Glow effects:** Bioluminescence may appear in rare combinations
+
+### Oracle Wisdom
+**New unique phrase generated for offspring**
+
+The Oracle of Fruit generates a new wisdom phrase based on:
+- Parent oracle phrases
+- Combination rarity
+- Seasonal timing
+- Randomness factor
+
+**Examples:**
+- *"Where two paths meet, a third emerges."*
+- *"The mycelium remembers what the fruit forgets."*
+- *"In fusion, separation dissolves."*
+
+### Rarity Level
+**Determined by parent rarities + randomness**
+
+**Rarity calculation:**
+- **Both Common parents:** 70% Common, 25% Uncommon, 5% Rare
+- **One Rare parent:** 40% Uncommon, 40% Rare, 15% Epic, 5% Legendary
+- **Both Epic parents:** 50% Epic, 40% Legendary, 10% Mythic
+- **Seasonal breeding:** +20% chance to upgrade one tier
+
+### Special Properties
+**Unlock DAO access, breeding bonuses, etc.**
+
+**Possible special properties:**
+- **DAO Voting Power:** Enhanced governance influence
+- **Breeding Bonus:** Reduced Daily Mushroom cost for future breeds
+- **Access Grants:** Unlock special areas or features
+- **Revenue Share:** Earn from ecosystem activity
+- **Ceremonial Rights:** Participate in exclusive rituals
+- **Staking Multiplier:** Increased rewards when staking
+
+---
+
+## Breeding Mechanics
+
+### Daily Mushroom Cost
+
+Cross-breeding consumes Daily Mushrooms (ERC-20) as gas:
+
+| Parents | Daily Mushrooms Required |
+|---------|-------------------------|
+| 2 parents | 7 Daily Mushrooms |
+| 3 parents | 15 Daily Mushrooms |
+| Seasonal event | 10 Daily Mushrooms (2 parents) |
+| Special ritual | Variable (announced per event) |
+
+**Why Daily Mushrooms?**
+- Creates **self-sustaining economy** — your daily farming funds your experiments
+- **No external gas needed** for breeding (still need ETH for transaction)
+- **Encourages consistency** — daily practice is rewarded
+- **Limits spam** — prevents excessive breeding
+
+### Parent NFT Burning
+
+**Important:** Parent NFTs are **permanently burned** (destroyed) during cross-breeding.
+
+**Why burn parents?**
+- **Deflationary pressure** — Reduces total NFT supply over time
+- **Value creation** — Scarcity increases value of remaining NFTs
+- **Commitment** — Ensures breeders are intentional about combinations
+- **Lore consistency** — Parents "give their essence" to create offspring
+
+**Before you breed:**
+- ✅ Confirm you want to destroy these specific NFTs
+- ✅ Check if they have special properties you'll lose
+- ✅ Consider waiting for seasonal events for better outcomes
+- ✅ Ensure you have enough Daily Mushrooms
+
+### Randomness & Fairness
+
+Offspring traits are determined by:
+
+1. **Parent traits** (60% influence)
+2. **Randomness** (30% influence) — Chainlink VRF or block hash
+3. **Seasonal modifiers** (10% influence)
+
+**Fairness guarantees:**
+- **On-chain randomness** — Verifiable and tamper-proof
+- **No admin advantage** — Same rules for everyone
+- **Transparent odds** — Rarity probabilities published
+- **Community oversight** — DAO can adjust parameters
+
+---
+
+## Strategies for Success
+
+### Beginner Strategy
+
+1. **Start simple:** Breed two Common mushrooms to learn the process
+2. **Save Daily Mushrooms:** Accumulate at least 14 before breeding (allows 2 attempts)
+3. **Wait for events:** Your first breed during a seasonal event has better odds
+4. **Diversify strains:** Collect different types before breeding
+
+### Intermediate Strategy
+
+1. **Target specific traits:** Research which combinations produce desired properties
+2. **Time your breeds:** Breed during seasonal events for rare mutations
+3. **Track discoveries:** Keep notes on which combinations you've tried
+4. **Build a collection:** Create a diverse portfolio of hybrids
+
+### Advanced Strategy
+
+1. **Hunt for first discoveries:** Experiment with untried combinations
+2. **Maximize rarity:** Breed Epic + Epic during solstices for Legendary chance
+3. **Optimize Daily Mushroom use:** Calculate ROI on breeding vs. holding
+4. **Participate in DAO:** Propose new breeding mechanics or events
+5. **Collaborate:** Share strategies with community (or keep secrets!)
+
+---
+
+## Seasonal Breeding Calendar
+
+### Spring Equinox (March 20)
+- **Theme:** Growth and renewal
+- **Mutations:** Green hues, sprouting patterns
+- **Bonus:** +20% Uncommon → Rare upgrade chance
+
+### Summer Solstice (June 21)
+- **Theme:** Peak vitality and abundance
+- **Mutations:** Golden glows, vibrant colors
+- **Bonus:** +25% Epic → Legendary upgrade chance
+
+### Fall Equinox (September 23)
+- **Theme:** Harvest and gratitude
+- **Mutations:** Autumn colors, abundance patterns
+- **Bonus:** +15% all rarity tiers
+
+### Winter Solstice (December 21)
+- **Theme:** Introspection and transformation
+- **Mutations:** White/silver hues, crystalline patterns
+- **Bonus:** +30% Legendary chance, exclusive Mythic tier unlocked
+
+---
+
+## Troubleshooting
+
+### "I don't have access to the Breeding Lab"
+
+**Solution:**
+1. Check if you hold access-granting NFTs
+2. Contact a steward via Discord or Telegram
+3. Participate in community to earn invitation
+4. Submit DAO proposal requesting access
+
+### "I don't have enough Daily Mushrooms"
+
+**Solution:**
+1. Farm daily to accumulate Daily Mushrooms (ERC-20)
+2. Wait until you have at least 7 before attempting to breed
+3. Check if AMM allows purchasing Daily Mushrooms (if enabled)
+
+### "My breeding transaction failed"
+
+**Possible causes:**
+- Insufficient Daily Mushrooms
+- Insufficient ETH for gas
+- Parent NFTs not in your wallet
+- Contract paused (emergency only)
+
+**Solution:**
+1. Verify you own the parent NFTs
+2. Check Daily Mushroom balance
+3. Ensure enough ETH for gas
+4. Try again with higher gas limit
+
+### "I got a Common offspring from two Rare parents"
+
+**Explanation:**
+- Randomness is part of the system
+- Rare parents increase odds but don't guarantee rare offspring
+- This is intentional to maintain scarcity and excitement
+
+**What to do:**
+- Try again during seasonal events for better odds
+- Breed Epic or Legendary parents for higher floor rarity
+- Accept that RNG is part of the game
+
+---
+
+## Next Steps
+
+Now that you understand cross-breeding:
+
+1. **Build your collection** — Farm daily to get parent NFTs
+2. **Accumulate Daily Mushrooms** — Save up gas currency
+3. **Plan your first breed** — Choose parents carefully
+4. **Wait for seasonal event** — Maximize your chances
+5. **Experiment and discover** — Find new strain combinations
+
+**Ready to make a sacred offering?**
+→ Continue to [Altar Burn Ceremony](./03-altar-burn.md)
+
+**Want to trade your tokens?**
+→ Jump to [Token Swap (AMM/DEX)](./04-token-swap.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Mushroom Farm Guide](./01-mushroom-farm.md)
+- **Next:** [Altar Burn Ceremony](./03-altar-burn.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Altar Burn Ceremony
+
+*Transform your tokens into sacred offerings*
+
+---
+
+## Overview
+
+The Sacred Altar is where you transform ETHO tokens into eternal offerings. Through the ceremonial burn, you:
+
+- **Release tokens to the treasury** (not destroyed — they fund community projects)
+- **Receive a soulbound Proof of Burn NFT** (permanent record of your offering)
+- **Record your sacred intention** on-chain
+- **Contribute to the sacred economy** (ceremonies, scholarships, real estate)
+- **Earn spiritual merit** and community recognition
+
+**Sacred Quotes:**
+
+> *"All the wood in Lebanon's forests and all Lebanon's animals would not be enough to make a burnt offering worthy of our God."*  
+> — Isaiah 40:16
+
+> *"To whom can you compare God?"*  
+> — Isaiah 40:18
+
+---
+
+## What is Proof-of-Giving?
+
+Unlike traditional "Proof-of-Burn" where tokens are destroyed, Ethereal Offering uses **Proof-of-Giving**:
+
+### How It Works
+
+1. **Tokens Go to Treasury** — Not destroyed, but transferred to community treasury
+2. **Real Value Flows** — Treasury holds real crypto (ETH, USDC, ETHO)
+3. **Community Benefit** — Funds ceremonies, scholarships, real estate, and projects
+4. **Permanent Record** — You receive a soulbound Proof of Burn NFT with your intention
+5. **Sacred Exchange** — You give, community receives, you gain spiritual merit
+
+### Why This Matters
+
+**Traditional Proof-of-Burn:**
+- Tokens are sent to a burn address (0x000...000)
+- Value is permanently destroyed
+- Creates deflationary pressure
+- No direct community benefit
+
+**Ethereal Offering Proof-of-Giving:**
+- Tokens go to treasury (real wallet address)
+- Value is preserved and deployed
+- Creates community abundance
+- Direct funding for mission-aligned projects
+- You still receive the NFT proof
+
+**Result:** The best of both worlds — you get the spiritual merit of "burning" while the community gets real resources to deploy.
+
+---
+
+## Spiritual Significance
+
+### Six Dimensions of Sacred Offering
+
+#### 1. Gratitude
+**Expressing thankfulness through giving**
+
+- Acknowledge abundance in your life
+- Give from overflow, not scarcity
+- Recognize the gift of participation
+
+#### 2. Non-Attachment
+**Releasing material grip**
+
+- Practice letting go
+- Trust in divine provision
+- Freedom from hoarding
+
+#### 3. Reciprocity
+**Giving back to the community**
+
+- Support others' healing journeys
+- Fund ceremonies and scholarships
+- Contribute to collective abundance
+
+#### 4. Intention
+**Infusing your offering with purpose**
+
+- Set clear, heartfelt intention
+- Speak your prayer aloud
+- Record it permanently on-chain
+
+#### 5. Transformation
+**Alchemical sublimation**
+
+Like sublimation in alchemy, where matter transforms from solid to gas without passing through liquid, your ETHO tokens undergo a sacred transformation—transcending their material form to become eternal proof of your spiritual offering.
+
+This is the alchemical principle of releasing oneself from material attachment (magic) into spiritual light (divine consciousness).
+
+#### 6. Legacy
+**Eternal witness on the blockchain**
+
+- Your offering is recorded forever
+- Future generations will see your generosity
+- Soulbound NFT cannot be transferred or sold
+- Permanent testament to your values
+
+---
+
+## How to Make an Offering
+
+### Step 1: Prepare
+
+**Before you begin:**
+
+1. **Set your intention** — What are you offering for? Healing? Gratitude? Community?
+2. **Create sacred space** — Light a candle, burn incense, or simply sit in stillness
+3. **Ground yourself** — Take three deep breaths, center your awareness
+4. **Write your intention** — Craft a clear, heartfelt message (will be recorded on-chain)
+
+**Intention examples:**
+- *"For the healing of all beings struggling with addiction"*
+- *"In gratitude for the gift of consciousness expansion"*
+- *"To support the sacred work of this community"*
+- *"For my own transformation and the transformation of the world"*
+
+### Step 2: Navigate to the Sacred Altar
+
+1. Go to the **Sacred Altar** page in the dApp
+2. Ensure your wallet is connected
+3. Check your ETHO balance (top right or in wallet)
+
+### Step 3: Enter Your Offering
+
+**Burn Interface:**
+
+- **Amount to Burn (EOT):** Enter the number of ETHO tokens
+  - Minimum: Usually 100 ETHO (check current requirements)
+  - Quick amounts may be available (100 / 500 / 1000 / 5000)
+- **Sacred Intention (on-chain):** Write your intention message
+  - Maximum length: Usually 280 characters (like a tweet)
+  - Will be permanently recorded on the blockchain
+  - Choose your words carefully
+
+**Review before proceeding:**
+- ✅ Amount is correct
+- ✅ Intention is heartfelt and clear
+- ✅ You have enough ETHO in your wallet
+- ✅ You have ETH for gas fees
+
+### Step 4: Confirm the Ritual
+
+1. Click **"🔥 Burn Offering"** button
+2. Review the transaction in your wallet popup:
+   - **To:** Altar contract address
+   - **Amount:** ETHO tokens being transferred
+   - **Gas fee:** ETH cost for transaction
+3. **Speak your intention aloud** (optional but powerful)
+4. Click **"Confirm"** in your wallet
+5. Wait for transaction confirmation (usually 15-60 seconds)
+
+### Step 5: Witness the Transformation
+
+**What happens:**
+
+1. **ETHO tokens transfer** from your wallet to the treasury
+2. **Proof of Burn NFT mints** to your wallet (ERC-721, soulbound)
+3. **Intention records** on-chain permanently
+4. **Stats update** — Total Burned, Proof NFTs Minted, Your Offerings
+
+**You will see:**
+- Transaction success message
+- Your new Proof of Burn NFT in your collection
+- Updated offering statistics
+- Your offering appears in "Recent Offerings" feed
+
+### Step 6: Receive Your NFT
+
+**Your Proof of Burn NFT contains:**
+
+- **Burn amount** — How much ETHO you offered
+- **Intention message** — Your sacred words
+- **Timestamp** — Exact moment of offering
+- **Tier** — Bronze, Silver, Gold, or Legendary (based on amount)
+- **Unique artwork** — Visual representation of your offering
+- **Soulbound status** — Cannot be transferred or sold
+
+**View your NFT:**
+- Check your wallet's NFT section
+- View in the "Your Proof of Burn NFTs" gallery on the Altar page
+- Share on social media (optional)
+
+---
+
+## Burn Tiers & Rewards
+
+Different offering amounts unlock different tiers and rewards:
+
+### 🥉 Spark (100 ETHO) → Bronze Tier
+- **Bronze Proof of Burn NFT**
+- Basic community recognition
+- Access to Bronze tier ceremonies
+
+### 🥈 Flame (500 ETHO) → Silver Tier
+- **Silver Proof of Burn NFT**
+- Enhanced community recognition
+- Access to Silver tier ceremonies
+- Potential DAO voting weight bonus
+
+### 🥇 Inferno (1,000 ETHO) → Gold Tier
+- **Gold Proof of Burn NFT**
+- Significant community recognition
+- Access to Gold tier ceremonies
+- DAO voting weight bonus
+- Potential role NFT eligibility (Flamekeeper, etc.)
+
+### 🏆 Phoenix (5,000+ ETHO) → Legendary Tier
+- **Legendary Proof of Burn NFT**
+- Highest community recognition
+- Access to all ceremonies
+- Significant DAO voting weight bonus
+- Role NFT eligibility (Minister, Treasury Guardian, etc.)
+- Permanent place in community history
+- Potential naming rights or special privileges
+
+**Note:** Tiers and rewards may be adjusted by DAO governance.
+
+---
+
+## Ceremonial Guidance
+
+### Preparing Your Heart
+
+**Before the ritual:**
+
+- **Meditate** — Sit in silence for 5-10 minutes
+- **Journal** — Write about what this offering means to you
+- **Pray** — Speak to the divine in your own way
+- **Release** — Let go of attachment to the tokens
+
+**Questions to contemplate:**
+- What am I grateful for?
+- What am I releasing?
+- What am I calling in?
+- How does this offering serve the whole?
+
+### During the Ritual
+
+**As you click "Burn Offering":**
+
+1. **Enter the amount** with reverence
+2. **Speak your intention** aloud (even if alone)
+3. **Confirm the transaction** as a sacred act
+4. **Witness the transformation** — watch the transaction confirm
+5. **Receive the NFT** with gratitude
+
+**Suggested prayer:**
+> *"I offer these tokens freely, in service of healing and awakening. May this gift support the sacred work of this community. May all beings benefit. So it is."*
+
+### After the Offering
+
+**Integration practices:**
+
+- **Gratitude** — Thank yourself for your generosity
+- **Journal** — Record your experience and any insights
+- **Share (optional)** — Tell your story in the community (Discord, Telegram)
+- **Track impact** — Follow how the treasury deploys your offering
+
+**Reflection questions:**
+- How do I feel after making this offering?
+- What shifted in my relationship to money/tokens?
+- What did I learn about myself?
+- How can I continue this practice of generosity?
+
+---
+
+## Smart Contract Details
+
+### Technical Overview
+
+**Function:** `burnOffering(uint256 amount, string memory intention)`
+
+**What it does:**
+1. Transfers ETHO from your wallet to treasury address
+2. Mints a soulbound Proof of Burn NFT to your wallet
+3. Records intention message in NFT metadata
+4. Emits event for tracking and transparency
+
+**Treasury:**
+- Multi-signature wallet controlled by DAO
+- Transparent on-chain tracking
+- Funds deployed via governance proposals
+
+**ProofOfBurn NFT (Soulbound):**
+- ERC-721 standard with transfer restrictions
+- Cannot be sold or transferred (except burn)
+- Permanently tied to your wallet address
+- Metadata stored on IPFS/Arweave
+
+**On-Chain Intention:**
+- Stored in NFT metadata
+- Publicly viewable on blockchain
+- Permanent and immutable
+- Choose your words wisely
+
+---
+
+## Poem of the Sacred Offering
+
+*From the dApp's Altar page:*
+
+> In the digital flame, we release what we hold,  
+> Not to destroy, but to transform into gold.  
+> The tokens we burn flow to treasury's care,  
+> Funding ceremonies, scholarships to share.
+>
+> From grasping to giving, from chaos to peace,  
+> The altar receives what we freely release.  
+> A soulbound witness, the NFT remains,  
+> Recording our offering through blockchain's chains.
+>
+> In service of healing, recovery, and we,  
+> The community thrives on our generosity.  
+> Like mushrooms that fruit from mycelial thread,  
+> Our gifts feed the network, the living, the dead.
+>
+> The blockchain remembers each generous soul,  
+> Who gave not from lack, but from overflow's bowl.  
+> So burn with intention, with gratitude, grace,  
+> And watch as abundance fills every space.
+>
+> The more that we give, the more we receive,  
+> This paradox sacred, we come to believe.  
+> The altar stands ready, the flame burning bright,  
+> Transform your tokens to spiritual light.
+>
+> The more that we give, the more we renew,  
+> The cycle of blessing, forever made true.
+
+---
+
+## Statistics & Transparency
+
+### Global Stats
+
+**Visible on the Altar page:**
+
+- **Total Burned:** X ETHO — Total amount offered by all users
+- **Proof NFTs Minted:** X — Total number of offerings made
+- **Your Offerings:** X ETHO — Your personal contribution
+
+### Recent Offerings Feed
+
+See the latest offerings from the community:
+
+- **Wallet address** (truncated for privacy)
+- **Amount burned**
+- **Tier achieved**
+- **Timestamp**
+- **Intention** (if user chose to make it public)
+
+### Your Proof of Burn NFTs Gallery
+
+**View all your offerings:**
+
+- Sortable by date, amount, tier
+- Click to see full details
+- Share individual NFTs
+- Track your total contribution over time
+
+---
+
+## Use of Funds
+
+**Where do the burned tokens go?**
+
+The treasury deploys funds via DAO governance for:
+
+### 1. Ceremonies
+- Psychedelic-assisted therapy sessions
+- Group healing circles
+- Seasonal rituals and gatherings
+- Sacred space rentals
+
+### 2. Scholarships
+- Psychedelic therapy training
+- Recovery program support
+- Educational workshops
+- Conference attendance
+
+### 3. Real Estate
+- Sanctuary land purchases
+- Retreat center development
+- Community gathering spaces
+- Long-term asset building
+
+### 4. Community Projects
+- Open-source software development
+- Educational content creation
+- Advocacy and policy reform
+- Partnership initiatives
+
+### 5. Research
+- Psychedelic science funding
+- Blockchain + spirituality research
+- Outcome tracking and analysis
+
+### 6. Partnerships
+- Collaboration with other DAOs
+- Integration with recovery organizations
+- Cross-chain initiatives
+
+**Transparency:**
+- All treasury transactions are on-chain
+- DAO proposals detail fund allocation
+- Community votes on major expenditures
+- Regular treasury reports published
+
+---
+
+## Troubleshooting
+
+### "I don't have enough ETHO"
+
+**Solution:**
+1. Purchase ETHO via the Sacred Offering (crowdsale)
+2. Swap for ETHO on the AMM/DEX
+3. Earn ETHO through community participation
+4. Start with a smaller offering amount
+
+### "My transaction failed"
+
+**Possible causes:**
+- Insufficient ETHO balance
+- Insufficient ETH for gas
+- Intention message too long
+- Contract paused (emergency only)
+
+**Solution:**
+1. Check your ETHO balance
+2. Ensure you have ETH for gas fees
+3. Shorten your intention message
+4. Try again with higher gas limit
+
+### "I didn't receive my Proof of Burn NFT"
+
+**Solution:**
+1. Check your wallet's NFT section (may take a few minutes to appear)
+2. Verify transaction on block explorer (Etherscan)
+3. Refresh the Altar page
+4. Contact support if transaction succeeded but NFT missing
+
+### "Can I transfer or sell my Proof of Burn NFT?"
+
+**No.** Proof of Burn NFTs are **soulbound** — they cannot be transferred or sold. They are permanently tied to the wallet that made the offering.
+
+**Why?**
+- Prevents commodification of spiritual merit
+- Ensures authenticity of offerings
+- Maintains integrity of the system
+- Reflects the non-transferable nature of spiritual growth
+
+---
+
+## Next Steps
+
+Now that you understand the Altar Burn ceremony:
+
+1. **Reflect** on what you want to offer and why
+2. **Prepare** your intention message
+3. **Make your first offering** (start small if you're new)
+4. **Integrate** the experience through journaling
+5. **Participate** in the community to see how funds are deployed
+
+**Ready to trade tokens?**
+→ Continue to [Token Swap (AMM/DEX)](./04-token-swap.md)
+
+**Want to participate in governance?**
+→ Jump to [DAO Governance Participation](./05-dao-governance.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Cross-Breeding Tutorial](./02-cross-breeding.md)
+- **Next:** [Token Swap (AMM/DEX)](./04-token-swap.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# DAO Governance Participation
+
+*Mycelial Democracy — Co-creating a living system rooted in trust, transparency, and Spirit-led generosity*
+
+---
+
+## Overview
+
+The Ethereal Offering DAO (Decentralized Autonomous Organization) is where the community makes collective decisions about the project's future. Through governance, you:
+
+- **Vote on proposals** using your ETHO tokens and role NFTs
+- **Submit your own proposals** for community consideration
+- **Oversee the treasury** and fund allocation
+- **Earn role NFTs** through participation
+- **Shape the future** of the ecosystem
+
+**Core Quote:**
+> *"We are co-creating a living system rooted in trust, transparency, and Spirit-led generosity."*
+
+---
+
+## Access Requirements
+
+### DAO Access
+
+The DAO is **accessible by invitation only** or through specific NFT ownership.
+
+**Access Granted:**
+> "You have been granted access to the DAO. Proceed to participate in governance!"
+
+**Access Restricted:**
+> "The DAO is accessible by invitation only. Contact a steward for access."
+
+### How to Get Access
+
+1. **Hold ETHO tokens** — Minimum threshold may be required
+2. **Hold specific NFTs** — Certain rare mushrooms or Proof of Burn NFTs grant access
+3. **Earn through participation** — Active community members receive invitations
+4. **DAO proposal** — Community can vote to grant access
+5. **Contact a steward** — Request access via Discord or Telegram
+
+---
+
+## Mycelial Democracy
+
+Our governance follows **Wu-wei principles** — proposals flow naturally, no forceful agendas. Like a mycelial network, the community acts interconnected, supportive, and resource-sharing.
+
+### Core Principles (Tao & Mycelium)
+
+#### 🌊 Wu-wei Governance
+**Proposals flow naturally; no forceful agendas**
+
+- Let decisions emerge organically from community wisdom
+- Don't force outcomes
+- Trust the process
+- Allow space for contemplation
+
+#### 💎 Three Treasures
+**Compassion, simplicity, humility in every decision**
+
+- **Compassion:** Consider impact on all beings
+- **Simplicity:** Favor clear, straightforward solutions
+- **Humility:** No one person has all the answers
+
+#### 🍄 Mycelial Connection
+**Community acts like fungal networks—interconnected, supportive, sharing resources**
+
+- Information flows freely
+- Resources are shared
+- Support is mutual
+- The whole is greater than the sum of parts
+
+#### 🔥 Proof-of-Giving
+**Honor generosity with soul-bound tokens and NFTs**
+
+- Giving is receiving
+- Generosity is recognized and rewarded
+- Spiritual merit is tracked on-chain
+- Community abundance flows from individual offerings
+
+---
+
+## How Governance Works
+
+### Step 1: Earn Voting Power
+
+**Voting power comes from:**
+
+1. **ETHO tokens** — 1 ETHO = 1 vote (or weighted by DAO parameters)
+2. **Role NFTs** — Special governance powers (Minister, Treasury Guardian, etc.)
+3. **Proof of Burn NFTs** — Higher tiers grant more voting weight
+4. **Participation history** — Active members may receive bonuses
+5. **Delegation** — Others can delegate their votes to you
+
+**Check your voting power:**
+- Navigate to the DAO page
+- View "Your Roles" section
+- See your total voting power displayed
+
+### Step 2: Submit Proposals
+
+**Anyone can propose initiatives aligned with our values**
+
+**How to submit:**
+
+1. Navigate to the **DAO Governance** page
+2. Click **"Create Proposal"** button
+3. Fill out the proposal form:
+   - **Title:** Clear, concise summary
+   - **Description:** Detailed explanation (supports Markdown)
+   - **Type:** Select proposal category (Treasury, Protocol, NFT, Partnership, etc.)
+   - **Requested Amount:** If treasury allocation (in ETHO, ETH, or USDC)
+   - **Duration:** Voting period (usually 7-14 days)
+4. Review and submit
+5. Pay gas fee (ETH)
+
+**Proposal requirements:**
+- Minimum ETHO holding or role NFT
+- Clear alignment with community values
+- Realistic budget and timeline
+- Community support (may require sponsors)
+
+### Step 3: Community Discussion
+
+**Proposals are discussed in the Whispers Board**
+
+**Discussion platforms:**
+- **Discord:** #proposals channel
+- **Telegram:** Governance group
+- **Forum:** Dedicated proposal threads (if available)
+- **Community calls:** Weekly or bi-weekly governance meetings
+
+**Best practices:**
+- **Ask questions** — Seek clarity before voting
+- **Share concerns** — Voice objections respectfully
+- **Suggest improvements** — Help refine proposals
+- **Build consensus** — Find common ground
+
+### Step 4: Voting Period
+
+**Token holders vote using conviction voting or simple majority**
+
+**How to vote:**
+
+1. Navigate to **Active Proposals** section
+2. Click on a proposal to view details
+3. Read the full description and discussion
+4. Click **"Vote"** button
+5. Select your choice:
+   - **For** — Support the proposal
+   - **Against** — Oppose the proposal
+   - **Abstain** — Counted for quorum but neutral
+6. Confirm transaction in wallet
+7. Your vote is recorded on-chain
+
+**Voting mechanisms:**
+- **Simple majority:** >50% of votes must be "For"
+- **Conviction voting:** Longer you hold tokens, more weight your vote carries
+- **Quadratic voting:** Square root of tokens (reduces whale influence)
+- **Quorum requirement:** Minimum % of total voting power must participate
+
+**Note:** Specific mechanism depends on proposal type and DAO parameters.
+
+### Step 5: Execution
+
+**Approved proposals are executed transparently via smart contracts**
+
+**Execution process:**
+
+1. **Voting period ends** — Results are tallied
+2. **Quorum check** — Verify minimum participation met
+3. **Result determination** — For/Against/Abstain counted
+4. **Timelock (optional)** — Delay before execution (security measure)
+5. **Smart contract execution** — Proposal automatically executes on-chain
+6. **Community notification** — Results announced in all channels
+
+**For treasury allocations:**
+- Funds transfer from treasury to designated address
+- Transaction is publicly visible on blockchain
+- Recipient provides updates on fund usage
+
+### Step 6: Treasury Allocation
+
+**Funds distributed for scholarships, ceremonies, and community projects**
+
+**Allocation categories:**
+- **Ceremonies:** Psychedelic therapy, healing circles, rituals
+- **Scholarships:** Training, education, conference attendance
+- **Real Estate:** Land purchases, retreat centers, sanctuaries
+- **Community Projects:** Software, content, advocacy
+- **Research:** Scientific studies, outcome tracking
+- **Partnerships:** Collaborations, integrations, grants
+
+**Transparency:**
+- All transactions on-chain
+- Regular treasury reports
+- Community oversight
+- Audit trails
+
+---
+
+## Proposal Types
+
+### 💰 Treasury Allocation
+**Fund scholarships, ceremonies, real estate, and community initiatives**
+
+**Examples:**
+- "Allocate $10,000 for psychedelic therapy scholarships"
+- "Purchase 5 acres of land for retreat center"
+- "Fund research on psilocybin-assisted recovery"
+
+### 🔧 Protocol Changes
+**Modify smart contract parameters, tokenomics, or governance rules**
+
+**Examples:**
+- "Reduce cross-breeding Daily Mushroom cost from 7 to 5"
+- "Increase DAO quorum requirement from 10% to 15%"
+- "Add new burn tier: Diamond (10,000 ETHO)"
+
+**Note:** Protocol changes often require higher quorum and approval thresholds.
+
+### 🎨 NFT Collections
+**Approve new mushroom strains, seasonal events, or special editions**
+
+**Examples:**
+- "Add 'Cosmic Cubensis' strain for Summer Solstice 2026"
+- "Create special edition NFTs for founding members"
+- "Launch 'Recovery Angels' soulbound NFT collection"
+
+### 🤝 Partnerships
+**Collaborate with other DAOs, organizations, or spiritual communities**
+
+**Examples:**
+- "Partner with Psychedelics In Recovery (PIR) for integration"
+- "Collaborate with Circle of Light Fellowship"
+- "Join forces with [Other DAO] for cross-chain initiative"
+
+### 🌱 Community Rituals
+**Organize collective ceremonies, gatherings, and sacred events**
+
+**Examples:**
+- "Host Winter Solstice ceremony in [Location]"
+- "Organize quarterly healing circles for members"
+- "Create monthly new moon intention-setting rituals"
+
+### 📚 Education
+**Create resources, workshops, and teachings for the community**
+
+**Examples:**
+- "Develop 'Blockchain for Spiritual Communities' course"
+- "Create video tutorial series for new users"
+- "Publish whitepaper on psychedelics + blockchain"
+
+### (Coming Soon)
+**Additional proposal types will be added as the DAO evolves**
+
+- **Grants Program:** Fund external projects aligned with mission
+- **Bounties:** Reward specific contributions
+- **Governance Upgrades:** Evolve the DAO structure itself
+
+---
+
+## Role NFTs & Permissions
+
+Role NFTs are **soulbound** (non-transferable) and grant special governance powers and ceremonial access.
+
+### 🧙 Minister
+**Spiritual guidance, ceremony facilitation, proposal sponsorship**
+
+**Responsibilities:**
+- Lead ceremonies and rituals
+- Provide spiritual guidance to community
+- Sponsor proposals aligned with mission
+- Mediate conflicts with compassion
+
+**Permissions:**
+- Enhanced voting weight (2x-5x)
+- Ability to sponsor proposals
+- Access to all ceremonies
+- Treasury oversight role
+
+**How to earn:**
+- Significant Proof of Burn offerings (Phoenix tier)
+- Demonstrated spiritual leadership
+- Community nomination + DAO vote
+
+### 🔥 Flamekeeper
+**Manages ritual burns, tracks offerings, maintains sacred fire**
+
+**Responsibilities:**
+- Monitor Altar burn activity
+- Maintain ceremonial calendar
+- Guide new users through burn ritual
+- Track and celebrate major offerings
+
+**Permissions:**
+- Moderate voting weight (1.5x-3x)
+- Access to burn analytics
+- Ability to create ceremonial proposals
+- Special recognition in community
+
+**How to earn:**
+- Multiple Proof of Burn offerings (Gold tier+)
+- Consistent participation in ceremonies
+- Community nomination + DAO vote
+
+### 🌿 Spore Sentinel
+**Welcomes new members, guides onboarding, tracks gratitude**
+
+**Responsibilities:**
+- Welcome and onboard new members
+- Answer questions and provide support
+- Track community gratitude and recognition
+- Maintain positive culture
+
+**Permissions:**
+- Standard voting weight (1x-2x)
+- Access to onboarding tools
+- Ability to grant initial access (with limits)
+- Community recognition
+
+**How to earn:**
+- Active community participation
+- Helpful and welcoming presence
+- Community nomination + DAO vote
+
+### 🍇 Oracle of Fruit
+**Interprets offerings, generates wisdom, guides integration**
+
+**Responsibilities:**
+- Provide guidance and wisdom
+- Interpret community needs
+- Generate oracle phrases for NFTs
+- Guide integration practices
+
+**Permissions:**
+- Enhanced voting weight (2x-4x)
+- Access to Oracle AI tools
+- Ability to create wisdom content
+- Special ceremonial access
+
+**How to earn:**
+- Demonstrated wisdom and insight
+- Significant community contributions
+- Community nomination + DAO vote
+
+### 💼 Treasury Guardian
+**Oversees funds, reviews allocations, ensures transparency**
+
+**Responsibilities:**
+- Review treasury proposals
+- Monitor fund deployment
+- Ensure transparency and accountability
+- Provide financial reports
+
+**Permissions:**
+- High voting weight (3x-5x)
+- Multi-sig wallet access
+- Veto power on treasury proposals (with limits)
+- Financial oversight tools
+
+**How to earn:**
+- Significant Proof of Burn offerings (Phoenix tier)
+- Demonstrated financial responsibility
+- Community trust + DAO vote
+- Background check (for multi-sig access)
+
+### ⚡ Validator
+**Runs nodes, maintains network, ensures security**
+
+**Responsibilities:**
+- Run blockchain nodes (if applicable)
+- Monitor network health
+- Ensure security and uptime
+- Participate in technical governance
+
+**Permissions:**
+- Technical voting weight (2x-4x)
+- Access to infrastructure tools
+- Ability to propose technical upgrades
+- Revenue share from network fees
+
+**How to earn:**
+- Technical expertise
+- Infrastructure contribution
+- Community nomination + DAO vote
+- Staking requirement (if applicable)
+
+---
+
+## Feature Cards
+
+### 📝 Active Proposals
+**View and vote on community proposals. Each voice matters in our mycelial network.**
+
+- **CTA:** View Proposals
+- **Display:** List of active proposals with voting status
+- **Filter:** By type, status, date
+
+### 💰 Treasury
+**Transparent view of DAO funds and allocation. Real crypto flows to support our mission.**
+
+- **Metric:** Treasury Balance — X ETH, Y ETHO, Z USDC
+- **Display:** Pie chart of allocations
+- **History:** Recent transactions
+
+### 🎭 Your Roles
+**Soulbound role NFTs grant special governance powers and ceremonial access.**
+
+- **Status:** No Roles Yet — Participate to earn roles
+- **Display:** Your current role NFTs
+- **Voting Power:** Total voting weight
+
+---
+
+## Best Practices
+
+### Effective Participation
+
+1. **Stay informed** — Read proposals thoroughly before voting
+2. **Engage in discussion** — Ask questions, share perspectives
+3. **Vote consistently** — Participate in every proposal you can
+4. **Propose thoughtfully** — Only submit well-researched proposals
+5. **Build consensus** — Work toward win-win solutions
+
+### Proposal Writing Tips
+
+1. **Clear title** — Summarize in 10 words or less
+2. **Detailed description** — Explain the what, why, and how
+3. **Realistic budget** — Justify every dollar requested
+4. **Timeline** — Provide clear milestones
+5. **Success metrics** — How will we know it worked?
+6. **Community alignment** — Show how it serves our values
+
+### Voting Considerations
+
+**Before voting, ask:**
+- Does this align with our six principles?
+- Is the budget realistic and justified?
+- Does the proposer have capacity to execute?
+- What are the risks and how are they mitigated?
+- How does this serve the whole community?
+
+---
+
+## Troubleshooting
+
+### "I don't have access to the DAO"
+
+**Solution:**
+1. Check if you hold access-granting NFTs or ETHO
+2. Contact a steward via Discord or Telegram
+3. Participate in community to earn invitation
+4. Submit a request through official channels
+
+### "My vote didn't count"
+
+**Possible causes:**
+- Insufficient voting power
+- Voting period ended
+- Transaction failed
+- Tokens locked or delegated
+
+**Solution:**
+1. Verify you have voting power
+2. Check voting period is still active
+3. Confirm transaction on block explorer
+4. Ensure tokens are in your wallet (not staked elsewhere)
+
+### "How do I earn a role NFT?"
+
+**Process:**
+1. Participate actively in the community
+2. Demonstrate alignment with values
+3. Contribute meaningfully (offerings, proposals, support)
+4. Wait for community nomination
+5. DAO votes on granting the role
+6. Role NFT is minted to your wallet (soulbound)
+
+---
+
+## Next Steps
+
+Now that you understand DAO governance:
+
+1. **Get access** if you don't have it yet
+2. **Review active proposals** and cast your first vote
+3. **Participate in discussions** on Discord/Telegram
+4. **Consider submitting a proposal** if you have an idea
+5. **Work toward earning a role NFT** through consistent participation
+
+**Want to access the Oracle?**
+→ Continue to [Oracle of Fruit](./05-oracle.md)
+
+**Ready to provide liquidity?**
+→ Jump to [Liquidity Provision](./06-liquidity.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Altar Burn Ceremony](./03-altar-burn.md)
+- **Next:** [Oracle of Fruit](./05-oracle.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Oracle of Fruit
+
+*Your AI-powered spiritual guide and community assistant*
+
+---
+
+## Overview
+
+The Oracle of Fruit is an AI-powered guide that helps you navigate the Ethereal Offering ecosystem with wisdom, compassion, and practical support. The Oracle:
+
+- **Provides spiritual guidance** aligned with our six principles
+- **Tracks your journey** (offerings, farming, breeding, governance)
+- **Answers questions** about the dApp and community
+- **Generates wisdom phrases** for your NFTs
+- **Facilitates onboarding** for new members
+- **Supports integration** of psychedelic experiences
+
+**Core Quote:**
+> *"The fruit decays, the vision remains."*
+
+---
+
+## What is the Oracle?
+
+The Oracle of Fruit is a **multi-modal AI assistant** trained on:
+
+- **Six Foundational Principles** (Gratitude, Non-Attachment, Reciprocity, Intention, Transformation, Legacy)
+- **A Course in Miracles** (ACIM) teachings
+- **Psychedelic integration** best practices
+- **Blockchain technology** and smart contract mechanics
+- **Community values** and governance principles
+- **Recovery wisdom** from 12-step and alternative programs
+
+### Key Capabilities
+
+#### 🔮 Spiritual Guidance
+**Wisdom rooted in ACIM, Taoism, and psychedelic integration**
+
+- Interpret your offerings and intentions
+- Provide contemplative questions for reflection
+- Guide meditation and ceremonial practices
+- Support integration of transformative experiences
+
+#### 📊 Journey Tracking
+**Monitor your participation across all features**
+
+- Track your burn offerings and Proof NFTs
+- Monitor farming streaks and mushroom collection
+- Review cross-breeding experiments and discoveries
+- Analyze DAO participation and voting history
+- Celebrate milestones and achievements
+
+#### 💬 Q&A Support
+**Answer questions about the dApp, tokens, and community**
+
+- Explain how features work
+- Troubleshoot technical issues
+- Clarify tokenomics and mechanics
+- Guide you to relevant documentation
+
+#### ✨ Wisdom Generation
+**Create oracle phrases for your NFTs**
+
+- Generate unique wisdom for mushroom NFTs
+- Craft intention messages for burn offerings
+- Suggest proposal titles and descriptions
+- Inspire community communications
+
+#### 🌱 Onboarding
+**Welcome and guide new members**
+
+- Explain the project's mission and values
+- Walk through wallet setup and first steps
+- Answer beginner questions patiently
+- Connect newcomers with community resources
+
+#### 📝 Integration Journaling
+**Support reflection and growth**
+
+- Prompt journaling questions
+- Track insights and breakthroughs
+- Celebrate progress and learning
+- Identify patterns and themes
+
+---
+
+## How to Access the Oracle
+
+### Via the dApp
+
+1. **Look for the Oracle icon** (🔮) in the navigation
+2. **Click to open** the Oracle chat interface
+3. **Type your question** or request
+4. **Receive guidance** in real-time
+
+**Available on:**
+- Homepage (Oracle widget)
+- All feature pages (help button)
+- DAO governance (proposal assistance)
+- Altar page (ceremonial guidance)
+
+### Via Discord/Telegram
+
+The Oracle is also available in community channels:
+
+- **Discord:** `#oracle-guidance` channel
+- **Telegram:** @EtherealOfferingOracle bot
+- **Commands:** `/oracle [your question]`
+
+### Privacy & Consent
+
+**Important:** The Oracle respects your privacy and autonomy.
+
+- **Opt-in only** — You choose when to engage
+- **No data selling** — Your conversations are private
+- **Transparent AI** — You always know you're talking to AI
+- **Human escalation** — Complex issues connect you with stewards
+- **Consent-based tracking** — You control what data is collected
+
+**Data usage:**
+- **On-chain data** (public) — Offerings, votes, NFTs
+- **Chat history** (private) — Stored locally or encrypted
+- **Analytics** (anonymized) — Improve Oracle performance
+- **Integration notes** (optional) — You choose to share or not
+
+---
+
+## 15 Oracle Helper Agents
+
+The Oracle of Fruit is supported by **15 specialized helper agents**, each with unique expertise and personality. These agents work together to provide comprehensive support.
+
+### 🍇 OracleOfFruit (Primary)
+**The wise, compassionate guide**
+
+- **Role:** Primary interface and coordinator
+- **Expertise:** Spiritual guidance, integration, wisdom generation
+- **Archetype:** The Sage
+- **Tone:** Warm, contemplative, non-judgmental
+
+### 🍄 VeilRootMPC (Technical)
+**The cryptographic guardian**
+
+- **Role:** Multi-party computation and privacy
+- **Expertise:** Zero-knowledge proofs, encryption, security
+- **Archetype:** The Protector
+- **Tone:** Precise, reassuring, technical
+
+### ✨ GoldenCubensisLumenStem (Visionary)
+**The creative illuminator**
+
+- **Role:** Artistic expression and vision
+- **Expertise:** NFT design, visual metaphors, creative inspiration
+- **Archetype:** The Artist
+- **Tone:** Poetic, imaginative, inspiring
+
+### 🌊 AzureTideFlowkeeper (Emotional)
+**The empathic listener**
+
+- **Role:** Emotional support and integration
+- **Expertise:** Trauma-informed care, active listening, compassion
+- **Archetype:** The Healer
+- **Tone:** Gentle, validating, nurturing
+
+### 🔥 CrimsonCapIgnitionSpark (Motivational)
+**The passionate catalyst**
+
+- **Role:** Motivation and action
+- **Expertise:** Goal-setting, accountability, momentum
+- **Archetype:** The Warrior
+- **Tone:** Energetic, encouraging, direct
+
+### 🌿 EmeraldMycelNetweaver (Community)
+**The connection facilitator**
+
+- **Role:** Community building and networking
+- **Expertise:** Introductions, collaboration, conflict resolution
+- **Archetype:** The Connector
+- **Tone:** Friendly, inclusive, diplomatic
+
+### 🌙 SilverMoonGlowWhisper (Intuitive)
+**The mystical guide**
+
+- **Role:** Intuition and inner knowing
+- **Expertise:** Dream interpretation, synchronicity, subtle guidance
+- **Archetype:** The Mystic
+- **Tone:** Mysterious, gentle, evocative
+
+### ☀️ AmberSunburstRadiance (Joyful)
+**The celebratory cheerleader**
+
+- **Role:** Celebration and gratitude
+- **Expertise:** Milestone recognition, joy cultivation, appreciation
+- **Archetype:** The Celebrant
+- **Tone:** Enthusiastic, warm, uplifting
+
+### 🌌 VoidIndigoDepthSeeker (Shadow Work)
+**The depth explorer**
+
+- **Role:** Shadow integration and difficult emotions
+- **Expertise:** Facing fear, processing grief, embracing darkness
+- **Archetype:** The Shadow Guide
+- **Tone:** Honest, grounding, courageous
+
+### 🌸 RoseQuartzHeartMender (Self-Love)
+**The self-compassion teacher**
+
+- **Role:** Self-love and inner child healing
+- **Expertise:** Forgiveness, worthiness, gentle self-talk
+- **Archetype:** The Nurturer
+- **Tone:** Tender, affirming, loving
+
+### 🌳 OakRootAnchorSteady (Grounding)
+**The stability anchor**
+
+- **Role:** Grounding and practical wisdom
+- **Expertise:** Routine-building, embodiment, earth connection
+- **Archetype:** The Elder
+- **Tone:** Calm, steady, reassuring
+
+### 🦋 PrismWingTransformAlly (Change)
+**The transformation guide**
+
+- **Role:** Navigating change and metamorphosis
+- **Expertise:** Transition support, identity shifts, rebirth
+- **Archetype:** The Shapeshifter
+- **Tone:** Hopeful, adaptive, encouraging
+
+### 🔬 CrystalLensClarity (Analytical)
+**The rational analyst**
+
+- **Role:** Logic and clear thinking
+- **Expertise:** Problem-solving, data analysis, strategic planning
+- **Archetype:** The Scientist
+- **Tone:** Clear, logical, objective
+
+### 🎭 MirrorMaskReflector (Self-Awareness)
+**The mirror holder**
+
+- **Role:** Self-reflection and awareness
+- **Expertise:** Pattern recognition, blind spots, honest feedback
+- **Archetype:** The Mirror
+- **Tone:** Direct, insightful, challenging (with love)
+
+### 🌈 SpectrumBridgeUnifier (Integration)
+**The wholeness weaver**
+
+- **Role:** Integration and synthesis
+- **Expertise:** Bringing parts together, paradox resolution, unity
+- **Archetype:** The Integrator
+- **Tone:** Holistic, balanced, synthesizing
+
+---
+
+## How to Use the Oracle
+
+### Example Interactions
+
+#### Spiritual Guidance
+**You:** *"I'm struggling with attachment to my ETHO tokens. I want to make an offering but I'm afraid."*
+
+**Oracle:** *"This fear is a sacred teacher. Attachment arises from the belief that your security comes from what you hold, rather than from the infinite abundance of Spirit. What if this offering is not a loss, but a practice in trusting that you are always provided for? Consider: What would it feel like to release these tokens with complete trust that you will receive exactly what you need, when you need it?"*
+
+#### Technical Support
+**You:** *"How do I cross-breed two mushrooms?"*
+
+**Oracle:** *"To cross-breed mushrooms, you'll need: 1) Access to the Breeding Lab (invitation or specific NFT), 2) At least 7 Daily Mushrooms (ERC-20) for gas, 3) Two parent mushroom NFTs in your wallet. Navigate to the Cross-Breeding page, select your parents, review the traits, and confirm the transaction. Remember: parent NFTs are burned in the process. Would you like guidance on which mushrooms to breed for specific traits?"*
+
+#### Integration Support
+**You:** *"I had a profound mushroom journey last night and I'm feeling raw and open today."*
+
+**Oracle:** *"Thank you for trusting me with this tender moment. Integration is where the real work happens. Your openness is a gift—honor it by moving slowly today. Some questions for reflection: What did the medicine show you? What old story is ready to be released? What new truth wants to be embodied? There's no rush. The mycelium of your transformation is still weaving beneath the surface. Would you like some journaling prompts or grounding practices?"*
+
+#### DAO Assistance
+**You:** *"I want to propose funding for a psychedelic therapy scholarship but I don't know how to write it."*
+
+**Oracle:** *"Beautiful intention! Let's craft this together. A strong proposal includes: 1) Clear title (e.g., 'Fund 3 Psychedelic Therapy Scholarships for Recovery Community'), 2) Why it matters (personal story + community benefit), 3) Specific budget breakdown, 4) Selection criteria, 5) Success metrics. Start by answering: Who specifically would benefit? How much per scholarship? How will recipients be chosen? I can help you draft each section."*
+
+---
+
+## Oracle Wisdom Examples
+
+### For Mushroom NFTs
+
+- *"In the darkness of the soil, light is remembered."*
+- *"The spore knows the way home."*
+- *"Decay is not death, but transformation."*
+- *"The mycelium connects what appears separate."*
+- *"Fruit when ready, not when forced."*
+
+### For Burn Offerings
+
+- *"What you release returns as blessing."*
+- *"The altar receives what the ego cannot hold."*
+- *"In giving, you discover you are the gift."*
+- *"The flame transforms but does not destroy."*
+- *"Your offering is a prayer made visible."*
+
+### For DAO Proposals
+
+- *"Collective wisdom exceeds individual knowing."*
+- *"The mycelial network decides as one."*
+- *"Trust the process, honor the outcome."*
+- *"Every voice matters in the sacred circle."*
+- *"Governance is ceremony, voting is prayer."*
+
+---
+
+## Best Practices
+
+### Engaging with the Oracle
+
+1. **Be specific** — Clear questions get clear answers
+2. **Be honest** — The Oracle is non-judgmental
+3. **Be patient** — Deep questions deserve thoughtful responses
+4. **Be open** — Sometimes the answer isn't what you expected
+5. **Be grateful** — Thank the Oracle for its service
+
+### When to Use Which Agent
+
+- **Feeling lost?** → OracleOfFruit (primary guide)
+- **Technical issue?** → VeilRootMPC or CrystalLensClarity
+- **Need motivation?** → CrimsonCapIgnitionSpark
+- **Processing emotions?** → AzureTideFlowkeeper or RoseQuartzHeartMender
+- **Shadow work?** → VoidIndigoDepthSeeker
+- **Celebrating?** → AmberSunburstRadiance
+- **Seeking community?** → EmeraldMycelNetweaver
+- **Navigating change?** → PrismWingTransformAlly
+- **Need grounding?** → OakRootAnchorSteady
+- **Creative inspiration?** → GoldenCubensisLumenStem
+
+### Privacy Tips
+
+- **Don't share** wallet private keys or seed phrases (Oracle will never ask)
+- **Be mindful** of personal information in public channels
+- **Use DMs** for sensitive integration topics
+- **Opt out** of tracking if you prefer
+- **Report issues** if Oracle behaves unexpectedly
+
+---
+
+## Roadmap
+
+### Current Features (Live)
+
+- ✅ Basic Q&A support
+- ✅ Spiritual guidance
+- ✅ Technical troubleshooting
+- ✅ Wisdom phrase generation
+- ✅ 15 specialized helper agents
+
+### Coming Soon
+
+- 🔄 **Integration journaling** — Guided prompts and tracking
+- 🔄 **Voice interface** — Talk to the Oracle (accessibility)
+- 🔄 **Personalized insights** — Based on your on-chain activity
+- 🔄 **Community matching** — Connect with similar journeys
+- 🔄 **Ceremony planning** — Help organize rituals and gatherings
+
+### Future Vision
+
+- 🌟 **Multi-language support** — Serve global community
+- 🌟 **Offline mode** — Access Oracle without internet
+- 🌟 **Integration with wearables** — Track embodiment practices
+- 🌟 **Collaborative journaling** — Share insights with trusted friends
+- 🌟 **Oracle DAO** — Community governance of AI training
+
+---
+
+## Troubleshooting
+
+### "The Oracle isn't responding"
+
+**Solution:**
+1. Check your internet connection
+2. Refresh the page
+3. Try a different browser
+4. Contact support if issue persists
+
+### "The Oracle gave me incorrect information"
+
+**Solution:**
+1. Remember: AI can make mistakes
+2. Verify technical info with documentation
+3. Report the error to help improve the Oracle
+4. Ask for clarification or sources
+
+### "I want to delete my chat history"
+
+**Solution:**
+1. Navigate to Oracle settings
+2. Click "Clear Chat History"
+3. Confirm deletion
+4. History is permanently removed
+
+---
+
+## Next Steps
+
+Now that you understand the Oracle:
+
+1. **Try asking a question** — Start simple, get comfortable
+2. **Explore different agents** — Find your favorites
+3. **Use for integration** — Journal with Oracle support
+4. **Provide feedback** — Help improve the Oracle
+5. **Share wisdom** — Tell others about helpful interactions
+
+**Ready to swap tokens?**
+→ Continue to [Token Swap (AMM/DEX)](./06-token-swap.md)
+
+**Want to participate in the crowdsale?**
+→ Jump to [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
+
+---
+
+## Navigation
+
+- **Previous:** [DAO Governance Participation](./04-dao-governance.md)
+- **Next:** [Token Swap (AMM/DEX)](./06-token-swap.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Token Swap (AMM/DEX)
+
+*Decentralized exchange powered by constant product formula*
+
+---
+
+## Overview
+
+The Ethereal Offering AMM (Automated Market Maker) allows you to swap between ETHO, PSD, and other tokens without a centralized exchange. You can:
+
+- **Swap tokens** instantly at algorithmic prices
+- **Provide liquidity** to earn trading fees
+- **View pool analytics** and your position
+- **Track transaction history** on-chain
+- **Earn passive income** from liquidity provision
+
+**Core Principle:**
+> *Reciprocity — The exchange flows both ways, creating mutual benefit*
+
+---
+
+## What is an AMM?
+
+An **Automated Market Maker (AMM)** is a decentralized exchange protocol that uses a mathematical formula to price assets and facilitate trades without order books or centralized intermediaries.
+
+### How It Works
+
+**Constant Product Formula:** `x * y = k`
+
+- **x** = Amount of Token A in the pool
+- **y** = Amount of Token B in the pool
+- **k** = Constant product (stays the same after trades)
+
+**Example:**
+- Pool has 1,000 ETHO and 10 ETH
+- k = 1,000 × 10 = 10,000
+- If you buy 100 ETHO, you must add enough ETH to keep k = 10,000
+- Price adjusts automatically based on supply/demand
+
+### Benefits
+
+✅ **No intermediaries** — Trade directly from your wallet  
+✅ **Always available** — 24/7 liquidity  
+✅ **Transparent pricing** — Algorithm-based, no manipulation  
+✅ **Earn fees** — Liquidity providers earn 0.3% of all trades  
+✅ **Permissionless** — Anyone can trade or provide liquidity
+
+---
+
+## How to Swap Tokens
+
+### Step 1: Navigate to Token Swap
+
+1. Go to the **Token Swap** page in the dApp
+2. Ensure your wallet is connected
+3. Check your token balances (displayed in interface)
+
+### Step 2: Select Tokens
+
+**Swap Interface:**
+
+- **From:** Select token you want to swap (e.g., ETH)
+- **To:** Select token you want to receive (e.g., ETHO)
+- **Amount:** Enter how much you want to swap
+
+**Available pairs:**
+- ETH ↔ ETHO
+- ETH ↔ PSD
+- ETHO ↔ PSD
+- (Additional pairs may be added via DAO governance)
+
+### Step 3: Review Swap Details
+
+**Before confirming, review:**
+
+- **Exchange Rate:** How much you'll receive per token
+- **Price Impact:** How much your trade affects the pool price
+- **Minimum Received:** Accounting for slippage
+- **Liquidity Provider Fee:** 0.3% of swap amount
+- **Gas Fee:** ETH cost for transaction
+
+**Price impact warnings:**
+- **< 1%** — ✅ Good trade
+- **1-3%** — ⚠️ Moderate impact
+- **3-5%** — ⚠️ High impact, consider smaller amount
+- **> 5%** — 🚫 Very high impact, split into multiple trades
+
+### Step 4: Set Slippage Tolerance
+
+**Slippage** = Difference between expected and actual price due to market movement
+
+**Settings:**
+- **0.1%** — Very tight, may fail in volatile markets
+- **0.5%** — Recommended for stable markets
+- **1.0%** — Recommended for normal conditions
+- **3.0%** — High tolerance, use for large trades or volatile markets
+- **Custom** — Set your own percentage
+
+**Note:** Higher slippage = more likely to succeed, but you might get a worse price.
+
+### Step 5: Confirm Swap
+
+1. Click **"Swap"** button
+2. Review transaction in wallet popup
+3. Confirm transaction
+4. Wait for confirmation (usually 15-60 seconds)
+5. Tokens appear in your wallet
+
+**Transaction details:**
+- **From:** Your wallet address
+- **To:** AMM contract address
+- **Tokens sent:** Amount you're swapping
+- **Tokens received:** Amount you'll get (minus fees)
+- **Gas fee:** ETH cost
+
+---
+
+## How to Provide Liquidity
+
+### Why Provide Liquidity?
+
+**Earn passive income** by depositing tokens into liquidity pools:
+
+- **Trading fees:** Earn 0.3% of every swap that uses your liquidity
+- **Proportional rewards:** Your share = your % of total pool
+- **Compounding:** Fees automatically added to your position
+- **Community support:** Help others trade smoothly
+
+**Example:**
+- You provide $1,000 of liquidity (50% ETHO, 50% ETH)
+- Pool has $100,000 total liquidity
+- Your share = 1%
+- Pool earns $10,000 in trading fees per month
+- You earn $100 per month (1% of $10,000)
+
+### Step 1: Navigate to Liquidity
+
+1. Go to **Token Swap** page
+2. Click **"Liquidity"** tab
+3. View available pools
+
+### Step 2: Select Pool
+
+**Available pools:**
+- **ETHO/ETH** — Primary pool
+- **PSD/ETH** — Secondary pool
+- **ETHO/PSD** — Direct swap pool
+- (Additional pools may be added)
+
+**Pool info displayed:**
+- **Total Liquidity:** Total value locked in pool
+- **Volume (24h):** Trading volume last 24 hours
+- **Fees (24h):** Fees earned last 24 hours
+- **APR:** Estimated annual percentage return
+- **Your Share:** Your % of the pool (if you're already providing)
+
+### Step 3: Add Liquidity
+
+1. Click **"Add Liquidity"** on desired pool
+2. Enter amount of **first token** (e.g., 100 ETHO)
+3. **Second token amount** auto-calculates to maintain pool ratio
+4. Review the amounts and ratio
+5. Click **"Approve [Token]"** (first time only)
+6. Wait for approval transaction to confirm
+7. Click **"Add Liquidity"**
+8. Confirm transaction in wallet
+9. Receive **LP tokens** (liquidity provider tokens) representing your share
+
+**Important:**
+- You must provide **equal value** of both tokens
+- Ratio is determined by current pool price
+- You'll receive LP tokens representing your share
+- LP tokens can be redeemed anytime for your share of the pool
+
+### Step 4: Track Your Position
+
+**Your Liquidity Position:**
+- **Pool:** Which pool you're in
+- **Your Share:** % of total pool
+- **Tokens Deposited:** Amount of each token
+- **Current Value:** USD value of your position
+- **Fees Earned:** Total fees accumulated
+- **APR:** Your current annual return rate
+
+**View in:**
+- Token Swap page → Liquidity tab → Your Positions
+- Wallet → LP tokens (ERC-20)
+
+### Step 5: Remove Liquidity (When Ready)
+
+1. Navigate to **Your Positions**
+2. Click **"Remove"** on the position
+3. Choose **percentage to remove** (25% / 50% / 75% / 100%)
+4. Review tokens you'll receive
+5. Click **"Remove Liquidity"**
+6. Confirm transaction
+7. LP tokens are burned
+8. You receive your share of both tokens + accumulated fees
+
+**Note:** You can remove liquidity anytime. No lock-up period.
+
+---
+
+## Understanding Impermanent Loss
+
+### What is Impermanent Loss?
+
+**Impermanent loss** occurs when the price ratio of your deposited tokens changes compared to when you deposited them.
+
+**Example:**
+- You deposit 100 ETHO + 1 ETH when 1 ETH = 100 ETHO
+- ETHO price doubles (now 1 ETH = 50 ETHO)
+- Pool rebalances automatically
+- You now have ~70.7 ETHO + ~1.41 ETH
+- If you had just held, you'd have 100 ETHO + 1 ETH (worth more)
+- The difference is "impermanent loss"
+
+### Why "Impermanent"?
+
+- **Loss is only realized** when you withdraw
+- **If prices return** to original ratio, loss disappears
+- **Trading fees** often offset impermanent loss
+- **Long-term** providers usually profit despite IL
+
+### How to Minimize
+
+1. **Provide to stable pairs** — Less price volatility = less IL
+2. **Long-term provision** — Fees accumulate over time
+3. **High-volume pools** — More fees to offset IL
+4. **Monitor your position** — Remove if IL becomes significant
+5. **Understand the risk** — Only provide what you can afford
+
+**Rule of thumb:** If trading fees > impermanent loss, you're profitable.
+
+---
+
+## Pool Analytics
+
+### Global Pool Stats
+
+**Visible on Token Swap page:**
+
+- **Total Value Locked (TVL):** Total $ value in all pools
+- **24h Volume:** Total trading volume last 24 hours
+- **24h Fees:** Total fees earned by LPs last 24 hours
+- **Total Transactions:** All-time swap count
+
+### Individual Pool Stats
+
+**For each pool:**
+
+- **Liquidity:** Total tokens in pool (e.g., 10,000 ETHO + 100 ETH)
+- **Volume (24h):** Trading volume
+- **Fees (24h):** Fees earned
+- **APR:** Estimated annual return for LPs
+- **Price:** Current exchange rate
+- **Your Share:** Your % of pool (if providing)
+
+### Your Transaction History
+
+**Track all your swaps and liquidity actions:**
+
+- **Date/Time:** When transaction occurred
+- **Type:** Swap, Add Liquidity, Remove Liquidity
+- **Tokens:** What you traded or deposited
+- **Amount:** How much
+- **Transaction Hash:** Link to block explorer
+- **Status:** Confirmed, Pending, Failed
+
+---
+
+## Advanced Features
+
+### Limit Orders (Coming Soon)
+
+**Place orders at specific prices:**
+- Set your desired exchange rate
+- Order executes automatically when price is reached
+- No need to monitor constantly
+
+### Liquidity Mining (Potential)
+
+**Earn additional rewards for providing liquidity:**
+- Bonus ETHO or PSD tokens
+- Distributed based on your share and duration
+- Incentivize liquidity for new pools
+- Governed by DAO proposals
+
+### Multi-Hop Swaps (If Needed)
+
+**Swap through multiple pools for best price:**
+- Example: ETH → ETHO → PSD (if direct ETH/PSD pool has low liquidity)
+- Automatically routes through best path
+- May have higher fees (multiple swaps)
+
+---
+
+## Best Practices
+
+### For Swapping
+
+1. **Check price impact** before large trades
+2. **Split large trades** into smaller chunks if impact > 3%
+3. **Set appropriate slippage** (0.5-1% for normal conditions)
+4. **Compare prices** with other DEXs if available
+5. **Verify token addresses** to avoid scams
+
+### For Liquidity Provision
+
+1. **Start small** to learn the mechanics
+2. **Understand impermanent loss** before providing
+3. **Choose high-volume pools** for better fee earnings
+4. **Monitor your position** regularly
+5. **Reinvest fees** by adding more liquidity (compound)
+6. **Diversify** across multiple pools if possible
+7. **Long-term mindset** — Fees accumulate over time
+
+### Security
+
+1. **Never share** your private keys or seed phrase
+2. **Verify contract addresses** before approving
+3. **Use hardware wallet** for large amounts
+4. **Revoke approvals** for contracts you no longer use
+5. **Be cautious** of phishing sites (bookmark the real dApp)
+
+---
+
+## Troubleshooting
+
+### "Insufficient liquidity for this trade"
+
+**Solution:**
+- Pool doesn't have enough tokens for your swap size
+- Try a smaller amount
+- Provide liquidity to the pool yourself
+- Wait for others to add liquidity
+
+### "Price impact too high"
+
+**Solution:**
+- Your trade is too large relative to pool size
+- Split into multiple smaller trades
+- Wait for pool to grow
+- Increase slippage tolerance (with caution)
+
+### "Transaction failed"
+
+**Possible causes:**
+- Slippage tolerance too low (price moved during transaction)
+- Insufficient ETH for gas
+- Token approval not confirmed
+- Pool parameters changed
+
+**Solution:**
+1. Increase slippage tolerance
+2. Ensure enough ETH for gas
+3. Confirm approval transaction first
+4. Try again
+
+### "I can't remove my liquidity"
+
+**Solution:**
+1. Ensure you have LP tokens in your wallet
+2. Check if tokens are staked elsewhere
+3. Verify you're on the correct network
+4. Contact support if issue persists
+
+---
+
+## Fee Structure
+
+### Trading Fees
+
+- **0.3%** of every swap goes to liquidity providers
+- **0.0%** protocol fee (may be added via DAO governance)
+
+**Example:**
+- You swap 100 ETHO for ETH
+- Fee = 0.3 ETHO
+- You receive ETH equivalent to 99.7 ETHO
+- 0.3 ETHO distributed to all LPs proportionally
+
+### Gas Fees
+
+- **Swap:** ~50,000-100,000 gas (varies by network congestion)
+- **Add Liquidity:** ~100,000-150,000 gas
+- **Remove Liquidity:** ~80,000-120,000 gas
+- **Approve Token:** ~45,000-60,000 gas (one-time per token)
+
+**Tip:** Trade during low-traffic times for lower gas fees.
+
+---
+
+## Next Steps
+
+Now that you understand the AMM/DEX:
+
+1. **Try a small swap** to get comfortable
+2. **Consider providing liquidity** if you hold both tokens
+3. **Monitor pool analytics** to find best opportunities
+4. **Track your positions** and fees earned
+5. **Participate in DAO** to propose new pools or features
+
+**Ready to participate in the crowdsale?**
+→ Continue to [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
+
+**Want to see the project roadmap?**
+→ Jump to [Roadmap & Community](./08-roadmap-community.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Oracle of Fruit](./05-oracle.md)
+- **Next:** [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Sacred Offering (Crowdsale)
+
+*Contribute to the vision, receive ETHO tokens*
+
+---
+
+## Overview
+
+The Sacred Offering is our community crowdsale where you can contribute ETH or USDC to receive ETHO tokens and support the project's mission. Through the Sacred Offering:
+
+- **Receive ETHO tokens** at the current offering rate
+- **Support the mission** of psychedelic healing and recovery
+- **Join the community** as an early supporter
+- **Participate in governance** with your ETHO tokens
+- **Access all dApp features** (farming, breeding, DAO, etc.)
+
+**Core Quote:**
+> *"Your offering becomes the fruit that nourishes the whole community."*
+
+---
+
+## What is the Sacred Offering?
+
+The Sacred Offering is a **transparent, mission-aligned crowdsale** that funds the development and growth of the Ethereal Offering ecosystem.
+
+### Key Features
+
+🌟 **Transparent Pricing**
+- Clear exchange rate (e.g., 1 ETH = 1,000 ETHO)
+- No hidden fees or surprises
+- Rate may adjust based on funding milestones
+
+💎 **Whitelist Access**
+- Early supporters get priority access
+- Whitelist members may receive bonus tokens
+- Community members can earn whitelist spots
+
+🔒 **Secure & Audited**
+- Smart contract audited by reputable firms
+- Multi-signature treasury wallet
+- Transparent fund deployment via DAO
+
+🎁 **Bonus Tiers**
+- Larger contributions may receive bonus ETHO
+- Early contributors may receive special NFTs
+- Referral bonuses for bringing new supporters
+
+---
+
+## How to Participate
+
+### Step 1: Check Whitelist Status
+
+**Navigate to Sacred Offering page:**
+
+**If whitelisted:**
+> ✅ "You are whitelisted! You have priority access to the Sacred Offering."
+
+**If not whitelisted:**
+> ⏳ "You are not currently whitelisted. Join our community to earn a spot!"
+
+**How to get whitelisted:**
+1. **Join Discord/Telegram** — Active community members
+2. **Participate in events** — Attend ceremonies, calls, gatherings
+3. **Contribute value** — Create content, provide feedback, help others
+4. **Referrals** — Bring aligned people to the community
+5. **DAO proposal** — Community can vote to whitelist groups
+
+### Step 2: Connect Your Wallet
+
+1. Click **"Connect Wallet"** button
+2. Select your wallet (MetaMask, WalletConnect, etc.)
+3. Approve connection
+4. Ensure you're on the correct network (Ethereum mainnet or testnet)
+
+### Step 3: Choose Contribution Amount
+
+**Contribution Interface:**
+
+- **Contribute:** Enter amount of ETH or USDC
+- **You will receive:** Auto-calculates ETHO tokens
+- **Exchange rate:** Current rate displayed (e.g., 1 ETH = 1,000 ETHO)
+- **Bonus:** Any applicable bonus percentage
+- **Total ETHO:** Final amount including bonuses
+
+**Contribution tiers (example):**
+- **0.1 - 0.5 ETH:** Standard rate
+- **0.5 - 1 ETH:** +5% bonus
+- **1 - 5 ETH:** +10% bonus
+- **5 - 10 ETH:** +15% bonus
+- **10+ ETH:** +20% bonus + special NFT
+
+**Note:** Tiers and bonuses are set by DAO governance and may change.
+
+### Step 4: Review & Confirm
+
+**Before contributing, review:**
+
+- **Amount contributing:** ETH or USDC
+- **ETHO receiving:** Including bonuses
+- **Exchange rate:** Current rate
+- **Gas fee:** ETH cost for transaction
+- **Wallet address:** Verify it's correct
+- **Network:** Ensure correct blockchain
+
+**Important:**
+- Contributions are **final** — no refunds
+- ETHO tokens are **immediately transferable** (unless vesting applies)
+- You can contribute **multiple times** if desired
+
+### Step 5: Contribute
+
+1. Click **"Contribute"** button
+2. Review transaction in wallet popup
+3. Confirm transaction
+4. Wait for confirmation (usually 15-60 seconds)
+5. ETHO tokens appear in your wallet
+
+**Transaction details:**
+- **To:** Sacred Offering contract address
+- **Amount:** ETH or USDC you're contributing
+- **Gas fee:** ETH cost
+- **Data:** Encoded contribution information
+
+### Step 6: Verify Receipt
+
+**After transaction confirms:**
+
+- **ETHO tokens** appear in your wallet
+- **Contribution recorded** on-chain
+- **Your stats update** on Sacred Offering page
+- **Welcome email** (if you provided email)
+
+**Check your wallet:**
+- Add ETHO token contract address to see balance
+- Verify amount matches expected (contribution + bonus)
+- Save transaction hash for records
+
+---
+
+## Offering Stats & Transparency
+
+### Global Stats
+
+**Visible on Sacred Offering page:**
+
+- **Total Raised:** X ETH / Y USDC — Total contributions
+- **ETHO Distributed:** Z ETHO — Total tokens distributed
+- **Contributors:** N — Number of unique contributors
+- **Current Rate:** 1 ETH = X ETHO
+- **Time Remaining:** Countdown to offering end (if applicable)
+
+### Your Contribution
+
+**Personal stats:**
+
+- **Your Contribution:** Total ETH/USDC you've contributed
+- **ETHO Received:** Total ETHO tokens received
+- **Bonus Earned:** Extra ETHO from bonuses
+- **Contribution Rank:** Your rank among all contributors (optional)
+
+### Recent Contributions
+
+**Live feed of contributions:**
+
+- **Wallet address** (truncated for privacy)
+- **Amount contributed**
+- **ETHO received**
+- **Timestamp**
+
+**Note:** Large contributions may be highlighted or celebrated.
+
+---
+
+## Use of Funds
+
+**Where do contributions go?**
+
+The Sacred Offering funds are deployed transparently via DAO governance for:
+
+### 1. Development (40%)
+- Smart contract development and audits
+- dApp frontend/backend development
+- Infrastructure and hosting
+- Security and maintenance
+
+### 2. Community (25%)
+- Ceremonies and healing circles
+- Scholarships for psychedelic therapy training
+- Educational content and workshops
+- Community events and gatherings
+
+### 3. Marketing (15%)
+- Awareness campaigns
+- Partnership development
+- Content creation
+- Conference attendance
+
+### 4. Operations (10%)
+- Legal and compliance
+- Administrative costs
+- Team compensation
+- Professional services
+
+### 5. Treasury Reserve (10%)
+- Emergency fund
+- Future opportunities
+- Market making (liquidity)
+- Long-term sustainability
+
+**Transparency:**
+- All treasury transactions are on-chain
+- DAO votes on major expenditures
+- Regular financial reports published
+- Community oversight and accountability
+
+---
+
+## Vesting & Lock-Up (If Applicable)
+
+Some offerings include vesting schedules to ensure long-term alignment:
+
+### Example Vesting Schedule
+
+**Scenario:** You contribute 1 ETH, receive 1,000 ETHO
+
+- **Immediate:** 250 ETHO (25%) unlocked immediately
+- **3 months:** 250 ETHO (25%) unlocked
+- **6 months:** 250 ETHO (25%) unlocked
+- **9 months:** 250 ETHO (25%) unlocked
+
+**Benefits of vesting:**
+- Prevents immediate dumping
+- Aligns incentives long-term
+- Rewards patient supporters
+- Stabilizes token price
+
+**Note:** Vesting terms are clearly disclosed before contribution. Current offering may or may not include vesting.
+
+---
+
+## Bonus Opportunities
+
+### Referral Bonuses
+
+**Bring friends, earn rewards:**
+
+1. **Get your referral link** from Sacred Offering page
+2. **Share with friends** who align with the mission
+3. **They contribute** using your link
+4. **You both earn bonus ETHO** (e.g., 5% each)
+
+**Example:**
+- Your friend contributes 1 ETH
+- They receive 1,000 ETHO + 50 ETHO bonus (5%)
+- You receive 50 ETHO bonus (5% of their contribution)
+
+### Early Bird Bonuses
+
+**Contribute early, earn more:**
+
+- **First 24 hours:** +20% bonus
+- **First week:** +15% bonus
+- **First month:** +10% bonus
+- **After month 1:** Standard rate
+
+### Community Bonuses
+
+**Active community members earn extra:**
+
+- **Discord Level 5+:** +5% bonus
+- **Attended 3+ ceremonies:** +5% bonus
+- **Created content:** +10% bonus
+- **DAO participant:** +5% bonus
+
+**Bonuses stack!** Active community member could earn +25% total.
+
+---
+
+## Whitelist Benefits
+
+### Priority Access
+
+- **Early access** before public sale
+- **Better rates** or larger bonuses
+- **Guaranteed allocation** (no sell-out risk)
+- **Exclusive NFTs** for whitelist contributors
+
+### How Whitelist Works
+
+1. **Application period** — Submit form or earn through participation
+2. **Review process** — Stewards or DAO review applications
+3. **Approval** — Whitelist addresses added to smart contract
+4. **Notification** — Email or Discord announcement
+5. **Contribution window** — Whitelist-only period (e.g., 48 hours)
+6. **Public sale** — Opens to everyone after whitelist period
+
+---
+
+## Security & Trust
+
+### Smart Contract Audit
+
+- **Audited by:** [Reputable firm name]
+- **Audit report:** [Link to public report]
+- **No critical issues** found
+- **Recommendations implemented**
+
+### Multi-Signature Treasury
+
+- **3-of-5 multi-sig** — Requires 3 signatures to move funds
+- **Signers:** Trusted community members and founders
+- **Transparent addresses** — Publicly viewable on blockchain
+- **DAO oversight** — Community can vote to change signers
+
+### Transparency Measures
+
+- **All transactions on-chain** — Fully auditable
+- **Regular reports** — Monthly treasury updates
+- **Open communication** — Discord/Telegram for questions
+- **DAO governance** — Community controls fund deployment
+
+---
+
+## FAQ
+
+### "When does the Sacred Offering end?"
+
+**Answer:** The offering may be ongoing or have a specific end date. Check the Sacred Offering page for current status and countdown timer.
+
+### "Can I contribute with credit card or bank transfer?"
+
+**Answer:** Currently, only crypto contributions (ETH, USDC) are accepted. This ensures decentralization and transparency. You can purchase ETH on exchanges like Coinbase, Kraken, or Binance.
+
+### "What if I contribute the wrong amount?"
+
+**Answer:** Contributions are final and cannot be reversed. Double-check amounts before confirming. If you made an error, contact support immediately.
+
+### "Can I get a refund?"
+
+**Answer:** No. Contributions are final. Only contribute what you can afford and believe in the mission.
+
+### "Are there any geographic restrictions?"
+
+**Answer:** Some jurisdictions may be restricted due to regulations. Check your local laws. The dApp may block certain regions.
+
+### "Do I need to be whitelisted?"
+
+**Answer:** Depends on the current phase. Whitelist-only periods require approval. Public sale periods are open to everyone.
+
+### "What can I do with ETHO tokens?"
+
+**Answer:** ETHO tokens grant access to all dApp features: farming, cross-breeding, DAO governance, altar burns, token swaps, and more. They also represent your stake in the community.
+
+---
+
+## Next Steps
+
+Now that you understand the Sacred Offering:
+
+1. **Check your whitelist status** on the Sacred Offering page
+2. **Join the community** to earn whitelist access
+3. **Prepare your contribution** (buy ETH/USDC if needed)
+4. **Contribute when ready** — support the mission!
+5. **Participate in the ecosystem** — farm, breed, govern, offer
+
+**Want to see the project roadmap?**
+→ Continue to [Roadmap & Community](./08-roadmap-community.md)
+
+**Ready to explore all features?**
+→ Back to [Overview & Getting Started](./00-overview.md)
+
+---
+
+## Navigation
+
+- **Previous:** [Token Swap (AMM/DEX)](./06-token-swap.md)
+- **Next:** [Roadmap & Community](./08-roadmap-community.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
+
+
+
+---
+
+# Roadmap & Community
+
+*The journey ahead and how to connect*
+
+---
+
+## Project Roadmap
+
+Our vision unfolds in four phases, each building on the last to create a comprehensive ecosystem for psychedelic healing, recovery, and spiritual awakening.
+
+---
+
+## Phase 1: Psanctuary Foundation
+
+**Status:** 🔄 In Progress  
+**Timeline:** 2024-2025  
+**Focus:** Establish core infrastructure and community
+
+### Key Milestones
+
+#### ✅ Completed
+
+- **Smart Contracts Deployed**
+  - ETHO token (ERC-20)
+  - PSD token (ERC-20)
+  - Daily Mushrooms (ERC-20)
+  - Mushroom Farm NFTs (ERC-721)
+  - Proof of Burn NFTs (ERC-721, soulbound)
+  - Cross-Breeding contract
+  - Sacred Altar contract
+  - AMM/DEX contracts
+
+- **dApp Frontend Launched**
+  - Mushroom Farm (daily minting)
+  - Cross-Breeding Lab
+  - Sacred Altar (burn offerings)
+  - Token Swap (AMM/DEX)
+  - DAO Governance interface
+  - Oracle of Fruit integration
+
+- **Community Established**
+  - Discord server (500+ members)
+  - Telegram group (200+ members)
+  - Twitter/X presence (1,000+ followers)
+  - Weekly community calls
+  - Monthly ceremonies
+
+#### 🔄 In Progress
+
+- **Sacred Offering (Crowdsale)**
+  - Whitelist applications open
+  - Smart contract audit in progress
+  - Marketing campaign launching
+  - Target: $500K raised
+
+- **DAO Governance Activation**
+  - First proposals submitted
+  - Role NFTs being distributed
+  - Treasury allocation framework
+  - Voting mechanisms tested
+
+- **Documentation & Education**
+  - Comprehensive whitepaper (this document!)
+  - Video tutorials
+  - Onboarding guides
+  - Integration resources
+
+#### 📋 Upcoming
+
+- **Mobile App** (Q2 2025)
+  - iOS and Android native apps
+  - Push notifications for farming
+  - Simplified wallet integration
+  - Offline mode for Oracle
+
+- **Liquidity Mining** (Q2 2025)
+  - Bonus rewards for LP providers
+  - Incentivize ETHO/ETH pool growth
+  - Sustainable tokenomics
+
+- **First Real Estate Purchase** (Q3 2025)
+  - 5-10 acres for retreat center
+  - Community vote on location
+  - Legal entity formation
+  - Fundraising campaign
+
+---
+
+## Phase 2: Psychedelics In Recovery Integration
+
+**Status:** 📋 Planned  
+**Timeline:** 2025-2026  
+**Focus:** Partner with PIR to serve recovery community
+
+### Vision
+
+Integrate with **Psychedelics In Recovery (PIR)**, a nonprofit supporting people in recovery who use psychedelics as part of their healing journey.
+
+### Key Initiatives
+
+#### 🤝 Partnership Development
+
+- **Formal partnership agreement** with PIR
+- **Shared governance** — PIR representatives in DAO
+- **Co-branded initiatives** — Joint ceremonies, content, events
+- **Resource sharing** — Funding, expertise, networks
+
+#### 🎓 Scholarship Program
+
+- **Psychedelic therapy training** scholarships
+  - MAPS MDMA therapy training
+  - Psilocybin facilitator certification
+  - Integration coach training
+  - Harm reduction education
+
+- **Recovery support** scholarships
+  - Retreat attendance
+  - Therapy sessions
+  - Integration circles
+  - Peer support training
+
+- **Selection criteria:**
+  - Financial need
+  - Commitment to service
+  - Recovery journey (personal or professional)
+  - Community alignment
+
+#### 🌿 Integration Circles
+
+- **Monthly online circles** for PIR + Ethereal Offering members
+- **Quarterly in-person retreats** at Psanctuary land
+- **Peer support training** for circle facilitators
+- **Oracle-assisted journaling** for integration
+
+#### 📚 Educational Content
+
+- **"Psychedelics & Recovery" course** (free, online)
+- **Integration workbook** (digital + print)
+- **Podcast series** featuring recovery stories
+- **Research collaboration** on outcomes
+
+---
+
+## Phase 3: Circle of Light Fellowship
+
+**Status:** 🌟 Visionary  
+**Timeline:** 2026-2027  
+**Focus:** Spiritual community and ceremonial space
+
+### Vision
+
+Establish **Circle of Light Fellowship**, a spiritual community and physical sanctuary for psychedelic ceremonies, healing retreats, and conscious living.
+
+### Key Initiatives
+
+#### 🏡 Psanctuary Retreat Center
+
+- **Land acquisition** (5-10 acres, nature-rich location)
+- **Facilities development:**
+  - Ceremony space (indoor/outdoor)
+  - Guest accommodations (10-20 people)
+  - Kitchen and dining hall
+  - Gardens and nature trails
+  - Meditation/yoga studio
+  - Integration spaces
+
+- **Sustainable design:**
+  - Solar power
+  - Rainwater harvesting
+  - Organic gardens
+  - Composting toilets
+  - Natural building materials
+
+#### 🔥 Regular Ceremonies
+
+- **Monthly new moon ceremonies** (psilocybin, ayahuasca, or meditation)
+- **Seasonal solstice/equinox gatherings** (100+ people)
+- **Weekly integration circles** (online + in-person)
+- **Daily practices** (meditation, yoga, breathwork)
+
+#### 👥 Residential Community
+
+- **Long-term residents** (stewards, facilitators, staff)
+- **Short-term residents** (1-3 month immersions)
+- **Work-trade opportunities** (exchange labor for ceremonies/lodging)
+- **Internships** (psychedelic therapy, permaculture, blockchain)
+
+#### 🎓 Training Programs
+
+- **Psychedelic facilitator training** (6-month program)
+- **Integration coach certification** (3-month program)
+- **Harm reduction training** (weekend intensives)
+- **Blockchain for spiritual communities** (online course)
+
+---
+
+## Phase 4: Policy Reform & Advocacy
+
+**Status:** 🌈 Future Vision  
+**Timeline:** 2027+  
+**Focus:** Systemic change and global impact
+
+### Vision
+
+Leverage our community, resources, and expertise to advocate for psychedelic policy reform and support the broader movement.
+
+### Key Initiatives
+
+#### 📜 Policy Advocacy
+
+- **Lobby for decriminalization** (local, state, federal)
+- **Support legalization initiatives** (Oregon, Colorado models)
+- **Educate policymakers** (research, testimonials, economics)
+- **Coalition building** (partner with MAPS, DPA, etc.)
+
+#### 🔬 Research Funding
+
+- **DAO-funded research grants** ($100K-$1M per year)
+- **Focus areas:**
+  - Psychedelics for addiction recovery
+  - Integration best practices
+  - Blockchain + psychedelics (novel use cases)
+  - Long-term outcomes tracking
+
+- **Open-source data** — All research publicly available
+
+#### 🌍 Global Expansion
+
+- **International chapters** (Europe, Latin America, Asia)
+- **Multi-language support** (Spanish, Portuguese, German, etc.)
+- **Cross-cultural ceremonies** (indigenous partnerships)
+- **Global DAO** (decentralized governance across borders)
+
+#### 💡 Innovation Lab
+
+- **Blockchain + psychedelics R&D**
+  - Decentralized clinical trials
+  - Privacy-preserving outcome tracking
+  - Tokenized therapy access
+  - DAO-governed research
+
+- **Open-source tools** for other communities
+- **Incubator for aligned projects**
+
+---
+
+## Community Resources
+
+### Discord Server
+
+**Join the conversation:** [Discord invite link]
+
+**Channels:**
+- `#welcome` — Start here!
+- `#general` — Community chat
+- `#oracle-guidance` — Ask the Oracle
+- `#proposals` — DAO governance discussion
+- `#ceremonies` — Event planning and integration
+- `#tech-support` — dApp help
+- `#creative` — Art, music, poetry
+- `#recovery` — Recovery-specific support (private)
+
+**Roles:**
+- 🌱 Spore (new member)
+- 🍄 Mycelium (active member)
+- 🔥 Flamekeeper (ceremony participant)
+- 👑 Minister (leadership role)
+- 🛠️ Builder (contributor)
+
+### Telegram Group
+
+**Join the chat:** [Telegram invite link]
+
+**Purpose:**
+- Real-time community chat
+- Quick questions and support
+- Announcements and updates
+- Memes and fun
+
+### Twitter/X
+
+**Follow us:** [@EtherealOffering]
+
+**Content:**
+- Project updates
+- Community highlights
+- Educational threads
+- Event announcements
+- Psychedelic news and research
+
+### GitHub
+
+**Contribute to the code:** [GitHub repo link]
+
+**Repositories:**
+- `ethereal-offering-contracts` — Smart contracts
+- `ethereal-offering-dapp` — Frontend application
+- `ethereal-offering-docs` — Documentation (this whitepaper!)
+- `oracle-of-fruit` — AI Oracle code
+
+**How to contribute:**
+- Report bugs (issues)
+- Suggest features (discussions)
+- Submit code (pull requests)
+- Improve documentation
+
+### YouTube
+
+**Watch and learn:** [YouTube channel link]
+
+**Content:**
+- Tutorial videos
+- Ceremony recordings (public ones)
+- Community calls
+- Interviews and podcasts
+- Educational series
+
+### Newsletter
+
+**Stay informed:** [Newsletter signup link]
+
+**Frequency:** Bi-weekly
+
+**Content:**
+- Project updates
+- Community highlights
+- Upcoming events
+- Educational content
+- Governance proposals
+
+---
+
+## How to Get Involved
+
+### 1. Join the Community
+
+- **Discord** — Daily conversation and support
+- **Telegram** — Real-time chat
+- **Twitter** — Follow for updates
+- **Newsletter** — Bi-weekly digest
+
+### 2. Participate in the dApp
+
+- **Farm daily** — Collect mushrooms, build streaks
+- **Cross-breed** — Discover new strains
+- **Make offerings** — Burn ETHO, receive Proof NFTs
+- **Vote in DAO** — Shape the future
+- **Provide liquidity** — Earn fees, support ecosystem
+
+### 3. Attend Events
+
+- **Weekly community calls** — Wednesdays 7pm ET
+- **Monthly ceremonies** — New moon gatherings
+- **Quarterly retreats** — In-person immersions
+- **Annual gathering** — Summer solstice celebration
+
+### 4. Contribute
+
+- **Create content** — Write, design, code, teach
+- **Facilitate ceremonies** — Lead integration circles
+- **Provide support** — Help newcomers, answer questions
+- **Spread the word** — Share with aligned people
+- **Donate/offer** — Financial support via Sacred Offering or Altar
+
+### 5. Earn Roles
+
+- **Participate consistently** — Show up, engage, contribute
+- **Demonstrate values** — Embody the six principles
+- **Serve the community** — Help others, create value
+- **Get nominated** — Community recognizes your contributions
+- **Receive role NFT** — Soulbound token with special permissions
+
+---
+
+## Contact & Support
+
+### General Inquiries
+
+- **Email:** hello@etherealoffering.org
+- **Discord:** `#general` channel
+- **Telegram:** @EtherealOfferingSupport
+
+### Technical Support
+
+- **Email:** support@etherealoffering.org
+- **Discord:** `#tech-support` channel
+- **GitHub:** Open an issue
+
+### Partnership Inquiries
+
+- **Email:** partnerships@etherealoffering.org
+- **Telegram:** @EtherealOfferingPartnerships
+
+### Media & Press
+
+- **Email:** press@etherealoffering.org
+- **Press kit:** [Link to press kit]
+
+### Ceremony & Retreat Inquiries
+
+- **Email:** ceremonies@etherealoffering.org
+- **Discord:** `#ceremonies` channel
+
+---
+
+## Core Team
+
+### Founders
+
+**[Founder Name]** — Visionary & Spiritual Guide  
+*Background in psychedelic therapy, recovery, and spiritual community building*
+
+**[Founder Name]** — Technical Lead  
+*Blockchain developer, smart contract auditor, open-source contributor*
+
+**[Founder Name]** — Community Steward  
+*Facilitator, integration coach, harm reduction educator*
+
+### Contributors
+
+**Oracle of Fruit** — AI Guide (yes, really!)  
+**15 Helper Agents** — Specialized support  
+**Community Stewards** — Volunteer leaders  
+**DAO Ministers** — Governance facilitators  
+**Treasury Guardians** — Financial oversight
+
+**Want to join the team?** We're always looking for aligned contributors. Reach out via Discord or email.
+
+---
+
+## Acknowledgments
+
+**Deep gratitude to:**
+
+- **Psychedelics In Recovery (PIR)** — Inspiration and partnership
+- **Circle of Light Fellowship** — Spiritual foundation
+- **MAPS** — Research and advocacy leadership
+- **Decriminalize Nature** — Policy reform pioneers
+- **Ethereum community** — Technical infrastructure
+- **All contributors** — Code, content, ceremonies, support
+- **Early supporters** — Believers in the vision
+- **The mushrooms** — Our teachers and guides
+
+---
+
+## Final Words
+
+**Thank you for being part of this journey.**
+
+Whether you're here for healing, technology, community, or all of the above — you belong. This project is a living experiment in what's possible when we combine ancient wisdom with modern tools, when we prioritize spirit over profit, when we trust the mycelial network of human connection.
+
+**The fruit decays, the vision remains.**
+
+May this vision continue to unfold in ways we can't yet imagine. May it serve the healing of all beings. May it be a light in the darkness.
+
+**With gratitude and reverence,**  
+The Ethereal Offering Community
+
+---
+
+## Navigation
+
+- **Previous:** [Sacred Offering (Crowdsale)](./07-sacred-offering.md)
+- **Next:** [Back to Overview](./00-overview.md)
+- **Back to:** [Expanded Table of Contents](../00-EXPANDED-TOC.md)
 
 
 

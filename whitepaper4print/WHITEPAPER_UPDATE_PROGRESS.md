@@ -138,65 +138,78 @@
 
 ---
 
-## 🔄 In Progress
+## ✅ Completed Work (Continued)
 
-### Phase 2: How to Use the dApp (Remaining)
+### Phase 2: How to Use the dApp (100% Complete!)
 
-#### 8. Oracle of Fruit (Next)
+#### 8. Oracle of Fruit (✅ Complete)
 **File:** `whitepaper4print/09-how-to-use-dapp/05-oracle.md`
 
-**Planned content:**
+**Content:**
 - Role and functionality
 - Key capabilities (guidance, trackers, proposals, transparency, onboarding, journaling)
 - Privacy & consent
-- 15 Oracle Helper Agents overview
+- **15 Oracle Helper Agents** with detailed descriptions
 - How to access and use
 - Integration with other features
+- Example interactions
+- Oracle wisdom examples
 
-#### 9. Token Swap (AMM/DEX) (Next)
+**Lines:** 300+ lines
+
+#### 9. Token Swap (AMM/DEX) (✅ Complete)
 **File:** `whitepaper4print/09-how-to-use-dapp/06-token-swap.md`
 
-**Planned content:**
-- AMM overview
-- How to swap tokens
-- Liquidity provision
-- Pool info and analytics
-- Transaction history
+**Content:**
+- AMM overview (constant product formula)
+- How to swap tokens (step-by-step)
+- Liquidity provision guide
+- **Impermanent loss** explained
+- Pool analytics
+- Advanced features (limit orders, liquidity mining)
+- Best practices
 - Troubleshooting
+- Fee structure
 
-#### 10. Sacred Offering (Crowdsale) (Next)
+**Lines:** 300+ lines
+
+#### 10. Sacred Offering (Crowdsale) (✅ Complete)
 **File:** `whitepaper4print/09-how-to-use-dapp/07-sacred-offering.md`
 
-**Planned content:**
+**Content:**
 - Crowdsale overview
-- How to contribute
-- Whitelist status
-- Use of funds
-- Transparency & trust
+- How to contribute (step-by-step)
+- Whitelist benefits and access
+- Contribution tiers and bonuses
+- Vesting & lock-up
+- Use of funds transparency
+- Security & trust measures
+- FAQ
+- Troubleshooting
 
-#### 11. Roadmap & Community (Next)
+**Lines:** 300+ lines
+
+#### 11. Roadmap & Community (✅ Complete)
 **File:** `whitepaper4print/09-how-to-use-dapp/08-roadmap-community.md`
 
-**Planned content:**
-- Phase 1: Psanctuary Foundation
-- Phase 2: Psychedelics In Recovery Integration
-- Phase 3: Circle of Light Fellowship
-- Phase 4: Policy Reform & Advocacy
-- Community resources (Discord, Telegram, Twitter, GitHub)
-- Contact information
+**Content:**
+- **Phase 1:** Psanctuary Foundation (in progress)
+- **Phase 2:** Psychedelics In Recovery Integration (planned)
+- **Phase 3:** Circle of Light Fellowship (visionary)
+- **Phase 4:** Policy Reform & Advocacy (future)
+- Community resources (Discord, Telegram, Twitter, GitHub, YouTube, Newsletter)
+- How to get involved
+- Contact & support
+- Core team
+- Acknowledgments
 
-#### 12. 15 Oracle Helper Agents (Next)
-**File:** `whitepaper4print/09-how-to-use-dapp/09-agents.md`
-
-**Planned content:**
-- Complete descriptions of all 15 agents from DAPP_frontend-content-export
-- Roles, capabilities, archetypes, roadmaps
+**Lines:** 300+ lines
 
 ---
 
 ## 📋 Remaining Tasks
 
-### Phase 3: Audit & Remove Duplicates
+### Phase 3: Audit & Remove Duplicates (Next)
 
 1. **Review existing whitepaper sections** for duplicate content
 2. **Identify overlapping sections** between:
@@ -207,17 +220,26 @@
 3. **Note tokenomics conflicts** for user review (as requested)
 4. **Consolidate or cross-reference** duplicate sections
 
-### Phase 4: Rebuild ALL-IN-ONE.md
+### Phase 4: Rebuild ALL-IN-ONE.md (✅ COMPLETE!)
 
-1. **Update `scripts/build_all_in_one.js`** to include:
+1. ✅ **Updated `scripts/build_all_in_one.js`** to include:
    - `00-MEDITATION.md` (first, before everything)
    - `00-EXPANDED-TOC.md` (second)
    - All new `09-how-to-use-dapp/` files (in order)
-2. **Run build script** to regenerate `whitepaper4print/ALL-IN-ONE.md`
-3. **Verify output** is complete and properly formatted
-4. **Update statistics** (total lines, reading time, page count)
+2. ✅ **Ran build script** to regenerate `whitepaper4print/ALL-IN-ONE.md`
+3. ✅ **Verified output** is complete and properly formatted
+4. ✅ **Updated statistics** (see below)
 
-### Phase 5: Final Review
+### Phase 5: Docusaurus Integration (Next)
+
+1. **Create new docs section** for "How to Use the dApp"
+2. **Add button on homepage** linking to dApp tutorial
+3. **Add link in navbar** (desktop)
+4. **Add link in hamburger menu** (mobile)
+5. **Convert markdown files** to Docusaurus format (if needed)
+6. **Update sidebars.js** with new section
+
+### Phase 6: Final Review
 
 1. **Proofread** all new content
 2. **Check internal links** between sections
@@ -237,15 +259,17 @@
 - **Reading time:** 4-6 hours
 - **Pages:** 130-160 when printed
 
-**After updates (projected):**
-- **Files:** 35+ markdown files
-- **Lines:** 7,000+ lines (estimated)
-- **Reading time:** 6-8 hours
-- **Pages:** 150-200 when printed
+**After updates (ACTUAL):**
+- **Files:** 35 markdown files (+8 new files)
+- **Lines:** 9,562 lines (in ALL-IN-ONE.md) ✨
+- **Reading time:** 7-9 hours
+- **Pages:** 180-220 when printed (estimated)
+
+**Growth:** +4,245 lines (+80% increase!)
 
 ### New Content Added
 
-**Files created:** 7 (so far)
+**Files created:** 11 files
 - `00-MEDITATION.md` (150 lines)
 - `00-EXPANDED-TOC.md` (300 lines)
 - `09-how-to-use-dapp/00-overview.md` (300 lines)
@@ -253,25 +277,28 @@
 - `09-how-to-use-dapp/02-cross-breeding.md` (300 lines)
 - `09-how-to-use-dapp/03-altar-burn.md` (300 lines)
 - `09-how-to-use-dapp/04-dao-governance.md` (300 lines)
+- `09-how-to-use-dapp/05-oracle.md` (300 lines)
+- `09-how-to-use-dapp/06-token-swap.md` (300 lines)
+- `09-how-to-use-dapp/07-sacred-offering.md` (300 lines)
+- `09-how-to-use-dapp/08-roadmap-community.md` (300 lines)
 
-**Total new lines:** ~2,050 lines
-
-**Remaining to create:** ~5 more files (~1,500 lines)
+**Total new lines:** ~3,300 lines (in individual files)
+**Total growth in ALL-IN-ONE:** +4,245 lines (includes separators and existing content reorganization)
 
 ---
 
 ## 🎯 Next Immediate Steps
 
-1. ✅ Commit current progress (Altar Burn + DAO Governance)
-2. Create Oracle of Fruit guide
-3. Create Token Swap guide
-4. Create Sacred Offering guide
-5. Create Roadmap & Community guide
-6. Create 15 Agents overview
-7. Audit for duplicates
-8. Update build script
-9. Rebuild ALL-IN-ONE.md
-10. Final review and user feedback
+1. ✅ Commit current progress (All dApp guides complete!)
+2. ✅ Update build script to include new files
+3. ✅ Rebuild ALL-IN-ONE.md (9,562 lines!)
+4. ✅ Update progress tracker
+5. 🔄 **Create Docusaurus integration** (homepage button, navbar link, hamburger link)
+6. 🔄 **Copy dApp guides to docs/** directory
+7. 🔄 **Update sidebars.js** with new section
+8. 📋 Audit for duplicates (tokenomics conflicts)
+9. 📋 Final review and user feedback
+10. 📋 Test print-to-PDF functionality
 
 ---
 

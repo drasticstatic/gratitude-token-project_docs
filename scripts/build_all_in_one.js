@@ -4,6 +4,9 @@ const path = require('path');
 const out = path.join('whitepaper4print','ALL-IN-ONE.md');
 
 const filesInOrder = [
+  // Opening meditation and expanded TOC (new!)
+  'whitepaper4print/00-MEDITATION.md',
+  'whitepaper4print/00-EXPANDED-TOC.md',
   'whitepaper4print/README.md',
   'whitepaper4print/TABLE_OF_CONTENTS.md',
   'whitepaper4print/00-START-HERE/README.md',
@@ -22,6 +25,8 @@ const filesInOrder = [
   'whitepaper4print/07-architecture/overview.md',
   // research
   ...fs.readdirSync('whitepaper4print/08-research').filter(f=>f.endsWith('.md')).sort().map(f=>path.join('whitepaper4print/08-research',f)),
+  // How to Use the dApp guides (new!)
+  ...fs.readdirSync('whitepaper4print/09-how-to-use-dapp').filter(f=>f.endsWith('.md')).sort().map(f=>path.join('whitepaper4print/09-how-to-use-dapp',f)),
 ];
 
 const header = [
