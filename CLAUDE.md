@@ -116,6 +116,7 @@ Claude Code skills are structured prompt files that give the agent a repeatable 
 When skills, specs, or task files exist for a topic — follow the logic there, not here. This file holds identity, pointers, and short rules only.
 
 - **AGENTS.md** — root-level config for all AI agents (Claude Code, Cursor, Copilot)
+- **AGENTS.override.md** — temporary task-specific overrides; delete when done (template: `~/code/my-template/AGENTS.override.md`)
 - **Skills:** `.claude/skills/` — full procedure lives in the skill file; CLAUDE.md holds triggers only
 - **Tasks:** `PENDING-TASKS.md` or `tasks.md` if present — active/completed task tracking
 - **Agent handoffs:** `AGENT-SYNC/` (hub: `~/code/trading-assistant/`) — see `AGENT_SYNC.md` for current state
