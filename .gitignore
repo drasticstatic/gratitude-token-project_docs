@@ -1,20 +1,260 @@
-# Dependencies
-/node_modules
+# ============================================================
+# MASTER .gitignore — Christopher Wilson
+# ============================================================
+# Applies across all repos: trading-assistant, web3/dappu,
+#   divorce-custody-assistant, financial architecture.
+# Kavanah deploys this as the base template to each repo root.
+# Per-repo adjustments go below the shared sections.
+#
+# Rule of thumb:
+#   - Secrets/credentials → always ignored, no exceptions
+#   - Generated build artifacts → always ignored
+#   - Personal/OS metadata → always ignored
+#   - Working data (CSVs, screenshots, logs) → ignored or tracked
+#     per repo — see repo-specific sections below
+# ============================================================
 
-# Production
-/build
 
-# Generated files
-.docusaurus
-.cache-loader
-
-# Misc
+# -----------------------------------------------
+# macOS system files
+# -----------------------------------------------
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+.fseventsd
 
+
+# -----------------------------------------------
+# macOS / iCloud aliases
+# (local-only pointers — never commit these)
+# -----------------------------------------------
+*alias
+*alias/
+*.icloud
+
+
+# -----------------------------------------------
+# Windows & Linux system files
+# -----------------------------------------------
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+
+# -----------------------------------------------
+# Credentials, API keys, secrets
+# (absolute — no exceptions across all repos)
+# -----------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
+credentials/
+secrets/
+keys/
+*service_account*
+*service-account*
+*gspread*
+*google-credentials*
+*google_credentials*
+
+# JSON: block by default to prevent accidental credential commits.
+# Named exceptions below preserve config files.
+# Web3: Kavanah adds further exceptions (deployments, ABIs) per repo.
+*.json
+!package.json
+!package-lock.json
+!hardhat.config.json
+!gitexporter.config.json
+!graphify-out/graph.json
+!tsconfig*.json
+!.eslintrc.json
+!.prettierrc.json
+
+
+# -----------------------------------------------
+# Web3 wallet & on-chain secrets
+# -----------------------------------------------
+wallets/
+keystore/
+mnemonic*
+seed*
+*.json.secret
+
+
+# -----------------------------------------------
+# Account statements & prop firm documents
+# (financial records — keep local only)
+# -----------------------------------------------
+setup/accounts/PropFirms/*/statements/
+setup/accounts/crypto/*/statements/
+**/*statement*.pdf
+
+
+# -----------------------------------------------
+# Python
+# -----------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+
+
+# -----------------------------------------------
+# Node.js / npm / yarn
+# -----------------------------------------------
+node_modules/
+.npm/
+.yarn/
+.pnp
+.pnp.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.node_repl_history
+
+
+# -----------------------------------------------
+# Web3 / Solidity / Hardhat / Foundry
+# -----------------------------------------------
+# Compiled contract artifacts — source in contracts/ is tracked
+artifacts/
+cache/
+typechain/
+typechain-types/
+.openzeppelin/
+.hardhat-cache/
+
+# solidity-coverage
+coverage/
+coverage.json
+
+# Hardhat Ignition local node deployments
+ignition/deployments/chain-31337
+
+# Foundry / Forge
+out/
+forge-cache/
+
+# ABI files (large generated JSON — source contracts are sufficient)
+*.abi
+
+
+# -----------------------------------------------
+# React / Next.js / Docusaurus / frontend builds
+# -----------------------------------------------
+.next/
+.nuxt/
+.docusaurus/
+.vuepress/
+public/build/
+docs/build/
+site/
+_site/
+build/
+dist/
+out/
+
+
+# -----------------------------------------------
+# Editor / IDE
+# -----------------------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+
+# -----------------------------------------------
+# Logs & temp files
+# -----------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+log/
+tmp/
+temp/
+# Note: logs/ is intentionally NOT ignored in the shared section.
+# PRIVATE repos can track logs. PUBLIC repos should add logs/ to
+# their repo-specific section below.
+
+
+# -----------------------------------------------
+# Test / coverage output
+# -----------------------------------------------
+/coverage
+coverage/
+.nyc_output/
+*.lcov
+__snapshots__/
+
+
+# -----------------------------------------------
+# Misc generated / binary
+# -----------------------------------------------
+*.class
+*.o
+*.so
+*.dll
+*.bin
+*.exe
+
+
+# ============================================================
+# REPO-SPECIFIC SECTIONS
+# ============================================================
+# The sections below apply only to this specific repo.
+
+# -----------------------------------------------
+# gratitude-token-project_docs specific (PUBLIC repo)
+# -----------------------------------------------
+# PUBLIC repo — session logs must not be pushed to GitHub
+logs/
+
+# Repo-local Augment handoff exports for future chats / Intent reuse
+# Keep this workspace package local-only unless it is intentionally curated for public release
+AGENT-SYNC/VSCode/Augment/
+
+# Docusaurus build cache (also in shared section, explicit here for clarity)
+.cache-loader/
+
+# Claude Code local config — skills tracked, everything else local only
+.claude/*
+!.claude/skills/
+!.claude/settings.json
+
+# Graphify — local-only outputs (graph.json, GRAPH_REPORT.md, graph.html are committed)
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/cache/
