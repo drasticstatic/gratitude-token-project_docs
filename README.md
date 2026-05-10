@@ -13,6 +13,8 @@ Refer to the Docusaurus Setup Guide for additional details on maintaining the si
 # Website for Gratitude Token Project Documentation
 ## Visit the documentation site here: 👉 [Gratitude Token Project Docs](https://drasticstatic.github.io/gratitude-token-project_docs/)
 
+[![Deploy](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml)
+
 - This website was inititalized using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 <br>
