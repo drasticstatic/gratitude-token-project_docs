@@ -27,7 +27,7 @@ export default function HeroSection() {
             <div className={styles.heroButtons}>
               <Link
                 className={clsx('button button--primary button--lg', styles.primaryButton)}
-                to="https://drasticstatic.github.io/gratitude-token-project_testPublish_2026-01-05/"
+                to="https://drasticstatic.github.io/gratitude-token-project_testPublish_2026-08-28/"
                 target="_blank">
                 🚀 Launch dApp
               </Link>
