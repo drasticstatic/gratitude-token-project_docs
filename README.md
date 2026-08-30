@@ -13,9 +13,23 @@ Refer to the Docusaurus Setup Guide for additional details on maintaining the si
 # Website for Gratitude Token Project Documentation
 ## Visit the documentation site here: 👉 [Gratitude Token Project Docs](https://drasticstatic.github.io/gratitude-token-project_docs/)
 
-[![Deploy](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/drasticstatic/gratitude-token-project_docs/actions/workflows/deploy.yml) [![Built with Docusaurus](https://img.shields.io/badge/Built%20with-Docusaurus-3ECC5F)](https://docusaurus.io/) [![Live Preview](https://img.shields.io/badge/Live%20Preview-testPublish__2026--08--28-a78bfa)](https://drasticstatic.github.io/gratitude-token-project_testPublish_2026-08-28/)
 
 - This website was inititalized using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+## Table of Contents
+
+- [Related Links](#related-links)
+- [Detailed Setup Guide](#detailed-setup-guide)
+- [Installation](#general-installation-provided-by-docusaurus-using-yarn)
+- [Local Development](#local-development)
+- [Build](#build)
+- [Deployment](#deployment)
+
+## Related Links
+
+- 🕹️ **Live dApp preview:** [gratitude-token-project_testPublish_2026-08-28](https://drasticstatic.github.io/gratitude-token-project_testPublish_2026-08-28/) — the current public GitHub Pages preview of the app this documentation covers
+- 📦 **Preview source:** [github.com/drasticstatic/gratitude-token-project_testPublish_2026-08-28](https://github.com/drasticstatic/gratitude-token-project_testPublish_2026-08-28)
 
 <br>
 
