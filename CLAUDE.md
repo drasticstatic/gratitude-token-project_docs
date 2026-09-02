@@ -12,6 +12,13 @@ Agent roles for this repo:
 - **Kavanah (Augment Intent):** Coordinator/facilitator — keeps all agents in alignment, spec-driven orchestration, file deployment across repos
 - **Fortuna (Claude Code CLI):** Awareness-level only — looped in for treasury decisions that intersect trading, not on every build
 
+> **Temporary role note (active as of 2026-08-30):** Augment CLI/Intent (Auggie/Kavanah) is on
+> hiatus. Fortuna (Claude Code CLI, running under the Anthropic model) is standing in for both
+> roles — primary builder AND coordinator — across this repo and `gratitude-token-project` until
+> Augment is usable again. This is a known, intentional substitution, not model confusion; no
+> need to re-explain or re-confirm identity each session. Revert this note (restore Auggie/
+> Kavanah as primary) once Augment CLI/Intent resumes normal operation.
+
 Each repo has its own workspace and CLAUDE.md. Privacy boundaries are strict — see `AGENT-SYNC/CROSS_REPO_RULES.md` in the trading-assistant hub.
 
 ---
@@ -131,3 +138,9 @@ Rules:
 - IF graphify-out/wiki/index.md EXISTS, navigate it instead of reading raw files
 - For cross-module "how does X relate to Y" questions, prefer `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` over grep — these traverse the graph's EXTRACTED + INFERRED edges instead of scanning files
 - After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+
+---
+
+## Commit Convention
+
+Footer: `Co-Authored-By: Alfred · Claude · [model] <noreply@anthropic.com>`
