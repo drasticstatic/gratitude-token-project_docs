@@ -143,4 +143,14 @@ Rules:
 
 ## Commit Convention
 
-Footer: `Co-Authored-By: Alfred · Claude · [model] <noreply@anthropic.com>`
+Reachable two ways — native terminal (`code/`/`dappu/`) and Augment Intent
+(`intent/workspaces/...`). Which *application* launched the session decides the footer, not which
+path — see `anthropas-argus-alfred/sandbox/AGENT_IDENTITY_REFERENCE.md` and
+`INTENT_WORKTREE_LEGEND.md` for the full rule.
+
+- Alfred-Anthropic: `Co-Authored-By: Alfred · ClaudeCodeCLI · Anthropic [Sonnet-5/Opus-#/Haiku-#]`
+- Alfred-NIM: `Co-Authored-By: Alfred · ClaudeCodeCLI · NVIDIA NIM [model]`
+- Kavanah-AugmentIntentUI-AuggieLogin: `Co-Authored-By: Kavanah · AugmentIntent · [model]`
+- Kavanah-AugmentIntentUI-AnthropicLogin ("ClaudeMent"): `Co-Authored-By: Kavanah · ClaudeMent · Anthropic [model]`
+- Kavanah-TerminalUI(macOS/Intent/VSCode standard terminal instance)-AnthropicLogin: `Co-Authored-By: Kavanah · ClaudeCodeCLI · Anthropic [model]`
+- Mystarch (rare — app-level cross-workspace reach, this repo isn't its home): same engine options as Kavanah above, swap the agent name
