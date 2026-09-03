@@ -154,3 +154,4 @@ path — see `anthropas-argus-alfred/sandbox/AGENT_IDENTITY_REFERENCE.md` and
 - Kavanah-AugmentIntentUI-AnthropicLogin ("ClaudeMent"): `Co-Authored-By: Kavanah · ClaudeMent · Anthropic [model]`
 - Kavanah-TerminalUI(macOS/Intent/VSCode standard terminal instance)-AnthropicLogin: `Co-Authored-By: Kavanah · ClaudeCodeCLI · Anthropic [model]`
 - Mystarch (rare — app-level cross-workspace reach, this repo isn't its home): same engine options as Kavanah above, swap the agent name
+- Auggie (native Augment CLI — currently hibernating, may return): `Co-Authored-By: Auggie · AugmentCLI · [model]`
