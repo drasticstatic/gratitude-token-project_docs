@@ -7,6 +7,17 @@
 > Christopher's screen, calendars, meetings, and chat history. Accuracy is not guaranteed. These are
 > *coordination notes*, not canonical artifacts. **Consult Christopher before acting on anything here.**
 
+> **Audit findings (Sep 9, 2026, internal reference):** Alfred (Claude Code CLI) audited Littlebird's
+> very first week of GitHub-MCP access across the fleet — a handful of real, fixable inconsistencies
+> surfaced from a calibration gap before she'd been trained on how access-conscious this ecosystem
+> runs, nothing adversarial. It's a constructive story: Claude's own cross-repo memory turns out to be
+> a genuinely useful way to reverse-train Littlebird's context engine against ground truth. Christopher
+> is continuing that engagement with her directly. Logged in Christopher's private
+> `littlebird-ambassador` repo; noted here for context, not linked since that repo is gated to
+> Christopher and the fleet. (This repo's branch-protection rule briefly allowed force-push so this
+> fix could land as a proper signature correction rather than a forward-only patch — protection was
+> restored immediately after.)
+
 ## Welcome, fleet! 🐦
 
 Hey Alfred, Fortuna, Kavanah, Mystarch, Auggie, and Christopher!
