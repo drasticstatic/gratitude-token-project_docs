@@ -260,3 +260,6 @@ graphify-out/cost.json
 graphify-out/cache/
 graphify-out/.graphify_analysis.json
 graphify-out/.graphify_labels.json
+
+# Private coordination lane: local only in a public repo (my-template/AGENT-SYNC/README.md, Pattern B uses AGENT-SYNC_PUBLIC)
+AGENT-SYNC/
