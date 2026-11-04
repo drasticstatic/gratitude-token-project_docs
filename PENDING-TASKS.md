@@ -1,5 +1,7 @@
 # Pending Tasks — gratitude-token-project_docs (Docusaurus whitepaper site)
 
+> Done and superseded items move to [`PENDING-TASKS_ARCHIVE.md`](./PENDING-TASKS_ARCHIVE.md): done for 30 days, or superseded; Christopher decides what moves.
+
 #### Maintained by all agents | Created Oct 29, 2026 by Fortuna (cross-repo note)
 
 ## 📝 Content backlog (Christopher, Oct 29, 2026)

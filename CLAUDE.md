@@ -170,6 +170,18 @@ Rules:
 
 ---
 
+<!-- fleet:pull-requests-and-promotes:start (synced from my-template/CLAUDE.md by scripts/sync-claude-section.sh; edit it there) -->
+## Pull requests and Promotes (October 2026)
+
+Helpers (Claude Code CLI sessions, Littlebird, any agent) may do everything up to the merge: edit, commit, push the
+**working branch** (`preview` where the repository has one), render, open the pull request and post its link.
+**The merge waits for a human with the role.** Merge with a merge commit, never squash, so every commit's
+attribution survives. Procedure: `SOP-OPS-002` in each organisation's `ops-standard-operating-procedures`
+(template: `my-template/sop-template/`); the road itself is `SOP-OPS-001`.
+Commit subjects start with one gitmoji and a type, `:sparkles: feat(scope): subject` (warn-only hint; the twelve
+and why the alias form are in [`my-template/GITMOJI.md`](https://github.com/drasticstatic/my-template/blob/main/GITMOJI.md)).
+<!-- fleet:pull-requests-and-promotes:end -->
+
 ## Commit Convention
 
 Reachable two ways — native terminal (`code/`/`dappu/`) and Augment Intent
