@@ -108,14 +108,14 @@ Each repo has its own workspace and CLAUDE.md. Privacy boundaries are strict —
 
 ---
 
-## Workspace Notes — divorce-custody-assistant
+## Workspace Notes — the private family-matters repo
 
-- Local dir: `~/code/divorce-custody-assistant/`
+- Local dir: named only in the private hub (`trading-assistant`), never in public text
 - Status: on hold — activate when Christopher gives go-ahead
 - All three agents (Fortuna, Auggie, Kavanah) will likely contribute — exact roles TBD as the work unfolds
 - Agents have full read access to documents, filings, correspondence
 - Privacy is enforced at `.gitignore` level (sensitive docs never committed), NOT at agent-read level
-- Cross-repo privacy firewall: divorce-custody data never enters trading-assistant or web3 repos
+- Cross-repo privacy firewall: family-matters data never enters trading-assistant or web3 repos
 
 
 ---
