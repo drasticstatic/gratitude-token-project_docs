@@ -17,6 +17,9 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    // Docusaurus 3.10 turns the Rspack/SWC 'faster' build on with v4, and that needs the @docusaurus/faster package,
+    // which this site does not install. Off until it is added on purpose (every deploy since Sep 15, 2026 failed on it).
+    experimental_faster: false,
   },
 
   // Set the production url of your site here
